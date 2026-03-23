@@ -222,7 +222,7 @@
     "liamlillian_kbo": {
       "title": { "ko": "KBO 하이라이트", "en": "KBO Highlights" },
       "description": { "ko": "KBO 프로야구 하이라이트", "en": "KBO baseball highlights" },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kbo_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_kbo.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.kbolight"
       },
@@ -231,7 +231,7 @@
     "liamlillian_wbc": {
       "title": { "ko": "WBC 하이라이트", "en": "WBC Highlights" },
       "description": { "ko": "월드베이스볼클래식 하이라이트", "en": "World Baseball Classic highlights" },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/wbc_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_wbc.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.wbc"
       },
@@ -240,7 +240,7 @@
     "liamlillian_mlb": {
       "title": { "ko": "MLB 하이라이트", "en": "MLB Highlights" },
       "description": { "ko": "메이저리그 경기 하이라이트", "en": "MLB game highlights" },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mlb_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_mlb.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.mlblight"
       },
