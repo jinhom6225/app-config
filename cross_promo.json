@@ -255,6 +255,11 @@
     "serie_light": ["mlb_light"],
     "epl_light": ["mlb_light", "nhl_light"],
     "nhl_light": ["mlb_light"],
-    "rush_hour": ["mlb_light", "kbo_light"]
+    "rush_hour": ["mlb_light", "kbo_light"],
+    "mortgage_calculator": ["mlb_light"],
+    "mortgage_rates/mortgage_rates": ["mlb_light"],
+    "energy_voucher": ["kbo_light"],
+    "energy_one_shot": ["kbo_light"],
+    "applyhome_alimi": ["kbo_light"]
   }
 }
