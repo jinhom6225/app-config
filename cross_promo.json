@@ -423,10 +423,12 @@
   },
   "rules": {
     "kbo_light": [
-      "mlb_light"
+      "mlb_light",
+      "epl_light"
     ],
     "mlb_light": [
-      "kbo_light"
+      "kbo_light",
+      "epl_light"
     ],
     "wbc_light": [
       "mlb_light",
@@ -443,7 +445,8 @@
       "nhl_light"
     ],
     "nhl_light": [
-      "mlb_light"
+      "mlb_light",
+      "epl_light"
     ],
     "rush_hour": [
       "mlb_light",
