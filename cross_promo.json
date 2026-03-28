@@ -484,6 +484,18 @@
     "liamlillian_wbc": [
       "liamlillian_mlb",
       "liamlillian_kbo"
+    ],
+    "mls_light": [
+      "epl_light",
+      "mlb_light"
+    ],
+    "french_ligue": [
+      "mlb_light",
+      "epl_light"
+    ],
+    "kovo_light": [
+      "kbo_light",
+      "mlb_light"
     ]
   }
 }
