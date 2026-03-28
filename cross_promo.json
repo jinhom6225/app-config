@@ -496,6 +496,18 @@
     "kovo_light": [
       "kbo_light",
       "mlb_light"
+    ],
+    "uefa_champions_league": [
+      "epl_light",
+      "mlb_light"
+    ],
+    "uefa_europa_league": [
+      "epl_light",
+      "mlb_light"
+    ],
+    "fa_cup": [
+      "epl_light",
+      "mlb_light"
     ]
   }
 }
