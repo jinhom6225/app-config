@@ -438,11 +438,12 @@
       "wbc_light"
     ],
     "serie_light": [
-      "mlb_light"
+      "mlb_light",
+      "epl_light"
     ],
     "epl_light": [
       "mlb_light",
-      "nhl_light"
+      "kbo_light"
     ],
     "nhl_light": [
       "mlb_light",
@@ -453,25 +454,32 @@
       "kbo_light"
     ],
     "mortgage_calculator": [
-      "mlb_light"
+      "mlb_light",
+      "epl_light"
     ],
     "mortgage_rates/mortgage_rates": [
-      "mlb_light"
+      "mlb_light",
+      "epl_light"
     ],
     "energy_voucher": [
-      "kbo_light"
+      "kbo_light",
+      "mlb_light"
     ],
     "energy_one_shot": [
-      "kbo_light"
+      "kbo_light",
+      "mlb_light"
     ],
     "applyhome_alimi": [
-      "kbo_light"
+      "kbo_light",
+      "mlb_light"
     ],
     "liamlillian_kbo": [
-      "liamlillian_mlb"
+      "liamlillian_mlb",
+      "epl_light"
     ],
     "liamlillian_mlb": [
-      "liamlillian_kbo"
+      "liamlillian_kbo",
+      "epl_light"
     ],
     "liamlillian_wbc": [
       "liamlillian_mlb",
