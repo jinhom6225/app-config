@@ -360,21 +360,6 @@
       },
       "enabled": true
     },
-    "kbl_light": {
-      "title": {
-        "ko": "KBL 하이라이트",
-        "en": "KBL Highlights"
-      },
-      "description": {
-        "ko": "KBL 프로농구 하이라이트",
-        "en": "KBL basketball highlights"
-      },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kbl_light.png",
-      "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.kbl_light"
-      },
-      "enabled": true
-    },
     "liamlillian_kbo": {
       "title": {
         "ko": "KBO 하이라이트",
@@ -422,92 +407,36 @@
     }
   },
   "rules": {
-    "kbo_light": [
-      "mlb_light",
-      "epl_light"
-    ],
-    "mlb_light": [
-      "kbo_light",
-      "epl_light"
-    ],
-    "wbc_light": [
-      "mlb_light",
-      "kbo_light"
-    ],
-    "npb_light": [
-      "wbc_light"
-    ],
-    "serie_light": [
-      "mlb_light",
-      "epl_light"
-    ],
-    "epl_light": [
-      "mlb_light",
-      "kbo_light"
-    ],
-    "nhl_light": [
-      "mlb_light",
-      "epl_light"
-    ],
-    "rush_hour": [
-      "mlb_light",
-      "kbo_light"
-    ],
-    "mortgage_calculator": [
-      "mlb_light",
-      "epl_light"
-    ],
-    "mortgage_rates/mortgage_rates": [
-      "mlb_light",
-      "epl_light"
-    ],
-    "energy_voucher": [
-      "kbo_light",
-      "mlb_light"
-    ],
-    "energy_one_shot": [
-      "kbo_light",
-      "mlb_light"
-    ],
-    "applyhome_alimi": [
-      "kbo_light",
-      "mlb_light"
-    ],
-    "liamlillian_kbo": [
-      "liamlillian_mlb",
-      "epl_light"
-    ],
-    "liamlillian_mlb": [
-      "liamlillian_kbo",
-      "epl_light"
-    ],
-    "liamlillian_wbc": [
-      "liamlillian_mlb",
-      "liamlillian_kbo"
-    ],
-    "mls_light": [
-      "epl_light",
-      "mlb_light"
-    ],
-    "french_ligue": [
-      "mlb_light",
-      "epl_light"
-    ],
-    "kovo_light": [
-      "kbo_light",
-      "mlb_light"
-    ],
-    "uefa_champions_league": [
-      "epl_light",
-      "mlb_light"
-    ],
-    "uefa_europa_league": [
-      "epl_light",
-      "mlb_light"
-    ],
-    "fa_cup": [
-      "epl_light",
-      "mlb_light"
-    ]
+    "mlb_light": ["kbo_light", "nba_light"],
+    "kbo_light": ["mlb_light", "epl_light"],
+    "wbc_light": ["mlb_light", "kbo_light"],
+
+    "epl_light": ["mlb_light", "kbo_light"],
+    "serie_light": ["epl_light", "mlb_light"],
+    "laliga_light": ["epl_light", "mlb_light"],
+    "bundesliga_light": ["epl_light", "mlb_light"],
+    "french_ligue": ["epl_light", "nba_light"],
+    "mls_light": ["epl_light", "mlb_light"],
+    "j1_light": ["epl_light", "kbo_light"],
+
+    "uefa_champions_league": ["epl_light", "mlb_light"],
+    "uefa_europa_league": ["epl_light", "mlb_light"],
+    "fa_cup": ["epl_light", "mlb_light"],
+    "fifa_world_cup": ["epl_light", "mlb_light"],
+
+    "nfl_light": ["nba_light", "mlb_light"],
+    "nfl2_light": ["nba_light", "mlb_light"],
+    "nba_light": ["nfl_light", "mlb_light"],
+    "nba2_light": ["nfl_light", "mlb_light"],
+    "nhl_light": ["nba_light", "mlb_light"],
+
+    "kovo_light": ["mlb_light", "kbo_light"],
+    "svleague_light": ["kovo_light", "kbo_light"],
+
+    "rush_hour": ["mlb_light", "kbo_light"],
+
+    "liamlillian_kbo": ["liamlillian_mlb", "epl_light"],
+    "liamlillian_mlb": ["liamlillian_kbo", "nba_light"],
+    "liamlillian_wbc": ["liamlillian_mlb", "liamlillian_kbo"]
   }
 }
