@@ -268,7 +268,7 @@
       },
       "enabled": true
     },
-    "uefa_champions_league": {
+    "cl_football_highlights": {
       "title": {
         "ko": "UCL 하이라이트",
         "en": "UCL Highlights"
@@ -419,7 +419,7 @@
     "mls_light": ["epl_light", "mlb_light"],
     "j1_light": ["epl_light", "kbo_light"],
 
-    "uefa_champions_league": ["epl_light", "mlb_light"],
+    "cl_football_highlights": ["epl_light", "mlb_light"],
     "uefa_europa_league": ["epl_light", "mlb_light"],
     "fa_cup": ["epl_light", "mlb_light"],
     "fifa_world_cup": ["epl_light", "mlb_light"],
