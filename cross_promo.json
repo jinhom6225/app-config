@@ -390,6 +390,21 @@
       },
       "enabled": true
     },
+    "weather_money_guide": {
+      "title": {
+        "ko": "기후행동 기회소득 안내서",
+        "en": "Climate Action Guide"
+      },
+      "description": {
+        "ko": "경기도 기후행동으로 지역화폐 적립",
+        "en": "Earn local currency through eco-friendly actions"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/weather_money_guide.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.weather_money_guide"
+      },
+      "enabled": true
+    },
     "liamlillian_mlb": {
       "title": {
         "ko": "MLB 하이라이트",
@@ -439,6 +454,7 @@
     "liamlillian_mlb": ["liamlillian_kbo", "nba_light"],
     "liamlillian_wbc": ["liamlillian_mlb", "liamlillian_kbo"],
 
-    "section8_guide": ["mlb_light", "nba_light"]
+    "section8_guide": ["mlb_light", "nba_light"],
+    "weather_money_guide": ["kbo_light", "mlb_light"]
   }
 }
