@@ -419,6 +419,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.mlblight"
       },
       "enabled": true
+    },
+    "mortgage_calculator": {
+      "title": {
+        "ko": "미국 모기지 계산기",
+        "en": "US Mortgage Calculator"
+      },
+      "description": {
+        "ko": "미국 주택 모기지 상환 계산기",
+        "en": "US home mortgage payment calculator"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mortgage_calculator.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mortgage_cal"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -455,6 +470,7 @@
     "liamlillian_wbc": ["liamlillian_mlb", "liamlillian_kbo"],
 
     "section8_guide": ["mlb_light", "nba_light"],
-    "weather_money_guide": ["kbo_light", "mlb_light"]
+    "weather_money_guide": ["kbo_light", "mlb_light"],
+    "mortgage_calculator": ["mlb_light", "nba_light"]
   }
 }
