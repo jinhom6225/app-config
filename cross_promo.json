@@ -420,6 +420,21 @@
       },
       "enabled": true
     },
+    "energy_voucher": {
+      "title": {
+        "ko": "에너지 바우처 가이드",
+        "en": "Energy Voucher Guide"
+      },
+      "description": {
+        "ko": "에너지 취약계층 바우처 안내",
+        "en": "Energy voucher guide for vulnerable households"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/energy_voucher.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.energy_voucher"
+      },
+      "enabled": true
+    },
     "mortgage_calculator": {
       "title": {
         "ko": "미국 모기지 계산기",
@@ -471,6 +486,7 @@
 
     "section8_guide": ["mlb_light", "nba_light"],
     "weather_money_guide": ["kbo_light", "mlb_light"],
-    "mortgage_calculator": ["mlb_light", "nba_light"]
+    "mortgage_calculator": ["mlb_light", "nba_light"],
+    "energy_voucher": ["mlb_light", "kbo_light"]
   }
 }
