@@ -50,7 +50,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/wbc_light.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.wbc.wbc_highlights"
+        "android": "https://play.google.com/store/apps/details?id=com.wbc.wbc_highlights",
+        "ios": "https://apps.apple.com/us/app/world-baseball-highlights/id6759080828"
       },
       "enabled": true
     },
@@ -204,7 +205,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mls_light.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.mls_light"
+        "android": "https://play.google.com/store/apps/details?id=com.mls_light",
+        "ios": "https://apps.apple.com/us/app/major-soccer-highlights/id6759997102"
       },
       "enabled": true
     },
@@ -279,7 +281,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/uefa_champions_league.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.uefa_champions_league"
+        "android": "https://play.google.com/store/apps/details?id=com.uefa_champions_league",
+        "ios": "https://apps.apple.com/us/app/cl-football-highlights/id6761419322"
       },
       "enabled": true
     },
