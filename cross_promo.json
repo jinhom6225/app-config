@@ -455,7 +455,7 @@
     }
   },
   "rules": {
-    "mlb_light": ["kbo_light", "nba_light"],
+    "mlb_light": ["kbo_light", "nba_light", "epl_light"],
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light", "kbo_light"],
 
