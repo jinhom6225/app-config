@@ -484,7 +484,7 @@
     "rush_hour": ["mlb_light", "kbo_light"],
 
     "liamlillian_kbo": ["liamlillian_mlb", "epl_light"],
-    "liamlillian_mlb": ["liamlillian_kbo", "nba_light"],
+    "liamlillian_mlb": ["liamlillian_kbo", "liamlillian_wbc"],
     "liamlillian_wbc": ["liamlillian_mlb", "liamlillian_kbo"],
 
     "section8_guide": ["mlb_light", "nba_light"],
