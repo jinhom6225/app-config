@@ -490,6 +490,7 @@
     "section8_guide": ["mlb_light", "nba_light"],
     "weather_money_guide": ["kbo_light", "mlb_light"],
     "mortgage_calculator": ["mlb_light", "nba_light"],
-    "energy_voucher": ["mlb_light", "kbo_light"]
+    "energy_voucher": ["mlb_light", "kbo_light"],
+    "market_radar": ["kbo_light", "wbc_light"]
   }
 }
