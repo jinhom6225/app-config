@@ -472,11 +472,11 @@
     "fa_cup": ["epl_light", "mlb_light"],
     "fifa_world_cup": ["epl_light", "mlb_light"],
 
-    "nfl_light": ["nba_light", "mlb_light"],
-    "nfl2_light": ["nba_light", "mlb_light"],
-    "nba_light": ["nfl_light", "mlb_light"],
-    "nba2_light": ["nfl_light", "mlb_light"],
-    "nhl_light": ["nba_light", "mlb_light"],
+    "nfl_light": ["kbo_light", "mlb_light"],
+    "nfl2_light": ["kbo_light", "mlb_light"],
+    "nba_light": ["kbo_light", "mlb_light"],
+    "nba2_light": ["kbo_light", "mlb_light"],
+    "nhl_light": ["kbo_light", "mlb_light"],
 
     "kovo_light": ["mlb_light", "kbo_light"],
     "svleague_light": ["kovo_light", "kbo_light"],
