@@ -97,7 +97,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nhl_light.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.nhl_light"
+        "android": "https://play.google.com/store/apps/details?id=com.nhl_light",
+        "ios": "https://apps.apple.com/us/app/national-hockey-highlights/id6762078796"
       },
       "enabled": true
     },
@@ -145,7 +146,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nfl_light.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.nfl_light"
+        "android": "https://play.google.com/store/apps/details?id=com.nfl_light",
+        "ios": "https://apps.apple.com/us/app/national-football-highlights/id6761979257"
       },
       "enabled": true
     },
@@ -175,7 +177,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nba_light.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.nba_light"
+        "android": "https://play.google.com/store/apps/details?id=com.nba_light",
+        "ios": "https://apps.apple.com/us/app/national-basketball-highlights/id6761977628"
       },
       "enabled": true
     },
@@ -297,7 +300,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/uefa_europa_league.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.uefa_europa"
+        "android": "https://play.google.com/store/apps/details?id=com.uefa_europa",
+        "ios": "https://apps.apple.com/us/app/el-football-highlights/id6761927411"
       },
       "enabled": true
     },
