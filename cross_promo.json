@@ -459,8 +459,8 @@
     }
   },
   "rules": {
-    "mlb_light": ["kbo_light", "wbc_light"],
-    "kbo_light": ["mlb_light", "epl_light"],
+    "mlb_light": ["kbo_light", "nba_light"],
+    "kbo_light": ["mlb_light", "nba_light"],
     "wbc_light": ["mlb_light", "kbo_light"],
 
     "epl_light": ["mlb_light", "kbo_light"],
@@ -485,10 +485,10 @@
     "kovo_light": ["mlb_light", "kbo_light"],
     "svleague_light": ["kovo_light", "kbo_light"],
 
-    "rush_hour": ["mlb_light", "kbo_light"],
+    "rush_hour": ["mlb_light", "kbo_light", "nba_light"],
 
-    "liamlillian_kbo": ["liamlillian_mlb", "epl_light"],
-    "liamlillian_mlb": ["liamlillian_kbo", "liamlillian_wbc"],
+    "liamlillian_kbo": ["liamlillian_mlb", "nba_light"],
+    "liamlillian_mlb": ["liamlillian_kbo", "nba_light"],
     "liamlillian_wbc": ["liamlillian_mlb", "liamlillian_kbo"],
 
     "section8_guide": ["mlb_light", "nba_light"],
