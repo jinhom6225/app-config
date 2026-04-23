@@ -496,6 +496,6 @@
     "mortgage_calculator": ["mlb_light", "nba_light"],
     "energy_voucher": ["mlb_light", "kbo_light"],
     "market_radar": ["kbo_light", "wbc_light"],
-    "klotski": ["rush_hour", "mlb_light", "kbo_light"],
+    "klotski": ["rush_hour", "mlb_light", "kbo_light"]
   }
 }
