@@ -474,7 +474,7 @@
     "cl_football_highlights": ["epl_light", "mlb_light"],
     "uefa_europa_league": ["epl_light", "mlb_light"],
     "fa_cup": ["epl_light", "mlb_light"],
-    "fifa_world_cup": ["epl_light", "mlb_light"],
+    "fifa_world_cup": ["epl_light", "fifa_world_cup"],
 
     "nfl_light": ["nba_light", "mlb_light"],
     "nfl2_light": ["kbo_light", "mlb_light"],
