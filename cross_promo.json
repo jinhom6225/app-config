@@ -120,6 +120,22 @@
       },
       "enabled": true
     },
+    "klotski": {
+      "title": {
+        "ko": "클로츠키 슬라이딩 퍼즐",
+        "en": "Klotski Sliding Puzzles"
+      },
+      "description": {
+        "ko": "슬라이딩 블록 퍼즐 게임",
+        "en": "Sliding block puzzle game"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/klotski.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.puzzles_klotski",
+        "ios": "https://apps.apple.com/us/app/klotski-sliding-puzzles/id6763393870"
+      },
+      "enabled": true
+    },
     "serie_light": {
       "title": {
         "ko": "세리에A 하이라이트",
@@ -492,11 +508,9 @@
     "liamlillian_mlb": ["liamlillian_kbo", "fifa_world_cup"],
     "liamlillian_wbc": ["liamlillian_mlb", "fifa_world_cup"],
 
-    "section8_guide": ["mlb_light", "fifa_world_cup"],
     "weather_money_guide": ["fifa_world_cup", "mlb_light"],
     "mortgage_calculator": ["mlb_light", "fifa_world_cup"],
     "energy_voucher": ["mlb_light", "fifa_world_cup"],
-    "market_radar": ["fifa_world_cup", "wbc_light"],
     "klotski": ["fifa_world_cup", "rush_hour"]
   }
 }
