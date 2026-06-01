@@ -331,7 +331,7 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/fifa_world_cup.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.wc_highlights"
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.world"
       },
       "enabled": true
     },
@@ -459,43 +459,43 @@
     }
   },
   "rules": {
-    "mlb_light": ["kbo_light", "nba_light"],
-    "kbo_light": ["mlb_light", "nba_light"],
-    "wbc_light": ["mlb_light", "kbo_light"],
+    "mlb_light": ["kbo_light", "fifa_world_cup"],
+    "kbo_light": ["mlb_light", "fifa_world_cup"],
+    "wbc_light": ["mlb_light", "fifa_world_cup"],
 
     "epl_light": ["mlb_light", "fifa_world_cup"],
     "serie_light": ["epl_light", "fifa_world_cup"],
     "laliga_light": ["epl_light", "fifa_world_cup"],
     "bundesliga_light": ["epl_light", "fifa_world_cup"],
     "french_ligue": ["epl_light", "fifa_world_cup"],
-    "mls_light": ["epl_light", "mlb_light"],
-    "j1_light": ["epl_light", "kbo_light"],
+    "mls_light": ["epl_light", "fifa_world_cup"],
+    "j1_light": ["epl_light", "fifa_world_cup"],
 
     "cl_football_highlights": ["fifa_world_cup", "mlb_light"],
     "uefa_europa_league": ["fifa_world_cup", "mlb_light"],
     "fa_cup": ["fifa_world_cup", "mlb_light"],
     "fifa_world_cup": ["epl_light", "mlb_light"],
 
-    "nfl_light": ["nba_light", "mlb_light"],
-    "nfl2_light": ["kbo_light", "mlb_light"],
-    "nba_light": ["kbo_light", "mlb_light"],
-    "nba2_light": ["kbo_light", "mlb_light"],
-    "nhl_light": ["nba_light", "mlb_light"],
+    "nfl_light": ["fifa_world_cup", "mlb_light"],
+    "nfl2_light": ["fifa_world_cup", "mlb_light"],
+    "nba_light": ["fifa_world_cup", "mlb_light"],
+    "nba2_light": ["fifa_world_cup", "mlb_light"],
+    "nhl_light": ["fifa_world_cup", "mlb_light"],
 
-    "kovo_light": ["mlb_light", "kbo_light"],
-    "svleague_light": ["kovo_light", "kbo_light"],
+    "kovo_light": ["mlb_light", "fifa_world_cup"],
+    "svleague_light": ["kovo_light", "fifa_world_cup"],
 
-    "rush_hour": ["mlb_light", "kbo_light", "nba_light"],
+    "rush_hour": ["fifa_world_cup", "mlb_light", "kbo_light"],
 
-    "liamlillian_kbo": ["liamlillian_mlb", "nba_light"],
-    "liamlillian_mlb": ["liamlillian_kbo", "nba_light"],
-    "liamlillian_wbc": ["liamlillian_mlb", "liamlillian_kbo"],
+    "liamlillian_kbo": ["liamlillian_mlb", "fifa_world_cup"],
+    "liamlillian_mlb": ["liamlillian_kbo", "fifa_world_cup"],
+    "liamlillian_wbc": ["liamlillian_mlb", "fifa_world_cup"],
 
-    "section8_guide": ["mlb_light", "nba_light"],
-    "weather_money_guide": ["kbo_light", "mlb_light"],
-    "mortgage_calculator": ["mlb_light", "nba_light"],
-    "energy_voucher": ["mlb_light", "kbo_light"],
-    "market_radar": ["kbo_light", "wbc_light"],
-    "klotski": ["rush_hour", "mlb_light", "kbo_light"]
+    "section8_guide": ["mlb_light", "fifa_world_cup"],
+    "weather_money_guide": ["fifa_world_cup", "mlb_light"],
+    "mortgage_calculator": ["mlb_light", "fifa_world_cup"],
+    "energy_voucher": ["mlb_light", "fifa_world_cup"],
+    "market_radar": ["fifa_world_cup", "wbc_light"],
+    "klotski": ["fifa_world_cup", "rush_hour"]
   }
 }
