@@ -331,7 +331,8 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/fifa_world_cup.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.world"
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.world",
+        "ios": "https://apps.apple.com/us/app/wc-highlights/id6761675439"
       },
       "enabled": true
     },
