@@ -476,41 +476,41 @@
     }
   },
   "rules": {
-    "mlb_light": ["kbo_light", "fifa_world_cup"],
-    "kbo_light": ["mlb_light", "fifa_world_cup"],
-    "wbc_light": ["mlb_light", "fifa_world_cup"],
+    "mlb_light": ["kbo_light"],
+    "kbo_light": ["mlb_light"],
+    "wbc_light": ["mlb_light"],
 
-    "epl_light": ["mlb_light", "fifa_world_cup"],
-    "serie_light": ["epl_light", "fifa_world_cup"],
-    "laliga_light": ["epl_light", "fifa_world_cup"],
-    "bundesliga_light": ["epl_light", "fifa_world_cup"],
-    "french_ligue": ["epl_light", "fifa_world_cup"],
-    "mls_light": ["epl_light", "fifa_world_cup"],
-    "j1_light": ["epl_light", "fifa_world_cup"],
+    "epl_light": ["mlb_light"],
+    "serie_light": ["epl_light"],
+    "laliga_light": ["epl_light"],
+    "bundesliga_light": ["epl_light"],
+    "french_ligue": ["epl_light"],
+    "mls_light": ["epl_light"],
+    "j1_light": ["epl_light"],
 
-    "cl_football_highlights": ["fifa_world_cup", "mlb_light"],
-    "uefa_europa_league": ["fifa_world_cup", "mlb_light"],
-    "fa_cup": ["fifa_world_cup", "mlb_light"],
+    "cl_football_highlights": ["mlb_light"],
+    "uefa_europa_league": ["mlb_light"],
+    "fa_cup": ["mlb_light"],
     "fifa_world_cup": ["mlb_light"],
 
-    "nfl_light": ["fifa_world_cup", "mlb_light"],
-    "nfl2_light": ["fifa_world_cup", "mlb_light"],
-    "nba_light": ["fifa_world_cup", "mlb_light"],
-    "nba2_light": ["fifa_world_cup", "mlb_light"],
-    "nhl_light": ["fifa_world_cup", "mlb_light"],
+    "nfl_light": ["mlb_light"],
+    "nfl2_light": ["mlb_light"],
+    "nba_light": ["mlb_light"],
+    "nba2_light": ["mlb_light"],
+    "nhl_light": ["mlb_light"],
 
-    "kovo_light": ["mlb_light", "fifa_world_cup"],
-    "svleague_light": ["kovo_light", "fifa_world_cup"],
+    "kovo_light": ["mlb_light"],
+    "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["fifa_world_cup", "mlb_light", "kbo_light"],
+    "rush_hour": ["mlb_light", "kbo_light"],
 
     "liamlillian_kbo": ["liamlillian_mlb", "fifa_world_cup"],
     "liamlillian_mlb": ["liamlillian_kbo", "fifa_world_cup"],
     "liamlillian_wbc": ["liamlillian_mlb", "fifa_world_cup"],
 
-    "weather_money_guide": ["fifa_world_cup", "mlb_light"],
-    "mortgage_calculator": ["mlb_light", "fifa_world_cup"],
-    "energy_voucher": ["mlb_light", "fifa_world_cup"],
-    "klotski": ["fifa_world_cup", "rush_hour"]
+    "weather_money_guide": ["mlb_light"],
+    "mortgage_calculator": ["mlb_light"],
+    "energy_voucher": ["mlb_light"],
+    "klotski": ["mlb_light", "rush_hour"]
   }
 }
