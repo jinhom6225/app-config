@@ -504,9 +504,9 @@
 
     "rush_hour": ["mlb_light", "kbo_light"],
 
-    "liamlillian_kbo": ["liamlillian_mlb", "fifa_world_cup"],
-    "liamlillian_mlb": ["liamlillian_kbo", "fifa_world_cup"],
-    "liamlillian_wbc": ["liamlillian_mlb", "fifa_world_cup"],
+    "liamlillian_kbo": ["liamlillian_mlb"],
+    "liamlillian_mlb": ["liamlillian_kbo"],
+    "liamlillian_wbc": ["liamlillian_mlb"],
 
     "weather_money_guide": ["mlb_light"],
     "mortgage_calculator": ["mlb_light"],
