@@ -476,16 +476,16 @@
     }
   },
   "rules": {
-    "mlb_light": ["kbo_light"],
-    "kbo_light": ["mlb_light"],
+    "mlb_light": ["nfl_light", "epl_light"],
+    "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["mlb_light"],
+    "epl_light": ["mlb_light", "nfl_light"],
     "serie_light": ["epl_light"],
     "laliga_light": ["epl_light"],
     "bundesliga_light": ["epl_light"],
     "french_ligue": ["epl_light"],
-    "mls_light": ["epl_light"],
+    "mls_light": ["epl_light", "mlb_light"],
     "j1_light": ["epl_light"],
 
     "cl_football_highlights": ["mlb_light"],
@@ -493,9 +493,9 @@
     "fa_cup": ["mlb_light"],
     "fifa_world_cup": ["mlb_light"],
 
-    "nfl_light": ["mlb_light"],
+    "nfl_light": ["mlb_light", "epl_light"],
     "nfl2_light": ["mlb_light"],
-    "nba_light": ["mlb_light"],
+    "nba_light": ["mlb_light", "nfl_light"],
     "nba2_light": ["mlb_light"],
     "nhl_light": ["mlb_light"],
 
@@ -504,8 +504,8 @@
 
     "rush_hour": ["mlb_light", "kbo_light"],
 
-    "liamlillian_kbo": ["liamlillian_mlb"],
-    "liamlillian_mlb": ["liamlillian_kbo"],
+    "liamlillian_kbo": ["mlb_light", "epl_light"],
+    "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
     "weather_money_guide": ["mlb_light"],
