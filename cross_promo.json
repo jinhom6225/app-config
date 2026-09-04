@@ -44,8 +44,8 @@
         "ja": "WBCハイライト"
       },
       "description": {
-        "ko": "월드베이스볼클래식 하이라이트",
-        "en": "World Baseball Classic highlights",
+        "ko": "월드베이스볼클래식 경기",
+        "en": "World Baseball Classic",
         "ja": "WBCハイライト"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/wbc_light.png",
@@ -76,8 +76,8 @@
         "en": "EPL Highlights"
       },
       "description": {
-        "ko": "잉글랜드 프리미어리그 하이라이트",
-        "en": "English Premier League highlights"
+        "ko": "프리미어리그 하이라이트",
+        "en": "Premier League highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/epl_light.png",
       "stores": {
@@ -219,7 +219,7 @@
         "en": "MLS Highlights"
       },
       "description": {
-        "ko": "MLS 메이저리그사커 하이라이트",
+        "ko": "메이저리그사커 하이라이트",
         "en": "MLS soccer highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mls_light.png",
@@ -251,7 +251,7 @@
       },
       "description": {
         "ko": "독일 분데스리가 하이라이트",
-        "en": "German Bundesliga highlights"
+        "en": "Bundesliga highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/bundesliga_light.png",
       "stores": {
@@ -295,8 +295,8 @@
         "en": "UCL Highlights"
       },
       "description": {
-        "ko": "UEFA 챔피언스리그 하이라이트",
-        "en": "UEFA Champions League highlights"
+        "ko": "챔피언스리그 하이라이트",
+        "en": "Champions League highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/uefa_champions_league.png",
       "stores": {
@@ -312,7 +312,7 @@
       },
       "description": {
         "ko": "UEFA 유로파리그 하이라이트",
-        "en": "UEFA Europa League highlights"
+        "en": "Europa League highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/uefa_europa_league.png",
       "stores": {
@@ -360,7 +360,7 @@
       },
       "description": {
         "ko": "일본 J1리그 하이라이트",
-        "en": "Japanese J1 League highlights",
+        "en": "J1 League highlights",
         "ja": "J1リーグハイライト"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/j1_light.png",
@@ -376,7 +376,7 @@
       },
       "description": {
         "ko": "SV리그 배구 하이라이트",
-        "en": "SV League volleyball highlights"
+        "en": "SV League volleyball"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/svleague_light.png",
       "stores": {
@@ -405,8 +405,8 @@
         "en": "WBC Highlights"
       },
       "description": {
-        "ko": "월드베이스볼클래식 하이라이트",
-        "en": "World Baseball Classic highlights"
+        "ko": "월드베이스볼클래식 경기",
+        "en": "World Baseball Classic"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_wbc.png",
       "stores": {
@@ -420,8 +420,8 @@
         "en": "Climate Action Guide"
       },
       "description": {
-        "ko": "경기도 기후행동으로 지역화폐 적립",
-        "en": "Earn local currency through eco-friendly actions"
+        "ko": "기후행동 지역화폐 적립",
+        "en": "Earn rewards for eco actions"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/weather_money_guide.png",
       "stores": {
@@ -451,7 +451,7 @@
       },
       "description": {
         "ko": "에너지 취약계층 바우처 안내",
-        "en": "Energy voucher guide for vulnerable households"
+        "en": "Energy voucher guide"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/energy_voucher.png",
       "stores": {
@@ -466,7 +466,7 @@
       },
       "description": {
         "ko": "미국 주택 모기지 상환 계산기",
-        "en": "US home mortgage payment calculator"
+        "en": "US mortgage calculator"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mortgage_calculator.png",
       "stores": {
@@ -511,7 +511,7 @@
       },
       "description": {
         "ko": "시황·히트맵·모의투자",
-        "en": "Market news, heatmap & paper trading"
+        "en": "Market news & paper trading"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kr_briefing.png",
       "stores": {
@@ -526,7 +526,7 @@
       },
       "description": {
         "ko": "시황·히트맵·모의투자",
-        "en": "Market news, heatmap & paper trading"
+        "en": "Market news & paper trading"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/us_briefing.png",
       "stores": {
@@ -541,7 +541,7 @@
       },
       "description": {
         "ko": "실전 차트 모의투자",
-        "en": "Real chart paper trading game"
+        "en": "Real chart trading game"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/financial_radar.png",
       "stores": {
@@ -571,7 +571,7 @@
       },
       "description": {
         "ko": "주식 조건검색 필터링",
-        "en": "Stock condition search & filtering"
+        "en": "Stock screener & filters"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/envelope_screener.png",
       "stores": {
@@ -586,7 +586,7 @@
       },
       "description": {
         "ko": "수면 폰 잠금·디지털 디톡스",
-        "en": "Sleep phone lock & digital detox"
+        "en": "Phone lock for better sleep"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/focusleep.png",
       "stores": {
