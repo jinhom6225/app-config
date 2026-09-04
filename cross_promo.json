@@ -110,7 +110,7 @@
       },
       "description": {
         "ko": "러시아워 퍼즐 게임",
-        "en": "Rush Hour traffic jam puzzle",
+        "en": "Traffic jam puzzle game",
         "ja": "ラッシュアワーパズルゲーム"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/rush_hour.png",
@@ -142,7 +142,7 @@
         "en": "Serie A Highlights"
       },
       "description": {
-        "ko": "이탈리아 세리에A 하이라이트",
+        "ko": "세리에A 하이라이트",
         "en": "Italian Serie A highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/serie_light.png",
@@ -296,7 +296,7 @@
       },
       "description": {
         "ko": "챔피언스리그 하이라이트",
-        "en": "Champions League highlights"
+        "en": "Champions League"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/uefa_champions_league.png",
       "stores": {
@@ -311,7 +311,7 @@
         "en": "UEL Highlights"
       },
       "description": {
-        "ko": "UEFA 유로파리그 하이라이트",
+        "ko": "유로파리그 하이라이트",
         "en": "Europa League highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/uefa_europa_league.png",
@@ -421,7 +421,7 @@
       },
       "description": {
         "ko": "기후행동 지역화폐 적립",
-        "en": "Earn rewards for eco actions"
+        "en": "Rewards for eco actions"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/weather_money_guide.png",
       "stores": {
@@ -465,7 +465,7 @@
         "en": "US Mortgage Calculator"
       },
       "description": {
-        "ko": "미국 주택 모기지 상환 계산기",
+        "ko": "주택 모기지 상환 계산기",
         "en": "US mortgage calculator"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mortgage_calculator.png",
@@ -481,7 +481,7 @@
       },
       "description": {
         "ko": "메이저리그 30개 구장 정보",
-        "en": "Guide to all 30 MLB ballparks"
+        "en": "All 30 MLB ballparks"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mlb_stadiums_app.png",
       "stores": {
@@ -496,7 +496,7 @@
       },
       "description": {
         "ko": "미국 63개 국립공원 안내",
-        "en": "Guide to 63 US national parks"
+        "en": "63 US national parks"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/national_parks_app.png",
       "stores": {
@@ -511,7 +511,7 @@
       },
       "description": {
         "ko": "시황·히트맵·모의투자",
-        "en": "Market news & paper trading"
+        "en": "Market news & trading"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kr_briefing.png",
       "stores": {
@@ -526,7 +526,7 @@
       },
       "description": {
         "ko": "시황·히트맵·모의투자",
-        "en": "Market news & paper trading"
+        "en": "Market news & trading"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/us_briefing.png",
       "stores": {
@@ -556,7 +556,7 @@
       },
       "description": {
         "ko": "실전 차트 모의투자",
-        "en": "US stock chart trading game"
+        "en": "US stock chart game"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/fire_calculator.png",
       "stores": {
@@ -586,7 +586,7 @@
       },
       "description": {
         "ko": "수면 폰 잠금·디지털 디톡스",
-        "en": "Phone lock for better sleep"
+        "en": "Phone lock for sleep"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/focusleep.png",
       "stores": {
