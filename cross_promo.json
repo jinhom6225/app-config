@@ -473,6 +473,143 @@
         "android": "https://play.google.com/store/apps/details?id=com.mortgage_cal"
       },
       "enabled": true
+    },
+    "mlb_stadiums_app": {
+      "title": {
+        "ko": "MLB 구장 가이드",
+        "en": "MLB Stadiums"
+      },
+      "description": {
+        "ko": "메이저리그 30개 구장 정보",
+        "en": "Guide to all 30 MLB ballparks"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mlb_stadiums_app.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mlbstadiums.mlb_stadiums_app"
+      },
+      "enabled": true
+    },
+    "national_parks_app": {
+      "title": {
+        "ko": "미국 국립공원 가이드",
+        "en": "US National Parks"
+      },
+      "description": {
+        "ko": "미국 63개 국립공원 안내",
+        "en": "Guide to 63 US national parks"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/national_parks_app.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.nationalparks.national_parks_app"
+      },
+      "enabled": true
+    },
+    "kr_briefing": {
+      "title": {
+        "ko": "한국주식 AI 브리핑",
+        "en": "Korea Stock AI Briefing"
+      },
+      "description": {
+        "ko": "시황·히트맵·모의투자",
+        "en": "Market news, heatmap & paper trading"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kr_briefing.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.kr_briefing"
+      },
+      "enabled": true
+    },
+    "us_briefing": {
+      "title": {
+        "ko": "미국주식 AI 브리핑",
+        "en": "US Stock AI Briefing"
+      },
+      "description": {
+        "ko": "시황·히트맵·모의투자",
+        "en": "Market news, heatmap & paper trading"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/us_briefing.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.us_briefing"
+      },
+      "enabled": true
+    },
+    "financial_radar": {
+      "title": {
+        "ko": "주식 차트게임",
+        "en": "Stock Chart Game"
+      },
+      "description": {
+        "ko": "실전 차트 모의투자",
+        "en": "Real chart paper trading game"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/financial_radar.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.financial_radar"
+      },
+      "enabled": true
+    },
+    "fire_calculator": {
+      "title": {
+        "ko": "미국주식 차트게임",
+        "en": "US Stock Chart Game"
+      },
+      "description": {
+        "ko": "실전 차트 모의투자",
+        "en": "US stock chart trading game"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/fire_calculator.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.fire_calculator"
+      },
+      "enabled": true
+    },
+    "envelope_screener": {
+      "title": {
+        "ko": "엔벨로프 스크리너",
+        "en": "Envelope Screener"
+      },
+      "description": {
+        "ko": "주식 조건검색 필터링",
+        "en": "Stock condition search & filtering"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/envelope_screener.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.envelope_screener"
+      },
+      "enabled": true
+    },
+    "focusleep": {
+      "title": {
+        "ko": "수면에집중",
+        "en": "Focusleep"
+      },
+      "description": {
+        "ko": "수면 폰 잠금·디지털 디톡스",
+        "en": "Sleep phone lock & digital detox"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/focusleep.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.focusleep",
+        "ios": "https://apps.apple.com/us/app/%EC%88%98%EB%A9%B4%EC%97%90%EC%A7%91%EC%A4%91/id6797113744"
+      },
+      "enabled": true
+    },
+    "remtime": {
+      "title": {
+        "ko": "렘수면",
+        "en": "REM Time"
+      },
+      "description": {
+        "ko": "수면 사이클 계산기",
+        "en": "Sleep cycle calculator"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/remtime.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.remtime",
+        "ios": "https://apps.apple.com/us/app/%EB%A0%98%EC%88%98%EB%A9%B4/id6764481553"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -511,6 +648,17 @@
     "weather_money_guide": ["mlb_light"],
     "mortgage_calculator": ["mlb_light"],
     "energy_voucher": ["mlb_light"],
-    "klotski": ["mlb_light", "rush_hour"]
+    "klotski": ["mlb_light", "rush_hour"],
+
+    "kr_briefing": ["us_briefing", "financial_radar"],
+    "us_briefing": ["kr_briefing", "fire_calculator"],
+    "financial_radar": ["fire_calculator", "kr_briefing"],
+    "envelope_screener": ["kr_briefing"],
+    "fire_calculator": ["us_briefing", "financial_radar"],
+
+    "remtime": ["focusleep"],
+
+    "mlb_stadiums_app": ["national_parks_app"],
+    "national_parks_app": ["mlb_stadiums_app"]
   }
 }
