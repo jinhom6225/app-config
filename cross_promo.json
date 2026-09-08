@@ -72,12 +72,12 @@
     },
     "epl_light": {
       "title": {
-        "ko": "EPL 하이라이트",
-        "en": "EPL Highlights"
+        "ko": "잉글랜드 축구 하이라이트",
+        "en": "England Soccer Highlights"
       },
       "description": {
-        "ko": "프리미어리그 하이라이트",
-        "en": "Premier League highlights"
+        "ko": "잉글랜드 프로축구 하이라이트",
+        "en": "English football highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/epl_light.png",
       "stores": {
@@ -215,12 +215,12 @@
     },
     "mls_light": {
       "title": {
-        "ko": "MLS 하이라이트",
-        "en": "MLS Highlights"
+        "ko": "미국 축구 하이라이트",
+        "en": "Major Soccer Highlights"
       },
       "description": {
-        "ko": "메이저리그사커 하이라이트",
-        "en": "MLS soccer highlights"
+        "ko": "미국 프로축구 하이라이트",
+        "en": "US soccer highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mls_light.png",
       "stores": {
@@ -231,12 +231,12 @@
     },
     "laliga_light": {
       "title": {
-        "ko": "라리가 하이라이트",
-        "en": "La Liga Highlights"
+        "ko": "스페인 축구 하이라이트",
+        "en": "Spanish Football Highlights"
       },
       "description": {
-        "ko": "스페인 라리가 하이라이트",
-        "en": "Spanish La Liga highlights"
+        "ko": "스페인 프로축구 하이라이트",
+        "en": "Spanish football highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/laliga_light.png",
       "stores": {
@@ -619,7 +619,7 @@
 
     "epl_light": ["laliga_light", "serie_light"],
     "serie_light": ["epl_light", "laliga_light"],
-    "laliga_light": ["epl_light", "mls_light"],
+    "laliga_light": ["mls_light"],
     "bundesliga_light": ["epl_light"],
     "french_ligue": ["epl_light"],
     "mls_light": ["epl_light", "mlb_light"],
