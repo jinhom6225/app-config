@@ -650,10 +650,10 @@
     "energy_voucher": ["mlb_light"],
     "klotski": ["mlb_light", "rush_hour"],
 
-    "kr_briefing": ["us_briefing", "financial_radar"],
+    "kr_briefing": ["envelope_screener", "financial_radar"],
     "us_briefing": ["kr_briefing", "fire_calculator"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
-    "envelope_screener": ["kr_briefing"],
+    "envelope_screener": ["kr_briefing", "financial_radar"],
     "fire_calculator": ["us_briefing", "financial_radar"],
 
     "remtime": ["focusleep"],
