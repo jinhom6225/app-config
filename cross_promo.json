@@ -636,7 +636,7 @@
     "nba2_light": ["mlb_light"],
     "nhl_light": ["mlb_light"],
 
-    "kovo_light": ["mlb_light"],
+    "kovo_light": ["mlb_light", "nfl_light"],
     "svleague_light": ["kovo_light"],
 
     "rush_hour": ["mlb_light", "kbo_light"],
