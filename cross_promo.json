@@ -645,9 +645,9 @@
     "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
-    "weather_money_guide": ["energy_voucher", "mlb_light"],
-    "mortgage_calculator": ["mlb_light"],
-    "energy_voucher": ["mlb_light", "kr_briefing"],
+    "weather_money_guide": ["energy_voucher", "kr_briefing"],
+    "mortgage_calculator": ["kr_briefing", "weather_money_guide"],
+    "energy_voucher": ["kr_briefing", "weather_money_guide"],
     "klotski": ["mlb_light", "rush_hour"],
 
     "kr_briefing": ["envelope_screener", "financial_radar"],
