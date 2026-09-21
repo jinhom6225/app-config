@@ -617,11 +617,11 @@
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["laliga_light", "serie_light"],
-    "serie_light": ["epl_light", "laliga_light"],
-    "laliga_light": ["mls_light"],
-    "bundesliga_light": ["epl_light"],
-    "french_ligue": ["epl_light"],
+    "epl_light": ["laliga_light", "bundesliga_light", "laliga_light"],
+    "serie_light": ["epl_light", "laliga_light", "bundesliga_light"],
+    "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
+    "bundesliga_light": ["epl_light", "french_ligue", "laliga_light"],
+    "french_ligue": ["epl_light", "laliga_light", "bundesliga_light"],
     "mls_light": ["epl_light", "mlb_light"],
     "j1_light": ["epl_light"],
 
