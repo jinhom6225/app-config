@@ -617,7 +617,7 @@
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["laliga_light", "bundesliga_light", "laliga_light"],
+    "epl_light": ["serie_light", "bundesliga_light", "laliga_light"],
     "serie_light": ["epl_light", "laliga_light", "bundesliga_light"],
     "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
     "bundesliga_light": ["epl_light", "french_ligue", "laliga_light"],
