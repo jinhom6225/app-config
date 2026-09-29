@@ -246,12 +246,12 @@
     },
     "bundesliga_light": {
       "title": {
-        "ko": "분데스리가 하이라이트",
-        "en": "Bundesliga Highlights"
+        "ko": "독일 축구 하이라이트",
+        "en": "German Football Highlights"
       },
       "description": {
-        "ko": "독일 분데스리가 하이라이트",
-        "en": "Bundesliga highlights"
+        "ko": "독일 프로축구 하이라이트",
+        "en": "German football highlights"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/bundesliga_light.png",
       "stores": {
@@ -620,7 +620,7 @@
     "epl_light": ["laliga_light", "serie_light"],
     "serie_light": ["epl_light", "laliga_light"],
     "laliga_light": ["mls_light"],
-    "bundesliga_light": ["epl_light"],
+    "bundesliga_light": ["laliga_light"],
     "french_ligue": ["epl_light"],
     "mls_light": ["epl_light", "mlb_light"],
     "j1_light": ["epl_light"],
