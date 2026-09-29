@@ -617,11 +617,11 @@
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["laliga_light", "serie_light"],
-    "serie_light": ["epl_light", "laliga_light"],
-    "laliga_light": ["mls_light"],
+    "epl_light": ["serie_light", "bundesliga_light", "laliga_light"],
+    "serie_light": ["epl_light", "laliga_light", "bundesliga_light"],
+    "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
     "bundesliga_light": ["laliga_light"],
-    "french_ligue": ["epl_light"],
+    "french_ligue": ["epl_light", "laliga_light", "bundesliga_light"],
     "mls_light": ["epl_light", "mlb_light"],
     "j1_light": ["epl_light"],
 
@@ -630,13 +630,13 @@
     "fa_cup": ["mlb_light"],
     "fifa_world_cup": ["mlb_light"],
 
-    "nfl_light": ["mlb_light", "epl_light"],
+    "nfl_light": ["mlb_light", "nhl_light"],
     "nfl2_light": ["mlb_light"],
     "nba_light": ["mlb_light", "nfl_light"],
     "nba2_light": ["mlb_light"],
-    "nhl_light": ["mlb_light"],
+    "nhl_light": ["mlb_light", "nfl_light"],
 
-    "kovo_light": ["mlb_light"],
+    "kovo_light": ["kr_briefing", "envelope_screener"],
     "svleague_light": ["kovo_light"],
 
     "rush_hour": ["mlb_light", "kbo_light"],
@@ -645,20 +645,20 @@
     "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
-    "weather_money_guide": ["mlb_light"],
-    "mortgage_calculator": ["mlb_light"],
-    "energy_voucher": ["mlb_light"],
+    "weather_money_guide": ["energy_voucher", "kr_briefing"],
+    "mortgage_calculator": ["kr_briefing", "weather_money_guide"],
+    "energy_voucher": ["kr_briefing", "weather_money_guide"],
     "klotski": ["mlb_light", "rush_hour"],
 
-    "kr_briefing": ["us_briefing", "financial_radar"],
+    "kr_briefing": ["envelope_screener", "financial_radar"],
     "us_briefing": ["kr_briefing", "fire_calculator"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
-    "envelope_screener": ["kr_briefing"],
+    "envelope_screener": ["kr_briefing", "financial_radar"],
     "fire_calculator": ["us_briefing", "financial_radar"],
 
     "remtime": ["focusleep"],
 
-    "mlb_stadiums_app": ["national_parks_app"],
-    "national_parks_app": ["mlb_stadiums_app"]
+    "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
+    "national_parks_app": ["mlb_stadiums_app", "nfl_light"]
   }
 }
