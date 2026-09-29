@@ -610,6 +610,23 @@
         "ios": "https://apps.apple.com/us/app/%EB%A0%98%EC%88%98%EB%A9%B4/id6764481553"
       },
       "enabled": true
+    },
+    "rugby_light": {
+      "title": {
+        "en": "Rugby Highlights",
+        "fr": "Rugby Highlights",
+        "ko": "럭비 하이라이트"
+      },
+      "description": {
+        "en": "Rugby scores, highlights and fixtures",
+        "fr": "Résumés, scores et calendrier du rugby",
+        "ko": "럭비 경기 결과·하이라이트·일정"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/rugby_light.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.rugby_light"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -617,11 +634,11 @@
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["serie_light", "bundesliga_light", "laliga_light"],
+    "epl_light": ["serie_light", "bundesliga_light", "laliga_light", "rugby_light"],
     "serie_light": ["epl_light", "laliga_light", "bundesliga_light"],
     "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
     "bundesliga_light": ["laliga_light"],
-    "french_ligue": ["epl_light", "laliga_light", "bundesliga_light"],
+    "french_ligue": ["epl_light", "laliga_light", "bundesliga_light", "rugby_light"],
     "mls_light": ["epl_light", "mlb_light"],
     "j1_light": ["epl_light"],
 
@@ -659,6 +676,8 @@
     "remtime": ["focusleep"],
 
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
-    "national_parks_app": ["mlb_stadiums_app", "nfl_light"]
+    "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
+
+    "rugby_light": ["epl_light", "french_ligue"]
   }
 }
