@@ -642,6 +642,23 @@
         "android": "https://play.google.com/store/apps/details?id=com.f1_light"
       },
       "enabled": true
+    },
+    "cricket_light": {
+      "title": {
+        "en": "Cricket Highlights",
+        "fr": "Cricket Highlights",
+        "ko": "크리켓 하이라이트"
+      },
+      "description": {
+        "en": "T20 cricket highlights, scores and fixtures",
+        "fr": "Résumés, scores et calendrier du cricket T20",
+        "ko": "T20 크리켓 하이라이트·결과·일정"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/cricket_light.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.cricket_light"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -649,7 +666,7 @@
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["serie_light", "bundesliga_light", "laliga_light", "rugby_light", "f1_light"],
+    "epl_light": ["serie_light", "bundesliga_light", "laliga_light", "rugby_light", "f1_light", "cricket_light"],
     "serie_light": ["epl_light", "laliga_light", "bundesliga_light"],
     "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
     "bundesliga_light": ["laliga_light"],
@@ -693,8 +710,10 @@
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
     "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
 
-    "rugby_light": ["epl_light", "french_ligue", "f1_light"],
+    "rugby_light": ["epl_light", "french_ligue", "f1_light", "cricket_light"],
 
-    "f1_light": ["rugby_light", "epl_light"]
+    "f1_light": ["rugby_light", "epl_light", "cricket_light"],
+
+    "cricket_light": ["epl_light", "rugby_light", "f1_light"]
   }
 }
