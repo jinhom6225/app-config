@@ -627,6 +627,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.rugby_light"
       },
       "enabled": true
+    },
+    "f1_light": {
+      "title": {
+        "en": "F1 Highlights",
+        "ko": "F1 하이라이트"
+      },
+      "description": {
+        "en": "F1 highlights and race weekend schedule",
+        "ko": "F1 하이라이트·레이스 주말 일정"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/f1_light.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.f1_light"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -634,7 +649,7 @@
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["serie_light", "bundesliga_light", "laliga_light", "rugby_light"],
+    "epl_light": ["serie_light", "bundesliga_light", "laliga_light", "rugby_light", "f1_light"],
     "serie_light": ["epl_light", "laliga_light", "bundesliga_light"],
     "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
     "bundesliga_light": ["laliga_light"],
@@ -678,6 +693,8 @@
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
     "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
 
-    "rugby_light": ["epl_light", "french_ligue"]
+    "rugby_light": ["epl_light", "french_ligue", "f1_light"],
+
+    "f1_light": ["rugby_light", "epl_light"]
   }
 }
