@@ -136,6 +136,23 @@
       },
       "enabled": true
     },
+    "pinch_orbit": {
+      "title": {
+        "ko": "핀치 오빗",
+        "en": "Pinch Orbit",
+        "ja": "ピンチ・オービット"
+      },
+      "description": {
+        "ko": "두 구체를 돌리고 모아서 피하는 궤도 게임",
+        "en": "Turn and pinch two orbs to dodge",
+        "ja": "2つの球を回して寄せる軌道よけゲーム"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/pinch_orbit.png",
+      "stores": {
+        "ios": "https://apps.apple.com/us/app/pinch-orbit/id6816571817"
+      },
+      "enabled": true
+    },
     "serie_light": {
       "title": {
         "ko": "세리에A 하이라이트",
@@ -688,7 +705,7 @@
     "kovo_light": ["kr_briefing", "envelope_screener"],
     "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["mlb_light", "kbo_light"],
+    "rush_hour": ["mlb_light", "kbo_light", "pinch_orbit"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
@@ -697,7 +714,7 @@
     "weather_money_guide": ["energy_voucher", "kr_briefing"],
     "mortgage_calculator": ["kr_briefing", "weather_money_guide"],
     "energy_voucher": ["kr_briefing", "weather_money_guide"],
-    "klotski": ["mlb_light", "rush_hour"],
+    "klotski": ["mlb_light", "rush_hour", "pinch_orbit"],
 
     "kr_briefing": ["envelope_screener", "financial_radar"],
     "us_briefing": ["kr_briefing", "fire_calculator"],
@@ -714,6 +731,8 @@
 
     "f1_light": ["rugby_light", "epl_light", "cricket_light"],
 
-    "cricket_light": ["epl_light", "rugby_light", "f1_light"]
+    "cricket_light": ["epl_light", "rugby_light", "f1_light"],
+
+    "pinch_orbit": ["rush_hour", "klotski"]
   }
 }
