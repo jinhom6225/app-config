@@ -709,11 +709,8 @@
 
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
     "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
-
-    "rugby_light": ["epl_light", "french_ligue", "f1_light", "cricket_light"],
-
+    "rugby_light": ["epl_light", "f1_light", "cricket_light"],
     "f1_light": ["rugby_light", "epl_light", "cricket_light"],
-
     "cricket_light": ["epl_light", "rugby_light", "f1_light"]
   }
 }
