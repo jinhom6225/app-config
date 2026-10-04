@@ -671,7 +671,7 @@
     "laliga_light": ["epl_light", "bundesliga_light", "serie_light"],
     "bundesliga_light": ["laliga_light"],
     "french_ligue": ["epl_light", "laliga_light", "bundesliga_light", "rugby_light"],
-    "mls_light": ["epl_light", "mlb_light"],
+    "mls_light": ["epl_light", "mlb_light", "f1_light"],
     "j1_light": ["epl_light"],
 
     "cl_football_highlights": ["mlb_light"],
@@ -681,8 +681,8 @@
 
     "nfl_light": ["mlb_light", "nhl_light"],
     "nfl2_light": ["mlb_light"],
-    "nba_light": ["mlb_light", "nfl_light"],
-    "nba2_light": ["mlb_light"],
+    "nba_light": ["mlb_light", "nfl_light", "f1_light"],
+    "nba2_light": ["mlb_light", "f1_light"],
     "nhl_light": ["mlb_light", "nfl_light"],
 
     "kovo_light": ["kr_briefing", "envelope_screener"],
@@ -710,7 +710,7 @@
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
     "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
     "rugby_light": ["epl_light", "f1_light", "cricket_light"],
-    "f1_light": ["rugby_light", "epl_light", "cricket_light"],
+    "f1_light": ["epl_light", "mls_light", "nba_light", "rugby_light", "cricket_light"],
     "cricket_light": ["epl_light", "rugby_light", "f1_light"]
   }
 }
