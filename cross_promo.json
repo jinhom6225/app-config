@@ -153,6 +153,23 @@
       },
       "enabled": true
     },
+    "stretch_cat": {
+      "title": {
+        "ko": "Stretch Cat",
+        "en": "Stretch Cat",
+        "ja": "Stretch Cat"
+      },
+      "description": {
+        "ko": "고양이를 늘려 칸을 채우는 퍼즐",
+        "en": "Stretch, slide, fill the board",
+        "ja": "ネコを伸ばしてマスを埋めるパズル"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/stretch_cat.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.stretch_cat"
+      },
+      "enabled": true
+    },
     "serie_light": {
       "title": {
         "ko": "세리에A 하이라이트",
@@ -705,7 +722,7 @@
     "kovo_light": ["kr_briefing", "envelope_screener"],
     "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["mlb_light", "kbo_light", "pinch_orbit"],
+    "rush_hour": ["mlb_light", "kbo_light", "pinch_orbit", "stretch_cat"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
@@ -714,7 +731,7 @@
     "weather_money_guide": ["energy_voucher", "kr_briefing"],
     "mortgage_calculator": ["kr_briefing", "weather_money_guide"],
     "energy_voucher": ["kr_briefing", "weather_money_guide"],
-    "klotski": ["mlb_light", "rush_hour", "pinch_orbit"],
+    "klotski": ["mlb_light", "rush_hour", "pinch_orbit", "stretch_cat"],
 
     "kr_briefing": ["envelope_screener", "financial_radar"],
     "us_briefing": ["kr_briefing", "fire_calculator"],
@@ -733,6 +750,8 @@
 
     "cricket_light": ["epl_light", "rugby_light", "f1_light"],
 
-    "pinch_orbit": ["rush_hour", "klotski"]
+    "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
+
+    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"]
   }
 }
