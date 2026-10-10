@@ -1,0 +1,2739 @@
+{
+  "schema": 1,
+  "version": "2026-10-09",
+  "tracks": [
+    {
+      "id": "phonics",
+      "name": "알파벳·파닉스",
+      "description": "글자 소리를 듣고 낱말로 이어 읽어요",
+      "bundles": [
+        {
+          "id": "phonics-red",
+          "name": "빨강 · 첫걸음",
+          "emoji": "🔴",
+          "color": "#E8322D",
+          "videos": [
+            {
+              "id": "BScgKbbxObk",
+              "title": "Alphablocks A-Z",
+              "episode": "S1E1",
+              "emoji": "🔤",
+              "subtitle": "A부터 Z까지 글자마다 다른 소리"
+            },
+            {
+              "id": "8j2sPgWVSkY",
+              "title": "Top",
+              "episode": "S1E2",
+              "emoji": "🔤",
+              "subtitle": "가운데 모음만 바꿔 bag, big, bug"
+            },
+            {
+              "id": "oIXIs0-6jyM",
+              "title": "Taps",
+              "episode": "S2E1",
+              "emoji": "🔤",
+              "subtitle": "s, t, p와 짧은 a가 모여 taps"
+            },
+            {
+              "id": "0MjuWvjxiLw",
+              "title": "In",
+              "episode": "S2E2",
+              "emoji": "🔤",
+              "subtitle": "짧은 i 소리 뒤에 n을 붙인 in"
+            },
+            {
+              "id": "jbqrO5oLrY8",
+              "title": "Man",
+              "episode": "S2E3",
+              "emoji": "🔤",
+              "subtitle": "입술을 다무는 m 소리로 여는 man"
+            },
+            {
+              "id": "mIGdTAYxCTE",
+              "title": "Din",
+              "episode": "S2E4",
+              "emoji": "🔤",
+              "subtitle": "첫소리를 d로 바꿔 새 낱말 din 만들기"
+            },
+            {
+              "id": "SOSo3mmUf_o",
+              "title": "Dog",
+              "episode": "S2E5",
+              "emoji": "🔤",
+              "subtitle": "짧은 o와 g 끝소리가 만나는 dog"
+            },
+            {
+              "id": "-FcJYS-TAZE",
+              "title": "Cat",
+              "episode": "S2E6",
+              "emoji": "🔤",
+              "subtitle": "c로 시작해 짧은 a로 읽는 cat"
+            },
+            {
+              "id": "WhwK6kkU8kE",
+              "title": "Pen",
+              "episode": "S2E7",
+              "emoji": "🔤",
+              "subtitle": "가운데 짧은 e가 쏙 들어간 pen"
+            },
+            {
+              "id": "zC58riBLaN8",
+              "title": "Up",
+              "episode": "S2E8",
+              "emoji": "🔤",
+              "subtitle": "짧은 u 소리로 시작하는 낱말 up"
+            },
+            {
+              "id": "8r6qyqOLUGM",
+              "title": "Red",
+              "episode": "S2E9",
+              "emoji": "🔤",
+              "subtitle": "으르렁 r 소리로 시작하는 red"
+            },
+            {
+              "id": "IYWiJLAPWeA",
+              "title": "Hen",
+              "episode": "S2E10",
+              "emoji": "🔤",
+              "subtitle": "숨을 내쉬는 h 소리로 여는 hen"
+            },
+            {
+              "id": "67-VuKlDen0",
+              "title": "Bop",
+              "episode": "S2E11",
+              "emoji": "🔤",
+              "subtitle": "톡 터지는 b 소리로 읽는 bop"
+            },
+            {
+              "id": "xIYTWul5YnQ",
+              "title": "Fred",
+              "episode": "S2E12",
+              "emoji": "🔤",
+              "subtitle": "바람 새는 f 소리로 시작하는 Fred"
+            },
+            {
+              "id": "G6YVR8PLq1I",
+              "title": "Hill",
+              "episode": "S2E13",
+              "emoji": "🔤",
+              "subtitle": "끝에 같은 글자 둘, 소리는 하나인 hill"
+            },
+            {
+              "id": "AxtezuHwN1I",
+              "title": "Dot",
+              "episode": "S2E16",
+              "emoji": "🔤",
+              "subtitle": "동그란 짧은 o 소리가 든 dot"
+            },
+            {
+              "id": "On8s5PZTV-8",
+              "title": "Lips",
+              "episode": "S2E17",
+              "emoji": "🔤",
+              "subtitle": "혀끝을 대는 l 소리로 여는 lips"
+            },
+            {
+              "id": "GdSbVpVC04M",
+              "title": "Kick",
+              "episode": "S2E21",
+              "emoji": "🔤",
+              "subtitle": "끝의 ck가 /k/로 나는 kick"
+            },
+            {
+              "id": "FHnKF8zUJTQ",
+              "title": "Pip",
+              "episode": "S5E2",
+              "emoji": "🔤",
+              "subtitle": "첫 여섯 글자 s a t p i n으로 낱말 짓기"
+            },
+            {
+              "id": "rCxxy1bAAbY",
+              "title": "C Versus K",
+              "episode": "S5E3",
+              "emoji": "🔤",
+              "subtitle": "같은 /k/ 소리를 내는 c와 k 구별하기"
+            },
+            {
+              "id": "UOpuT_StbXY",
+              "title": "An Apple a Day",
+              "episode": "S5E6",
+              "emoji": "🔤",
+              "subtitle": "apple처럼 짧은 a가 들어간 낱말들"
+            },
+            {
+              "id": "rTundrE5er8",
+              "title": "Pot",
+              "episode": "S5E9",
+              "emoji": "🔤",
+              "subtitle": "o가 짧게 나는 pot과 fog 읽기"
+            },
+            {
+              "id": "-Nl2U1fPh5g",
+              "title": "Cub",
+              "episode": "S5E11",
+              "emoji": "🔤",
+              "subtitle": "아기곰 cub에 숨은 짧은 u 소리"
+            }
+          ]
+        },
+        {
+          "id": "phonics-orange",
+          "name": "주황 · 다음 걸음",
+          "emoji": "🟠",
+          "color": "#F28C28",
+          "videos": [
+            {
+              "id": "co4z5KN3q1k",
+              "title": "Party",
+              "episode": "S1E7",
+              "emoji": "🔤",
+              "subtitle": "x의 /ks/ 소리와 sad, sat 같은 낱말"
+            },
+            {
+              "id": "-QgtuUGGJBI",
+              "title": "Van",
+              "episode": "S2E14",
+              "emoji": "🔤",
+              "subtitle": "v와 j 소리를 처음 만나는 van"
+            },
+            {
+              "id": "gA7C_Ug8c6Q",
+              "title": "Zap",
+              "episode": "S2E15",
+              "emoji": "🔤",
+              "subtitle": "z와 zz, y 소리를 담은 zap"
+            },
+            {
+              "id": "AVvSzZTIz5o",
+              "title": "Web",
+              "episode": "S2E18",
+              "emoji": "🔤",
+              "subtitle": "입술을 동그랗게 모으는 w 소리, web"
+            },
+            {
+              "id": "BNj9pbioqRY",
+              "title": "Box",
+              "episode": "S2E19",
+              "emoji": "🔤",
+              "subtitle": "끝에서 /ks/로 소리 나는 x, box"
+            },
+            {
+              "id": "ywXEgJ-Lw0c",
+              "title": "Quick",
+              "episode": "S2E20",
+              "emoji": "🔤",
+              "subtitle": "q는 늘 u와 짝, /kw/로 읽는 quick"
+            },
+            {
+              "id": "QeeW-6wJK68",
+              "title": "Wig",
+              "episode": "S2E22",
+              "emoji": "🔤",
+              "subtitle": "ig로 끝나 운이 맞는 wig와 big"
+            },
+            {
+              "id": "tuMJF-mId4Q",
+              "title": "Rainbow",
+              "episode": "S2E23",
+              "emoji": "🔤",
+              "subtitle": "글자 친구들이 모여 읽는 rainbow"
+            },
+            {
+              "id": "2kpxZOAfOrI",
+              "title": "On",
+              "episode": "S2E24",
+              "emoji": "🔤",
+              "subtitle": "짧은 o와 n이 만나는 낱말 on"
+            },
+            {
+              "id": "IdIP3BGx11M",
+              "title": "ABC",
+              "episode": "S2E25",
+              "emoji": "🔤",
+              "subtitle": "노래로 외우는 알파벳 글자 이름"
+            },
+            {
+              "id": "uTZZyxwC0NY",
+              "title": "The Cat Sat on the Mat",
+              "episode": "S2E26",
+              "emoji": "🔤",
+              "subtitle": "at로 끝나는 말로 읽는 첫 문장"
+            },
+            {
+              "id": "5m4ytgaV0x4",
+              "title": "Wish",
+              "episode": "S3E1",
+              "emoji": "🔤",
+              "subtitle": "쉿 하는 sh 소리로 끝나는 wish"
+            },
+            {
+              "id": "YMbi1_nsJOk",
+              "title": "Snowman",
+              "episode": "S3E2",
+              "emoji": "🔤",
+              "subtitle": "man처럼 an으로 끝나는 낱말 찾기"
+            },
+            {
+              "id": "a999x1Bn5NQ",
+              "title": "Win",
+              "episode": "S3E3",
+              "emoji": "🔤",
+              "subtitle": "in으로 끝나는 짧은 낱말 win과 pin"
+            },
+            {
+              "id": "VEUhr66aAs0",
+              "title": "Hat",
+              "episode": "S3E4",
+              "emoji": "🔤",
+              "subtitle": "모자 hat과 ap로 끝나는 낱말들"
+            },
+            {
+              "id": "iHMU2S_dbO0",
+              "title": "Little Red N",
+              "episode": "S3E5",
+              "emoji": "🔤",
+              "subtitle": "글자 하나 갈아 끼우면 바뀌는 낱말 뜻"
+            },
+            {
+              "id": "TT-uDhMj_-M",
+              "title": "Odd",
+              "episode": "S3E10",
+              "emoji": "🔤",
+              "subtitle": "d 두 개가 한 소리 내는 odd, 엉뚱한 말"
+            },
+            {
+              "id": "XTcdaRqRYzQ",
+              "title": "An Alphablocks Adventure",
+              "episode": "S5E1",
+              "emoji": "🔤",
+              "subtitle": "같은 첫소리로 시작하는 말 잇기 모험"
+            },
+            {
+              "id": "WRy9ai1406c",
+              "title": "Castles",
+              "episode": "S5E4",
+              "emoji": "🔤",
+              "subtitle": "모래성 쌓듯 짧은 모음 낱말 짓기"
+            },
+            {
+              "id": "mPynNEn37yM",
+              "title": "R's Really Red Rose",
+              "episode": "S5E5",
+              "emoji": "🔤",
+              "subtitle": "r 친구와 함께 짧은 모음 낱말 짓기"
+            },
+            {
+              "id": "cliRS8rBNTY",
+              "title": "Ned",
+              "episode": "S5E7",
+              "emoji": "🔤",
+              "subtitle": "Ned의 짧은 e를 bed와 hen에서 찾기"
+            },
+            {
+              "id": "boUV1mzCHN4",
+              "title": "Treasure",
+              "episode": "S5E8",
+              "emoji": "🔤",
+              "subtitle": "보물 찾듯 ig 낱말 캐내기, pig와 dig"
+            },
+            {
+              "id": "LqvqX_MDjAA",
+              "title": "No Fun Without U",
+              "episode": "S5E10",
+              "emoji": "🔤",
+              "subtitle": "다섯 모음 a e i o u 짧은 소리 총정리"
+            },
+            {
+              "id": "KV6ach_hsI8",
+              "title": "Around Alphaland in a Day",
+              "episode": "S5E12",
+              "emoji": "🔤",
+              "subtitle": "하루 여행길의 짧은 모음 낱말 bus, cab"
+            },
+            {
+              "id": "4xT11izGwhI",
+              "title": "Farm",
+              "episode": "S5E13",
+              "emoji": "🔤",
+              "subtitle": "농장에서 읽는 짧은 모음 낱말 jet, mud"
+            },
+            {
+              "id": "pucr2yH2Qc8",
+              "title": "Names",
+              "episode": "S5E14",
+              "emoji": "🔤",
+              "subtitle": "이름은 대문자로, Ben과 Jen 쓰기"
+            },
+            {
+              "id": "-Jqq9ZFRUfc",
+              "title": "Party Party",
+              "episode": "S6E1",
+              "emoji": "🔤",
+              "subtitle": "여럿일 때 붙이는 s와 es"
+            },
+            {
+              "id": "Q3OJu84aYjY",
+              "title": "Signs",
+              "episode": "S6E11",
+              "emoji": "🔤",
+              "subtitle": "길 안내판 따라 몸으로 읽는 동작 말"
+            },
+            {
+              "id": "zNj3SiPSEcE",
+              "title": "Maze",
+              "episode": "S6E12",
+              "emoji": "🔤",
+              "subtitle": "혼자 끝에 선 o가 내는 소리, go와 to"
+            }
+          ]
+        },
+        {
+          "id": "phonics-yellow",
+          "name": "노랑 · 이중모음·이중자음",
+          "emoji": "🟡",
+          "color": "#E0B000",
+          "videos": [
+            {
+              "id": "iJE5JO9vQYQ",
+              "title": "Race",
+              "episode": "S1E8",
+              "emoji": "🔤",
+              "subtitle": "끝의 e가 a를 길게 만드는 race"
+            },
+            {
+              "id": "Di73mvoZHr8",
+              "title": "Moon",
+              "episode": "S1E9",
+              "emoji": "🔤",
+              "subtitle": "o 두 개가 길게 /우/ 하는 moon"
+            },
+            {
+              "id": "KU2AdaTeVMY",
+              "title": "Sail",
+              "episode": "S1E10",
+              "emoji": "🔤",
+              "subtitle": "ai가 함께 /에이/로 읽히는 sail"
+            },
+            {
+              "id": "iOorq_gIFcs",
+              "title": "Bee",
+              "episode": "S1E19",
+              "emoji": "🔤",
+              "subtitle": "짧은 e와 긴 ee 비교, bed와 bee"
+            },
+            {
+              "id": "QLk4R1UFzts",
+              "title": "Cha Cha Cha",
+              "episode": "S1E21",
+              "emoji": "🔤",
+              "subtitle": "두 글자가 한 소리, ch와 sh와 th"
+            },
+            {
+              "id": "HfO-71tBFjA",
+              "title": "Champ",
+              "episode": "S3E11",
+              "emoji": "🔤",
+              "subtitle": "ch 소리로 힘차게 여는 champ"
+            },
+            {
+              "id": "tqDTpwypnck",
+              "title": "Song",
+              "episode": "S3E12",
+              "emoji": "🔤",
+              "subtitle": "콧소리 ng로 끝맺는 song"
+            },
+            {
+              "id": "RG_7XqNM0DI",
+              "title": "Thing",
+              "episode": "S3E13",
+              "emoji": "🔤",
+              "subtitle": "혀를 살짝 무는 th 소리, thing"
+            },
+            {
+              "id": "5RDJx9_7A7A",
+              "title": "Train",
+              "episode": "S3E14",
+              "emoji": "🔤",
+              "subtitle": "기차 train 속 ai의 긴 a 소리"
+            },
+            {
+              "id": "IaJRK12WeWQ",
+              "title": "Beep",
+              "episode": "S3E15",
+              "emoji": "🔤",
+              "subtitle": "ee가 길게 /이/ 하는 beep"
+            },
+            {
+              "id": "XckB4gkaO9s",
+              "title": "Tightrope",
+              "episode": "S3E16",
+              "emoji": "🔤",
+              "subtitle": "세 글자 igh가 /아이/로 나는 소리"
+            },
+            {
+              "id": "fKPEq1C1zvY",
+              "title": "Toad",
+              "episode": "S3E17",
+              "emoji": "🔤",
+              "subtitle": "oa가 함께 /오우/ 하는 toad"
+            },
+            {
+              "id": "9umSAnbbM7Q",
+              "title": "Book",
+              "episode": "S3E18",
+              "emoji": "🔤",
+              "subtitle": "짧게 읽는 oo, book과 look"
+            },
+            {
+              "id": "VQ_6I2zzpJA",
+              "title": "Hey!",
+              "episode": "S3E19",
+              "emoji": "🔤",
+              "subtitle": "hey 글자 자리를 옮기면 생기는 말"
+            },
+            {
+              "id": "ENMXuyBT6N8",
+              "title": "Card",
+              "episode": "S3E20",
+              "emoji": "🔤",
+              "subtitle": "r이 a를 /아-/로 늘이는 card"
+            },
+            {
+              "id": "eVDTV9r6r4I",
+              "title": "The End",
+              "episode": "S3E21",
+              "emoji": "🔤",
+              "subtitle": "oi, or, ur 세 가지 모음 짝 소리"
+            },
+            {
+              "id": "XsCUvRigM8A",
+              "title": "How Now Brown Cow",
+              "episode": "S3E22",
+              "emoji": "🔤",
+              "subtitle": "놀라서 /아우/ 하는 ow, cow와 now"
+            },
+            {
+              "id": "3aK1A0J7u6M",
+              "title": "Fair",
+              "episode": "S3E23",
+              "emoji": "🔤",
+              "subtitle": "air와 ear처럼 r이 붙은 모음 소리"
+            },
+            {
+              "id": "Jj0ips-evMc",
+              "title": "Good Food",
+              "episode": "S5E15",
+              "emoji": "🔤",
+              "subtitle": "길게 food, 짧게 good, oo의 두 얼굴"
+            },
+            {
+              "id": "PH-VaGj3B2A",
+              "title": "Shop",
+              "episode": "S6E2",
+              "emoji": "🔤",
+              "subtitle": "가게 놀이로 익히는 sh, ch, th"
+            },
+            {
+              "id": "IfIQbsE2BB4",
+              "title": "Wow",
+              "episode": "S6E4",
+              "emoji": "🔤",
+              "subtitle": "깜짝 /아우/ 소리 ow, owl과 cow"
+            }
+          ]
+        },
+        {
+          "id": "phonics-green",
+          "name": "초록 · 이중자음 낱말",
+          "emoji": "🟢",
+          "color": "#2EA043",
+          "videos": [
+            {
+              "id": "ojMUUhloUjw",
+              "title": "Sing",
+              "episode": "S1E5",
+              "emoji": "🔤",
+              "subtitle": "s, i, n, g가 모여 부르는 sing"
+            },
+            {
+              "id": "E_c03kSLbWo",
+              "title": "Band",
+              "episode": "S1E6",
+              "emoji": "🔤",
+              "subtitle": "끝에 n과 d가 붙는 낱말 band"
+            },
+            {
+              "id": "Pr15VRkLFzc",
+              "title": "Map",
+              "episode": "S1E25",
+              "emoji": "🔤",
+              "subtitle": "끝 글자를 더해 ram을 ramp로 바꾸기"
+            },
+            {
+              "id": "rlwKvq4croY",
+              "title": "Dots",
+              "episode": "S3E6",
+              "emoji": "🔤",
+              "subtitle": "s 하나로 늘어나는 dots와 pots"
+            },
+            {
+              "id": "F7jfm17RPPc",
+              "title": "Frog on a Dog",
+              "episode": "S3E7",
+              "emoji": "🔤",
+              "subtitle": "og로 운을 맞추는 frog와 dog"
+            },
+            {
+              "id": "3t6b9kfn2z8",
+              "title": "Best",
+              "episode": "S3E8",
+              "emoji": "🔤",
+              "subtitle": "끝에서 붙어 나는 st 소리, best"
+            },
+            {
+              "id": "BbqK2rSMaPA",
+              "title": "Fit",
+              "episode": "S3E9",
+              "emoji": "🔤",
+              "subtitle": "첫 글자만 바꿔 만드는 fit, sit, hit"
+            },
+            {
+              "id": "5uiZzIolkWM",
+              "title": "Ants",
+              "episode": "S3E24",
+              "emoji": "🔤",
+              "subtitle": "네 글자 낱말 ants를 한 소리씩"
+            },
+            {
+              "id": "zRoUe9tMEIo",
+              "title": "Ink",
+              "episode": "S3E25",
+              "emoji": "🔤",
+              "subtitle": "끝에 붙는 nk 소리로 읽는 ink"
+            },
+            {
+              "id": "Ou6-6Dme27Y",
+              "title": "Crash!",
+              "episode": "S3E26",
+              "emoji": "🔤",
+              "subtitle": "쾅! 부딪히는 소리를 글자로 쓴 낱말"
+            },
+            {
+              "id": "kVSPaNVHB-c",
+              "title": "Four",
+              "episode": "S4E1",
+              "emoji": "🔤",
+              "subtitle": "자음이 끝에 둘 붙는 네 글자 낱말"
+            },
+            {
+              "id": "oS4Rm61pJ9k",
+              "title": "Clap",
+              "episode": "S4E2",
+              "emoji": "🔤",
+              "subtitle": "cl로 붙여 시작하는 낱말 clap"
+            },
+            {
+              "id": "iAXtnXRn318",
+              "title": "Prank",
+              "episode": "S4E3",
+              "emoji": "🔤",
+              "subtitle": "앞은 pr, 뒤는 nk로 묶인 prank"
+            },
+            {
+              "id": "Vm-FzUKBAtQ",
+              "title": "Plusman",
+              "episode": "S4E4",
+              "emoji": "🔤",
+              "subtitle": "plus와 man이 만나 생긴 새 이름"
+            },
+            {
+              "id": "tSw0xtt0OeU",
+              "title": "Think",
+              "episode": "S6E3",
+              "emoji": "🔤",
+              "subtitle": "생각하는 think 끝의 nk 소리"
+            },
+            {
+              "id": "pTgisnjAu1A",
+              "title": "Stop",
+              "episode": "S6E6",
+              "emoji": "🔤",
+              "subtitle": "멈춰! 첫머리에 자음 두 개가 붙는 말"
+            },
+            {
+              "id": "tYBXWwAn7Cg",
+              "title": "Bugs",
+              "episode": "S6E7",
+              "emoji": "🔤",
+              "subtitle": "벌레들과 찾는 끝에 자음 둘 붙은 말"
+            },
+            {
+              "id": "km85A1i0tTk",
+              "title": "Stamp",
+              "episode": "S6E8",
+              "emoji": "🔤",
+              "subtitle": "str, spr처럼 세 자음이 붙는 낱말"
+            },
+            {
+              "id": "eaGa0-UBLRw",
+              "title": "Star",
+              "episode": "S6E9",
+              "emoji": "🔤",
+              "subtitle": "st로 열고 ar로 늘이는 star"
+            },
+            {
+              "id": "6JcNFkSrL8E",
+              "title": "Snail",
+              "episode": "S6E10",
+              "emoji": "🔤",
+              "subtitle": "sn과 ai가 만나는 느린 snail"
+            }
+          ]
+        },
+        {
+          "id": "phonics-blue",
+          "name": "파랑 · 장모음",
+          "emoji": "🔵",
+          "color": "#1E5BE6",
+          "videos": [
+            {
+              "id": "FwIGdcywGpw",
+              "title": "Why",
+              "episode": "S1E3",
+              "emoji": "🔤",
+              "subtitle": "끝의 y가 /아이/로 나는 why"
+            },
+            {
+              "id": "3lYoQ4eIOzM",
+              "title": "Glow",
+              "episode": "S1E4",
+              "emoji": "🔤",
+              "subtitle": "반짝이는 ow의 /오우/ 소리, glow"
+            },
+            {
+              "id": "Htz0n4v6ONM",
+              "title": "Fox",
+              "episode": "S1E11",
+              "emoji": "🔤",
+              "subtitle": "26글자가 다 나오는 여우 문장"
+            },
+            {
+              "id": "AnZcoQE4ErY",
+              "title": "Surprise",
+              "episode": "S1E12",
+              "emoji": "🔤",
+              "subtitle": "네 글자 a r p t로 trap, part 짓기"
+            },
+            {
+              "id": "ZYiJ6C-lRcE",
+              "title": "Bus",
+              "episode": "S1E13",
+              "emoji": "🔤",
+              "subtitle": "p, o, s, t를 섞어 stop과 spot 짓기"
+            },
+            {
+              "id": "jq304XrOM-Q",
+              "title": "Space",
+              "episode": "S1E14",
+              "emoji": "🔤",
+              "subtitle": "a c e p s를 섞으면 space와 cape"
+            },
+            {
+              "id": "CK1rt3jDtYs",
+              "title": "Hide",
+              "episode": "S1E15",
+              "emoji": "🔤",
+              "subtitle": "숨바꼭질 속 ide와 eek 끝소리"
+            },
+            {
+              "id": "LYQO5c_cpk4",
+              "title": "Jaybird",
+              "episode": "S1E16",
+              "emoji": "🔤",
+              "subtitle": "어치 새 jay처럼 j로 여는 낱말"
+            },
+            {
+              "id": "GJmI61ewciw",
+              "title": "Note",
+              "episode": "S1E17",
+              "emoji": "🔤",
+              "subtitle": "하나는 note, 여럿은 notes로 쓰기"
+            },
+            {
+              "id": "xOE4C0dztxE",
+              "title": "Magic",
+              "episode": "S1E18",
+              "emoji": "🔤",
+              "subtitle": "끝에 e를 붙여 cap을 cape로 바꾸기"
+            },
+            {
+              "id": "h54GX83UpaQ",
+              "title": "Key",
+              "episode": "S1E20",
+              "emoji": "🔤",
+              "subtitle": "철자는 달라도 같은 /k/, 열쇠 key"
+            },
+            {
+              "id": "oqM8CvPeRCk",
+              "title": "Alphalympics",
+              "episode": "S1E22",
+              "emoji": "🔤",
+              "subtitle": "모음 짝 ea와 oo 시합, tea와 door"
+            },
+            {
+              "id": "uQfrzDEYtmQ",
+              "title": "UFO",
+              "episode": "S1E23",
+              "emoji": "🔤",
+              "subtitle": "글자 이름대로 읽는 UFO와 r 모음"
+            },
+            {
+              "id": "SCb9YY2aN8Y",
+              "title": "Quiet",
+              "episode": "S1E24",
+              "emoji": "🔤",
+              "subtitle": "쉿! qu로 시작하는 quiet와 quack"
+            },
+            {
+              "id": "8rOxxbIzq2k",
+              "title": "Zzzzz",
+              "episode": "S1E26",
+              "emoji": "🔤",
+              "subtitle": "쿨쿨 z와 붕붕 zz, zoo와 buzz"
+            },
+            {
+              "id": "WYW3mwJ4KXE",
+              "title": "Alphabet",
+              "episode": "S4E5",
+              "emoji": "🔤",
+              "subtitle": "ph가 /f/로 나는 alphabet, wh까지"
+            },
+            {
+              "id": "xdrJbCtkx08",
+              "title": "Name",
+              "episode": "S4E6",
+              "emoji": "🔤",
+              "subtitle": "긴 a를 쓰는 세 방법 ay, ai, a_e"
+            },
+            {
+              "id": "opDa6Fzwmmo",
+              "title": "Sleep",
+              "episode": "S4E7",
+              "emoji": "🔤",
+              "subtitle": "긴 e를 쓰는 ee, ea, e_e 방법"
+            },
+            {
+              "id": "-tNREA4Zktw",
+              "title": "Mine",
+              "episode": "S4E8",
+              "emoji": "🔤",
+              "subtitle": "긴 i 소리를 쓰는 igh, ie, i_e"
+            },
+            {
+              "id": "AihT81UvKxk",
+              "title": "Home",
+              "episode": "S4E9",
+              "emoji": "🔤",
+              "subtitle": "긴 o를 만드는 oa, oe, o_e"
+            },
+            {
+              "id": "OzVTFDWEzfQ",
+              "title": "Blue",
+              "episode": "S4E10",
+              "emoji": "🔤",
+              "subtitle": "긴 u 소리 ue, ew, u_e 찾기"
+            },
+            {
+              "id": "ordLOAVoqmY",
+              "title": "Outlaw",
+              "episode": "S4E11",
+              "emoji": "🔤",
+              "subtitle": "aw와 au가 함께 내는 /오-/ 소리"
+            },
+            {
+              "id": "iNW1keX1ENM",
+              "title": "Birthday Girl",
+              "episode": "S4E12",
+              "emoji": "🔤",
+              "subtitle": "생일 맞은 girl에서 듣는 ir 소리"
+            },
+            {
+              "id": "8EdbqHiezqE",
+              "title": "Cowboy",
+              "episode": "S4E13",
+              "emoji": "🔤",
+              "subtitle": "카우보이와 익히는 oy, ow 겹모음 소리"
+            },
+            {
+              "id": "-G4j2-NzIp4",
+              "title": "Snow",
+              "episode": "S6E5",
+              "emoji": "🔤",
+              "subtitle": "눈 내리는 날 길게 /오우/ 하는 ow"
+            },
+            {
+              "id": "VUvjYw8IN8k",
+              "title": "Who Can Help?",
+              "episode": "S6E13",
+              "emoji": "🔤",
+              "subtitle": "혼자 선 e가 길어지는 he, she, we"
+            },
+            {
+              "id": "fnvM4Y04sSQ",
+              "title": "P's Perfect Painting",
+              "episode": "S6E14",
+              "emoji": "🔤",
+              "subtitle": "자주 쓰는 the와 제목 첫 글자 대문자"
+            },
+            {
+              "id": "GMKo3rq9ync",
+              "title": "I Am I!",
+              "episode": "S6E15",
+              "emoji": "🔤",
+              "subtitle": "나를 뜻하는 I로 짧은 문장 읽기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "수 세기",
+      "description": "하나부터 차근차근 세고 더하고 나눠요",
+      "bundles": [
+        {
+          "id": "numbers-s1",
+          "name": "시즌 1",
+          "emoji": "1️⃣",
+          "color": "#E8322D",
+          "videos": [
+            {
+              "id": "jVeYnCehEFE",
+              "title": "One",
+              "episode": "S1 1화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "pAFkRHIz-og",
+              "pairTitle": "일",
+              "subtitle": "하나를 알고 하나씩 짝지어 보기"
+            },
+            {
+              "id": "bz2oWyDjgbc",
+              "title": "Another One",
+              "episode": "S1 2화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "LxAah6cxGc4",
+              "pairTitle": "다른 하나",
+              "subtitle": "하나에 하나를 더하면 생기는 일"
+            },
+            {
+              "id": "aJzaNIpbUZo",
+              "title": "Two",
+              "episode": "S1 3화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "25fB8RCtVAk",
+              "pairTitle": "이",
+              "subtitle": "둘이 모여 한 쌍이 되는 숫자 2"
+            },
+            {
+              "id": "6-duQqX5ECs",
+              "title": "Three",
+              "episode": "S1 4화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "DZmk-G22Yt0",
+              "pairTitle": "삼",
+              "subtitle": "세 개로 세모를 만드는 숫자 3"
+            },
+            {
+              "id": "IqkSbJqplpg",
+              "title": "One, Two, Three!",
+              "episode": "S1 5화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "9m1UmHtQaw4",
+              "pairTitle": "일, 이, 삼!",
+              "subtitle": "첫째 둘째 셋째, 순서와 크기 비교"
+            },
+            {
+              "id": "Wafr8h4EsXg",
+              "title": "Four",
+              "episode": "S1 6화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "dkKmnub8GlU",
+              "pairTitle": "사",
+              "subtitle": "네 개로 네모를 짓는 숫자 4"
+            },
+            {
+              "id": "-U1wQ0gu0Es",
+              "title": "Five",
+              "episode": "S1 7화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "6QNilvPES6Y",
+              "pairTitle": "오",
+              "subtitle": "한 손 손가락만큼, 숫자 5"
+            },
+            {
+              "id": "yKAttOvgWJc",
+              "title": "Three Little Pigs",
+              "episode": "S1 8화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "Y4ehi0wzmMU",
+              "pairTitle": "아기돼지 세마리",
+              "subtitle": "하나씩 모여 여럿이 되는 수"
+            },
+            {
+              "id": "37E3wokWzlU",
+              "title": "Off We Go",
+              "episode": "S1 9화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "ZWWC2p4Nfy0",
+              "pairTitle": "우리가 간다",
+              "subtitle": "1부터 5까지 차례로 줄 서기"
+            },
+            {
+              "id": "Ap5kgJ-bpEQ",
+              "title": "How to Count",
+              "episode": "S1 10화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "SppozoGVTDE",
+              "pairTitle": "어떻게 셀까요",
+              "subtitle": "빠짐없이 한 번씩, 수 세는 방법"
+            },
+            {
+              "id": "M2u_jRHYUh0",
+              "title": "Stampolines",
+              "episode": "S1 11화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "g3y1-CsKit0",
+              "pairTitle": "스탬폴린",
+              "subtitle": "모양은 달라도 개수는 같은 수"
+            },
+            {
+              "id": "fJ6k7vkV99o",
+              "title": "The Whole of Me",
+              "episode": "S1 12화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "6jDH3KRafXE",
+              "pairTitle": "나의 모든 것",
+              "subtitle": "작은 부분이 모여 이루는 하나의 전체"
+            },
+            {
+              "id": "Vyx-oZpnPhY",
+              "title": "The Terrible Twos",
+              "episode": "S1 13화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "pc-rj9aIM_8",
+              "pairTitle": "끔찍한 숫자 이(2)들",
+              "subtitle": "둘씩 묶어 세어 보는 연습"
+            },
+            {
+              "id": "Kv_j6gpD5Jo",
+              "title": "Holes",
+              "episode": "S1 14화",
+              "emoji": "1️⃣",
+              "durationSec": 305,
+              "pairId": "PuG9ytTj-Jw",
+              "pairTitle": "구멍",
+              "subtitle": "구멍에 빠지면 줄어드는 수, 빼기"
+            },
+            {
+              "id": "CpigNf3ZJHE",
+              "title": "Hide and Seek",
+              "episode": "S1 15화",
+              "emoji": "1️⃣",
+              "durationSec": 686,
+              "pairId": "bGb_rMxdlro",
+              "pairTitle": "숨은 그림 찾기",
+              "subtitle": "숨은 블록 찾으며 5 만드는 짝"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s2",
+          "name": "시즌 2",
+          "emoji": "2️⃣",
+          "color": "#F28C28",
+          "videos": [
+            {
+              "id": "X5Q18PkuLtM",
+              "title": "Six",
+              "episode": "S2 1화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "rB8oDH93u7g",
+              "pairTitle": "육",
+              "subtitle": "다섯에 하나를 더한 여섯"
+            },
+            {
+              "id": "NVJ7uXC1tYU",
+              "title": "Seven",
+              "episode": "S2 2화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "GDk8GeKCRAg",
+              "pairTitle": "칠",
+              "subtitle": "무지개 일곱 색으로 세는 숫자 7"
+            },
+            {
+              "id": "4DBmy4sOFis",
+              "title": "Eight",
+              "episode": "S2 3화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "ftVpV0MGbfA",
+              "pairTitle": "여덟",
+              "subtitle": "문어 다리 여덟, 동작 횟수 세기"
+            },
+            {
+              "id": "5hGh6rqH4U4",
+              "title": "Nine",
+              "episode": "S2 4화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "vtV0hYGj1rE",
+              "pairTitle": "구",
+              "subtitle": "셋씩 세 줄로 만드는 네모 9"
+            },
+            {
+              "id": "ZNNUo-uQYwQ",
+              "title": "Ten",
+              "episode": "S2 5화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "GMCFU8pP24I",
+              "pairTitle": "십",
+              "subtitle": "열 개가 모여 한 묶음이 되는 10"
+            },
+            {
+              "id": "S7CYJ9US2fk",
+              "title": "Just Add One",
+              "episode": "S2 6화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "B8NqSD43Xl8",
+              "pairTitle": "일을 더하기",
+              "subtitle": "하나 더해서 만나는 다음 수"
+            },
+            {
+              "id": "O7VKyV43SBE",
+              "title": "Blast Off",
+              "episode": "S2 7화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "iF1bCWA5P20",
+              "pairTitle": "날아가다!",
+              "subtitle": "더해서 10이 되는 짝 찾아 발사"
+            },
+            {
+              "id": "BO_pxx340iU",
+              "title": "Counting Sheep",
+              "episode": "S2 8화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "-cL2Bv65EGk",
+              "pairTitle": "양을 세다",
+              "subtitle": "양들을 똑같은 수로 나눠 보기"
+            },
+            {
+              "id": "CD4oKyOuINc",
+              "title": "Double Trouble",
+              "episode": "S2 9화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "AvISIYJW7Q4",
+              "pairTitle": "골칫덩어리",
+              "subtitle": "똑같이 하나 더, 두 배와 절반"
+            },
+            {
+              "id": "QR1_9b4H_Y0",
+              "title": "The Three Threes",
+              "episode": "S2 10화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "c5LMSgwJoME",
+              "pairTitle": "숫자 삼이 세 셋트",
+              "subtitle": "3이 세 번 모여 만든 9"
+            },
+            {
+              "id": "UdmHrpyZfQc",
+              "title": "Odds and Evens",
+              "episode": "S2 11화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "35Gi62TUYNU",
+              "pairTitle": "홀수와 짝수",
+              "subtitle": "짝이 맞는 수, 하나 남는 수"
+            },
+            {
+              "id": "3pbyveE9C-4",
+              "title": "Fluffies",
+              "episode": "S2 12화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "iRLETRI1UH0",
+              "pairTitle": "푹신푹신",
+              "subtitle": "구름 속에서 7을 이루는 두 수"
+            },
+            {
+              "id": "SkuHXMiJwFw",
+              "title": "The Two Tree",
+              "episode": "S2 13화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "PbKj7EpPfxA",
+              "pairTitle": "나무 두 그루",
+              "subtitle": "열매를 두 개씩 덜어 내기"
+            },
+            {
+              "id": "cxGC0G273KI",
+              "title": "Numberblock Castle",
+              "episode": "S2 14화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "AjQZcLsFsq4",
+              "pairTitle": "넘버블록 성",
+              "subtitle": "4, 3, 2, 1을 쌓아 만드는 성"
+            },
+            {
+              "id": "ynTb9shdZLY",
+              "title": "Ten Green Bottles",
+              "episode": "S2 15화",
+              "emoji": "2️⃣",
+              "durationSec": 305,
+              "pairId": "bXJRDY3ofPY",
+              "pairTitle": "열 녹색 병",
+              "subtitle": "열 병에서 하나씩 줄어드는 수"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s3",
+          "name": "시즌 3",
+          "emoji": "3️⃣",
+          "color": "#E0A800",
+          "videos": [
+            {
+              "id": "7vCI6Dq_piw",
+              "title": "Once Upon a Time",
+              "episode": "S3-A 1화",
+              "emoji": "3️⃣",
+              "durationSec": 291,
+              "pairId": "1kRatsxxqR0",
+              "pairTitle": "옛날 옛적에",
+              "subtitle": "옛이야기 속 블록 하나하나 세기"
+            },
+            {
+              "id": "Ii3E4zLEAuU",
+              "title": "Blockzilla",
+              "episode": "S3-A 2화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "tc4RwqnprKY",
+              "pairTitle": "블록질라",
+              "subtitle": "더 큰 수, 더 작은 수, 같은 수"
+            },
+            {
+              "id": "9UxTopiIUvM",
+              "title": "The Numberblocks Express",
+              "episode": "S3-A 3화",
+              "emoji": "3️⃣",
+              "durationSec": 276,
+              "pairId": "7qge2F67YRs",
+              "pairTitle": "넘버블록스 급행",
+              "subtitle": "칸 하나 붙이면 +1, 떼면 −1"
+            },
+            {
+              "id": "NtQplzWz-uQ",
+              "title": "Fruit Salad",
+              "episode": "S3-A 4화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "gL3MrWQ7RJk",
+              "pairTitle": "과일 샐러드",
+              "subtitle": "과일을 나눴다 모으는 수 가르기"
+            },
+            {
+              "id": "LtmpIjNnqsI",
+              "title": "Zero",
+              "episode": "S3-A 5화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "34P-sdlOv38",
+              "pairTitle": "영",
+              "subtitle": "아무것도 없음을 뜻하는 숫자 0"
+            },
+            {
+              "id": "uAuf7o4AkeA",
+              "title": "Now We Are Six to Ten",
+              "episode": "S3-A 6화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "tzJ_jSLlr58",
+              "pairTitle": "이제 우린 육에서 십이에요",
+              "subtitle": "여섯부터 열까지 블록 모양 살피기"
+            },
+            {
+              "id": "fng05gvXr9c",
+              "title": "Numberblobs",
+              "episode": "S3-A 7화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "jMJJBRdMnq4",
+              "pairTitle": "넘버블롭스",
+              "subtitle": "마지막에 센 수가 전체 개수"
+            },
+            {
+              "id": "iFvpDuT6d9I",
+              "title": "Building Blocks",
+              "episode": "S3-A 8화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "CuRh5EnwCcM",
+              "pairTitle": "블록 쌓기",
+              "subtitle": "같은 수로 여러 모양 쌓아 보기"
+            },
+            {
+              "id": "AAvZQsppeLE",
+              "title": "Peekaboo!",
+              "episode": "S3-A 9화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "_hwAARV2rL4",
+              "pairTitle": "까꿍!",
+              "subtitle": "숨었다 나타난 두 수의 크기 비교"
+            },
+            {
+              "id": "4SjwsbAtCUs",
+              "title": "Hiccups",
+              "episode": "S3-A 10화",
+              "emoji": "3️⃣",
+              "durationSec": 297,
+              "pairId": "RVARiYHavMM",
+              "pairTitle": "딸국질",
+              "subtitle": "딸꾹! 9가 두 수로 나뉘는 방법"
+            },
+            {
+              "id": "s62mQ0oh9Lc",
+              "title": "What's the Difference?",
+              "episode": "S3-A 11화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "bJbqDDoyw-Q",
+              "pairTitle": "차이점이 무엇인가요?",
+              "subtitle": "두 수가 얼마나 차이 나는지 알기"
+            },
+            {
+              "id": "rB9Xs0DR864",
+              "title": "Numberblock Rally",
+              "episode": "S3-A 12화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "ZEHuKg_59wg",
+              "pairTitle": "넘버블록 경기",
+              "subtitle": "경주하며 하나씩 덜어 내는 셈"
+            },
+            {
+              "id": "U2-H59OQFnw",
+              "title": "Five and Friends",
+              "episode": "S3-A 13화",
+              "emoji": "3️⃣",
+              "durationSec": 269,
+              "pairId": "ful1uGsj-DY",
+              "pairTitle": "숫자 오 (5) 와 친구들",
+              "subtitle": "5에 몇을 더하면 6부터 10까지"
+            },
+            {
+              "id": "h2NPrOkJ6hc",
+              "title": "Octoblock to the Rescue!",
+              "episode": "S3-A 14화",
+              "emoji": "3️⃣",
+              "durationSec": 267,
+              "pairId": "0c8Uf0osMjE",
+              "pairTitle": "옥토블록을 구하기!",
+              "subtitle": "여러 방법으로 8을 맞춰 구하기"
+            },
+            {
+              "id": "EpjRgPu1L2A",
+              "title": "Ten Again",
+              "episode": "S3-A 15화",
+              "emoji": "3️⃣",
+              "durationSec": 273,
+              "pairId": "SfI9baLtPBQ",
+              "pairTitle": "다시 숫자 십",
+              "subtitle": "합쳐서 10이 되는 수 짝꿍"
+            },
+            {
+              "id": "YA9sJ1RIdu0",
+              "title": "Flatland",
+              "episode": "S3-B 1화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "tojLLcA4Y4g",
+              "pairTitle": "평평한 땅",
+              "subtitle": "납작한 도형의 변과 꼭짓점 세기"
+            },
+            {
+              "id": "Ev0TbEfkMCU",
+              "title": "Pattern Palace",
+              "episode": "S3-B 2화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "e1w6D44bRrI",
+              "pairTitle": "패턴 궁전",
+              "subtitle": "되풀이되는 규칙 찾아보기"
+            },
+            {
+              "id": "07TDOl3Won8",
+              "title": "The Legend of Big Tum",
+              "episode": "S3-B 3화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "STZwTXuyp3k",
+              "pairTitle": "통통한 배의 전설",
+              "subtitle": "수 줄에서 빠진 수 찾아내기"
+            },
+            {
+              "id": "D-w6zSAAlkk",
+              "title": "Mirror, Mirror",
+              "episode": "S3-B 4화",
+              "emoji": "3️⃣",
+              "durationSec": 274,
+              "pairId": "9DBuuV-8WNk",
+              "pairTitle": "거울아 거울아",
+              "subtitle": "같은 묶음 여러 개의 전체 개수"
+            },
+            {
+              "id": "V13dlKqRL1E",
+              "title": "The Wrong Number",
+              "episode": "S3-B 5화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "b9UDvummvhM",
+              "pairTitle": "잘못된 숫자",
+              "subtitle": "단서로 짝수 범인 추리하기"
+            },
+            {
+              "id": "TozH7t_cymc",
+              "title": "Eleven",
+              "episode": "S3-B 6화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "UTy2xS2Ew3I",
+              "pairTitle": "십일",
+              "subtitle": "열에 하나 더하면 11"
+            },
+            {
+              "id": "TnCmfAdbWv8",
+              "title": "Twelve",
+              "episode": "S3-B 7화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "ifzvnFf79HE",
+              "pairTitle": "십이",
+              "subtitle": "3줄 4칸으로 늘어선 12"
+            },
+            {
+              "id": "PcCXuqmvfWM",
+              "title": "The Way of the Rectangle",
+              "episode": "S3-B 8화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "ml7F5mdTPaM",
+              "pairTitle": "직사각형의 길",
+              "subtitle": "가로와 세로로 직사각형 수 만들기"
+            },
+            {
+              "id": "XnMPuxDtrbE",
+              "title": "Ride the Rays",
+              "episode": "S3-B 9화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "Y0uVons62cw",
+              "pairTitle": "광선을 타고",
+              "subtitle": "짝수 길과 홀수 길 나눠 타기"
+            },
+            {
+              "id": "myDRecuhRgk",
+              "title": "Block Star",
+              "episode": "S3-B 10화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "t4lmk1OA-3A",
+              "pairTitle": "블록 스타",
+              "subtitle": "상황에 따라 묶는 방법 바꾸기"
+            },
+            {
+              "id": "oaKd5Q9HLIQ",
+              "title": "Thirteen",
+              "episode": "S3-B 11화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "Uuf06lr1_uc",
+              "pairTitle": "십삼",
+              "subtitle": "열 묶음에 셋을 더한 13"
+            },
+            {
+              "id": "2lrGQZlhWQ8",
+              "title": "Fourteen",
+              "episode": "S3-B 12화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "Imgx1XVlj-0",
+              "pairTitle": "십사",
+              "subtitle": "7을 두 번, 두 배로 만든 14"
+            },
+            {
+              "id": "mkm2CYsmKLA",
+              "title": "Fifteen",
+              "episode": "S3-B 13화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "AyXemqyrLC4",
+              "pairTitle": "십오",
+              "subtitle": "1부터 5까지 쌓아 올린 계단 15"
+            },
+            {
+              "id": "D-s8jUTJEQM",
+              "title": "Tween Scenes",
+              "episode": "S3-B 14화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "PjpUzmkdTSs",
+              "pairTitle": "어린이 쇼",
+              "subtitle": "11부터 15까지 열과 몇 개"
+            },
+            {
+              "id": "Y4Fx3z5fAWY",
+              "title": "Step Squads",
+              "episode": "S3-B 15화",
+              "emoji": "3️⃣",
+              "durationSec": 275,
+              "pairId": "18sKpaPNDeo",
+              "pairTitle": "배수 그룹",
+              "subtitle": "한 칸씩 높아지는 계단 모양 수"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s4",
+          "name": "시즌 4",
+          "emoji": "4️⃣",
+          "color": "#2EA043",
+          "videos": [
+            {
+              "id": "htIDl0UVTyI",
+              "title": "Fifteen's Minute of Fame",
+              "episode": "S4-A 1화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "Q4OVAUb4MZE",
+              "pairTitle": "명예의 전당의 15분",
+              "subtitle": "15를 셋씩 묶어 뛰어 세기"
+            },
+            {
+              "id": "9VzObS9dKO4",
+              "title": "On Your Head",
+              "episode": "S4-A 2화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "JylFPFQ-OBU",
+              "pairTitle": "머리 위에",
+              "subtitle": "머리 위 열 묶음과 남은 낱개"
+            },
+            {
+              "id": "pjdfEsqbPi0",
+              "title": "Ten's Place",
+              "episode": "S4-A 3화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "3s0nrRiGrxQ",
+              "pairTitle": "숫자 십의 장소",
+              "subtitle": "11~15에서 몇을 빼면 다시 10"
+            },
+            {
+              "id": "Zk7Z7jCWun8",
+              "title": "Balancing Bridge",
+              "episode": "S4-A 4화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "jowIFl-upeU",
+              "pairTitle": "다리 균형 맞추기",
+              "subtitle": "양쪽이 같으면 =, 수의 균형"
+            },
+            {
+              "id": "01ATSHhxwCc",
+              "title": "Sixteen",
+              "episode": "S4-A 5화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "WgHEhB1Qpbg",
+              "pairTitle": "십육",
+              "subtitle": "4×4 정사각형, 절반과 두 배"
+            },
+            {
+              "id": "uIxIj_HTWKQ",
+              "title": "Square Club",
+              "episode": "S4-A 6화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "MuSKU-jSKWc",
+              "pairTitle": "정사각형 클럽",
+              "subtitle": "1, 4, 9, 16 네모가 되는 수"
+            },
+            {
+              "id": "sCp3G8mfc5k",
+              "title": "Seventeen",
+              "episode": "S4-A 7화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "O20nKsASZhs",
+              "pairTitle": "십칠",
+              "subtitle": "열과 일곱이 모여 17"
+            },
+            {
+              "id": "pcjFevMr3ls",
+              "title": "Eighteen",
+              "episode": "S4-A 8화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "BLirymwywF4",
+              "pairTitle": "열여덟",
+              "subtitle": "18을 여러 줄로 늘어놓기"
+            },
+            {
+              "id": "cNbQohS_Rek",
+              "title": "Loop the Loop",
+              "episode": "S4-A 9화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "4G8h31lHsb4",
+              "pairTitle": "동그란 고리",
+              "subtitle": "2줄, 3줄, 6줄로 바꿔 서기"
+            },
+            {
+              "id": "uve3OfKdUrk",
+              "title": "Nineteen",
+              "episode": "S4-A 10화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "CBzvBuEmqCI",
+              "pairTitle": "십구",
+              "subtitle": "20에서 하나 모자란 19"
+            },
+            {
+              "id": "UCg3H-2nWAw",
+              "title": "Twenty",
+              "episode": "S4-A 11화",
+              "emoji": "4️⃣",
+              "durationSec": 274,
+              "pairId": "GIjB2P7c6Jg",
+              "pairTitle": "이십",
+              "subtitle": "열이 두 번 모인 20"
+            },
+            {
+              "id": "X3hp_qHntKU",
+              "title": "Tall Stories",
+              "episode": "S4-A 12화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "3dg-X7mTTjA",
+              "pairTitle": "키다리 스토리",
+              "subtitle": "16부터 20까지 큰 수 이야기"
+            },
+            {
+              "id": "PKdQ-lXP1t4",
+              "title": "Flights of Fancy",
+              "episode": "S4-A 13화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "KCtN2020aqg",
+              "pairTitle": "멋진 비행",
+              "subtitle": "열 하나 묶음에 몇 개 더 붙이기"
+            },
+            {
+              "id": "RGpQcce_fMg",
+              "title": "I Can Count to Twenty",
+              "episode": "S4-A 14화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "9JiMOsAL0dU",
+              "pairTitle": "숫자 이십까지 셀 수 있어요",
+              "subtitle": "20까지 차근차근 뛰어 세기"
+            },
+            {
+              "id": "RrPFbVGmZVc",
+              "title": "Heist",
+              "episode": "S4-A 15화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "e4m6bO33Ryc",
+              "pairTitle": "강도",
+              "subtitle": "작전마다 알맞게 수 묶기"
+            },
+            {
+              "id": "THXnPIh0BO0",
+              "title": "Sign of the Times",
+              "episode": "S4-B 1화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "RzSyoTaKrHk",
+              "pairTitle": "한 시대의 사인",
+              "subtitle": "더하기를 거듭하면 곱하기, × 기호 등장"
+            },
+            {
+              "id": "QwS03fGnC9w",
+              "title": "Fun Times Fair",
+              "episode": "S4-B 2화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "OfZqOFgnTVI",
+              "pairTitle": "즐거운 시간 박람회",
+              "subtitle": "놀이기구마다 몇씩 몇 번, 곱셈"
+            },
+            {
+              "id": "xC278dXKJzU",
+              "title": "The Lair of Shares",
+              "episode": "S4-B 3화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "JVgWWLmm0tU",
+              "pairTitle": "공유의 소굴",
+              "subtitle": "모두에게 공평하게 나눠 주기"
+            },
+            {
+              "id": "ffsavp8dCzg",
+              "title": "Terrible Twosday",
+              "episode": "S4-B 4화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "lkjz59VwpLI",
+              "pairTitle": "모든 게 두개로 나뉘는 끔찍한 날",
+              "subtitle": "둘씩 나누고 남는 하나, 나머지"
+            },
+            {
+              "id": "P_ud9J7otBQ",
+              "title": "Divide and Drive",
+              "episode": "S4-B 5화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "mLqmCe-8xJU",
+              "pairTitle": "나누기와 운전하기",
+              "subtitle": "÷ 기호로 곱셈을 거꾸로 하기"
+            },
+            {
+              "id": "4oNk81e-C6k",
+              "title": "Twenty-One and On",
+              "episode": "S4-B 6화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "SN6wsiy84Uo",
+              "pairTitle": "이십일 그리고...",
+              "subtitle": "21부터 이어지는 20과 몇"
+            },
+            {
+              "id": "SvHpxVvFffI",
+              "title": "Square Hunt",
+              "episode": "S4-B 7화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "o3xqJKFNzsI",
+              "pairTitle": "정사각형 사냥을 시작합니다",
+              "subtitle": "다섯 줄 다섯 칸, 네모 수 25"
+            },
+            {
+              "id": "SSDmEwK9ZOI",
+              "title": "Thirty's Big Top",
+              "episode": "S4-B 8화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "DZYjSFldUno",
+              "pairTitle": "숫자 삼십의 서커스 텐트",
+              "subtitle": "열 묶음 셋, 넷, 다섯으로 30~50"
+            },
+            {
+              "id": "0PqBotiDjG8",
+              "title": "Land of the Giants",
+              "episode": "S4-B 9화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "Fz1veijxTGg",
+              "pairTitle": "거인의 땅",
+              "subtitle": "열 배로 커지는 수, 10씩 세기"
+            },
+            {
+              "id": "UjdzGWkK9pI",
+              "title": "Fifty",
+              "episode": "S4-B 10화",
+              "emoji": "4️⃣",
+              "durationSec": 273,
+              "pairId": "rJZjuWDGpYI",
+              "pairTitle": "오십",
+              "subtitle": "5씩 껑충 뛰어 50까지"
+            },
+            {
+              "id": "unPI3HruIWE",
+              "title": "Sixty's High Score",
+              "episode": "S4-B 11화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "btuU_OMU1gw",
+              "pairTitle": "육십의 높은 점수",
+              "subtitle": "60부터 90까지 열 묶음 점수판"
+            },
+            {
+              "id": "5fbwPTt_f4g",
+              "title": "The Big One",
+              "episode": "S4-B 12화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "9lqxS2sFqIA",
+              "pairTitle": "커다란 일",
+              "subtitle": "1부터 100까지 쭉 세어 가기"
+            },
+            {
+              "id": "eHFsbZU2xlg",
+              "title": "One Hundred",
+              "episode": "S4-B 13화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "zbtSht-f6ZU",
+              "pairTitle": "백",
+              "subtitle": "열 묶음이 열 개면 100"
+            },
+            {
+              "id": "GQ6B7hwlJio",
+              "title": "One Thousand and One",
+              "episode": "S4-B 14화",
+              "emoji": "4️⃣",
+              "durationSec": 275,
+              "pairId": "bMi688lXtZI",
+              "pairTitle": "백 일",
+              "subtitle": "백 묶음 열 개로 1000, 끝없는 수"
+            },
+            {
+              "id": "geJRaOulcqU",
+              "title": "More to Explore",
+              "episode": "S4-B 15화",
+              "emoji": "4️⃣",
+              "durationSec": 274,
+              "pairId": "rA8MZgMr_P4",
+              "pairTitle": "더 알아보기",
+              "subtitle": "36, 49, 64 더 큰 네모 수 탐험"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s5",
+          "name": "시즌 5",
+          "emoji": "5️⃣",
+          "color": "#1FA6D9",
+          "videos": [
+            {
+              "id": "hnMkf3ZtFfU",
+              "title": "Your Turn",
+              "episode": "S5-A 1화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "NvzZw9jbsR8",
+              "pairTitle": "차이점",
+              "subtitle": "수직선 위에서 차례대로 서기"
+            },
+            {
+              "id": "qZwzZiX8K4s",
+              "title": "100 Ways to Leave the Planet",
+              "episode": "S5-A 2화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "sLjgd6JaFGs",
+              "pairTitle": "지구를 떠나는 100가지 방법",
+              "subtitle": "100을 여러 방법으로 나눠 보기"
+            },
+            {
+              "id": "OWgRsFw0iU0",
+              "title": "Now You See Us",
+              "episode": "S5-A 3화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "DNkmrlsHVNI",
+              "pairTitle": "이제 우리가 보이나요",
+              "subtitle": "0부터 9까지 숫자 모양 써 보기"
+            },
+            {
+              "id": "gVdjzgkBrXg",
+              "title": "Ten's Top Ten",
+              "episode": "S5-A 4화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "-Nw1lOqncwM",
+              "pairTitle": "10대 톱 10",
+              "subtitle": "합이 10이 되는 수 짝 순위"
+            },
+            {
+              "id": "rM7u9b_nPX0",
+              "title": "What's My Number?",
+              "episode": "S5-A 5화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "ROmAi-if1j4",
+              "pairTitle": "내 전화번호는 뭐야?",
+              "subtitle": "세지 않고 한눈에 알아보는 수"
+            },
+            {
+              "id": "0wrG2g2RnLQ",
+              "title": "Fun Times One Times Table",
+              "episode": "S5-A 6화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "iPKXqqQ-Nps",
+              "pairTitle": "펀타임스원타임스테이블",
+              "subtitle": "무엇이든 1을 곱하면 그대로인 1단"
+            },
+            {
+              "id": "V9ZNvN7PedY",
+              "title": "The Many Friends of Twenty",
+              "episode": "S5-A 7화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "YjBlRaOxtLE",
+              "pairTitle": "스무 살의 많은 친구들",
+              "subtitle": "더해서 20이 되는 두 수 친구"
+            },
+            {
+              "id": "ZORpBQ5CSTo",
+              "title": "Ten Vaulting",
+              "episode": "S5-A 8화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "XD_N4DpPqcc",
+              "pairTitle": "10개의 높이뛰기",
+              "subtitle": "먼저 10을 채우고 넘어가는 덧셈"
+            },
+            {
+              "id": "AXU_r2WM59Q",
+              "title": "Twoland",
+              "episode": "S5-A 9화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "zUxVfgfdtJc",
+              "pairTitle": "두 나라",
+              "subtitle": "2씩 늘어나는 짝수 나라"
+            },
+            {
+              "id": "MYVeEh4ncuE",
+              "title": "Two Times Shoe Shop",
+              "episode": "S5-A 10화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "2hEoq-WRo4I",
+              "pairTitle": "투타임스슈샵",
+              "subtitle": "신발 두 짝씩 세는 2단 곱셈"
+            },
+            {
+              "id": "Bcu8k_8LTxY",
+              "title": "Odd Side Story",
+              "episode": "S5-A 11화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "eLxIlE31bTU",
+              "pairTitle": "이상한 이야기",
+              "subtitle": "홀수끼리 더한 합의 비밀"
+            },
+            {
+              "id": "WYDFwDlopOY",
+              "title": "How Rectangly!",
+              "episode": "S5-A 12화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "D4z2hLigi9U",
+              "pairTitle": "얼마나 직설적으로",
+              "subtitle": "23과 24, 직사각형이 되는 수"
+            },
+            {
+              "id": "NjlYk5262IA",
+              "title": "Rectangle Racers",
+              "episode": "S5-A 13화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "ZQ351JjI9ks",
+              "pairTitle": "직사각형 레이서",
+              "subtitle": "같은 수로 만드는 여러 직사각형"
+            },
+            {
+              "id": "b8qe06QXi1Q",
+              "title": "The Team Factor",
+              "episode": "S5-A 14화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "qJvS5uGJTYU",
+              "pairTitle": "팀 요인",
+              "subtitle": "나누어떨어지는 약수와 소수 찾기"
+            },
+            {
+              "id": "3XsXG6ynq00",
+              "title": "Hidden Talents",
+              "episode": "S5-A 15화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "S6x78aNfUiI",
+              "pairTitle": "숨겨진 재능",
+              "subtitle": "13이 두 번 숨어 있는 26"
+            },
+            {
+              "id": "r7emwN5bszA",
+              "title": "Making Patterns",
+              "episode": "S5-B 1화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "YNOhn1dDqvY",
+              "pairTitle": "패턴 만들기",
+              "subtitle": "27과 28로 만드는 수 무늬"
+            },
+            {
+              "id": "lfAd7eFFbsI",
+              "title": "Now in 3D",
+              "episode": "S5-B 2화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "IIhjUGjfLws",
+              "pairTitle": "이제 3D로",
+              "subtitle": "블록을 쌓은 정육면체 8과 27"
+            },
+            {
+              "id": "-KFdq63cVVo",
+              "title": "Club Picnic",
+              "episode": "S5-B 3화",
+              "emoji": "5️⃣",
+              "durationSec": 273,
+              "pairId": "_2qdD61AxSg",
+              "pairTitle": "클럽 피크닉",
+              "subtitle": "29와 함께 수를 기준대로 나누기"
+            },
+            {
+              "id": "YMkghWylWkY",
+              "title": "Too Many Threes",
+              "episode": "S5-B 4화",
+              "emoji": "5️⃣",
+              "durationSec": 273,
+              "pairId": "RwWXQBrm-ww",
+              "pairTitle": "둘 많은 셋",
+              "subtitle": "3씩 커지는 수, 3의 배수"
+            },
+            {
+              "id": "O7ksWrvSn5k",
+              "title": "Circus of Threes",
+              "episode": "S5-B 5화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "8vfj0Qz8sgU",
+              "pairTitle": "3인조 서커스",
+              "subtitle": "서커스로 외우는 3단 곱셈"
+            },
+            {
+              "id": "CqNt4_hnLmg",
+              "title": "Figure It Out",
+              "episode": "S5-B 6화",
+              "emoji": "5️⃣",
+              "durationSec": 273,
+              "pairId": "6N3Xowh7ER0",
+              "pairTitle": "알아내세요",
+              "subtitle": "31, 32를 여섯 단계로 탐구하기"
+            },
+            {
+              "id": "BdS2nD95PbM",
+              "title": "Snow Day Doubles",
+              "episode": "S5-B 7화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "kZNhA7FAhGo",
+              "pairTitle": "스노우 데이 더블스",
+              "subtitle": "두 배에 또 두 배, 32까지"
+            },
+            {
+              "id": "Z-0G5xP_aR4",
+              "title": "Steps Versus Squares",
+              "episode": "S5-B 8화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "yXc-N1F9tnY",
+              "pairTitle": "계단 대 정사각형",
+              "subtitle": "계단 수이자 네모 수인 36"
+            },
+            {
+              "id": "pgDEUlQ4J2Q",
+              "title": "Puzzle Square",
+              "episode": "S5-B 9화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "i9cBfUx7N78",
+              "pairTitle": "퍼즐 광장",
+              "subtitle": "조각을 돌리고 뒤집어 맞추기"
+            },
+            {
+              "id": "L8pXlMXbLBo",
+              "title": "Four on the Floor",
+              "episode": "S5-B 10화",
+              "emoji": "5️⃣",
+              "durationSec": 273,
+              "pairId": "qIxeEO29fUM",
+              "pairTitle": "바닥에 4개",
+              "subtitle": "춤추며 익히는 4단 곱셈"
+            },
+            {
+              "id": "jEC-xeM4gio",
+              "title": "Sky High Fives",
+              "episode": "S5-B 11화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "AiMVQ0SRofs",
+              "pairTitle": "스카이 하이파이브",
+              "subtitle": "높이 쌓아 가는 5단 곱셈"
+            },
+            {
+              "id": "ZoSlJaVaeDI",
+              "title": "One Giant Step Squad",
+              "episode": "S5-B 12화",
+              "emoji": "5️⃣",
+              "durationSec": 273,
+              "pairId": "qTX-VbqE5Lw",
+              "pairTitle": "원 자이언트 스텝 스쿼드",
+              "subtitle": "1부터 10까지 더한 큰 계단 55"
+            },
+            {
+              "id": "DFXx5nVIz_w",
+              "title": "Square on the Moon",
+              "episode": "S5-B 13화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "f3E8xdhNN2o",
+              "pairTitle": "달의 광장",
+              "subtitle": "49, 64, 81 더 큰 네모 수"
+            },
+            {
+              "id": "mtcTEOWcPTA",
+              "title": "Heroes With Zeroes",
+              "episode": "S5-B 14화",
+              "emoji": "5️⃣",
+              "durationSec": 275,
+              "pairId": "HTV5F98btSY",
+              "pairTitle": "0이 있는 영웅",
+              "subtitle": "0을 붙이면 열 배, 10단 곱셈"
+            },
+            {
+              "id": "jrw0JCYLC_Q",
+              "title": "What If?",
+              "episode": "S5-B 15화",
+              "emoji": "5️⃣",
+              "durationSec": 274,
+              "pairId": "zt1Tut0IdO4",
+              "pairTitle": "만약에",
+              "subtitle": "만약에? 질문으로 돌아보는 수"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s6",
+          "name": "시즌 6",
+          "emoji": "6️⃣",
+          "color": "#4B4FD8",
+          "videos": [
+            {
+              "id": "9I2T8zdB4ck",
+              "title": "Painting by Numbers",
+              "episode": "S6 1화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "색이 아니라 개수로 수 알기"
+            },
+            {
+              "id": "LQO6Ny2Zs04",
+              "title": "Leap Blob",
+              "episode": "S6 2화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "수 줄을 따라 껑충껑충 건너 세기"
+            },
+            {
+              "id": "37tDml65-z4",
+              "title": "Ice and Dice",
+              "episode": "S6 3화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "주사위로 알아보는 공평한 놀이"
+            },
+            {
+              "id": "9euAtGF0XWw",
+              "title": "Go Go Domino",
+              "episode": "S6 4화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "도미노 점으로 보는 같은 수 여러 모양"
+            },
+            {
+              "id": "Y5YezRbCD0Y",
+              "title": "Ten in the Bed",
+              "episode": "S6 5화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "열 칸 틀로 더하고 빼기"
+            },
+            {
+              "id": "__OFFA-wRdY",
+              "title": "Shape Party",
+              "episode": "S6 6화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "변을 세어 평면 도형 이름 맞히기"
+            },
+            {
+              "id": "9XRtKt9HjZ0",
+              "title": "Can We Have Our Ball Back?",
+              "episode": "S6 7화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "펼친 그림으로 입체 도형 알기"
+            },
+            {
+              "id": "oBJbE4X8Xpo",
+              "title": "Cuboid Castle",
+              "episode": "S6 8화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "상자 모양과 삼각기둥으로 성 쌓기"
+            },
+            {
+              "id": "khhg05bpjSM",
+              "title": "Numberblock Fair",
+              "episode": "S6 9화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "앞뒤 좌우, 놀이공원 가는 길 안내"
+            },
+            {
+              "id": "0CObWcFLfwM",
+              "title": "Path of Justice",
+              "episode": "S6 10화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "지도를 읽고 길 따라가기"
+            },
+            {
+              "id": "wdhiMjPFmco",
+              "title": "Five's Handy Shop",
+              "episode": "S6 11화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "동전으로 사고 거스름돈 받기"
+            },
+            {
+              "id": "5q3Hohwm_gM",
+              "title": "As Tall as the Sun",
+              "episode": "S6 12화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "누가 더 클까? 길이 재기"
+            },
+            {
+              "id": "Rhmsd0DDNo0",
+              "title": "Feeding Time",
+              "episode": "S6 13화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "더 무거운 쪽은? 무게 비교"
+            },
+            {
+              "id": "YRvF1HYyuyo",
+              "title": "Rockets and Rekenreks",
+              "episode": "S6 14화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "다섯 알씩 구슬틀로 수 읽기"
+            },
+            {
+              "id": "v5U0XJdVw_4",
+              "title": "The Pattern of Patterns",
+              "episode": "S6 15화",
+              "emoji": "6️⃣",
+              "durationSec": 285,
+              "subtitle": "되풀이 규칙 속 또 다른 규칙"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s7",
+          "name": "시즌 7",
+          "emoji": "7️⃣",
+          "color": "#8E44D8",
+          "videos": [
+            {
+              "id": "5ghkoxROcso",
+              "title": "Grid Unlocked",
+              "episode": "S7 1화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "곱셈표를 열고 순서 바꿔 곱하기"
+            },
+            {
+              "id": "CV_JB1_rq-4",
+              "title": "Friendly Fours' Beach Day",
+              "episode": "S7 2화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "4씩 커지는 수를 차례로 찾기"
+            },
+            {
+              "id": "z7YqQW1vDms",
+              "title": "All-Star Line-Up",
+              "episode": "S7 3화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "5씩 커지는 수와 묶음 합치기"
+            },
+            {
+              "id": "jxpcw90-2_E",
+              "title": "Rescue Racers",
+              "episode": "S7 4화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "42와 48 구조대의 수 모양"
+            },
+            {
+              "id": "DDYPb77d054",
+              "title": "The Rolling Sixes",
+              "episode": "S7 5화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "6씩 굴러가며 커지는 수 찾기"
+            },
+            {
+              "id": "MT_byjHRC78",
+              "title": "Remix the Sixes",
+              "episode": "S7 6화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "노래로 다시 익히는 6단 곱셈"
+            },
+            {
+              "id": "cG3yPK6adlY",
+              "title": "Grid Games Galore",
+              "episode": "S7 7화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "격자 놀이로 만나는 54와 56"
+            },
+            {
+              "id": "rinSXmlgESM",
+              "title": "The Rainbow Makers",
+              "episode": "S7 8화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "7씩 커져 63까지, 무지개 수"
+            },
+            {
+              "id": "mkyI5Aww1GQ",
+              "title": "Sail the Seven Seas",
+              "episode": "S7 9화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "바다 항해로 외우는 7단 곱셈"
+            },
+            {
+              "id": "mU_EDUgkCZ4",
+              "title": "We Need Another Hero",
+              "episode": "S7 10화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "8씩 커지는 수와 영웅 64"
+            },
+            {
+              "id": "kC5C1mx7pto",
+              "title": "Super Eights Assemble",
+              "episode": "S7 11화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "모두 모여! 8단 곱셈"
+            },
+            {
+              "id": "UddOiJkh_Ao",
+              "title": "Seventy-Two's Super Surprise",
+              "episode": "S7 12화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "8×9도 9×8도 똑같이 72"
+            },
+            {
+              "id": "H0paRYi-Ek4",
+              "title": "The Magical Nines",
+              "episode": "S7 13화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "손가락 하나 접어 푸는 9단 비법"
+            },
+            {
+              "id": "qbjaIN2xrx4",
+              "title": "Nine's Time to Shine",
+              "episode": "S7 14화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "10을 더하고 1을 빼는 9단 요령"
+            },
+            {
+              "id": "S5zjj8FWW04",
+              "title": "Space Division",
+              "episode": "S7 15화",
+              "emoji": "7️⃣",
+              "durationSec": 305,
+              "subtitle": "10×10 곱셈표 한눈에 돌아보기"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s8",
+          "name": "시즌 8",
+          "emoji": "8️⃣",
+          "color": "#D6338C",
+          "videos": [
+            {
+              "id": "VrTfmsIq_Rk",
+              "title": "The Third Button",
+              "episode": "S8-A 1화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "시곗바늘로 정각과 반 읽기"
+            },
+            {
+              "id": "atGvlUlnvcU",
+              "title": "The Great Bug Race",
+              "episode": "S8-A 2화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "도형 가장자리 둘레 재기"
+            },
+            {
+              "id": "fTZt5yHk630",
+              "title": "The Big Picture",
+              "episode": "S8-A 3화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "같은 칸으로 재는 넓이"
+            },
+            {
+              "id": "sgEUnHCuIZ4",
+              "title": "Space Repair",
+              "episode": "S8-A 4화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "줄 수와 칸 수를 곱해 넓이 구하기"
+            },
+            {
+              "id": "E_zTmPPEzQk",
+              "title": "Capacity for Magic",
+              "episode": "S8-A 5화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "그릇에 얼마나 담길까, 들이"
+            },
+            {
+              "id": "HGM2aJANpu0",
+              "title": "How Many Smoothies?",
+              "episode": "S8-A 6화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "순서를 바꿔 더해도 같은 합"
+            },
+            {
+              "id": "X0N8cRagHPk",
+              "title": "Odd Block Club",
+              "episode": "S8-A 7화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "1부터 시작하는 홀수 모임"
+            },
+            {
+              "id": "O9mifcDmWJE",
+              "title": "Five Makes a Wish",
+              "episode": "S8-A 8화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "5를 둘로 가르는 여러 방법"
+            },
+            {
+              "id": "I_TUzEK3ZOU",
+              "title": "Number Rescue, Go!",
+              "episode": "S8-A 9화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "6부터 10까지 둘로 갈라 구조하기"
+            },
+            {
+              "id": "LuHamTVKMFM",
+              "title": "The Best House Band",
+              "episode": "S8-A 10화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "작은 수 둘이 모여 되는 큰 수"
+            },
+            {
+              "id": "F4LK3CEV-_0",
+              "title": "Double Duets",
+              "episode": "S8-A 11화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "1부터 5까지 똑같이 두 배"
+            },
+            {
+              "id": "M3Ig3c0PGFc",
+              "title": "Double Doors, Double Locked",
+              "episode": "S8-A 12화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "12, 14, 16, 18이 되는 두 배"
+            },
+            {
+              "id": "csi2iPXqphE",
+              "title": "The All-Knowing Nine",
+              "episode": "S8-A 13화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "9에 1을 빌려 10부터 더하기"
+            },
+            {
+              "id": "LFY7CK0V8ak",
+              "title": "Subtraction Somersaults",
+              "episode": "S8-A 14화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "10까지 먼저 빼고 남은 만큼 더 빼기"
+            },
+            {
+              "id": "ZY5_H8iuNog",
+              "title": "Tenpin Tournament",
+              "episode": "S8-A 15화",
+              "emoji": "8️⃣",
+              "durationSec": 270,
+              "subtitle": "볼링핀과 구슬틀로 더하기"
+            },
+            {
+              "id": "88Tgsaw7wfE",
+              "title": "Five's Super Sorter",
+              "episode": "S8-B 1화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "기준을 정해 장난감 나누기"
+            },
+            {
+              "id": "wTOgdSCKQwQ",
+              "title": "Back in the Box!",
+              "episode": "S8-B 2화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "작대기 다섯 개씩 묶어 세기"
+            },
+            {
+              "id": "G6Uw2ucr464",
+              "title": "Five's Fruit Festival",
+              "episode": "S8-B 3화",
+              "emoji": "8️⃣",
+              "durationSec": 284,
+              "subtitle": "그림으로 개수를 보여 주는 그래프"
+            },
+            {
+              "id": "Y_J4vAGH2XQ",
+              "title": "I'll Vote for That!",
+              "episode": "S8-B 4화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "한 사람이 한 표, 블록으로 투표"
+            },
+            {
+              "id": "cXclqZG393E",
+              "title": "The Pyramid of Puzzles",
+              "episode": "S8-B 5화",
+              "emoji": "8️⃣",
+              "durationSec": 284,
+              "subtitle": "막대 높이와 눈금으로 그래프 읽기"
+            },
+            {
+              "id": "OEImTjGGheE",
+              "title": "One's Fix-It Shop",
+              "episode": "S8-B 6화",
+              "emoji": "8️⃣",
+              "durationSec": 284,
+              "subtitle": "부서진 조각을 모아 되찾는 전체"
+            },
+            {
+              "id": "HZvPSQmZkPg",
+              "title": "Happy Campers",
+              "episode": "S8-B 7화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "캠핑 짐을 공평하게 나누기"
+            },
+            {
+              "id": "UY_ao-mrSRw",
+              "title": "The Mystery of Fraction Island",
+              "episode": "S8-B 8화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "절반, 3분의 1, 4분의 1 알아보기"
+            },
+            {
+              "id": "wsnJtCloGf0",
+              "title": "Fractions Are a Piece of Cake",
+              "episode": "S8-B 9화",
+              "emoji": "8️⃣",
+              "durationSec": 284,
+              "subtitle": "케이크 조각으로 이해하는 분수"
+            },
+            {
+              "id": "JC-YYFXol1k",
+              "title": "Octonaughty and the Fractionator",
+              "episode": "S8-B 10화",
+              "emoji": "8️⃣",
+              "durationSec": 284,
+              "subtitle": "8을 넷으로 똑같이 나누면 2"
+            },
+            {
+              "id": "EiAh3b83ZSc",
+              "title": "You're Five Ones and I'm Five Tens",
+              "episode": "S8-B 11화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "낱개 다섯과 열 묶음 다섯, 5와 50"
+            },
+            {
+              "id": "M4MakEFlZ6k",
+              "title": "The Forest of Tens",
+              "episode": "S8-B 12화",
+              "emoji": "8️⃣",
+              "durationSec": 284,
+              "subtitle": "큰 수에서 열 묶음 떼어 내기"
+            },
+            {
+              "id": "Qfl8M9H6wZ4",
+              "title": "All the Numbers I Can Be",
+              "episode": "S8-B 13화",
+              "emoji": "8️⃣",
+              "durationSec": 285,
+              "subtitle": "더해서 100이 되는 두 수 노래"
+            },
+            {
+              "id": "UglDhUBsj0k",
+              "title": "The Rings of Unity",
+              "episode": "S8-B 14화",
+              "emoji": "8️⃣",
+              "durationSec": 294,
+              "subtitle": "십과 일로 풀었다 다시 모으기"
+            },
+            {
+              "id": "q16nsP6Joq4",
+              "title": "The Space Signal",
+              "episode": "S8-B 15화",
+              "emoji": "8️⃣",
+              "durationSec": 293,
+              "subtitle": "곱셈으로 쪼개 보는 끝없는 수"
+            }
+          ]
+        },
+        {
+          "id": "numbers-s9",
+          "name": "시즌 9",
+          "emoji": "9️⃣",
+          "color": "#7D8590",
+          "videos": [
+            {
+              "id": "ErCIgERRC28",
+              "title": "The Day the Blocks Turned Pink",
+              "episode": "S9 1화",
+              "emoji": "9️⃣",
+              "durationSec": 302,
+              "subtitle": "모양과 색이 변해도 그대로인 개수"
+            },
+            {
+              "id": "J5CNmHRTj4c",
+              "title": "An Even Split",
+              "episode": "S9 2화",
+              "emoji": "9️⃣",
+              "durationSec": 302,
+              "subtitle": "반으로 딱 나뉘는 짝수와 두 배"
+            },
+            {
+              "id": "rQva7iOnkkM",
+              "title": "Trying Times",
+              "episode": "S9 3화",
+              "emoji": "9️⃣",
+              "durationSec": 302,
+              "subtitle": "곱셈과 절반 사이의 관계 찾기"
+            },
+            {
+              "id": "yF3VniaFxNU",
+              "title": "The Rectangular Wreck",
+              "episode": "S9 4화",
+              "emoji": "9️⃣",
+              "durationSec": 302,
+              "subtitle": "블록을 네모로 늘어놓아 보는 약수"
+            },
+            {
+              "id": "5fD79cjS9XA",
+              "title": "Everybody Counts",
+              "episode": "S9 5화",
+              "emoji": "9️⃣",
+              "durationSec": 310,
+              "subtitle": "쉰까지 소리 내어 이어 세기"
+            }
+          ]
+        },
+        {
+          "id": "numbers-sp",
+          "name": "스페셜",
+          "emoji": "⭐",
+          "color": "#E0A800",
+          "videos": [
+            {
+              "id": "SVWo8e0E0ks",
+              "title": "The Treasure of Hexagon Island",
+              "episode": "스페셜 1",
+              "emoji": "⭐",
+              "durationSec": 1194,
+              "subtitle": "수 단서를 모아 푸는 보물 퍼즐 모험"
+            },
+            {
+              "id": "tpeUFIzG_Zg",
+              "title": "Double Back",
+              "episode": "스페셜 2",
+              "emoji": "⭐",
+              "durationSec": 605,
+              "subtitle": "두 배로 늘렸다 반으로 되돌리기"
+            },
+            {
+              "id": "QEMeFHkpYDw",
+              "title": "About Time",
+              "episode": "스페셜 3",
+              "emoji": "⭐",
+              "durationSec": 605,
+              "subtitle": "바늘 시계로 몇 시인지 읽기"
+            },
+            {
+              "id": "T0gPCALb4Os",
+              "title": "The Twelve Days of Christmas",
+              "episode": "스페셜 4",
+              "emoji": "⭐",
+              "durationSec": 605,
+              "subtitle": "날마다 늘어나는 선물 모두 더하기"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
