@@ -722,7 +722,7 @@
     "kovo_light": ["kr_briefing", "envelope_screener"],
     "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["mlb_light", "kbo_light", "pinch_orbit", "stretch_cat"],
+    "rush_hour": ["pinch_orbit", "stretch_cat"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
