@@ -693,6 +693,23 @@
         "android": "https://play.google.com/store/apps/details?id=com.cricket_light"
       },
       "enabled": true
+    },
+    "salary_ticker": {
+      "title": {
+        "ko": "월급계기판",
+        "en": "Pay Odometer",
+        "ja": "給料メーター"
+      },
+      "description": {
+        "ko": "초 단위로 오르는 내 월급",
+        "en": "Watch your pay tick up live",
+        "ja": "秒単位で増える給料"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/salary_ticker.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.salaryticker"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -729,15 +746,16 @@
     "liamlillian_wbc": ["liamlillian_mlb"],
 
     "weather_money_guide": ["energy_voucher", "kr_briefing"],
-    "mortgage_calculator": ["kr_briefing", "weather_money_guide"],
+    "mortgage_calculator": ["kr_briefing", "weather_money_guide", "salary_ticker"],
     "energy_voucher": ["kr_briefing", "weather_money_guide"],
     "klotski": ["mlb_light", "rush_hour", "pinch_orbit", "stretch_cat"],
 
-    "kr_briefing": ["envelope_screener", "financial_radar"],
+    "kr_briefing": ["envelope_screener", "financial_radar", "salary_ticker"],
     "us_briefing": ["kr_briefing", "fire_calculator"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
-    "envelope_screener": ["kr_briefing", "financial_radar"],
-    "fire_calculator": ["us_briefing", "financial_radar"],
+    "envelope_screener": ["kr_briefing", "financial_radar", "salary_ticker"],
+    "fire_calculator": ["us_briefing", "financial_radar", "salary_ticker"],
+    "salary_ticker": ["kr_briefing", "financial_radar", "fire_calculator", "stretch_cat"],
 
     "remtime": ["focusleep"],
 
