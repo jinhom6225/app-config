@@ -755,7 +755,7 @@
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["kr_briefing", "financial_radar", "salary_ticker"],
     "fire_calculator": ["us_briefing", "financial_radar", "salary_ticker"],
-    "salary_ticker": ["kr_briefing", "financial_radar", "fire_calculator", "stretch_cat"],
+    "salary_ticker": ["kr_briefing", "financial_radar"],
 
     "remtime": ["focusleep"],
 
