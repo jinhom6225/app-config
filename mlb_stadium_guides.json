@@ -1,0 +1,1986 @@
+{
+  "schema_version": 1,
+  "version": 1,
+  "stadiums": {
+    "fenway_park": {
+      "tagline": "The only park with the Green Monster, and MLB's oldest, open since 1912.",
+      "highlights": [
+        "The 37-foot Green Monster in left field, with a scoreboard inside the wall that is still updated by hand.",
+        "Pesky's Pole, 302 feet down the right-field line and covered in signatures from fans and players.",
+        "A lone red seat in the right-field bleachers marks where Ted Williams' 502-foot home run landed in 1946.",
+        "The Triangle in deep center field, where the outfield wall juts out to 420 feet.",
+        "Fans sing Neil Diamond's Sweet Caroline in the middle of the eighth inning."
+      ],
+      "getting_there": {
+        "transit": "Take the MBTA Green Line B, C, or D branch to Kenmore and walk over the Brookline Avenue bridge. Framingham/Worcester Line commuter trains stop at Lansdowne Station across the street.",
+        "parking": "Parking is extremely limited and residential streets are permit-only during games. Reserve a garage in advance, park on the side of Fenway you approach from, or park at an outlying T station and ride in.",
+        "area": "Fenway-Kenmore: Lansdowne Street behind the Green Monster is lined with bars and restaurants, and Kenmore Square and the Back Bay are a short walk away."
+      },
+      "photo_spots": [
+        {
+          "name": "Atop the Green Monster",
+          "description": "Monster Seats and ballpark tours give a high view across the field from the top of the left-field wall."
+        },
+        {
+          "name": "Statues on Van Ness Street",
+          "description": "The Teammates statue, plus statues of Ted Williams and Carl Yastrzemski, stand outside Gate B."
+        },
+        {
+          "name": "Jersey Street",
+          "description": "The red-brick facade and pregame street scene near Gate A make a classic ballpark shot."
+        }
+      ],
+      "food": [
+        {
+          "name": "Fenway Frank",
+          "description": "The Kayem hot dog that has been a Fenway staple for decades.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Lobster Roll",
+          "description": "A New England lobster roll for the full Boston experience.",
+          "where": "Jersey Street, Right Field Concourse, and Sam Deck"
+        },
+        {
+          "name": "Clam Chowder",
+          "description": "New England clam chowder, a Boston favorite.",
+          "where": "Home Plate Concourse, Jersey Street, and Right Field Concourse"
+        },
+        {
+          "name": "Italian Sausage",
+          "description": "Grilled Kayem Italian sausage, the same smell that drifts from the carts outside the park.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Sal's Pizza",
+          "description": "A longtime fan favorite pizza with stands around the ballpark.",
+          "where": "Big Concourse, Home Plate Concourse, and Sam Deck"
+        }
+      ],
+      "mascot": {
+        "name": "Wally the Green Monster",
+        "description": "A friendly green monster named after the left-field wall who roams the park; his younger sister Tessie also makes appearances.",
+        "fun_fact": "Team lore says Wally lived inside the Green Monster for 50 years before coming out through the scoreboard in 1997, and his number 97 marks that year."
+      },
+      "seating": [
+        {
+          "title": "Green Monster Seats",
+          "description": "Seats on top of the left-field wall, added in 2003, where fans now catch many home runs."
+        },
+        {
+          "title": "Grandstand",
+          "description": "The wooden infield grandstand has a roof for rain cover, but some seats sit behind support pillars, so check for obstructed-view notes."
+        },
+        {
+          "title": "Bleachers",
+          "description": "A lively, younger crowd with close views of pitchers warming up in the bullpens."
+        },
+        {
+          "title": "Sam Deck",
+          "description": "A right-field roof deck with picnic tables and a bar, good for groups who like to stand and mingle."
+        }
+      ]
+    },
+    "yankee_stadium": {
+      "tagline": "The only park with Monument Park and a copy of the 1923 stadium's frieze.",
+      "highlights": [
+        "Monument Park beyond the center-field wall displays retired numbers, monuments, and plaques; it closes 45 minutes before first pitch.",
+        "The Bleacher Creatures in Section 203 chant each starter's name in the first-inning roll call.",
+        "A replica of the original Yankee Stadium's famous frieze lines the roof.",
+        "The New York Yankees Museum near Section 210 holds a Ball Wall of signed baseballs and Thurman Munson's locker.",
+        "The Great Hall between Gates 4 and 6 is lined with banners of Yankees greats."
+      ],
+      "getting_there": {
+        "transit": "Take the 4 or D subway (B on weekdays) to 161 St-Yankee Stadium, or Metro-North to Yankees-E 153 St, where Hudson Line trains typically add game-day stops and shuttles run from Grand Central.",
+        "parking": "Lots and garages around the stadium are run by City Parking, not the team. Reserve ahead, since the closest garages fill quickly on big dates, or take transit.",
+        "area": "The South Bronx around River Avenue has longtime sports bars, Heritage Field sits on the original stadium site, and Arthur Avenue is a short ride away."
+      },
+      "photo_spots": [
+        {
+          "name": "Gate 4 Facade",
+          "description": "The Indiana limestone exterior echoes the original 1923 stadium."
+        },
+        {
+          "name": "Monument Park",
+          "description": "Retired numbers and plaques behind the center-field wall, open before games."
+        },
+        {
+          "name": "The Great Hall",
+          "description": "A seven-story open-air concourse with giant banners of Yankees stars."
+        }
+      ],
+      "food": [
+        {
+          "name": "Lobel's Steak Sandwich",
+          "description": "A USDA Prime steak sandwich from Lobel's, the New York butcher.",
+          "where": "Sections 132, 223, and 321"
+        },
+        {
+          "name": "Garlic Fries",
+          "description": "Fries tossed with garlic, a long-running stadium favorite.",
+          "where": "Sections 107 and 205"
+        },
+        {
+          "name": "Nathan's Famous Hot Dog",
+          "description": "The classic New York beef frankfurter.",
+          "where": "Sections 127, 224, 312, and throughout the stadium"
+        },
+        {
+          "name": "Mighty Quinn's Barbeque",
+          "description": "Smoked brisket and pulled pork from the New York barbecue spot.",
+          "where": "Section 134"
+        }
+      ],
+      "mascot": null,
+      "seating": [
+        {
+          "title": "Covered Grandstand Rows",
+          "description": "Back rows of the 400-level Grandstand sit under the roof frieze, offering shade and rain cover."
+        },
+        {
+          "title": "Field Level Overhang",
+          "description": "Field Level rows 15 and up are shaded by the deck above but lose sight of the upper scoreboards."
+        },
+        {
+          "title": "Bleacher Creatures",
+          "description": "Sit in or near Section 203, home of the Bleacher Creatures and their first-inning roll call."
+        },
+        {
+          "title": "Sunny Home Run Sections",
+          "description": "Sections 103, 104, 135, and 136 have no cover and get strong sun during day games."
+        }
+      ]
+    },
+    "rogers_centre": {
+      "tagline": "The only MLB park in Canada, under a retractable roof by the CN Tower.",
+      "highlights": [
+        "The first stadium with a fully retractable motorized roof, which opens or closes in about 20 minutes.",
+        "The CN Tower stands right next to the ballpark and can be seen from inside when the roof is open.",
+        "About 70 rooms of the hotel built into the stadium look straight out onto the field.",
+        "The Outfield District, opened in 2023, adds social spaces like the WestJet Flight Deck and Corona Rooftop Patio."
+      ],
+      "getting_there": {
+        "transit": "Walk west from Union Station (TTC Line 1, GO Transit, UP Express) along Front Street or through the SkyWalk. The King streetcar stops at John and Peter Streets, and the Queens Quay streetcar stops at Spadina and Rees.",
+        "parking": "Underground stadium parking is limited and first-come, first-served, and nearby lots are independently run. Book a spot in advance or take transit to avoid downtown traffic.",
+        "area": "The Entertainment District: the CN Tower and Ripley's Aquarium are next door, and the Harbourfront and the Toronto Islands ferry are close by."
+      },
+      "photo_spots": [
+        {
+          "name": "The Audience Sculptures",
+          "description": "Michael Snow's larger-than-life cheering fans loom over the northeast and northwest entrances."
+        },
+        {
+          "name": "CN Tower With the Roof Open",
+          "description": "On open-roof days, the tower rises over the stands for a shot only Toronto can offer."
+        },
+        {
+          "name": "WestJet Flight Deck",
+          "description": "This center-field perch looks straight in toward home plate."
+        }
+      ],
+      "food": [
+        {
+          "name": "Classic Poutine",
+          "description": "Fries, cheese curds, and gravy, Canada's signature comfort food.",
+          "where": "100 Level Sections 109, 122, and 132, plus 200 and 500 Level stands"
+        },
+        {
+          "name": "Schneiders Ballpark Hot Dog",
+          "description": "The park's classic hot dog; Tuesday home games bring a popular discount hot dog night.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Mary Brown's Taters",
+          "description": "Seasoned potato wedges from the Canadian fried chicken chain, also served as tater poutine.",
+          "where": "100 Level Section 140 and 500 Level Section 511"
+        }
+      ],
+      "mascot": {
+        "name": "Ace",
+        "description": "A blue jay who roams the stands and dances atop the dugouts and on the field between innings.",
+        "fun_fact": "Ace has been the team's main mascot since 2004, and his younger brother Junior joins him on Jr. Jays Sundays."
+      },
+      "seating": [
+        {
+          "title": "500 Level Behind Home Plate",
+          "description": "Sections 522 to 526 are among the most affordable seats yet centered on the plate; the steps are steep."
+        },
+        {
+          "title": "Shade With the Roof Open",
+          "description": "The third-base side is shaded and faces the CN Tower, while the first-base side gets the afternoon sun."
+        },
+        {
+          "title": "Outfield District Ticket",
+          "description": "A general admission ticket that lets you roam the outfield social spaces instead of holding a fixed seat."
+        },
+        {
+          "title": "Rebuilt 100 Level",
+          "description": "Lower-bowl seats rebuilt for 2024 sit closer to the field and are angled toward the infield."
+        }
+      ]
+    },
+    "oriole_park": {
+      "tagline": "The only park where home runs land on Eutaw Street by the B&O Warehouse.",
+      "highlights": [
+        "The B&O Warehouse, built around 1900, forms the backdrop beyond the right-field wall.",
+        "Baseball markers set into Eutaw Street show where home runs landed during games.",
+        "New for 2026: a center-field videoboard 2.5 times larger than the old one and a fully redesigned club level.",
+        "Statues of the six Orioles Hall of Famers stand in the picnic area beyond left-center field.",
+        "Fans sing along to Thank God I'm a Country Boy during the seventh-inning stretch."
+      ],
+      "getting_there": {
+        "transit": "Light Rail stops at Camden Yards right beside the park, where MARC Camden Line trains also end (check schedules, as service is limited). Metro Subway riders can walk from Lexington Market or Charles Center.",
+        "parking": "Orioles lots are permit-only, so buy parking in advance. Many downtown and Inner Harbor garages are within a mile, and residential permit zones are ticketed and towed.",
+        "area": "The Inner Harbor's shops and the National Aquarium are nearby, and the Babe Ruth Birthplace and Museum is within walking distance."
+      },
+      "photo_spots": [
+        {
+          "name": "Eutaw Street",
+          "description": "The brick warehouse and home run markers line this walkway between the warehouse and the ballpark."
+        },
+        {
+          "name": "Hall of Fame Statues",
+          "description": "Bronze statues of Brooks Robinson, Frank Robinson, Jim Palmer, Eddie Murray, Earl Weaver, and Cal Ripken Jr. beyond left-center."
+        },
+        {
+          "name": "Downtown Skyline",
+          "description": "Some upper seats frame the downtown Baltimore skyline beyond the outfield."
+        }
+      ],
+      "food": [
+        {
+          "name": "Boog's BBQ Pit Beef",
+          "description": "Smoked pit beef from the stand named for Orioles great Boog Powell, who has often visited it.",
+          "where": "Eutaw Street"
+        },
+        {
+          "name": "Crab Cakes",
+          "description": "Chesapeake-style crab cakes, a Maryland staple and the base of the Seafood House menu.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Attman's Corned Beef",
+          "description": "Hot corned beef sandwiches from Attman's, the Baltimore deli.",
+          "where": "Attman's Deli, near Section 53"
+        }
+      ],
+      "mascot": {
+        "name": "The Oriole Bird",
+        "description": "The cartoon oriole roams the park, stands atop the dugouts, and dances with fans during the seventh-inning stretch.",
+        "fun_fact": "He hatched from a giant egg at Memorial Stadium on April 6, 1979."
+      },
+      "seating": [
+        {
+          "title": "Terrace Level Shade",
+          "description": "Odd-numbered Terrace sections under the overhang stay shaded for most day games while keeping you close to the field."
+        },
+        {
+          "title": "Third-Base Side",
+          "description": "The park faces northeast, so the third-base side gets shade first, while right field and the Eutaw Street bleachers stay sunny."
+        },
+        {
+          "title": "Upper Deck Back Rows",
+          "description": "The last rows of Sections 334 to 380 sit under the roof, an affordable way to find shade."
+        },
+        {
+          "title": "Redesigned Club Level",
+          "description": "Remodeled for 2026, with two new climate-controlled bars on the first- and third-base sides."
+        }
+      ]
+    },
+    "tropicana_field": {
+      "tagline": "MLB's only fixed dome, with live rays you can pet, reopened for 2026.",
+      "highlights": [
+        "The Rays returned in 2026 after Hurricane Milton repairs, with a new roof and new turf.",
+        "Live cownose rays swim in a tank just behind the right-center field wall, the only pro sports venue with live rays.",
+        "Four catwalk rings hang from the tilted roof, each with its own ground rules for batted balls.",
+        "The bullpens sit in foul territory along the baselines, in view of the fans.",
+        "Fans may bring small cowbells, a long-held Rays tradition."
+      ],
+      "getting_there": {
+        "transit": "PSTA's SunRunner bus rapid transit stops on the north side of the stadium, every 15 minutes during the day and every 30 minutes in the evening.",
+        "parking": "Rays lots next to the dome often sell out for big games, so prepay; overflow garages and metered parking in downtown St. Petersburg fill the gap.",
+        "area": "Downtown St. Petersburg: Central Avenue bars like Ferg's, the Dali Museum, and the St. Pete Pier are close by."
+      },
+      "photo_spots": [
+        {
+          "name": "Gate 1 Rotunda",
+          "description": "The main entrance is modeled on the Ebbets Field rotunda, and the mascots greet fans here before games."
+        },
+        {
+          "name": "The Ray Tank",
+          "description": "Get up close to the cownose rays behind the right-center field wall."
+        },
+        {
+          "name": "Golden Seats",
+          "description": "Gold seats in Sections 148 and 144 mark the team's first home run and Wade Boggs' 3,000th hit."
+        }
+      ],
+      "food": [
+        {
+          "name": "Cuban Sandwich",
+          "description": "The Tampa Bay area's signature pressed sandwich.",
+          "where": "Cubanos, First Base Food Hall and Budweiser Porch"
+        },
+        {
+          "name": "Cubano Dog",
+          "description": "A hot dog topped Cuban-sandwich style.",
+          "where": "Cubanos, First Base Food Hall and Budweiser Porch"
+        },
+        {
+          "name": "Colony Grill Hot Oil Pizza",
+          "description": "Thin-crust bar pie with a spicy hot oil finish.",
+          "where": "First and Third Base Food Halls and Section 144"
+        }
+      ],
+      "mascot": {
+        "name": "Raymond",
+        "description": "A fun-loving, fuzzy seadog and the Rays' primary mascot, joined by DJ Kitty and Stinger the stingray.",
+        "fun_fact": "Team lore says Rays scouts found Raymond on a Gulf of Mexico fishing trip in 1998, and scientists later classified him as a seadog."
+      },
+      "seating": [
+        {
+          "title": "Weatherproof Every Game",
+          "description": "The fixed dome keeps out sun and rain, so no seat needs shade planning."
+        },
+        {
+          "title": "200 Level Value",
+          "description": "Sections 203 to 210 sit behind the infield with clear sightlines and usually cost less than the 100 Level."
+        },
+        {
+          "title": "Upper Deck Usually Closed",
+          "description": "The 300 Level is tarped for most games and opens only for the biggest dates, so the crowd stays in the lower levels."
+        }
+      ]
+    },
+    "rate_field": {
+      "tagline": "A scoreboard that bursts with pinwheels and fireworks after White Sox homers.",
+      "highlights": [
+        "The center-field scoreboard pays homage to Bill Veeck's 1960 exploding scoreboard, with pinwheels that spin and fireworks that go off after White Sox home runs.",
+        "A marble plaque in the parking lot north of the park marks old Comiskey Park's home plate, with the old foul lines painted on the pavement.",
+        "Two original blue seats stand out among the green ones, marking where Paul Konerko's grand slam and Scott Podsednik's walk-off homer landed in Game 2 of the 2005 World Series.",
+        "Section 140, Row 19, Seat 2 carries a plaque for Pope Leo XIV, who watched Game 1 of the 2005 World Series from that seat.",
+        "The shower from old Comiskey Park still runs near Section 161, so fans can cool off on hot summer days."
+      ],
+      "getting_there": {
+        "transit": "Take the CTA Red Line to Sox-35th, which sits just off the ballpark. Metra Rock Island Line trains stop at 35th Street, just east of the Dan Ryan Expressway.",
+        "parking": "Team lots open about two hours before first pitch and can sell out, so buy a pass for a specific lot in advance; all parking is cashless. Tailgating is allowed in the lots until the scheduled start of the game.",
+        "area": "Armour Square on the South Side, next to Bridgeport: the ChiSox Bar and Grill sits at Gate 5, and downtown is about a 15 to 20 minute drive away in light traffic."
+      },
+      "photo_spots": [
+        {
+          "name": "Outfield concourse statues",
+          "description": "Bronze statues of White Sox legends, including Frank Thomas, Carlton Fisk, Minnie Minoso, and Paul Konerko, line the outfield concourse."
+        },
+        {
+          "name": "Champions Plaza at Gate 4",
+          "description": "A large sculpture celebrating the 2005 World Series title stands in a diamond-shaped brick plaza outside the main entrance."
+        },
+        {
+          "name": "Old Comiskey home plate",
+          "description": "Stand on the plaque marking the old park's home plate in the lot north of the stadium, with Rate Field rising behind you."
+        }
+      ],
+      "food": [
+        {
+          "name": "Elote",
+          "description": "Mexican-style corn in a cup, a South Side ballpark favorite.",
+          "where": "Corn stands on the 100 and 500 levels"
+        },
+        {
+          "name": "Polish Sausage",
+          "description": "A Chicago-style Polish sausage, one of the city's classic ballpark bites.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Italian Beef",
+          "description": "Chicago's thin-sliced beef sandwich, served with peppers and giardiniera.",
+          "where": "Sandwich stands on the 100, 300, and 500 levels"
+        }
+      ],
+      "mascot": {
+        "name": "Southpaw",
+        "description": "A furry green creature who joined the White Sox in June 2004 and entertains kids around the park in rain, cold, or heat.",
+        "fun_fact": "His name works twice: a southpaw is a left-handed pitcher, and the White Sox play on Chicago's South Side."
+      },
+      "seating": [
+        {
+          "title": "500 Level",
+          "description": "The upper deck sits high above the field, but a flat roof covers most of its rows, which helps on rainy or very sunny days."
+        },
+        {
+          "title": "Fan Deck",
+          "description": "A deck in center field with a view straight in at the whole field; it is often rented for private parties but opens to other fans first-come on some game days."
+        },
+        {
+          "title": "Miller Lite Landing",
+          "description": "A right-field area in Sections 106 and 107 with group seating, standing room, and a bar built to look like a CTA El station."
+        }
+      ]
+    },
+    "progressive_field": {
+      "tagline": "Stacked bullpens over right-center and a free Heritage Park of Cleveland lore.",
+      "highlights": [
+        "The stacked bullpens in right-center field sit above the playing field, so you can watch pitchers warm up from just a few feet away.",
+        "Heritage Park in center field is free to visit before and during games, with plaques for every Cleveland Hall of Fame member and a statue of Frank Robinson.",
+        "A bronze marker in the concourse just outside Heritage Park shows where Jim Thome's 511-foot home run landed.",
+        "A bronze drum in Heritage Park honors John Adams, the fan who beat his drum in the bleachers for 48 seasons, and the left-field bleachers now carry his name.",
+        "The club retired the number 455 for the 455 straight sellouts the ballpark drew from 1995 to 2001."
+      ],
+      "getting_there": {
+        "transit": "Ride the RTA Rapid to Tower City, then take the five-minute enclosed walkway to the ballpark. The walkway opens only for Progressive Field and Rocket Arena events.",
+        "parking": "Buy a pass in advance for the Great Day Improvements Garage at 650 East Huron Road, or reserve a spot through ParkMobile. Check for highway construction near downtown before you drive.",
+        "area": "The Gateway District downtown: East Fourth Street's restaurants are two blocks away, and the Rock and Roll Hall of Fame is a short trip away on the lakefront."
+      },
+      "photo_spots": [
+        {
+          "name": "Right Field Gate statues",
+          "description": "Statues of Jim Thome, Bob Feller, and Larry Doby stand in the open plaza area around the right-field gate."
+        },
+        {
+          "name": "Heritage Park",
+          "description": "The Frank Robinson statue and the bronze drum for John Adams make a great stop between innings in center field."
+        }
+      ],
+      "food": [
+        {
+          "name": "Slider Dog",
+          "description": "Happy Dog's all-beef hot dog topped with Froot Loops, pimento mac and cheese, and bacon, named after the team mascot.",
+          "where": "Happy Dog, near Section 159"
+        },
+        {
+          "name": "Bertman Ball Park Mustard",
+          "description": "The spicy brown mustard that has been a Cleveland ballpark staple for generations; put it on any hot dog.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Barrio Tacos",
+          "description": "Build-your-own tacos from Barrio, a local Cleveland taco spot.",
+          "where": "Right Field District"
+        }
+      ],
+      "mascot": {
+        "name": "Slider",
+        "description": "A big, fuchsia, yellow-spotted furry creature who has represented Cleveland's team since July 29, 1990, and was inducted into the Mascot Hall of Fame in 2008.",
+        "fun_fact": "During the 1995 ALCS, Slider fell about six feet off the outfield wall and tore knee ligaments."
+      },
+      "seating": [
+        {
+          "title": "Bullpen Seats",
+          "description": "Three rows of seats sit right in front of the stacked bullpens, giving close looks at warmups and a full view of the field."
+        },
+        {
+          "title": "John Adams Bleachers",
+          "description": "The left-field bleachers, named for the famous drummer, sit behind the 19-foot left-field wall."
+        },
+        {
+          "title": "Terrace District",
+          "description": "The rebuilt upper deck in left field, including the Blue Moon Terrace Garden and Terrace Hall, is an open-air hangout with city views and standing room."
+        }
+      ]
+    },
+    "comerica_park": {
+      "tagline": "Giant tigers, a tiger carousel, and a fountain that celebrates Tigers homers.",
+      "highlights": [
+        "A huge tiger statue guards the main entrance, and two tigers prowl atop the left-field scoreboard with eyes that light up after Tigers home runs and wins.",
+        "Kids can ride tigers instead of horses on the carousel, and a baseball-themed Ferris wheel turns behind the third-base side.",
+        "The center-field fountain puts on a liquid fireworks show set to music, shooting water up to 150 feet high to celebrate home runs.",
+        "Stainless steel statues of six Tigers greats, including Ty Cobb and Al Kaline, stand along the left-center concourse.",
+        "With no upper deck in the outfield, the seats look straight out at the downtown Detroit skyline."
+      ],
+      "getting_there": {
+        "transit": "Take the QLine streetcar on Woodward Avenue to the Montcalm Street stop, or ride the Detroit People Mover to the Grand Circus Park or Broadway station.",
+        "parking": "District Detroit lots and garages around the park open about two hours before first pitch on a first-come basis, or you can pre-book through SpotHero. Tailgating is not allowed in these lots.",
+        "area": "The District Detroit downtown: the Fox Theatre is across the street, Ford Field is next door, and Greektown and Campus Martius Park are a short walk away."
+      },
+      "photo_spots": [
+        {
+          "name": "Main entrance tiger",
+          "description": "Pose with the giant tiger statue outside the main entrance, across from the Fox Theatre; an Ernie Harwell statue also greets fans there."
+        },
+        {
+          "name": "Left-center statues",
+          "description": "The six steel statues of Tigers legends make a great backdrop with the field behind them."
+        },
+        {
+          "name": "Concourse behind home plate",
+          "description": "Frame the field, the fountain, and the downtown skyline in one shot."
+        }
+      ],
+      "food": [
+        {
+          "name": "Ball Park Frank",
+          "description": "The hot dog brand was created in Detroit in the late 1950s for the Tigers' old ballpark, and it is still served all over Comerica Park.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Coney Dog",
+          "description": "A Detroit Coney Island hot dog with chili, mustard, and onions.",
+          "where": "Big Cat Court near Section 119"
+        },
+        {
+          "name": "Little Caesars Pizza",
+          "description": "Little Caesars pizza, a Detroit favorite, sold at stands all around the park.",
+          "where": "Concourses throughout the park"
+        }
+      ],
+      "mascot": {
+        "name": "PAWS",
+        "description": "A friendly tiger who wanders the stands during games and climbs onto the dugout in the seventh inning to lead Take Me Out to the Ballgame.",
+        "fun_fact": "PAWS first appeared at the old Tiger Stadium in 1995, after the Tigers had gone nearly a century without a mascot."
+      },
+      "seating": [
+        {
+          "title": "On-Deck Circle Seats",
+          "description": "Premium seats in the lowest rows of the lower bowl behind home plate and the dugouts."
+        },
+        {
+          "title": "Tiger Den",
+          "description": "Premium box seats with movable chairs in the upper rows of the lower bowl, resembling the boxes at old-time ballparks."
+        },
+        {
+          "title": "Upper deck, first base to right field",
+          "description": "This stretch of the upper deck has no suite level beneath it, so it sits about 15 feet lower and closer to the field than the rest of the upper deck."
+        },
+        {
+          "title": "Kaline's Corner",
+          "description": "Lower-level seats in right field named for Hall of Famer Al Kaline, who played right field for the Tigers."
+        }
+      ]
+    },
+    "kauffman_stadium": {
+      "tagline": "A 322-foot fountain show beyond the outfield and a crown atop the scoreboard.",
+      "highlights": [
+        "The Water Spectacular, a 322-foot-wide display of fountains and waterfalls, runs beyond the outfield wall; it opened as the largest privately funded fountain in the world.",
+        "The crown atop the CrownVision scoreboard flashes its strobe lights after every Royals home run.",
+        "A single red seat among the blue ones behind home plate, the Buck O'Neil Legacy Seat, goes to a community member chosen to honor O'Neil's spirit at each game.",
+        "The free Royals Hall of Fame inside Gate A displays the 1985 and 2015 World Series trophies.",
+        "The Royals' lease runs through the 2030 season, so catch a game here while you can."
+      ],
+      "getting_there": {
+        "transit": "RideKC's 47 Broadway bus serves Kauffman Stadium seven days a week. Rideshare drop-offs are in front of the gates on the first- and third-base sides.",
+        "parking": "The stadium shares the Truman Sports Complex lots with Arrowhead Stadium. Parking must be bought in advance and shown in the MLB Ballpark app at the tollgate; tailgating is allowed behind your vehicle until the second inning.",
+        "area": "The Truman Sports Complex is a bit far from downtown, so most visitors drive in; save time for the Negro Leagues Baseball Museum in the historic 18th and Vine District."
+      },
+      "photo_spots": [
+        {
+          "name": "Behind the fountains",
+          "description": "The outfield concourse lets you look back at the field through the fountains; watch out for spray on windy days."
+        },
+        {
+          "name": "Outfield statues",
+          "description": "Statues of George Brett, Frank White, and Dick Howser stand in right field, and Ewing and Muriel Kauffman are honored in left field."
+        },
+        {
+          "name": "Behind home plate",
+          "description": "The view from the seats behind home plate takes in the fountains and the crown-topped scoreboard together."
+        }
+      ],
+      "food": [
+        {
+          "name": "Brisketacho",
+          "description": "Kansas City's take on helmet nachos, with chopped brisket, baked beans, cheesy corn, coleslaw, and barbecue sauce over tortilla chips, on the menu since 2012.",
+          "where": "Sections 221, 234, 417, and 422"
+        },
+        {
+          "name": "Z-Man Sandwich",
+          "description": "The famous Z-Man sandwich from local favorite Joe's Kansas City Bar-B-Que, served with crispy onion rings.",
+          "where": "Joe's KC Bar-B-Que, right field"
+        },
+        {
+          "name": "Andy's Frozen Custard",
+          "description": "Half-pints of creamy custard from a Missouri favorite, made for hot summer games.",
+          "where": "Sections 221 and 239 and the Diamond Club"
+        }
+      ],
+      "mascot": {
+        "name": "Sluggerrr",
+        "description": "A lion who became the Royals' official mascot on April 5, 1996, and appears at every home game helping with in-game promotions.",
+        "fun_fact": "The top of his mane forms a crown, and he was inducted into the Mascot Hall of Fame in 2017."
+      },
+      "seating": [
+        {
+          "title": "Craft and Draft",
+          "description": "A second-deck area down the left-field line with craft beer; reserved bar-rail chairs come with in-seat service, while the benches are general admission."
+        },
+        {
+          "title": "Outfield concourse standing room",
+          "description": "During sellouts, standing-room tickets put you along the 360-degree outfield concourse right by the fountains."
+        },
+        {
+          "title": "Upper deck",
+          "description": "The upper deck is steep but gives a full view of the fountains and the crown scoreboard."
+        }
+      ]
+    },
+    "target_field": {
+      "tagline": "Minnie and Paul shake hands over center field in a park of Minnesota limestone.",
+      "highlights": [
+        "The Minnie and Paul sign above center field shows two players shaking hands across the Mississippi River, and their arms really move when the Twins homer.",
+        "Kasota limestone from southern Minnesota covers the outside walls, the backstop behind home plate, and the big wall in left-field foul territory.",
+        "The park sits on an 8-acre lot, the smallest in MLB, so the outfield stands stack steeply and the whole place feels close.",
+        "Each gate carries the retired number of a Twins great, from Gate 3 for Harmon Killebrew to Gate 34 for Kirby Puckett.",
+        "A giant Golden Glove on Target Plaza sits 520 feet from home plate, the distance of Killebrew's longest home run at Metropolitan Stadium."
+      ],
+      "getting_there": {
+        "transit": "The METRO Blue and Green light rail lines stop at Target Field Station, right next to the ballpark. Downtown skyways connect to the park, and a free staffed bike corral sits near Gate 6.",
+        "parking": "Ramps A, B, and C and the Hawthorne Ramp sit right by the ballpark at the end of Interstate 394; reserve and pay in advance for game-day parking.",
+        "area": "The North Loop and the historic Warehouse District: restaurants and taprooms are a short walk away, and most downtown hotels are within walking distance."
+      },
+      "photo_spots": [
+        {
+          "name": "Golden Glove on Target Plaza",
+          "description": "You can sit right in the giant glove, a favorite photo spot outside Gate 34."
+        },
+        {
+          "name": "Target Plaza statues",
+          "description": "Bronze statues of Twins greats, including Kirby Puckett and Harmon Killebrew, plus T.C. Bear, stand on the plaza."
+        },
+        {
+          "name": "Minnie and Paul sign",
+          "description": "Catch the handshake sign over center field, ideally right after a Twins home run."
+        }
+      ],
+      "food": [
+        {
+          "name": "Tony O's Cuban Sandwich",
+          "description": "Ham, roast pork, and Swiss on Cuban bread, created with Twins great Tony Oliva for the park's opening in 2010.",
+          "where": "Section 114, Hrbek's, and the Thrivent Club"
+        },
+        {
+          "name": "Kramarczuk's Sausages",
+          "description": "Bratwurst and Polish sausages from a Minneapolis sausage maker that has been at Target Field since it opened.",
+          "where": "Sections 101 and 112"
+        },
+        {
+          "name": "Killebrew Root Beer",
+          "description": "A root beer named for Harmon Killebrew, introduced with the ballpark in 2010.",
+          "where": "Concourses throughout the park"
+        }
+      ],
+      "mascot": {
+        "name": "T.C. Bear",
+        "description": "A playful bear, introduced in 2000, who often stands on the limestone roof of the Twins' dugout and poses for photos near Gate 34 during the third inning.",
+        "fun_fact": "T.C. stands for Twin Cities, and he was modeled on the cartoon bear from old Hamm's beer commercials."
+      },
+      "seating": [
+        {
+          "title": "Outfield upper decks",
+          "description": "Because the lot is so small, the outfield stands are stacked steeply on top of each other, so even upper rows feel near the action."
+        },
+        {
+          "title": "Truly On Deck",
+          "description": "A right-field club-level spot with indoor and outdoor seating, good for meeting up before, during, or after the game."
+        },
+        {
+          "title": "Carbliss Clubhouse",
+          "description": "A left-field corner lounge near Section 127 with tiered drink rails facing the field and overhead heaters for chilly nights."
+        }
+      ]
+    },
+    "daikin_park": {
+      "tagline": "A replica 1860s locomotive rolls along the roof track after Astros homers.",
+      "highlights": [
+        "A replica of a 19th-century locomotive and coal tender, weighing close to 50,000 pounds, runs about 800 feet along a track above left field and celebrates Astros home runs.",
+        "The Crawford Boxes sit just above the left-field wall, only 315 feet down the line, so fans are right on top of the left fielder.",
+        "An old-fashioned Phillips 66 gas pump on the Home Run Porch in left field keeps a running count of every Astros home run hit at the park.",
+        "Union Station, a train station that opened in 1911, is built into the ballpark and holds a team store in its lobby, where ballpark tours also begin.",
+        "The retractable roof includes a wall of 50,000 square feet of glass, so you can see the Houston skyline even when the roof is closed."
+      ],
+      "getting_there": {
+        "transit": "METRORail Green and Purple Line trains stop at Convention District station, a short walk from the ballpark. Red Line riders can transfer at Central Station and ride one stop east.",
+        "parking": "About 25,000 spaces in lots and garages sit within a half mile of the park, and all Astros-owned lots are cashless. Tailgating is not allowed in the ballpark lots.",
+        "area": "The east side of downtown Houston, next to the George R. Brown Convention Center; the Marriott Marquis, with its Texas-shaped rooftop lazy river, is a few blocks away."
+      },
+      "photo_spots": [
+        {
+          "name": "Union Station lobby",
+          "description": "The 1911 station lobby keeps its Corinthian-style columns and original marble, right next to the ballpark."
+        },
+        {
+          "name": "Hall of Fame Alley",
+          "description": "This left-field walkway, once known as Home Run Alley, honors the members of the Astros Hall of Fame."
+        },
+        {
+          "name": "Home Run Porch",
+          "description": "Stand by the Phillips 66 gas pump, with the train track high beyond left field, and wait for an Astros homer to set the train rolling."
+        }
+      ],
+      "food": [
+        {
+          "name": "Blue Bell ice cream in a souvenir helmet",
+          "description": "Ice cream from the Texas creamery in Brenham, served in a mini Astros helmet you get to keep.",
+          "where": "Cookies and Creamery stands at Sections 106, 128, 153, 224, 251, 411, and 429"
+        },
+        {
+          "name": "Taqueria Arandas",
+          "description": "Tex-Mex favorites from a Houston taqueria chain that opened its first restaurant on the city's Northside in 1981.",
+          "where": "Sections 154 and 420"
+        },
+        {
+          "name": "Texas smoked brisket",
+          "description": "Brisket smoked for 18 hours, served as a chopped sandwich, on a plate, or on a loaded baked potato.",
+          "where": "Butcher stands at Sections 105, 116, 152, 224, 408, and 434"
+        }
+      ],
+      "mascot": {
+        "name": "Orbit",
+        "description": "A lime-green space alien with baseball antennae who works every Astros home game, playing pranks on fans and opposing players.",
+        "fun_fact": "Orbit first appeared in 1990 at the Astrodome, came back in 2012 after being replaced for a time, and entered the Mascot Hall of Fame in 2024."
+      },
+      "seating": [
+        {
+          "title": "Crawford Boxes",
+          "description": "Left-field seats above the short wall that show you what the game looks like from an outfielder's spot."
+        },
+        {
+          "title": "Home Run Porch",
+          "description": "A standing area on the left-field concourse that reaches out over the field, a fun place to try for a home run ball."
+        },
+        {
+          "title": "Dugout and Field Boxes",
+          "description": "Seats along the foul lines sit only about five feet from the line, so the lower bowl feels very close to the action."
+        }
+      ]
+    },
+    "angel_stadium": {
+      "tagline": "A 230-foot Big A out front and a rockpile that fires off after Angels homers.",
+      "highlights": [
+        "The Big A sign, 230 feet tall, first stood behind the left-field fence in 1966 and has towered over the parking lot near the 57 Freeway since 1979.",
+        "The California Spectacular, a rock formation in left-center field with geysers and a waterfall, shoots fireworks at the start of every game, after every Angels home run, and after Angels wins.",
+        "The Rally Monkey, the Angels' unofficial mascot, first jumped onto the video board on June 6, 2000, and became famous during the 2002 World Series comeback.",
+        "Opened in 1966, Angel Stadium is the fourth-oldest ballpark in the majors, after Fenway Park, Wrigley Field, and Dodger Stadium."
+      ],
+      "getting_there": {
+        "transit": "Metrolink and Amtrak Pacific Surfliner trains stop at the Anaheim Regional Transportation Intermodal Center (ARTIC), about a mile from the ballpark. OCTA buses also serve the stadium.",
+        "parking": "Lots open two and a half hours before first pitch, with entrances on Douglass Road, State College Boulevard, and Orangewood Avenue. Parking is cashless, and tailgating is allowed only in the Big A Lot.",
+        "area": "Anaheim, about two miles from the Disneyland Resort; the Honda Center sits across the 57 Freeway, and two brewery restaurants are across Orangewood Avenue."
+      },
+      "photo_spots": [
+        {
+          "name": "Big A sign",
+          "description": "The giant red A with its halo on top rises from the parking lot, an easy shot on your way in."
+        },
+        {
+          "name": "Giant caps at the Home Plate Gate",
+          "description": "Two oversized red Angels caps flank the main entrance behind home plate, and the tag inside one lists a hat size of 649 and a half."
+        },
+        {
+          "name": "The rockpile",
+          "description": "Aim at left-center field after an Angels homer to catch the geysers and fireworks."
+        }
+      ],
+      "food": [
+        {
+          "name": "Helmet Nachos",
+          "description": "The park's famed nachos, piled high with toppings in a souvenir helmet you take home.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Cathy's Cookies",
+          "description": "A bucket of freshly baked chocolate chip cookies from a local Orange County baker.",
+          "where": "Gate 1 and 4 Courtyard and Section 432"
+        },
+        {
+          "name": "Chronic Tacos",
+          "description": "Tacos and burritos from a Southern California chain that started in Newport Beach.",
+          "where": "First Base Food Court and Sections 211 and 420"
+        }
+      ],
+      "mascot": null,
+      "seating": [
+        {
+          "title": "Terrace Level",
+          "description": "The 200 Level sits under the deck above, so it stays covered and shaded, a relief on hot afternoons."
+        },
+        {
+          "title": "Brewery X in right field",
+          "description": "A bar and restaurant in right field with table seating that looks out on the field."
+        },
+        {
+          "title": "View Level behind home plate",
+          "description": "High seats behind the plate take in the whole field, the rockpile, and the Big A out in the lot."
+        }
+      ]
+    },
+    "sutter_health_park": {
+      "tagline": "Big-league ball in a Triple-A park, with the gold Tower Bridge past right field.",
+      "highlights": [
+        "This minor-league park, home of the Sacramento River Cats, is the Athletics' temporary home from 2025 through 2027 while their Las Vegas ballpark is built, so it is a short window to see MLB in a park this size.",
+        "The Tower Bridge, built in the 1930s and painted gold, looms over the right-field fence and glows at twilight.",
+        "Toyota Home Run Hill, a grass berm beyond right field, is one of the best spots to watch the sun go down.",
+        "In 2026 the A's moved six home games, June 8 to 14, to Las Vegas Ballpark, giving this park a midseason break.",
+        "Near the left-field foul pole, Stairwell Four holds old uniforms, scorecards, rings, and signed balls from the A's, River Cats, and earlier Sacramento teams."
+      ],
+      "getting_there": {
+        "transit": "Yolobus buses stop near the park, and SacRT light rail and Amtrak Capitol Corridor and Gold Runner trains reach downtown Sacramento; from there, walk across the Tower Bridge to the ballpark.",
+        "parking": "Several lots sit close to the main entrance, or you can park near Old Sacramento and walk across the bridge. Tailgating is allowed within your space, but alcohol is not allowed in the lots.",
+        "area": "West Sacramento, just across the Sacramento River from Old Sacramento, where the California Railroad Museum and riverfront restaurants are a short walk away."
+      },
+      "photo_spots": [
+        {
+          "name": "Tower Bridge from the seats",
+          "description": "Frame the gold bridge over the right-field fence, ideally at twilight when it takes on a golden glow."
+        },
+        {
+          "name": "Tower Bridge replica",
+          "description": "Kids can climb a small copy of the bridge in the free Jamba Whirl'd play area behind Home Run Hill."
+        },
+        {
+          "name": "River Walk Park",
+          "description": "This West Sacramento riverside park gives a wide view of the Sacramento skyline and Old Sacramento."
+        }
+      ],
+      "food": [
+        {
+          "name": "Garlic Fries",
+          "description": "Crinkle-cut fries tossed with garlic and parmesan, the park's signature side.",
+          "where": "Bridges Grille, Coop and Kennel Pub, and Golden Spike Chophouse"
+        },
+        {
+          "name": "Tri Tip Sandwich",
+          "description": "A sliced tri-tip sandwich that the official menu calls the park's famous one.",
+          "where": "Portable carts on the concourse"
+        },
+        {
+          "name": "Merlino's Freeze",
+          "description": "A Sacramento frozen treat made from fruit juice, sold in the city since a family popsicle stand opened in 1946.",
+          "where": "Portable carts on the concourse"
+        }
+      ],
+      "mascot": {
+        "name": "Stomper",
+        "description": "A big, jolly elephant who made his debut on April 2, 1997, at the Oakland Coliseum and now roams Sutter Health Park showing off his dance moves.",
+        "fun_fact": "The A's elephant goes back to the team's early Philadelphia days, when Connie Mack proudly adopted it after John McGraw called the club a white elephant."
+      },
+      "seating": [
+        {
+          "title": "Toyota Home Run Hill",
+          "description": "General admission lawn seating beyond right field; arrive early for a good spot, and low lawn chairs and umbrellas are allowed."
+        },
+        {
+          "title": "Seats from home plate down the left-field line",
+          "description": "These seats look out at the Tower Bridge, the Sacramento skyline across the river, and the pyramid-shaped Ziggurat building."
+        }
+      ]
+    },
+    "t_mobile_park": {
+      "tagline": "The roof is a giant umbrella: it keeps the rain off but never seals you in.",
+      "highlights": [
+        "Unlike other retractable roofs, this one only shields the field from rain and never encloses the park, so even on cool nights you still feel outdoors.",
+        "Four bronze statues by Lou Cella honor broadcaster Dave Niehaus, Ken Griffey Jr., Edgar Martinez, and Ichiro Suzuki, whose statue was unveiled on April 10, 2026.",
+        "The Baseball Museum of the Pacific Northwest and the Mariners Hall of Fame, behind Sections 133 to 136, are free and open during every Mariners home game.",
+        "In The T-Mobile 'Pen, a standing area next to the bullpens, you can watch relief pitchers warm up up close."
+      ],
+      "getting_there": {
+        "transit": "Link light rail stops at Stadium and International District/Chinatown stations, both a short walk away, and the 2 Line from the Eastside connects at International District/Chinatown. Sounder game trains run to King Street Station for some games.",
+        "parking": "The Mariners Garage sits across Edgar Martinez Drive, with a limited number of first-come spots sold on game days and no pre-purchase. The garage is cashless, and the Lumen Field garage and private lots nearby are other options.",
+        "area": "The SoDo neighborhood just south of downtown, next to Lumen Field, with the Chinatown-International District a short walk to the north."
+      },
+      "photo_spots": [
+        {
+          "name": "Ken Griffey Jr. statue",
+          "description": "The 7-foot bronze of Griffey watching a home run fly stands outside the Home Plate Gate, at Edgar Martinez Drive and Dave Niehaus Way."
+        },
+        {
+          "name": "The Tempest",
+          "description": "Look up inside the home plate entry at a chandelier made of 1,000 resin baseball bats."
+        },
+        {
+          "name": "Rooftop Boardwalk",
+          "description": "This View Level boardwalk along First Avenue looks out over Puget Sound and the downtown skyline."
+        }
+      ],
+      "food": [
+        {
+          "name": "Ivar's",
+          "description": "Clam chowder and fried fish from a Seattle seafood name founded in 1938.",
+          "where": "Section 117"
+        },
+        {
+          "name": "Chapulines",
+          "description": "Toasted grasshoppers with chili-lime salt, one of the park's best sellers since they sold out on their 2017 debut.",
+          "where": "Edgar's Cantina in left field"
+        },
+        {
+          "name": "Kidd Valley",
+          "description": "Burgers and fries from a Seattle burger chain.",
+          "where": "Section 325"
+        }
+      ],
+      "mascot": {
+        "name": "Mariner Moose",
+        "description": "The Mariners' moose has danced at home games since April 13, 1990, and meets young fans at the Moose Den in center field near Section 190.",
+        "fun_fact": "He was picked in a 1990 contest for kids 14 and under: out of more than 2,500 entries, the winning idea came from a fifth grader in Ferndale, Washington."
+      },
+      "seating": [
+        {
+          "title": "The T-Mobile 'Pen",
+          "description": "A standing-room area in left-center next to the bullpens, open two hours before first pitch, with food and drinks all around."
+        },
+        {
+          "title": "Edgar's Cantina and Home Run Porch",
+          "description": "Named for Edgar Martinez, this left-field spot looks into left field and the bullpens; space is first-come, first-served, and the Cantina is 21 and over."
+        },
+        {
+          "title": "View Level",
+          "description": "The 300 Level near the Rooftop Boardwalk adds views of Puget Sound and the city to the game below."
+        }
+      ]
+    },
+    "globe_life_field": {
+      "tagline": "Every outfield distance here honors a Rangers great or a milestone year.",
+      "highlights": [
+        "The outfield distances pay tribute to Rangers history: 329 feet in left for Adrian Beltre's No. 29, 407 in center for Ivan Rodriguez's No. 7, and 326 in right for Johnny Oates' No. 26.",
+        "The Rangers usually play with the roof closed, which keeps the park between 72 and 74 degrees all season even when Texas summers hit triple digits.",
+        "In 2020 the park hosted the whole World Series, the first neutral site in World Series history.",
+        "Statues of Nolan Ryan, Ivan Rodriguez, Adrian Beltre, and former Arlington mayor Tom Vandergriff stand around the ballpark, along with Neftali Feliz and Bengie Molina embracing after the final out of the 2010 ALCS.",
+        "The Rangers' old home, the Ballpark in Arlington, still stands across the street as Choctaw Stadium."
+      ],
+      "getting_there": {
+        "transit": "Arlington has no regular bus or rail line, so most fans drive or use rideshare. The city's Arlington On-Demand shared rides connect to the Trinity Railway Express at CentrePort station, and the free Arlington Trolley links Entertainment District hotels to the park on game days.",
+        "parking": "Team lots open about two hours before first pitch and are cashless; buy a pass in advance in the MLB Ballpark app or at the lot. Tailgating is allowed in the grassy areas of most lots until the end of the second inning.",
+        "area": "The Arlington Entertainment District: Texas Live! dining and bars sit right next door, AT&T Stadium shares the parking area, and Six Flags Over Texas is down the street."
+      },
+      "photo_spots": [
+        {
+          "name": "Adrian Beltre statue",
+          "description": "The life-size bronze in the Northeast Entrance Plaza is meant to be a meeting spot, as in \"Let's meet at the Beltre statue.\""
+        },
+        {
+          "name": "Feliz and Molina statue",
+          "description": "Pose with the bronze of Neftali Feliz and Bengie Molina hugging after the final out that sent Texas to the 2010 World Series."
+        },
+        {
+          "name": "Choctaw Stadium across the street",
+          "description": "Get the old Ballpark in Arlington in the same trip, just across the street from the new park."
+        }
+      ],
+      "food": [
+        {
+          "name": "The Boomstick",
+          "description": "A 2-foot hot dog loaded with chili, nacho cheese, jalapenos, and onions, first served in 2012 and named for slugger Nelson Cruz.",
+          "where": "Section 132"
+        },
+        {
+          "name": "Hurtado Barbecue",
+          "description": "Brisket sandwiches, brisket nachos, and other favorites from an Arlington barbecue restaurant, the team's official barbecue partner.",
+          "where": "Sections 141 and 200"
+        },
+        {
+          "name": "Whataburger",
+          "description": "Burgers, fries, onion rings, and shakes from the Texas burger chain.",
+          "where": "Section 105"
+        }
+      ],
+      "mascot": {
+        "name": "Rangers Captain",
+        "description": "A fun, furry palomino horse, introduced in 2002, who shows up around Globe Life Field and at events across the area.",
+        "fun_fact": "He wears No. 72 for 1972, the year the team moved to Texas, and matches whatever uniform the Rangers wear that day."
+      },
+      "seating": [
+        {
+          "title": "Budweiser Sky Porch",
+          "description": "An upper-level porch area by Sections 201 to 204 with barbecue plates nearby and rocking chairs in the back row, sold in groups."
+        },
+        {
+          "title": "All You Can Eat seats",
+          "description": "The Lower Concourse picnic area in Sections 27 to 33, where the ticket includes hot dogs, burgers, nachos, peanuts, popcorn, and soft drinks."
+        }
+      ]
+    },
+    "truist_park": {
+      "tagline": "Hank Aaron's 715th home run in bronze, beside a 755 built from 755 bats.",
+      "highlights": [
+        "Monument Garden, on the main concourse behind home plate, centers on Ross Rossin's statue of Hank Aaron hitting his record-breaking 715th home run, and it is free for every fan inside the park.",
+        "Next to the statue, a sculpture made of 755 Louisville Slugger bats forms the number 755, Aaron's career home run total, and the Braves Hall of Fame plaques fill the same space.",
+        "Look at the end of any row: the end seat of every row in the park carries the silhouette of Aaron's famous swing.",
+        "Beyond the center-field wall, evergreen trees, boulders, and a waterfall form the batter's eye, and the water feature can shoot jets 80 feet high for big moments.",
+        "The Battery Atlanta, a year-round district of restaurants, hotels, and the Coca-Cola Roxy concert hall, wraps around the outfield, with the Omni Hotel just beyond center field."
+      ],
+      "getting_there": {
+        "transit": "No rail line reaches the park: take MARTA Bus 12 from Midtown station to the Cumberland Transfer Center, then the free Cumberland Circulator shuttle. CobbLinc buses also stop nearby, but some routes do not run on Sundays.",
+        "parking": "The Braves strongly recommend buying parking ahead of time, since spots are sold by availability and only until first pitch. Streets in the surrounding neighborhoods are residential permit parking only.",
+        "area": "Cumberland in Cobb County, about 10 miles northwest of downtown Atlanta near the junction of Interstates 75 and 285, inside The Battery Atlanta."
+      },
+      "photo_spots": [
+        {
+          "name": "Hank Aaron statue",
+          "description": "The bronze of Aaron's 715th home run swing stands in Monument Garden near Section 125, with the 755-bat sculpture right behind it."
+        },
+        {
+          "name": "Gate statues",
+          "description": "Statues of Warren Spahn, Phil Niekro, and Bobby Cox stand near the Left Field, Third Base, and First Base gates."
+        },
+        {
+          "name": "Hope and Will's Sandlot",
+          "description": "A kid-sized ball field with a scaled model of Truist Park's outfield wall, in the Left Field Plaza between the Left Field Gate and Third Base Gate."
+        }
+      ],
+      "food": [
+        {
+          "name": "Chick-fil-A",
+          "description": "Chicken sandwiches and nuggets from an Atlanta original, with waffle fries and milkshakes at some stands; like the chain's restaurants, these stands close on Sundays.",
+          "where": "Sections 105, 143, 231, 326, and 341"
+        },
+        {
+          "name": "Fox Bros. Bar-B-Q",
+          "description": "Texas-style pulled pork and chicken sandwiches from an Atlanta barbecue favorite that has served the ballpark since it opened in 2017.",
+          "where": "Section 151"
+        },
+        {
+          "name": "Outfield Market",
+          "description": "An eight-stall food hall with stands such as Pepper's Hot Dogs, Taqueria Tsunami, and Coop's Wings; it opened in 2025.",
+          "where": "Sections 152 to 155, just inside the Chop House Gate"
+        }
+      ],
+      "mascot": {
+        "name": "Blooper",
+        "description": "A big, furry, nearly 7-foot-tall character who clowns around at Braves games and meets fans at BLOOPER's Clubhouse in Children's Healthcare of Atlanta Park.",
+        "fun_fact": "He was introduced at the Braves fan fest on January 27, 2018, taking over from Homer the Brave, and the team's own story calls him a product of science run amok."
+      },
+      "seating": [
+        {
+          "title": "Coors Light Chop House",
+          "description": "A right-field bar and restaurant at Section 156, open to all fans, where you can eat and drink while watching the game."
+        },
+        {
+          "title": "Under the canopy",
+          "description": "A 90-foot-wide canopy wraps around the top of the stadium, so upper rows beneath it are the best bet for shade on hot afternoons."
+        }
+      ]
+    },
+    "loandepot_park": {
+      "tagline": "MLB's southernmost park, where the Homer sculpture comes alive daily at 3:05.",
+      "highlights": [
+        "Red Grooms' seven-story Homer sculpture, which once stood in left-center, now sits outside along the left-field side and goes off at 3:05 p.m. every day for Miami's 305 area code.",
+        "The park stands on the site of the Miami Orange Bowl, and an art piece on the East Plaza shows the old stadium's MIAMI ORANGE BOWL letters as if they had fallen to the ground.",
+        "Sliding glass panels beyond left field open onto the downtown Miami skyline, and the retractable roof takes about 13 to 15 minutes to open or close.",
+        "The Bobblehead Museum, behind the batter's eye in center field, displays more than 500 bobbleheads.",
+        "Called the Home of Beisbol by the Marlins, the park hosted World Baseball Classic games in all three rounds in 2026, including the final on March 17."
+      ],
+      "getting_there": {
+        "transit": "Culmer and Civic Center Metrorail stations are each within a mile of the park, and several Metrobus routes and the City of Miami Trolley also serve it. From Broward, Palm Beach, or Orlando, a Brightline HOME RUNNER ticket to MiamiCentral includes a free shuttle to the park.",
+        "parking": "Four garages and six surface lots surround the park, and you register your license plate in an app instead of paying at the gate. Rates change by game, and a prepaid pass is the only way to guarantee a spot.",
+        "area": "Little Havana, just west of downtown Miami; South Beach, Brickell, Wynwood, and Coral Gables are all about 20 minutes away."
+      },
+      "photo_spots": [
+        {
+          "name": "Homer sculpture",
+          "description": "The colorful seven-story sculpture outside the left-field side of the park, best caught when it comes alive at 3:05 p.m."
+        },
+        {
+          "name": "Fallen Orange Bowl letters",
+          "description": "The East Plaza art piece of scattered MIAMI ORANGE BOWL letters, a nod to the stadium that once stood on this spot."
+        },
+        {
+          "name": "Left-field skyline windows",
+          "description": "From inside, the glass panels beyond left field frame the downtown Miami skyline."
+        }
+      ],
+      "food": [
+        {
+          "name": "Croquetas and Cuban coffee",
+          "description": "Ham croquetas, empanadas, and a strong Cuban coffee, Miami's classic snack break.",
+          "where": "Coffee counter at Section 34"
+        },
+        {
+          "name": "Cuban sandwich",
+          "description": "Miami's signature pressed sandwich, sold at more than one stand around the park.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Arepas by P.A.N.",
+          "description": "Freshly pressed Venezuelan arepas filled with shredded beef, stewed chicken, or cheddar cheese.",
+          "where": "Concourses throughout the park"
+        }
+      ],
+      "mascot": {
+        "name": "Billy the Marlin",
+        "description": "An 8-foot-tall marlin with a long bill who has been the team's mascot since its first season in 1993 and meets fans at Billy's Boathouse near Section 34 during the fifth inning.",
+        "fun_fact": "Since 2023 he has shared the spotlight with a mascot race of rooster characters, Pepito, Charlie, and Bobby, who were later joined by Mia the hen."
+      },
+      "seating": [
+        {
+          "title": "Bullpen Bar and Grill",
+          "description": "A left-field sports bar next to the Marlins' bullpen with its own view of the field; space is limited, so lock in seats ahead of time."
+        },
+        {
+          "title": "Cool under the roof",
+          "description": "The park is air-conditioned and the roof is usually closed in the summer heat, so a light layer helps. The team posts the roof decision a couple of hours before each game."
+        }
+      ]
+    },
+    "citi_field": {
+      "tagline": "A giant Home Run Apple rises from center field after every Mets homer.",
+      "highlights": [
+        "When a Mets player homers, a giant apple with a glowing Mets logo, 16 and a half feet tall, rises from its housing in the center-field batter's eye.",
+        "The original Home Run Apple from Shea Stadium now sits outside in Mets Plaza, next to a twice-life-size statue of Tom Seaver installed in 2022.",
+        "Most fans enter through the Jackie Robinson Rotunda, a grand entrance modeled on Brooklyn's Ebbets Field, with a 42 sculpture inside honoring Robinson.",
+        "Bronze markers in the pavement of Parking Lot B show exactly where Shea Stadium's bases, pitcher's mound, and home plate once were.",
+        "Planes heading into LaGuardia Airport, about a mile away, often descend past the right-center-field fence."
+      ],
+      "getting_there": {
+        "transit": "The 7 subway stops at Mets-Willets Point, steps from the entrance, with express service before and after games. The LIRR Port Washington Branch stops at the same station, under 20 minutes from Penn Station and Grand Central Madison.",
+        "parking": "Surface lots around the stadium open two and a half hours before first pitch. The Mets encourage transit, especially during the US Open in late August and early September, when tennis crowds fill the area.",
+        "area": "Willets Point in Flushing Meadows-Corona Park, Queens, next to the US Open tennis grounds; downtown Flushing and its food scene are one stop away on the 7."
+      },
+      "photo_spots": [
+        {
+          "name": "Shea apple and Seaver statue",
+          "description": "The original Shea Stadium apple and the Tom Seaver statue stand side by side in Mets Plaza, outside the rotunda at 41 Seaver Way."
+        },
+        {
+          "name": "Jackie Robinson Rotunda",
+          "description": "The arched entrance hall, modeled on Ebbets Field, with the large 42 sculpture and the Mets Hall of Fame plaques at the top."
+        },
+        {
+          "name": "Shea Stadium markers",
+          "description": "Stand on the bronze home plate marker in Parking Lot B, on the third-base side of Citi Field, where Shea's diamond used to be."
+        },
+        {
+          "name": "Unisphere",
+          "description": "The giant steel globe from the 1964 World's Fair, in the same park a short walk from the stadium."
+        }
+      ],
+      "food": [
+        {
+          "name": "Shake Shack",
+          "description": "The ShackBurger from Danny Meyer's New York burger stand, an anchor of Citi Field's food since the park opened in 2009.",
+          "where": "Taste of the City, behind the center-field video board"
+        },
+        {
+          "name": "Pat LaFrieda Steak Sandwich",
+          "description": "Hand-cut Black Angus beef, Monterey Jack, and sweet onions with jus on a toasted baguette, served here since 2012.",
+          "where": "Taste of the City and Section 416"
+        },
+        {
+          "name": "Premio Sausage",
+          "description": "Hot or sweet Italian sausage, a longtime Citi Field standby.",
+          "where": "Concourses throughout the park"
+        }
+      ],
+      "mascot": {
+        "name": "Mr. Met",
+        "description": "A man with a big baseball for a head who roams Citi Field during games, usually alongside his wife, Mrs. Met.",
+        "fun_fact": "He began as a cartoon in 1963 programs and first appeared in costume at Shea Stadium in 1964. In 2026 Mrs. Met became the first female mascot elected to the Mascot Hall of Fame, joining Mr. Met, who was elected in 2007."
+      },
+      "seating": [
+        {
+          "title": "Metro Market",
+          "description": "A food hall open to all fans just beyond Section 333 on the Excelsior Level, with seating and views of the field, the Manhattan skyline, and the World's Fair Marina."
+        },
+        {
+          "title": "Coca-Cola Corner",
+          "description": "This Excelsior Level spot sits atop the right-field seating deck with an elevated view of the field and the big Coca-Cola sign."
+        },
+        {
+          "title": "Third-base side for shade",
+          "description": "For day games, seats on the third-base side fall into shade earlier than the first-base side."
+        }
+      ]
+    },
+    "citizens_bank_park": {
+      "tagline": "A giant Liberty Bell lights up and swings after every Phillies home run.",
+      "highlights": [
+        "When the Phillies homer, the giant Liberty Bell in right-center lights up and swings, and the 19-foot bell that once sat atop Veterans Stadium greets fans at the Third Base Plaza.",
+        "The park hosted the MLB All-Star Game on July 14, 2026, a site chosen to mark 250 years since the Declaration of Independence was signed in Philadelphia.",
+        "Monty's Angle, just left of dead center, is a stretch of outfield wall that angles into the field and drops from 19 feet to under 13 feet, named for late team president David Montgomery.",
+        "From Ashburn Alley you can watch both teams warm up in the stacked bi-level bullpens. The Phillies' relievers moved to the lower pen after just two exhibition games because the fans above were too exuberant.",
+        "The field sits 23 feet below street level and the main concourse is open all the way around, so you can follow the game while you walk."
+      ],
+      "getting_there": {
+        "transit": "Take SEPTA's B, the Broad Street subway, to NRG Station at Broad Street and Pattison Avenue, the closest stop. During events, trains run every ten minutes or less.",
+        "parking": "About 21,000 spaces fill the South Philadelphia Sports Complex, and Phillies lots are cashless. Tailgating is allowed in Lots A through H, M, N, and O, which open five hours before first pitch.",
+        "area": "The South Philadelphia Sports Complex, next to Lincoln Financial Field and Xfinity Mobile Arena; Center City, with Independence Hall and the Liberty Bell, is a short ride north on the B."
+      },
+      "photo_spots": [
+        {
+          "name": "Left Field Plaza",
+          "description": "Oversized World Series trophies, statues of retired numbers, and the Phillies Wall of Fame plaques make this a favorite stop."
+        },
+        {
+          "name": "Veterans Stadium Liberty Bell",
+          "description": "The 19-foot-high bell that once topped the Vet is on display at the Third Base Plaza as you walk up to the park."
+        },
+        {
+          "name": "Harry Kalas statue",
+          "description": "A statue of the beloved Phillies broadcaster stands on the main concourse behind Section 141."
+        },
+        {
+          "name": "Center City skyline",
+          "description": "The open outfield frames the skyline, and a viewing platform where the right-field Pavilion level steps down gives a clear look at it."
+        }
+      ],
+      "food": [
+        {
+          "name": "Bull's BBQ",
+          "description": "Pulled pork, ribs, and burnt ends from Phillies great Greg Luzinski, who has run the stand since the park opened in 2004 and still hosts it at games.",
+          "where": "Left Field Plaza"
+        },
+        {
+          "name": "Campo's Cheesesteak",
+          "description": "A cheesesteak from the Old City deli that has served Philadelphia since 1947 and Ashburn Alley since 2009.",
+          "where": "Ashburn Alley"
+        },
+        {
+          "name": "Chickie's and Pete's Crabfries",
+          "description": "The famous seasoned Crabfries from a Philadelphia icon since 1977.",
+          "where": "Ashburn Alley under the Liberty Bell, plus Sections 126 and 139"
+        },
+        {
+          "name": "Philadelphia water ice",
+          "description": "Philly's famous water ice in a variety of flavors, a must on a summer night.",
+          "where": "Ashburn Alley and Sections 118 and 134"
+        }
+      ],
+      "mascot": {
+        "name": "Phillie Phanatic",
+        "description": "A large, furry, green creature with a party-horn tongue who works the field and the dugouts before, during, and after Phillies games.",
+        "fun_fact": "He debuted at Veterans Stadium on April 25, 1978, and his official story says he came from the Galapagos Islands. In 2005 he was part of the first class of the Mascot Hall of Fame."
+      },
+      "seating": [
+        {
+          "title": "PJ Fitzpatrick Rooftop",
+          "description": "Bleacher seats on the rooftops above Ashburn Alley, a nod to the 1920s rooftop bleachers that 20th Street residents built outside Shibe Park."
+        },
+        {
+          "title": "Right-field Pavilion",
+          "description": "A built-in break in the upper structure lowers the right-field Pavilion seats about 20 feet, putting them closer to the field."
+        },
+        {
+          "title": "Miller Lite Liberty Landing",
+          "description": "A left-field bar built into the scoreboard structure, with a big view of the field."
+        }
+      ]
+    },
+    "nationals_park": {
+      "tagline": "George, Tom, Abe, and Teddy race for the finish line every fourth inning.",
+      "highlights": [
+        "In the Presidents Race, run in the middle of the fourth inning of every home game since 2006, runners in giant foam heads as Washington, Jefferson, Lincoln, and Teddy Roosevelt sprint for the finish line.",
+        "Teddy famously lost every race for almost seven seasons before winning for the first time on October 3, 2012.",
+        "Painted red seats in the upper deck mark where memorable home runs landed, a nod to the white seats at RFK Stadium that marked Frank Howard's long blasts.",
+        "The Ring of Honor behind home plate and along the outfield facades salutes greats of the Nationals, Senators, Homestead Grays, and Montreal Expos.",
+        "Fourteen Kwanzan cherry blossom trees, eight of them in the Center Field Plaza, have grown here since they were planted for the park's 2008 opening."
+      ],
+      "getting_there": {
+        "transit": "Metro's Green Line stops at Navy Yard-Ballpark station, one block from the park. Capitol South station on the Orange, Blue, and Silver lines is about a 15-minute walk.",
+        "parking": "Team garages and lots open 2 hours and 15 minutes before first pitch, drive-up parking is not offered for every game, and tailgating is not allowed. Buying parking ahead is strongly recommended.",
+        "area": "The Navy Yard neighborhood on the Anacostia River in Southeast Washington, with restaurants within walking distance and the shops of Barracks Row on 8th Street SE nearby."
+      },
+      "photo_spots": [
+        {
+          "name": "Racing Presidents meet and greet",
+          "description": "The Presidents pose for photos outside Section 131 during the fifth inning of every home game."
+        },
+        {
+          "name": "Home Plate Gate statues",
+          "description": "White bronze statues of Josh Gibson, Frank Howard, and Walter Johnson greet fans near the Home Plate Gate."
+        },
+        {
+          "name": "Center Field Plaza cherry trees",
+          "description": "Eight of the park's 14 Kwanzan cherry blossom trees stand together in the Center Field Plaza."
+        }
+      ],
+      "food": [
+        {
+          "name": "Ben's Chili Bowl Half-Smoke",
+          "description": "The smoked half-beef, half-pork sausage with chili from the U Street institution open since 1958, sold at the park since it opened in 2008.",
+          "where": "Sections 141, 238, and 307"
+        },
+        {
+          "name": "Rocklands BBQ",
+          "description": "Barbecue from a Washington smokehouse that opened its first restaurant in 1990 and came to the park in 2019.",
+          "where": "Section 118"
+        },
+        {
+          "name": "Chesapeake Crab Cake Company",
+          "description": "Crab cakes, a Chesapeake Bay favorite.",
+          "where": "Section 109"
+        }
+      ],
+      "mascot": {
+        "name": "Screech",
+        "description": "A bald eagle in the Nationals' home cap and jersey who has cheered on the team since its first season in Washington.",
+        "fun_fact": "He hatched on April 17, 2005, at RFK Stadium, and his official bio lists his favorite food as gummy worms and his favorite song as Fly Like an Eagle."
+      },
+      "seating": [
+        {
+          "title": "Home run seats in Sections 234 and 236",
+          "description": "Most of the painted red seats that mark memorable home runs are in these upper-deck sections, so you may sit where a Bryce Harper or Kyle Schwarber blast landed."
+        },
+        {
+          "title": "Third-base side for shade",
+          "description": "On sunny days, the third-base side of the lower and upper decks gets the most shade."
+        }
+      ]
+    },
+    "wrigley_field": {
+      "tagline": "Ivy-covered brick walls and a hand-turned scoreboard, both there since 1937.",
+      "highlights": [
+        "The outfield walls are covered in ivy planted in 1937 at Bill Veeck's suggestion: bare vines in April, thick and green by summer, and red by the postseason.",
+        "The center-field scoreboard, also from 1937, is still updated by hand from inside, and the team flags flying above it are ordered by the current standings.",
+        "After every Cubs win, a white flag with a blue W goes up over the scoreboard, and fans wave their own W flags to celebrate.",
+        "Opened in 1914, it is MLB's second-oldest park after Fenway, and in 1988 the Cubs became the last team to add lights for night games.",
+        "Rooftop clubs on the buildings across Waveland and Sheffield avenues sell seats with a view into the park, under a license from the Cubs."
+      ],
+      "getting_there": {
+        "transit": "The CTA Red Line stops at Addison, right at the ballpark, and CTA buses 152 (Addison) and 22 (Clark) stop at Clark and Addison. From O'Hare, take the Blue Line to Addison and transfer to the eastbound 152 bus.",
+        "parking": "The ballpark sits in a residential neighborhood with almost no parking, so the Cubs strongly encourage transit. For night and weekend games, a free remote lot on North Clarendon Avenue, at a new location in 2026, runs a shuttle to the park.",
+        "area": "Wrigleyville in Lakeview on Chicago's North Side, at the corner of Clark and Addison streets, with Gallagher Way, bars, and restaurants right outside."
+      },
+      "photo_spots": [
+        {
+          "name": "Red marquee",
+          "description": "The art deco marquee over the main entrance at Clark and Addison, installed in 1934 and red since 1960, is the classic Wrigley photo."
+        },
+        {
+          "name": "Statue Row and Champions Gate",
+          "description": "Statues of Ernie Banks, Ron Santo, Billy Williams, Fergie Jenkins, and Ryne Sandberg line Gallagher Way, where the Champions Gate arch honoring the 1907, 1908, and 2016 titles was dedicated on July 18, 2026."
+        },
+        {
+          "name": "Harry Caray statue",
+          "description": "The broadcaster's statue stands outside the Budweiser Bleacher Gate at Waveland and Sheffield, across the street from Murphy's Bleachers."
+        }
+      ],
+      "food": [
+        {
+          "name": "Chicago-style hot dog",
+          "description": "Vienna Beef, a long-time Wrigley supplier, provides the dogs sold Chicago style at kiosks on both levels and in the bleachers.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Home Run Inn pizza",
+          "description": "Pizza from Home Run Inn, a Chicago pizza maker and long-time Wrigley vendor.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Small Cheval burger",
+          "description": "Smash burgers from the takeout offshoot of Chicago's Au Cheval; the bleacher stand opened in 2023.",
+          "where": "Upper bleachers"
+        }
+      ],
+      "mascot": {
+        "name": "Clark",
+        "description": "A young, friendly bear cub in a Cubs jersey, usually with a backwards cap, who greets fans at Gallagher Way before games and walks the ballpark during them.",
+        "fun_fact": "The Cubs introduced him on January 13, 2014, and named him after Clark Street, which runs along the ballpark."
+      },
+      "seating": [
+        {
+          "title": "Budweiser Bleachers",
+          "description": "Bleacher seats are general admission, first come, first served, with their own gate at Waveland and Sheffield, so arrive early for a good spot."
+        },
+        {
+          "title": "Rooftops",
+          "description": "The licensed rooftop clubs across Waveland and Sheffield sell tickets in advance only; they cannot sell tickets on game day."
+        },
+        {
+          "title": "Friday afternoons",
+          "description": "Nearly all Friday home games start at 1:20 in the afternoon, Central time, keeping Wrigley's tradition of day baseball alive."
+        }
+      ]
+    },
+    "great_american_ball_park": {
+      "tagline": "Riverboat smokestacks fire off after Reds homers, with Kentucky over the river.",
+      "highlights": [
+        "Two Power Stacks in right-center, modeled on old Ohio River steamboat smokestacks, launch fireworks after every Reds home run and win and shoot flames on Reds strikeouts.",
+        "The park is open toward the river, so fans in the upper decks look out over the Ohio River to Kentucky on the far bank.",
+        "A 35-foot break in the stands between home plate and third base, called The Gap, frames a view of downtown Cincinnati from inside the park.",
+        "On Crosley Terrace at the main entrance, bronze statues of Joe Nuxhall, Ernie Lombardi, Ted Kluszewski, and Frank Robinson play an imaginary game on a lawn sloped like old Crosley Field's outfield terrace.",
+        "Cincinnati is the home of the 1869 Red Stockings, baseball's first all-professional team, honored in a pavilion next to the Reds Hall of Fame and Museum beside the ballpark."
+      ],
+      "getting_there": {
+        "transit": "The free Connector streetcar loops through downtown and Over-the-Rhine and stops at The Banks, steps from the park. Metro buses serve downtown, and TANK buses come over from Northern Kentucky.",
+        "parking": "A garage sits beneath the ballpark, more garages and lots fill The Banks and downtown, and the ballpark lots open five hours before game time. In 2026, Brent Spence Bridge corridor work closes some ramps to Second Street, so check detours before driving.",
+        "area": "The Banks riverfront district in downtown Cincinnati, between Heritage Bank Center and the Bengals' stadium, with Smale Park and the National Underground Railroad Freedom Center next door."
+      },
+      "photo_spots": [
+        {
+          "name": "Crosley Terrace statues",
+          "description": "The four bronze Crosley Field-era stars at the main entrance, at the corner of Second Street and Joe Nuxhall Way."
+        },
+        {
+          "name": "Entrance mosaics",
+          "description": "Just inside the main gates, two 16-foot glass-tile mosaics show the 1869 Red Stockings and the Big Red Machine that won the 1975 and 1976 World Series."
+        },
+        {
+          "name": "Johnny Bench statue",
+          "description": "The Hall of Fame catcher's statue stands outside the entrance to the Reds Hall of Fame and Museum, next to the ballpark."
+        }
+      ],
+      "food": [
+        {
+          "name": "Skyline Chili cheese coney",
+          "description": "A small hot dog under Cincinnati-style chili and shredded cheese from Skyline, a Cincinnati chili parlor chain.",
+          "where": "Sections 103, 116, 130, 518, and 535"
+        },
+        {
+          "name": "Montgomery Inn",
+          "description": "Pulled pork or chicken from Montgomery Inn, a Cincinnati barbecue restaurant known for its ribs.",
+          "where": "Sections 113, 117, 130, 137, and 516"
+        },
+        {
+          "name": "Graeter's ice cream",
+          "description": "A scoop from Graeter's, Cincinnati's hometown ice cream maker.",
+          "where": "Sections 119 and 534"
+        },
+        {
+          "name": "LaRosa's Pizza",
+          "description": "Pizza from LaRosa's, a Cincinnati-area pizzeria chain.",
+          "where": "Sections 113, 130, 519, and 523"
+        }
+      ],
+      "mascot": {
+        "name": "Mr. Redlegs",
+        "description": "A retro ballplayer with a handlebar mustache and a baseball for a head, who roams the park with the Reds' three other mascots: Mr. Red, Gapper, and Rosie Red.",
+        "fun_fact": "He is based on the Reds' 1953 cartoon mascot and has appeared in costume since 2007, and his team bio lists his likes as the Big Red Machine, mustaches, grand slams, and shutouts."
+      },
+      "seating": [
+        {
+          "title": "Sun/Moon Deck",
+          "description": "This right-field seating area mimics a feature of old Crosley Field, the Reds' home until 1970."
+        },
+        {
+          "title": "GigaBar",
+          "description": "Down the left-field line on the upper deck, the altafiber GigaBar is a walk-in bar open to all fans, next to the Fioptics District seats in Sections 408 to 410."
+        },
+        {
+          "title": "Fireworks Fridays",
+          "description": "Postgame fireworks were scheduled for most Friday nights in 2026. Fans in outfield Sections 140 to 146 get a better view from the concourse behind them or from the Fan Zone."
+        }
+      ]
+    },
+    "american_family_field": {
+      "tagline": "Bernie Brewer rides his slide after homers, and sausages race in the sixth.",
+      "highlights": [
+        "After every Brewers home run, Bernie Brewer slides down from his dugout high above the left-field bleachers, a tradition that began with slides into a giant beer mug at County Stadium.",
+        "In the middle of the sixth inning, the Famous Racing Sausages (Brat, Polish, Italian, Hot Dog, and Chorizo) race on the field, a feature that started on the County Stadium scoreboard in the 1990s and inspired copycats across baseball.",
+        "A fan-shaped retractable roof pivots over the field to keep out Wisconsin rain and cold, rising to 330 feet above the field at its highest point.",
+        "Tailgating in the parking lots before games is one of Wisconsin's great sports traditions, so fire up a grill and follow the posted rules.",
+        "Helfaer Field, a youth ballpark, sits roughly on the site of old Milwaukee County Stadium with a plaque marking its home plate, and another plaque in the Brewers 1 Lot marks where Hank Aaron's 755th and final home run landed in 1976."
+      ],
+      "getting_there": {
+        "transit": "Three Milwaukee County Transit System bus routes stop within a 15-minute walk, including the CONNECT 1 rapid bus at 45th Street and Wisconsin Avenue. Many local bars, restaurants, and hotels also run game-day shuttles.",
+        "parking": "The lots use license-plate recognition, so buy parking ahead in the Ballpark app or by QR code on arrival; lots open two and a half to three hours before first pitch. In 2026, I-94 construction changes some routes, and the Brewers post alternate directions.",
+        "area": "The Menomonee River Valley, a few miles west of downtown Milwaukee off Interstate 94, in the shadow of the Miller brewery."
+      },
+      "photo_spots": [
+        {
+          "name": "Bob Uecker Last Row statue",
+          "description": "The late broadcaster sits in the last row of the upper deck at Section 422, a nod to his famous Miller Lite ad line, \"I must be in the front row.\""
+        },
+        {
+          "name": "Home Plate Plaza statues",
+          "description": "Statues of Bud Selig, Hank Aaron, Robin Yount, and Bob Uecker stand on the plaza, near Teamwork, the bronze memorial to three ironworkers killed while building the park in 1999."
+        },
+        {
+          "name": "Walk of Fame",
+          "description": "Home plate-shaped granite markers circle the stadium, each honoring a Brewers or Milwaukee Braves great."
+        }
+      ],
+      "food": [
+        {
+          "name": "Bratwurst with Secret Stadium Sauce",
+          "description": "A grilled brat with sauerkraut and Secret Stadium Sauce, the Milwaukee ballpark classic.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Fried cheese curds",
+          "description": "Battered and fried Wisconsin cheese curds from Sargento.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "3rd Street Market Hall Annex",
+          "description": "A food hall of local Milwaukee vendors near the loge-level bars; it opened in 2024.",
+          "where": "Loge Level, down the right-field line"
+        }
+      ],
+      "mascot": {
+        "name": "Bernie Brewer",
+        "description": "A cheerful, mustachioed Brewers fan who leads cheers from Bernie's Dugout above the left-field bleachers and rides his slide after every Brewers home run.",
+        "fun_fact": "He honors Milt Mason, a 69-year-old fan who lived atop the County Stadium scoreboard for about 40 days in 1970, vowing to stay until the team drew a crowd of 40,000."
+      },
+      "seating": [
+        {
+          "title": "Uecker Seats",
+          "description": "Partially obstructed Terrace Level seats behind home plate go on sale at the ticket office when gates open on game day, except for Opening Day and the postseason."
+        },
+        {
+          "title": "Check the roof",
+          "description": "Because the roof can close, weather matters less here than at open-air parks. The Brewers post the roof status on their site and run a roof hotline on game days."
+        }
+      ]
+    },
+    "pnc_park": {
+      "tagline": "A 21-foot right-field wall for Clemente's 21, with the skyline beyond it.",
+      "highlights": [
+        "The Roberto Clemente Bridge and the downtown skyline rise beyond the outfield, and every seat outside the bleachers has a view of the city.",
+        "The right-field wall stands 21 feet high in honor of Roberto Clemente, who wore number 21, and the wall drops to 6 feet in left field.",
+        "In the fifth inning, costumed pierogies such as Sauerkraut Saul and Cheese Chester race along the warning track in the Great Pittsburgh Pierogy Race, then head into the stands for high-fives.",
+        "The two-deck design keeps fans close to the field: the highest seat in the park is just 88 feet above it.",
+        "Statues of Clemente, Willie Stargell, Bill Mazeroski, and Honus Wagner stand at the park's gates, and Wagner's was first dedicated in 1955 near Forbes Field."
+      ],
+      "getting_there": {
+        "transit": "The T light rail stops at North Side station, next to the park, and rides between downtown and the North Shore are free in the Free Fare Zone. You can also walk from downtown across the Roberto Clemente Bridge, which closes to cars on game days.",
+        "parking": "Garages and surface lots surround the park on the North Shore, and prepaid passes are digital in the Ballpark app. The Pirates suggest parking in a downtown garage and riding the free T across the river.",
+        "area": "The North Shore, across the Allegheny River from downtown Pittsburgh, with bars, the riverfront trail, and the Andy Warhol Museum within walking distance."
+      },
+      "photo_spots": [
+        {
+          "name": "Roberto Clemente Bridge",
+          "description": "Walk the bridge from downtown for the classic view of the ballpark, the Allegheny River, and the skyline."
+        },
+        {
+          "name": "Clemente statue",
+          "description": "The Clemente statue, dedicated at Three Rivers Stadium in 1994, now greets fans at the Center Field Gate, a few steps from the bridge that bears his name."
+        },
+        {
+          "name": "Ralph Kiner's hands",
+          "description": "A bronze casting of the Hall of Fame slugger's hands sits inside the park near the left-field rotunda."
+        }
+      ],
+      "food": [
+        {
+          "name": "Manny's BBQ",
+          "description": "Barbecue chicken and pulled pork, plus pierogies and mac and cheese, at the PNC Park fixture named for former Pirates catcher Manny Sanguillen.",
+          "where": "Left field"
+        },
+        {
+          "name": "Primanti Bros.",
+          "description": "Pittsburgh's famous sandwich, with meat, cheese, fries, tomatoes, and coleslaw piled between slices of Italian bread.",
+          "where": "Main concourse, first-base side"
+        },
+        {
+          "name": "Pierogies",
+          "description": "Pittsburgh's favorite dumplings turn up across the menu, from Manny's BBQ to the Cold Pierogi Salad that was new in 2026.",
+          "where": "Concourses throughout the park"
+        }
+      ],
+      "mascot": {
+        "name": "Pirate Parrot",
+        "description": "A big green parrot in a Pirates jersey and cap who dances on the dugouts, leads cheers, and visits fans around the ballpark.",
+        "fun_fact": "He hatched in 1979, the year the We Are Family Pirates won the World Series, and the character was inspired by Captain Flint, Long John Silver's parrot in Treasure Island."
+      },
+      "seating": [
+        {
+          "title": "Skyline side",
+          "description": "Every seat except the bleachers looks out at the city, so sit around the infield or in the upper deck for the full skyline view."
+        },
+        {
+          "title": "Outfield and bleachers",
+          "description": "A lively area with river views beyond center field, close to the Lucky Climber, a pirate ship play structure for kids added in 2023."
+        },
+        {
+          "title": "Riverwalk",
+          "description": "The Riverwalk runs through the outfield concourse inside the park, with standing room and gathering spots such as the center field bar."
+        }
+      ]
+    },
+    "busch_stadium": {
+      "tagline": "The Gateway Arch rises beyond the outfield like a postcard from home plate.",
+      "highlights": [
+        "The park was designed to put the 630-foot Gateway Arch on display beyond the center- and right-field walls, so from behind home plate it looks like a postcard.",
+        "For generations, fans have said Meet me at the Musial: the bronze statue of Stan the Man stands outside Gate 3, on the third-base side.",
+        "A group of smaller statues at Clark Avenue and 8th Street honors Cardinals greats such as Bob Gibson, Lou Brock, and Ozzie Smith, along with Cool Papa Bell and broadcaster Jack Buck.",
+        "The Cardinals Hall of Fame and Museum sits across Clark in Ballpark Village; the plaque gallery is free, and the 2026 special exhibit marks 100 years since the 1926 World Series.",
+        "The Cardinals have won 11 World Series, the most of any National League team, and the hand-operated scoreboard from the last years of old Busch Stadium is on display along the lower concourse."
+      ],
+      "getting_there": {
+        "transit": "MetroLink Red and Blue Line trains stop at Stadium station, next to the Westin on the 8th Street side of the park. Trains normally run until midnight and keep running after late games until the downtown platform clears.",
+        "parking": "The Cardinals sell game-day parking at the All-Star Lot on 8th Street and the One Cardinal Way garage on Broadway, with passes delivered in the Ballpark app. Drop-off and rideshare pickup are on Broadway just south of Clark Street.",
+        "area": "Downtown St. Louis, a short walk from the Gateway Arch and the Old Courthouse, with Ballpark Village and hotels right across the street."
+      },
+      "photo_spots": [
+        {
+          "name": "Stan Musial statue",
+          "description": "The statue of Musial at bat outside Gate 3 is the classic meeting spot before Cardinals games."
+        },
+        {
+          "name": "Hall of Famer statues",
+          "description": "The ring of statues at the corner of Clark and 8th, outside the team store, puts St. Louis baseball legends in one frame."
+        },
+        {
+          "name": "Arch over the outfield",
+          "description": "From the seats behind home plate, the Gateway Arch lines up beyond the outfield walls."
+        }
+      ],
+      "food": [
+        {
+          "name": "Broadway BBQ",
+          "description": "St. Louis-style smoked pulled pork and turkey, plus mesquite-smoked brisket carved to order, on bakery rolls.",
+          "where": "Section 109"
+        },
+        {
+          "name": "St. Louis Slinger Dog",
+          "description": "A ballpark take on the St. Louis slinger: a jumbo hot dog under hash browns, nacho meat, nacho cheese, and an egg.",
+          "where": "Topp Dog stand, main concourse"
+        },
+        {
+          "name": "Fried gooey butter cake",
+          "description": "St. Louis's classic gooey butter cake, wrapped in warm funnel cake; it was new in 2026.",
+          "where": "Gashouse Grill, Section 150"
+        }
+      ],
+      "mascot": {
+        "name": "Fredbird",
+        "description": "A cardinal in the team's uniform who leads cheers, shoots T-shirts into the stands, and is known for beaking fans' heads. Kids can find him in the Family Pavilion from first pitch until the start of the third inning.",
+        "fun_fact": "He hatched in April 1979, and the Mascot Hall of Fame inducted him in 2025."
+      },
+      "seating": [
+        {
+          "title": "Budweiser Terrace",
+          "description": "A general admission standing area in the right-field upper deck, opened in 2019, with bars, drink rails, and a stage."
+        },
+        {
+          "title": "Ballpark Village rooftops",
+          "description": "Ballpark Village sells tickets to watch from rooftop decks beyond the left-field wall, such as the Bud Deck on the third floor of the Budweiser Brew House."
+        },
+        {
+          "title": "Bring snacks",
+          "description": "The Cardinals allow outside food in sealed, soft-sided containers, a help on long, hot St. Louis summer days."
+        }
+      ]
+    },
+    "chase_field": {
+      "tagline": "A swimming pool sits beyond the outfield wall, under a retractable roof.",
+      "highlights": [
+        "A swimming pool and hot tub sit beyond the right-center field wall and are rented out as a suite one game at a time. The Cubs' Mark Grace hit the first home run into the pool on May 12, 1998.",
+        "When it opened in 1998, it was the first ballpark in the United States with a retractable roof over natural grass; the field switched to artificial turf in 2019.",
+        "The air-conditioned park was built for Phoenix's summer heat, and the roof stays closed most of the time, opening on game days only when the weather allows.",
+        "Game 7 of the 2001 World Series ended here, when Luis Gonzalez's bloop single off Mariano Rivera won the Diamondbacks the title in only their fourth season."
+      ],
+      "getting_there": {
+        "transit": "Valley Metro's A Line light rail stops next to the ballpark, at 3rd Street/Jefferson for eastbound trains and 3rd Street/Washington for westbound trains. From Sky Harbor Airport, ride the free PHX Sky Train to the 44th Street/Washington station and transfer to the light rail.",
+        "parking": "Garages and surface lots surround the ballpark in downtown Phoenix, including the Chase Field garage next to the park.",
+        "area": "Downtown Phoenix at 4th Street and Jefferson Street, a block from the Suns' arena, with restaurants such as Pizzeria Bianco within walking distance."
+      },
+      "photo_spots": [
+        {
+          "name": "The pool in right-center",
+          "description": "Walk the main concourse to the railing above the pool area in right-center field for a look at the park's most famous feature, even without a pool ticket."
+        },
+        {
+          "name": "Arizona Rotunda",
+          "description": "The three-story rotunda at the main entrance has a map of Arizona set into the floor and large murals on its walls celebrating the history of sports in Arizona."
+        }
+      ],
+      "food": [
+        {
+          "name": "Churro Dog",
+          "description": "A warm cinnamon churro on a donut bun, topped with frozen yogurt, whipped cream, and caramel and chocolate sauces; it debuted in 2015.",
+          "where": "Churro Dog HQ, Sections 129 and 324"
+        },
+        {
+          "name": "Hungry Hill meatball sub",
+          "description": "Meatball subs, Italian beef, brats, and sausages from a stand that has been a staple since the ballpark opened.",
+          "where": "Hungry Hill Sangwich, Sections 112, 134, and 315"
+        },
+        {
+          "name": "Sonoran-style dog",
+          "description": "A footlong in the style of the Sonoran hot dog, an Arizona favorite topped with bacon, pinto beans, and pico de gallo.",
+          "where": "Taste of Chase, Section 130"
+        },
+        {
+          "name": "Versus Dog",
+          "description": "A footlong hot dog whose toppings change with each visiting opponent.",
+          "where": "Big Dawgs, Sections 105 and 324"
+        }
+      ],
+      "mascot": {
+        "name": "D. Baxter the Bobcat",
+        "description": "A bobcat in Diamondbacks gear who has cheered at home games since 2000, mixing with fans of all ages and making mischief around the park.",
+        "fun_fact": "Second baseman Jay Bell's 6-year-old son, Brantley, came up with him: the park, then Bank One Ballpark, was nicknamed the BOB, so why not a BOBcat? He debuted on June 23, 2000."
+      },
+      "seating": [
+        {
+          "title": "Pool suite",
+          "description": "Groups can rent the pool area in right-center as a suite for a single game, so book well ahead for a summer date."
+        },
+        {
+          "title": "Check the roof",
+          "description": "The Diamondbacks post each game's roof status, open or closed, on their Roof Information page and roof hotline."
+        },
+        {
+          "title": "Honeywell Sandlot",
+          "description": "Families with young kids can head to the Honeywell Sandlot, a play area on the Upper Concourse past Section 332."
+        }
+      ]
+    },
+    "coors_field": {
+      "tagline": "A row of purple seats marks exactly one mile above sea level.",
+      "highlights": [
+        "Most seats are dark green, but the 20th row of the upper deck is purple because it sits exactly 5,280 feet, one mile, above sea level.",
+        "At about 5,200 feet, the field is by far the highest in the majors, so the outfield was built extra deep and game balls have been stored in a humidor since 2002 to tame the thin, dry air.",
+        "Behind the center-field wall, a landscape of native Colorado trees, rocks, a waterfall, and fountains shoots water about 40 feet into the air after every Rockies home run and win.",
+        "Blue Moon beer was first brewed here in 1995 at the SandLot, the brewery and restaurant built into the ballpark behind the right-field stands."
+      ],
+      "getting_there": {
+        "transit": "Denver Union Station, two blocks from the park, is served by RTD light rail and commuter trains, including the A Line commuter train to Denver International Airport. RTD buses also serve downtown.",
+        "parking": "The Rockies' own lots at Park Avenue West and Wazee Street open two and a half hours before games and take cards only. Downtown has more than 46,000 parking spaces, about 18,000 of them within a 15-minute walk.",
+        "area": "Denver's historic Lower Downtown (LoDo) neighborhood at 20th and Blake streets, two blocks from Union Station, with bars and restaurants all around the park."
+      },
+      "photo_spots": [
+        {
+          "name": "The purple row",
+          "description": "Climb to row 20 of the upper deck for a photo on the mile-high purple seats, with the Rocky Mountains to the west."
+        },
+        {
+          "name": "Center-field fountains",
+          "description": "The pine trees, waterfall, and fountains beyond center field make a backdrop, especially when the water shoots up after a Rockies home run."
+        },
+        {
+          "name": "Sunset over the mountains",
+          "description": "Rockies team photographer Kyle Cooper suggests shooting the sky 10 to 15 minutes after the sun drops behind the mountains."
+        }
+      ],
+      "food": [
+        {
+          "name": "Rocky Mountain oysters",
+          "description": "Fried bull calf testicles, a Colorado ranch tradition for adventurous eaters.",
+          "where": "Section 144"
+        },
+        {
+          "name": "Rockie Dog",
+          "description": "The park's signature foot-long hot dog, usually topped with grilled peppers, onions, and sauerkraut.",
+          "where": "Grille Works stands, concourses throughout the park"
+        },
+        {
+          "name": "Helton Burger Shack",
+          "description": "Made-to-order burgers, fries, onion rings, and shakes at a stand named for Hall of Famer Todd Helton, who wore number 17 for the Rockies.",
+          "where": "Section 153, under the main scoreboard"
+        }
+      ],
+      "mascot": {
+        "name": "Dinger",
+        "description": "A purple triceratops who roams the park and dances in the seats behind home plate in the late innings to rally the Rockies.",
+        "fun_fact": "He hatched from an egg at Mile High Stadium on April 16, 1994. The Rockies chose a triceratops because fossil fragments were found while Coors Field was being built."
+      },
+      "seating": [
+        {
+          "title": "The Rockpile",
+          "description": "The bleachers high in straightaway center field. A limited number of low-cost Rockpile tickets go on sale at the Gate A ticket windows two hours before most games."
+        },
+        {
+          "title": "The Rooftop",
+          "description": "A two-level standing-room area in the upper right-field deck, open to every ticket holder, with bars and panoramic views of downtown and the Front Range."
+        },
+        {
+          "title": "Batting practice",
+          "description": "Gates A and E open two hours before game time for batting practice, while the other gates open 90 minutes before."
+        }
+      ]
+    },
+    "dodger_stadium": {
+      "tagline": "Baseball's largest ballpark, in the hills of Chavez Ravine since 1962.",
+      "highlights": [
+        "Opened in 1962, Dodger Stadium is MLB's third-oldest park after Fenway and Wrigley, and with room for 56,000 fans it is the largest by capacity.",
+        "Wavy roofs top both outfield pavilions, one of the stadium's most distinctive features, and a hexagonal video board sits above each.",
+        "In the Centerfield Plaza, bronze statues of Jackie Robinson (unveiled in 2017) and Sandy Koufax (2022) stand side by side; the two Hall of Famers were teammates in Brooklyn.",
+        "Retired numbers line the left-field facade in the Ring of Honor, and plaques for each honoree and for the Legends of Dodger Baseball line the pavilion ramps.",
+        "Willie Stargell hit the first home run completely out of the stadium in 1969, and only a few players since, including Mike Piazza and Shohei Ohtani, have done it."
+      ],
+      "getting_there": {
+        "transit": "The free Dodger Stadium Express bus runs from Union Station, served by Metro Rail, Metrolink, and Amtrak, starting two and a half hours before games and using a bus lane on Sunset Boulevard. A second Express route runs from the South Bay, starting at Harbor Gateway Transit Center.",
+        "parking": "Large terraced lots surround the stadium, and the Dodgers encourage buying parking in advance; lot gates open about two and a half hours before first pitch. Tailgating is not allowed, and traffic on the roads up the hill can be heavy.",
+        "area": "Chavez Ravine in Elysian Park, just north of downtown Los Angeles and close to Chinatown. Since March 2026 the playing field has been called UNIQLO Field at Dodger Stadium, while the stadium keeps its name."
+      },
+      "photo_spots": [
+        {
+          "name": "Robinson and Koufax statues",
+          "description": "The two bronze statues in the Centerfield Plaza, both by sculptor Branly Cadet, show Robinson sliding into home and Koufax in his high leg kick."
+        },
+        {
+          "name": "Top Deck lantern",
+          "description": "Behind home plate on the Top Deck, a Japanese stone lantern from 1965, a gift from sports columnist Sotaro Suzuki, sits near views out over Los Angeles."
+        },
+        {
+          "name": "Bats and bobbleheads",
+          "description": "On the Field Level, a display of game-used bats from Dodgers greats sits by Section 50, and a big bobblehead collection sits by Section 51."
+        }
+      ],
+      "food": [
+        {
+          "name": "Dodger Dog",
+          "description": "The famous 10-inch pork hot dog in a steamed bun, sold grilled or steamed; Papa Cantella's of Vernon, California, has made it since 2021.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Tsukiji Gindaco takoyaki",
+          "description": "Octopus-filled takoyaki balls from a popular Japanese chain; the stand opened in 2024.",
+          "where": "Field Level, Section 45"
+        },
+        {
+          "name": "Carne asada",
+          "description": "Carne asada tacos, nachos, and fries, a nod to the city's taqueria culture.",
+          "where": "Hornitos Cantina (outfield plazas) and LA Taqueria (Loge 106, Reserve 17)"
+        }
+      ],
+      "mascot": null,
+      "seating": [
+        {
+          "title": "Pavilions",
+          "description": "The outfield pavilions sit under the wavy roofs, and since the 2020 renovation, elevators and escalators connect them to the Centerfield Plaza and the other levels."
+        },
+        {
+          "title": "Home Run Seats",
+          "description": "Added in 2021, these seats sit just beyond the outfield wall in left and right field, in front of the pavilions."
+        },
+        {
+          "title": "Postgame shows",
+          "description": "After select games, fans can watch the fireworks or drone show from the outfield grass, though space on the field is limited."
+        },
+        {
+          "title": "Bring food",
+          "description": "Outside food is allowed in a clear bag no larger than 12 by 12 by 6 inches, along with factory-sealed plastic bottles of non-alcoholic drinks up to 1 liter."
+        }
+      ]
+    },
+    "petco_park": {
+      "tagline": "The corner of a 1909 brick warehouse serves as the left-field foul pole.",
+      "highlights": [
+        "The 1909 Western Metal Supply building, a city historic landmark, was saved and built into left field, and its southeast corner serves as the foul pole. A ball off the east wall is a home run, and a ball off the south wall is foul.",
+        "Gallagher Square, a sloping grass park beyond the outfield that was renovated for the ballpark's 20th anniversary in 2024, lets fans watch from the lawn and opens to the public on some non-game days.",
+        "The Padres Hall of Fame, opened in 2016 beyond the left-field seats, covers San Diego baseball back to its Pacific Coast League days, and a statue of Trevor Hoffman stands nearby.",
+        "Fireworks and a foghorn go off from the scoreboard when the Padres take the field and after every Padres home run."
+      ],
+      "getting_there": {
+        "transit": "All three San Diego Trolley lines (Green, UC San Diego Blue, and Orange) serve the ballpark, with the 12th and Imperial station facing the main entrance and the Gaslamp Quarter station about a block away. Coaster commuter trains stop at Santa Fe Depot, where riders can transfer to the Green Line.",
+        "parking": "Downtown parking is limited, so the Padres urge fans to pre-purchase a spot in a Padres lot or take transit, and all Padres lots are cashless. Tailgating is allowed on a limited basis at Tailgate Park.",
+        "area": "The East Village in downtown San Diego, next to the Gaslamp Quarter and across from the Convention Center, with San Diego Bay a few blocks west."
+      },
+      "photo_spots": [
+        {
+          "name": "Western Metal building corner",
+          "description": "The yellow line painted on the building's southeast corner marks the left-field foul pole, though the corner itself is what counts."
+        },
+        {
+          "name": "Tony Gwynn statue",
+          "description": "The Hall of Famer's statue watches over the field from the Tony Gwynn Terrace in Gallagher Square, beyond right field, next to an exhibit on his life."
+        },
+        {
+          "name": "Jerry Coleman statue",
+          "description": "At the east entrance, the beloved broadcaster is shown in his Marine Corps pilot's uniform, with images from his life on the wall behind him."
+        },
+        {
+          "name": "Home Plate Gate",
+          "description": "Palm-lined steps lead up to the main entrance at Park Boulevard and Imperial Avenue, under the big Petco Park sign."
+        }
+      ],
+      "food": [
+        {
+          "name": "Fish tacos",
+          "description": "San Diego's signature taco, sold at local stands such as Puesto.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Hodad's burgers",
+          "description": "Burgers from Hodad's, a famed San Diego burger joint.",
+          "where": "Mercado near Section 104, and Sections 131, 230, and 300"
+        },
+        {
+          "name": "Tri-tip nachos",
+          "description": "Nachos piled with tri-tip from Seaside Market, a San Diego County market with a devoted local following.",
+          "where": "Seaside Market, Sections 105, 110, 308, 311, 322, 327, and Gallagher Square"
+        },
+        {
+          "name": "Randy Jones Grill",
+          "description": "A Petco Park staple named for Padres legend Randy Jones, serving the Big Dog, Italian sausages, and bratwurst.",
+          "where": "Sections 118, 305, 306, and 323"
+        }
+      ],
+      "mascot": {
+        "name": "Swinging Friar",
+        "description": "A cheerful, balding friar in a hooded robe, sandals, and a rope belt who swings a baseball bat and roams the park.",
+        "fun_fact": "He dates to the Pacific Coast League Padres, before San Diego joined the majors in 1969, and he is named for the Franciscan friars who founded Mission San Diego de Alcala."
+      },
+      "seating": [
+        {
+          "title": "Gallagher Square tickets",
+          "description": "Park tickets give access to the lawn and to standing-room spots around the ballpark, such as drink rails, on a first-come basis."
+        },
+        {
+          "title": "Western Metal building",
+          "description": "The historic warehouse holds suites, a restaurant, and rooftop seats overlooking left field."
+        },
+        {
+          "title": "Toyota Beach",
+          "description": "Beyond the right-center field fence is a beach-themed standing-room deck lined with palm trees; the area once had real sand and a kids' play area."
+        },
+        {
+          "title": "Sun and shade",
+          "description": "Seats range from full sun to full shade, so check the Padres' sun and shade seating map before you buy."
+        }
+      ]
+    },
+    "oracle_park": {
+      "tagline": "Home runs splash into San Francisco Bay over the right-field wall.",
+      "highlights": [
+        "Beyond the 24-foot brick right-field wall lies McCovey Cove, an arm of San Francisco Bay, where fans in kayaks and boats wait for home run balls.",
+        "A counter on the right-field wall tallies Giants splash hits into the Cove, more than 100 since 2000, and Barry Bonds hit 35 of them.",
+        "Triples Alley, the deep right-center corner 415 feet from home plate, was designed to recall the Polo Grounds, the Giants' old home in New York.",
+        "An 80-foot Coca-Cola bottle with slides and a giant vintage three-finger glove sit in the Fan Lot above the left-field bleachers, which looks out on the bay and the Bay Bridge.",
+        "Since 2020, both bullpens have sat behind the center-field wall, on either side of The Garden, a working mini-farm below the bleachers where fans can get food and drinks."
+      ],
+      "getting_there": {
+        "transit": "Muni Metro's 2nd and King station is right outside the ballpark, and Caltrain's San Francisco station at 4th and King is about a block and a half away. On game days, ferries from Larkspur and the East Bay dock at the landing behind center field.",
+        "parking": "Dozens of lots and garages surround the park, but Giants-controlled lots require a SpotHero reservation bought in advance. Informal tailgating is allowed around your car in Lot A.",
+        "area": "South Beach on the San Francisco waterfront, along China Basin at Third and King streets, about a mile down the Embarcadero from the Ferry Building."
+      },
+      "photo_spots": [
+        {
+          "name": "Willie Mays statue",
+          "description": "The 9-foot bronze of the Say Hey Kid stands at the main entrance on Willie Mays Plaza, ringed by 24 palm trees for his number 24."
+        },
+        {
+          "name": "McCovey Point",
+          "description": "Willie McCovey's statue stands across the Cove at McCovey Point in China Basin Park, with the ballpark's right-field wall across the water."
+        },
+        {
+          "name": "Coca-Cola Fan Lot",
+          "description": "The giant bottle and glove above the left-field bleachers frame shots of the field and the bay."
+        }
+      ],
+      "food": [
+        {
+          "name": "Gilroy Garlic Fries",
+          "description": "Fries tossed with garlic, the iconic Oracle Park dish; you will smell them before you see them.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Crazy Crab'z sandwich",
+          "description": "Dungeness crab piled between two slices of buttery grilled sourdough, a signature item and fan favorite.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Orlando's Cha-Cha Bowl",
+          "description": "A Caribbean-style bowl from Orlando's, the stand named for Giants Hall of Famer Orlando Cepeda.",
+          "where": "Concourses throughout the park"
+        },
+        {
+          "name": "Ghirardelli hot fudge sundae",
+          "description": "Vanilla ice cream with handmade hot fudge, whipped cream, almonds, and a cherry from San Francisco's Ghirardelli chocolate company.",
+          "where": "Concourses throughout the park"
+        }
+      ],
+      "mascot": {
+        "name": "Lou Seal",
+        "description": "A friendly seal in Giants gear who has been a regular at Giants home games since 1996 and makes appearances all over San Francisco.",
+        "fun_fact": "His full name is Luigi Francisco Seal, he was born on July 25, 1996, and fans picked his name in a contest; it honors the San Francisco Seals, the city's Pacific Coast League team until 1957. He entered the Mascot Hall of Fame in 2024."
+      },
+      "seating": [
+        {
+          "title": "Free Viewing Portal",
+          "description": "Anyone can watch through the right-field fence for free from this first-come, first-served spot on the waterfront, a nod to the old Knothole Gangs. Fans may be rotated out every three innings when it is busy."
+        },
+        {
+          "title": "Arcade",
+          "description": "A few rows of seats sit right above the brick right-field wall, overlooking McCovey Cove."
+        },
+        {
+          "title": "Bullpen Boardwalk",
+          "description": "Underneath the bleachers, the Bullpen Boardwalk has free skee-ball, pop-a-shot, cornhole, and other games, with no tickets or tokens needed."
+        }
+      ]
+    }
+  }
+}
