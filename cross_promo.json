@@ -746,15 +746,15 @@
     "liamlillian_wbc": ["liamlillian_mlb"],
 
     "weather_money_guide": ["energy_voucher", "kr_briefing"],
-    "mortgage_calculator": ["kr_briefing", "weather_money_guide", "salary_ticker"],
+    "mortgage_calculator": ["kr_briefing", "salary_ticker"],
     "energy_voucher": ["kr_briefing", "weather_money_guide"],
-    "klotski": ["mlb_light", "rush_hour", "pinch_orbit", "stretch_cat"],
+    "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
     "kr_briefing": ["envelope_screener", "financial_radar", "salary_ticker"],
-    "us_briefing": ["kr_briefing", "fire_calculator"],
+    "us_briefing": ["kr_briefing", "fire_calculator", "us_briefing"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
-    "envelope_screener": ["kr_briefing", "financial_radar", "salary_ticker"],
-    "fire_calculator": ["us_briefing", "financial_radar", "salary_ticker"],
+    "envelope_screener": ["financial_radar", "salary_ticker"],
+    "fire_calculator": ["financial_radar", "salary_ticker"],
     "salary_ticker": ["kr_briefing", "financial_radar"],
 
     "remtime": ["focusleep"],
