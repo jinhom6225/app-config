@@ -762,7 +762,7 @@
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
     "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
     "rugby_light": ["epl_light", "f1_light", "cricket_light"],
-    "f1_light": ["epl_light", "mls_light", "nba_light", "rugby_light", "cricket_light"],
+    "f1_light": ["epl_light", "mls_light", "nba_light"],
     "cricket_light": ["epl_light", "rugby_light", "f1_light"],
 
     "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
