@@ -710,6 +710,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.insightmyung.salaryticker"
       },
       "enabled": true
+    },
+    "unclaimedrefund": {
+      "title": {
+        "ko": "미환급금 한눈에",
+        "en": "Unclaimed Refund Finder"
+      },
+      "description": {
+        "ko": "숨은 환급금·휴면계좌 찾기",
+        "en": "Find unclaimed refunds"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/unclaimedrefund.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.unclaimedrefund"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -745,9 +760,10 @@
     "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
-    "weather_money_guide": ["energy_voucher", "kr_briefing"],
+    "weather_money_guide": ["energy_voucher", "kr_briefing", "unclaimedrefund"],
     "mortgage_calculator": ["kr_briefing", "salary_ticker"],
-    "energy_voucher": ["kr_briefing", "weather_money_guide"],
+    "energy_voucher": ["kr_briefing", "weather_money_guide", "unclaimedrefund"],
+    "unclaimedrefund": ["energy_voucher", "weather_money_guide"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
     "kr_briefing": ["envelope_screener", "financial_radar", "salary_ticker"],
