@@ -1,0 +1,3546 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "states": [
+    {
+      "code": "NY",
+      "name": {
+        "en": "New York",
+        "es": "Nueva York"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "NYS Office of Temporary and Disability Assistance (OTDA), through local departments of social services (NYC: HRA)",
+          "es": "Oficina de Asistencia Temporal y por Discapacidad del Estado de Nueva York (OTDA), a través de los departamentos locales de servicios sociales (NYC: HRA)"
+        },
+        "applyUrl": "https://www.ny.gov/services/apply-heating-assistance-heap",
+        "phone": "1-800-342-3009",
+        "windows": [
+          {
+            "id": "ny-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-02",
+            "end": null,
+            "status": "confirmed",
+            "note": {
+              "en": "Funds are limited and given first come, first served, so apply early. Homes with someone 60+, under 6, or disabled get $35 more.",
+              "es": "Los fondos son limitados y se dan por orden de llegada, así que solicite pronto. Los hogares con alguien de 60 años o más, menor de 6 años o con discapacidad reciben $35 más."
+            },
+            "sources": [
+              {
+                "url": "https://otda.ny.gov/programs/heap/",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.governor.ny.gov/news/governor-hochul-announces-15-million-new-yorkers-can-receive-hundreds-dollars-help-cover-home",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ny-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2027-01-04",
+            "end": null,
+            "status": "confirmed",
+            "note": {
+              "en": "Emergency HEAP for homes with heat shut off or scheduled to be shut off, or low on fuel (under 1/4 tank). Apply through your local district office or by phone; NYC: 718-557-1399.",
+              "es": "HEAP de emergencia para hogares con la calefacción cortada o con aviso de corte, o con poco combustible (menos de 1/4 de tanque). Solicite en su oficina local o por teléfono; en NYC: 718-557-1399."
+            },
+            "sources": [
+              {
+                "url": "https://otda.ny.gov/programs/heap/",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://otda.ny.gov/programs/apply/",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ny-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-04-15",
+            "status": "expected",
+            "note": {
+              "en": "Cold weather rule: utilities must take extra steps before shutting off heat-related service. Not a full ban. Shutoff help: 1-800-342-3355.",
+              "es": "Regla de clima frío: las compañías deben tomar pasos adicionales antes de cortar el servicio de calefacción. No es una prohibición total. Ayuda con cortes: 1-800-342-3355."
+            },
+            "sources": [
+              {
+                "url": "https://dps.ny.gov/your-rights-residential-gas-electric-or-steam-customer-under-hefpa",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 3563
+            },
+            {
+              "householdSize": 2,
+              "amount": 4659
+            },
+            {
+              "householdSize": 3,
+              "amount": 5756
+            },
+            {
+              "householdSize": 4,
+              "amount": 6852
+            },
+            {
+              "householdSize": 5,
+              "amount": 7948
+            },
+            {
+              "householdSize": 6,
+              "amount": 9045
+            },
+            {
+              "householdSize": 7,
+              "amount": 9250
+            },
+            {
+              "householdSize": 8,
+              "amount": 9456
+            },
+            {
+              "householdSize": 9,
+              "amount": 9662
+            },
+            {
+              "householdSize": 10,
+              "amount": 9867
+            },
+            {
+              "householdSize": 11,
+              "amount": 10073
+            },
+            {
+              "householdSize": 12,
+              "amount": 10278
+            },
+            {
+              "householdSize": 13,
+              "amount": 10515
+            }
+          ],
+          "note": {
+            "en": "Official 2026-2027 gross monthly income limits. Add $710 for each person over 13.",
+            "es": "Límites oficiales de ingreso bruto mensual 2026-2027. Sume $710 por cada persona adicional después de 13."
+          },
+          "sources": [
+            {
+              "url": "https://otda.ny.gov/programs/heap/",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "ID for each household member (photo ID, driver's license, birth certificate, school records, or passport)",
+            "Social Security number for each household member",
+            "Recent pay stubs or other proof of current monthly income for all household members",
+            "Proof of where you live (lease, rent receipt, mortgage receipt, deed, or water/tax/utility bill)",
+            "A current fuel or utility bill, or a landlord statement that heat is included in rent",
+            "Disability paperwork, if anyone in the home has a disability"
+          ],
+          "es": [
+            "Identificación de cada miembro del hogar (identificación con foto, licencia de conducir, acta de nacimiento, registros escolares o pasaporte)",
+            "Número de Seguro Social de cada miembro del hogar",
+            "Talones de pago recientes u otro comprobante del ingreso mensual actual de todos los miembros del hogar",
+            "Comprobante de domicilio (contrato de alquiler, recibo de renta o de hipoteca, escritura, o factura de agua, impuestos o servicios)",
+            "Una factura actual de combustible o de servicios, o una carta del arrendador que diga que la calefacción está incluida en la renta",
+            "Documentos de discapacidad, si alguien en el hogar tiene una discapacidad"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.ny.gov/services/apply-heating-assistance-heap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://otda.ny.gov/programs/apply/",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.governor.ny.gov/news/la-gobernadora-hochul-anuncia-que-15-millones-de-neoyorquinos-podran-recibir-cientos-de",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "NYS Homes and Community Renewal (HCR), Weatherization Assistance Program",
+          "es": "Vivienda y Renovación Comunitaria del Estado de Nueva York (HCR), Programa de Climatización"
+        },
+        "url": "https://hcr.ny.gov/weatherization",
+        "phone": "1-518-474-5700",
+        "sources": [
+          {
+            "url": "https://hcr.ny.gov/weatherization",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Con Edison",
+          "program": {
+            "en": "Energy Affordability Program",
+            "es": "Energy Affordability Program (descuento mensual en la factura)"
+          },
+          "url": "https://www.coned.com/en/accounts-billing/payment-plans-assistance/energy-affordability-program",
+          "sources": [
+            {
+              "url": "https://www.coned.com/en/accounts-billing/payment-plans-assistance/energy-affordability-program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "National Grid",
+          "program": {
+            "en": "Energy Affordability Program (EAP)",
+            "es": "Energy Affordability Program (EAP) (crédito mensual en la factura)"
+          },
+          "url": "https://www.nationalgridus.com/Upstate-NY-Home/Monthly-Bill-Credits/Energy-Affordability-Program",
+          "sources": [
+            {
+              "url": "https://www.nationalgridus.com/Upstate-NY-Home/Monthly-Bill-Credits/Energy-Affordability-Program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "NYSEG",
+          "program": {
+            "en": "Energy Affordability Program (EAP) and Enhanced Energy Affordability Program (EEAP)",
+            "es": "Energy Affordability Program (EAP) y Enhanced Energy Affordability Program (EEAP) (créditos en la factura)"
+          },
+          "url": "https://www.nyseg.com/account/waystopay/help-with-bill/eap-and-eeap",
+          "sources": [
+            {
+              "url": "https://www.nyseg.com/account/waystopay/help-with-bill/eap-and-eeap",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "name": {
+        "en": "Pennsylvania",
+        "es": "Pensilvania"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Pennsylvania Department of Human Services (DHS), through County Assistance Offices",
+          "es": "Departamento de Servicios Humanos de Pensilvania (DHS), a través de las oficinas de asistencia del condado"
+        },
+        "applyUrl": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap",
+        "phone": "1-866-857-7095",
+        "windows": [
+          {
+            "id": "pa-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-02",
+            "end": "2027-04-23",
+            "status": "confirmed",
+            "note": {
+              "en": "Cash grants of $200 to $1,000. Apply online through COMPASS, by phone, or at your County Assistance Office. The state may extend or shorten the season based on funds.",
+              "es": "Ayuda en efectivo de $200 a $1,000. Solicite en línea por COMPASS, por teléfono o en su oficina de asistencia del condado. El estado puede alargar o acortar la temporada según los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/2027-liheap-state-plan.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/liheap-vendors/2026-2027-liheap-important-facts-for-customers.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/liheap-brochure.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "pa-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-02",
+            "end": "2027-04-23",
+            "status": "confirmed",
+            "note": {
+              "en": "For heating emergencies: no heat, broken heater, out of fuel or within 15 days of it, or a shutoff notice. Call your County Assistance Office. Up to $1,000 per season.",
+              "es": "Para emergencias de calefacción: sin calefacción, calentador roto, sin combustible o a 15 días de quedarse sin él, o aviso de corte. Llame a su oficina de asistencia del condado. Hasta $1,000 por temporada."
+            },
+            "sources": [
+              {
+                "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/2027-liheap-state-plan.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/providers/documents/liheap-vendors/2026-2027-liheap-important-facts-for-customers.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "pa-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-12-01",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "Winter rule: electric and gas companies need state approval to shut off homes with income at or below 250% of the poverty level (150% for Philadelphia Gas Works). Others can still be shut off.",
+              "es": "Regla de invierno: las compañías de luz y gas necesitan permiso del estado para cortar el servicio a hogares con ingresos de hasta 250% del nivel de pobreza (150% para Philadelphia Gas Works). A los demás sí se les puede cortar."
+            },
+            "sources": [
+              {
+                "url": "https://www.puc.pa.gov/media/2761/24_act-201.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 1995
+            },
+            {
+              "householdSize": 2,
+              "amount": 2705
+            },
+            {
+              "householdSize": 3,
+              "amount": 3415
+            },
+            {
+              "householdSize": 4,
+              "amount": 4125
+            },
+            {
+              "householdSize": 5,
+              "amount": 4835
+            },
+            {
+              "householdSize": 6,
+              "amount": 5545
+            },
+            {
+              "householdSize": 7,
+              "amount": 6255
+            },
+            {
+              "householdSize": 8,
+              "amount": 6965
+            },
+            {
+              "householdSize": 9,
+              "amount": 7675
+            },
+            {
+              "householdSize": 10,
+              "amount": 8385
+            }
+          ],
+          "note": {
+            "en": "Official yearly limits divided by 12 and rounded down. Each extra person adds $8,520 a year. Limits will be updated in February 2027.",
+            "es": "Límites anuales oficiales divididos entre 12 y redondeados hacia abajo. Cada persona adicional suma $8,520 al año. Los límites se actualizarán en febrero de 2027."
+          },
+          "sources": [
+            {
+              "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/liheap-brochure.pdf",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/2027-liheap-state-plan.pdf",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Names of everyone in your household",
+            "Dates of birth for all household members",
+            "Social Security numbers for all household members",
+            "Proof of income for all household members",
+            "A recent heating bill"
+          ],
+          "es": [
+            "Nombres de todas las personas del hogar",
+            "Fechas de nacimiento de todos los miembros del hogar",
+            "Números de Seguro Social de todos los miembros del hogar",
+            "Comprobante de ingresos de todos los miembros del hogar",
+            "Una factura reciente de calefacción"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/liheap-brochure.pdf",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/heating-assistance_liheap/liheap-brochure-spanish.pdf",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "PA Department of Community and Economic Development (DCED), through local weatherization agencies",
+          "es": "Departamento de Desarrollo Comunitario y Económico de Pensilvania (DCED), a través de agencias locales de climatización"
+        },
+        "url": "https://dced.pa.gov/housing-and-development/weatherization/",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://dced.pa.gov/housing-and-development/weatherization/",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://dced.pa.gov/housing-and-development/weatherization/income-eligibility/",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "PECO",
+          "program": {
+            "en": "Customer Assistance Program - Percentage of Income Payment Plan (CAP-PIPP)",
+            "es": "Customer Assistance Program (CAP-PIPP) (pago mensual según sus ingresos)"
+          },
+          "url": "https://www.peco.com/my-account/customer-support/assistance-programs/cap-rate",
+          "sources": [
+            {
+              "url": "https://www.peco.com/my-account/customer-support/assistance-programs/cap-rate",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "PPL Electric Utilities",
+          "program": {
+            "en": "OnTrack Payment Plan",
+            "es": "OnTrack Payment Plan (pagos fijos y perdón de deuda)"
+          },
+          "url": "https://www.pplelectric.com/site/Ways-to-Save/Assistance-Programs/OnTrack",
+          "sources": [
+            {
+              "url": "https://www.pplelectric.com/site/Ways-to-Save/Assistance-Programs/OnTrack",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Duquesne Light",
+          "program": {
+            "en": "Customer Assistance Program (CAP)",
+            "es": "Customer Assistance Program (CAP) (pago mensual más bajo)"
+          },
+          "url": "https://www.duquesnelight.com/account-billing/payment-assistance/customer-assistance-program",
+          "sources": [
+            {
+              "url": "https://www.duquesnelight.com/account-billing/payment-assistance/customer-assistance-program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MI",
+      "name": {
+        "en": "Michigan",
+        "es": "Míchigan"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Michigan Department of Health and Human Services (MDHHS) for State Emergency Relief; Michigan Department of Treasury for the Home Heating Credit",
+          "es": "Departamento de Salud y Servicios Humanos de Míchigan (MDHHS) para la Ayuda Estatal de Emergencia (SER); Departamento del Tesoro de Míchigan para el Crédito de Calefacción (Home Heating Credit)"
+        },
+        "applyUrl": "https://newmibridges.michigan.gov/",
+        "phone": "2-1-1",
+        "windows": [
+          {
+            "id": "mi-yearround-all-2026",
+            "kind": "year_round",
+            "groups": [
+              "all"
+            ],
+            "start": null,
+            "end": null,
+            "status": "confirmed",
+            "note": {
+              "en": "State Emergency Relief (SER) helps all year with a past-due or shutoff notice, a need for delivered fuel, or energy-related home repairs. One heat payment and one electric payment per year (Oct 1 to Sep 30). Apply on MI Bridges.",
+              "es": "La Ayuda Estatal de Emergencia (SER) ayuda todo el año si tiene un aviso de pago atrasado o de corte, necesita combustible a domicilio o reparaciones de energía en casa. Un pago de calefacción y uno de electricidad por año (1 de octubre al 30 de septiembre). Solicite en MI Bridges."
+            },
+            "sources": [
+              {
+                "url": "https://www.michigan.gov/mdhhs/assistance-programs/cash/energy",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://mdhhs-pres-prod.michigan.gov/olmweb/EXF/ER/Public/ERM/301.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mi-taxcredit-all-2026",
+            "kind": "tax_credit",
+            "groups": [
+              "all"
+            ],
+            "start": "2027-01-15",
+            "end": "2027-09-30",
+            "status": "expected",
+            "note": {
+              "en": "Home Heating Credit (form MI-1040CR-7). Forms usually come out mid- to late January, and claims are due by September 30. You do not need to file a state tax return to apply.",
+              "es": "Crédito de Calefacción (formulario MI-1040CR-7). Los formularios suelen salir a mediados o finales de enero y la solicitud vence el 30 de septiembre. No necesita presentar declaración de impuestos estatal para solicitarlo."
+            },
+            "sources": [
+              {
+                "url": "https://www.michigan.gov/mdhhs/assistance-programs/cash/energy",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.michigan.gov/treasury/news/2026/09/28/less-than-a-week-left-to-claim-home-heating-credit",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mi-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "Winter Protection Plan for customers at or below 150% of the poverty level (with a payment plan) and for people 65 and older. Michigan uses age 65+, not 60+. Contact your utility to sign up.",
+              "es": "Plan de Protección de Invierno para clientes con ingresos de hasta 150% del nivel de pobreza (con un plan de pagos) y para personas de 65 años o más. Míchigan usa 65 años o más, no 60. Llame a su compañía de servicios para inscribirse."
+            },
+            "sources": [
+              {
+                "url": "https://www.michigan.gov/mpsc/consumer/get-help/utility-customers",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 1995
+            },
+            {
+              "householdSize": 2,
+              "amount": 2705
+            },
+            {
+              "householdSize": 3,
+              "amount": 3415
+            },
+            {
+              "householdSize": 4,
+              "amount": 4125
+            },
+            {
+              "householdSize": 5,
+              "amount": 4835
+            },
+            {
+              "householdSize": 6,
+              "amount": 5545
+            },
+            {
+              "householdSize": 7,
+              "amount": 6255
+            },
+            {
+              "householdSize": 8,
+              "amount": 6965
+            }
+          ],
+          "note": {
+            "en": "Official monthly limits for State Emergency Relief energy help, effective Oct 1, 2026. Add $710 for each person over 8. The Home Heating Credit uses different limits.",
+            "es": "Límites mensuales oficiales para la ayuda de energía de SER, vigentes desde el 1 de octubre de 2026. Sume $710 por cada persona adicional después de 8. El Crédito de Calefacción usa otros límites."
+          },
+          "sources": [
+            {
+              "url": "https://www.michigan.gov/mdhhs/assistance-programs/emergency-relief/eligibility",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://mdhhs-pres-prod.michigan.gov/olmweb/EX/ER/Public/ERM/208.pdf",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Photo ID",
+            "Proof of income for the last 30 days for everyone in your household",
+            "Your past-due or shutoff notice, or your most recent utility bill"
+          ],
+          "es": [
+            "Identificación con foto",
+            "Comprobante de ingresos de los últimos 30 días de todas las personas del hogar",
+            "Su aviso de pago atrasado o de corte, o su factura de servicios más reciente"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.michigan.gov/mdhhs/assistance-programs/cash/energy",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.michigan.gov/mdhhs/assistance-programs/emergency-relief/eligibility",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://mdhhs-pres-prod.michigan.gov/olmweb/EXF/ER/Public/ERM/301.pdf",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "MDHHS Weatherization Assistance Program, through local Community Action Agencies",
+          "es": "Programa de Climatización de MDHHS, a través de agencias locales de acción comunitaria"
+        },
+        "url": "https://www.michigan.gov/mdhhs/assistance-programs/cash/energy",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://www.michigan.gov/mdhhs/assistance-programs/cash/energy",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "DTE Energy",
+          "program": {
+            "en": "Low-Income Self-Sufficiency Plan (LSP)",
+            "es": "Low-Income Self-Sufficiency Plan (LSP) (pagos mensuales según sus ingresos)"
+          },
+          "url": "https://www.dteenergy.com/us/en/residential/billing-and-payments/faq/low-income-self-sufficiency-plan.html",
+          "sources": [
+            {
+              "url": "https://www.dteenergy.com/us/en/residential/billing-and-payments/faq/low-income-self-sufficiency-plan.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Consumers Energy",
+          "program": {
+            "en": "CARE Program",
+            "es": "CARE Program (pago fijo y perdón de deuda)"
+          },
+          "url": "https://www.consumersenergy.com/residential/account-and-billing/billing-and-payment/payment-assistance/care-program",
+          "sources": [
+            {
+              "url": "https://www.consumersenergy.com/residential/account-and-billing/billing-and-payment/payment-assistance/care-program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "OH",
+      "name": {
+        "en": "Ohio",
+        "es": "Ohio"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Ohio Department of Job and Family Services (ODJFS), through local Energy Assistance Providers / Community Action Agencies",
+          "es": "Departamento de Empleo y Servicios Familiares de Ohio (ODJFS), a través de proveedores locales de asistencia energética y agencias de acción comunitaria"
+        },
+        "applyUrl": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/apply-for-ohio-energy-assistance-programs",
+        "phone": "1-614-466-6282",
+        "windows": [
+          {
+            "id": "oh-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-07-01",
+            "end": "2027-05-31",
+            "status": "confirmed",
+            "note": {
+              "en": "One-time HEAP payment sent to your heating or utility bill. Apply online, by mail, or by appointment with your local agency. Processing can take up to 12 weeks.",
+              "es": "Pago único de HEAP que se aplica a su factura de calefacción o de servicios. Solicite en línea, por correo o con cita en su agencia local. El trámite puede tardar hasta 12 semanas."
+            },
+            "sources": [
+              {
+                "url": "https://www.occ.ohio.gov/factsheet/home-energy-assistance-program-heap",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/home-energy-assistance-program-heap",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "oh-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-02",
+            "end": "2027-03-31",
+            "status": "confirmed",
+            "note": {
+              "en": "Winter Crisis Program for homes that are shut off, have a shutoff notice, need new service, or have 25% or less bulk fuel. You must have an appointment with your local agency. Up to $175 for PUCO-regulated gas and electric customers.",
+              "es": "Programa de Crisis de Invierno para hogares con el servicio cortado, con aviso de corte, que necesitan servicio nuevo o tienen 25% o menos de combustible. Debe tener una cita con su agencia local. Hasta $175 para clientes de gas y luz regulados por PUCO."
+            },
+            "sources": [
+              {
+                "url": "https://occ.ohio.gov/factsheet/heap-winter-crisis-program-wcp",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/heap-winter-crisis-program",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "oh-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-12",
+            "end": "2027-04-16",
+            "status": "confirmed",
+            "note": {
+              "en": "Special Reconnect Order: once per winter, pay no more than $175 (plus a reconnect fee up to $36) to keep or restore gas or electric service. Only for PUCO-regulated utilities. Not a shutoff ban. No income limit.",
+              "es": "Orden Especial de Reconexión: una vez por invierno, pague no más de $175 (más un cargo de reconexión de hasta $36) para mantener o recuperar el servicio de gas o luz. Solo para compañías reguladas por PUCO. No prohíbe los cortes. No hay límite de ingresos."
+            },
+            "sources": [
+              {
+                "url": "https://puco.ohio.gov/news/special-reconnect-order-issued-2627-winter-season",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 2295
+            },
+            {
+              "householdSize": 2,
+              "amount": 3112
+            },
+            {
+              "householdSize": 3,
+              "amount": 3929
+            },
+            {
+              "householdSize": 4,
+              "amount": 4746
+            },
+            {
+              "householdSize": 5,
+              "amount": 5563
+            },
+            {
+              "householdSize": 6,
+              "amount": 6380
+            },
+            {
+              "householdSize": 7,
+              "amount": 7197
+            },
+            {
+              "householdSize": 8,
+              "amount": 8017
+            },
+            {
+              "householdSize": 9,
+              "amount": 8191
+            },
+            {
+              "householdSize": 10,
+              "amount": 8366
+            },
+            {
+              "householdSize": 11,
+              "amount": 8540
+            },
+            {
+              "householdSize": 12,
+              "amount": 8714
+            }
+          ],
+          "note": {
+            "en": "Ohio's official 30-day income limits for July 2026 to May 2027, rounded down to whole dollars. Ohio also accepts 12-month income (for example, $27,930 for 1 person).",
+            "es": "Límites oficiales de ingresos de 30 días de Ohio para julio de 2026 a mayo de 2027, redondeados hacia abajo. Ohio también acepta ingresos de 12 meses (por ejemplo, $27,930 para 1 persona)."
+          },
+          "sources": [
+            {
+              "url": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/home-energy-assistance-program-heap",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.occ.ohio.gov/factsheet/home-energy-assistance-program-heap",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Proof of income for each household member (wages, Social Security, SSI, SSDI, pension, unemployment, and so on)",
+            "Copies of your most recent utility bills",
+            "A list of everyone in your household with Social Security numbers and birth dates",
+            "Proof of U.S. citizenship or legal residency for all household members (for example, Social Security card, birth certificate, or passport)",
+            "Proof of disability, if it applies"
+          ],
+          "es": [
+            "Comprobante de ingresos de cada miembro del hogar (salario, Seguro Social, SSI, SSDI, pensión, desempleo, etc.)",
+            "Copias de sus facturas de servicios más recientes",
+            "Una lista de todas las personas del hogar con números de Seguro Social y fechas de nacimiento",
+            "Comprobante de ciudadanía estadounidense o residencia legal de todos los miembros del hogar (por ejemplo, tarjeta de Seguro Social, acta de nacimiento o pasaporte)",
+            "Comprobante de discapacidad, si corresponde"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/apply-for-ohio-energy-assistance-programs",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.occ.ohio.gov/factsheet/home-energy-assistance-program-heap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://liheapch.acf.gov/profiles/Ohio.htm",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Ohio Home Weatherization Assistance Program (HWAP), ODJFS, through local agencies",
+          "es": "Programa de Climatización de Viviendas de Ohio (HWAP), ODJFS, a través de agencias locales"
+        },
+        "url": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/home-weatherization-assistance-program-hwap",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://jfs.ohio.gov/public-assistance/energy-and-community-assistance/home-weatherization-assistance-program-hwap",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "AEP Ohio",
+          "program": {
+            "en": "Percentage of Income Payment Plan (PIPP)",
+            "es": "Percentage of Income Payment Plan (PIPP) (pago mensual según sus ingresos)"
+          },
+          "url": "https://www.aepohio.com/account/bills/pay/assistance/",
+          "sources": [
+            {
+              "url": "https://www.aepohio.com/account/bills/pay/assistance/",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Ohio Edison (FirstEnergy)",
+          "program": {
+            "en": "Percentage of Income Payment Plan Plus (PIPP Plus)",
+            "es": "Percentage of Income Payment Plan Plus (PIPP Plus) (pago mensual según sus ingresos)"
+          },
+          "url": "https://www.firstenergycorp.com/help/billingpayments/assistance_serviceprogram/ohio_edison.html",
+          "sources": [
+            {
+              "url": "https://www.firstenergycorp.com/help/billingpayments/assistance_serviceprogram/ohio_edison.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Columbia Gas of Ohio",
+          "program": {
+            "en": "Percentage of Income Payment Plan Plus (PIPP Plus)",
+            "es": "Percentage of Income Payment Plan Plus (PIPP Plus) (pago mensual según sus ingresos)"
+          },
+          "url": "https://www.columbiagasohio.com/bills-and-payments/financial-support/income-eligible-assistance-programs",
+          "sources": [
+            {
+              "url": "https://www.columbiagasohio.com/bills-and-payments/financial-support/income-eligible-assistance-programs",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NJ",
+      "name": {
+        "en": "New Jersey",
+        "es": "Nueva Jersey"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "New Jersey Department of Community Affairs (DCA), through local application agencies",
+          "es": "Departamento de Asuntos Comunitarios de Nueva Jersey (DCA), a través de agencias locales de solicitud"
+        },
+        "applyUrl": "https://www.energyassistance.nj.gov",
+        "phone": "1-800-510-3102",
+        "windows": [
+          {
+            "id": "nj-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-06-30",
+            "status": "confirmed",
+            "note": {
+              "en": "First come, first served while funds last. One application covers LIHEAP and the Universal Service Fund (USF). People 60+ or with a disability can apply by mail or ask for a home visit.",
+              "es": "Por orden de llegada mientras haya fondos. Una sola solicitud sirve para LIHEAP y para el Fondo de Servicio Universal (USF). Las personas de 60 años o más o con discapacidad pueden solicitar por correo o pedir una visita a domicilio."
+            },
+            "sources": [
+              {
+                "url": "https://www.nj.gov/dca/news/news/2026/20261002.shtml",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.nj.gov/dca/dhcr/offices/USFHEA_factsheet.shtml",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.nj.gov/dca/dhcr/offices/docs/LIHEAP_Detailed_Model_Plan.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "nj-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-12-01",
+            "end": "2027-06-30",
+            "status": "confirmed",
+            "note": {
+              "en": "Emergency help if you are without heat, about to run out, or have a shutoff notice. Delivered fuel from December; gas and electric emergencies from March 15, after the winter shutoff protection ends. While funds last.",
+              "es": "Ayuda de emergencia si no tiene calefacción, está por quedarse sin combustible o tiene aviso de corte. Combustible a domicilio desde diciembre; emergencias de gas y luz desde el 15 de marzo, cuando termina la protección de invierno. Mientras haya fondos."
+            },
+            "sources": [
+              {
+                "url": "https://www.nj.gov/dca/dhcr/offices/docs/FY2027%20LIHEAP%20Handbook.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.nj.gov/dca/dhcr/offices/docs/LIHEAP_Detailed_Model_Plan.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "nj-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-15",
+            "end": "2027-03-15",
+            "status": "expected",
+            "note": {
+              "en": "Winter Termination Program for customers on USF, LIHEAP, or Lifeline, and others who cannot pay for reasons beyond their control. Call your utility to ask for protection. Board of Public Utilities: 1-800-624-0241.",
+              "es": "Programa de Protección de Invierno para clientes con USF, LIHEAP o Lifeline, y otros que no pueden pagar por razones fuera de su control. Llame a su compañía de servicios para pedir la protección. Junta de Servicios Públicos: 1-800-624-0241."
+            },
+            "sources": [
+              {
+                "url": "https://www.nj.gov/dca/dhcr/offices/docs/Utility-Assistance_triBro_Eng_ONLINE.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 4273
+            },
+            {
+              "householdSize": 2,
+              "amount": 5587
+            },
+            {
+              "householdSize": 3,
+              "amount": 6902
+            },
+            {
+              "householdSize": 4,
+              "amount": 8217
+            },
+            {
+              "householdSize": 5,
+              "amount": 9532
+            },
+            {
+              "householdSize": 6,
+              "amount": 10846
+            },
+            {
+              "householdSize": 7,
+              "amount": 11093
+            },
+            {
+              "householdSize": 8,
+              "amount": 11339
+            },
+            {
+              "householdSize": 9,
+              "amount": 11586
+            },
+            {
+              "householdSize": 10,
+              "amount": 11832
+            },
+            {
+              "householdSize": 11,
+              "amount": 12079
+            },
+            {
+              "householdSize": 12,
+              "amount": 12325
+            }
+          ],
+          "note": {
+            "en": "Official FY2027 gross monthly limits (60% of state median income) for LIHEAP and USF. Add $246 for each person over 12.",
+            "es": "Límites oficiales de ingreso bruto mensual del año fiscal 2027 (60% del ingreso medio estatal) para LIHEAP y USF. Sume $246 por cada persona adicional después de 12."
+          },
+          "sources": [
+            {
+              "url": "https://www.nj.gov/dca/dhcr/offices/USFHEA_factsheet.shtml",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.nj.gov/dca/news/news/2026/20261002.shtml",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Names and Social Security numbers for everyone in your household",
+            "Proof of gross income for everyone in your household (dated within the last 60 days)",
+            "A recent heating bill or a contract from your fuel supplier",
+            "If you rent: your current signed lease (first, second, and last pages)"
+          ],
+          "es": [
+            "Nombres y números de Seguro Social de todas las personas del hogar",
+            "Comprobante de ingresos brutos de todas las personas del hogar (de los últimos 60 días)",
+            "Una factura reciente de calefacción o un contrato con su proveedor de combustible",
+            "Si alquila: su contrato de alquiler actual firmado (primera, segunda y última página)"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.nj.gov/dca/dhcr/offices/hea.shtml",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.nj.gov/dca/dhcr/offices/docs/FY2027%20LIHEAP%20Handbook.pdf",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.nj.gov/dca/dhcr/offices/pdf/UAP_Application_Instructions.pdf",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.nj.gov/dca/dhcr/offices/USFHEA_factsheet_sp.shtml",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "NJ Department of Community Affairs, Weatherization Assistance Program (WAP), through county WAP agencies",
+          "es": "Departamento de Asuntos Comunitarios de NJ, Programa de Climatización (WAP), a través de agencias WAP del condado"
+        },
+        "url": "https://www.nj.gov/dca/dhcr/offices/wap.shtml",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://www.nj.gov/dca/dhcr/offices/wap.shtml",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "PSE&G",
+          "program": {
+            "en": "Universal Service Fund (USF) and Fresh Start Program",
+            "es": "Universal Service Fund (USF) y Fresh Start Program (crédito mensual y perdón de deuda)"
+          },
+          "url": "https://nj.pseg.com/saveenergyandmoney/gethelppayingyourbill/backontrack",
+          "sources": [
+            {
+              "url": "https://nj.pseg.com/saveenergyandmoney/gethelppayingyourbill/backontrack",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Jersey Central Power & Light (JCP&L)",
+          "program": {
+            "en": "Universal Service Fund (USF)",
+            "es": "Universal Service Fund (USF) (crédito mensual en la factura)"
+          },
+          "url": "https://www.firstenergycorp.com/help/billingpayments/assistance_serviceprogram/jersey_central_powerlight.html",
+          "sources": [
+            {
+              "url": "https://www.firstenergycorp.com/help/billingpayments/assistance_serviceprogram/jersey_central_powerlight.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "New Jersey Natural Gas",
+          "program": {
+            "en": "Universal Service Fund (USF)",
+            "es": "Universal Service Fund (USF) (crédito mensual en la factura)"
+          },
+          "url": "https://www.njng.com/my-account/payment-options/payment-assistance.aspx",
+          "sources": [
+            {
+              "url": "https://www.njng.com/my-account/payment-options/payment-assistance.aspx",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "IL",
+      "name": {
+        "en": "Illinois",
+        "es": "Illinois"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Illinois Department of Commerce and Economic Opportunity (DCEO), through local Community Action Agencies",
+          "es": "Departamento de Comercio y Oportunidad Económica de Illinois (DCEO), a través de agencias locales de acción comunitaria"
+        },
+        "applyUrl": "https://dceo.illinois.gov/communityservices/homeweatherization/communityactionagencies/helpillinoisfamilies.html",
+        "phone": "1-833-711-0374",
+        "windows": [
+          {
+            "id": "il-regular-priority-2026",
+            "kind": "regular",
+            "groups": [
+              "senior60",
+              "disability",
+              "child6",
+              "shutoff"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-08-13",
+            "status": "confirmed",
+            "note": {
+              "en": "Early applications for adults 60+, people with a disability, families with children age 5 or younger, and homes that are disconnected, have a shutoff notice, or have less than 25% propane left. Open until Aug 13, 2027 or until funds run out.",
+              "es": "Solicitud temprana para personas de 60 años o más, personas con discapacidad, familias con niños de 5 años o menos y hogares desconectados, con aviso de corte o con menos de 25% de propano. Abierto hasta el 13 de agosto de 2027 o hasta que se acaben los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://gov.illinois.gov/news/press-release.32964.html",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dceo.illinois.gov/communityservices/homeweatherization/communityactionagencies/helpillinoisfamilies.html",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "il-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-08-13",
+            "status": "confirmed",
+            "note": {
+              "en": "All other income-eligible households. Open until Aug 13, 2027 or until funds run out.",
+              "es": "Todos los demás hogares que califican por ingresos. Abierto hasta el 13 de agosto de 2027 o hasta que se acaben los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://gov.illinois.gov/news/press-release.32964.html",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dceo.illinois.gov/communityservices/homeweatherization/communityactionagencies/helpillinoisfamilies.html",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "il-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-12-01",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "Winter rule: LIHEAP and PIPP households and electric-heat customers cannot be cut off for nonpayment. Others must be offered a payment plan first. Not a full ban.",
+              "es": "Regla de invierno: los hogares con LIHEAP o PIPP y los clientes con calefacción eléctrica no pueden ser desconectados por falta de pago. A los demás se les debe ofrecer un plan de pagos primero. No es una prohibición total."
+            },
+            "sources": [
+              {
+                "url": "https://icc.illinois.gov/api/web-management/documents/downloads/public/press-release/12-09-25%20winter%20weather.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 3990
+            },
+            {
+              "householdSize": 2,
+              "amount": 5410
+            },
+            {
+              "householdSize": 3,
+              "amount": 6830
+            },
+            {
+              "householdSize": 4,
+              "amount": 8250
+            },
+            {
+              "householdSize": 5,
+              "amount": 9670
+            },
+            {
+              "householdSize": 6,
+              "amount": 11090
+            }
+          ],
+          "note": {
+            "en": "Illinois's own 30-day gross income limits (not yearly limits divided by 12). For 7 or more people, ask your local agency.",
+            "es": "Límites propios de Illinois de ingreso bruto de 30 días (no son límites anuales divididos entre 12). Para 7 personas o más, pregunte a su agencia local."
+          },
+          "sources": [
+            {
+              "url": "https://dceo.illinois.gov/communityservices/homeweatherization/communityactionagencies/helpillinoisfamilies.html",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://gov.illinois.gov/news/press-release.32964.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Proof of income for the last 30 days for every household member (pay stubs, or a benefit letter or check for SSA, VA, or DHS)",
+            "Your most recent utility bill (or your lease if you need rent help)",
+            "Social Security card or ITIN for each member, if you have one (you can still apply without one)"
+          ],
+          "es": [
+            "Comprobante de ingresos de los últimos 30 días de cada miembro del hogar (talones de pago, o carta o cheque de beneficios de SSA, VA o DHS)",
+            "Su factura de servicios más reciente (o su contrato de alquiler si necesita ayuda con la renta)",
+            "Tarjeta de Seguro Social o ITIN de cada miembro, si lo tiene (puede solicitar aunque no lo tenga)"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://dceo.illinois.gov/communityservices/homeweatherization/communityactionagencies/helpillinoisfamilies.html",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://dceo.illinois.gov/content/dam/soi/en/web/dceo/communityservices/homeweatherization/communityactionagencies/documents/liheap-flyer-spanish.pdf",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Illinois Home Weatherization Assistance Program (IHWAP), DCEO",
+          "es": "Programa de Climatización de Viviendas de Illinois (IHWAP), DCEO"
+        },
+        "url": "https://dceo.illinois.gov/communityservices/homeweatherization.html",
+        "phone": "1-833-711-0374",
+        "sources": [
+          {
+            "url": "https://dceo.illinois.gov/communityservices/homeweatherization.html",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "ComEd",
+          "program": {
+            "en": "Low Income Discount (LID) Program",
+            "es": "Low Income Discount (LID) Program (descuento por bajos ingresos)"
+          },
+          "url": "https://www.comed.com/my-account/customer-support/payment-assistance/low-income-discount-program",
+          "sources": [
+            {
+              "url": "https://www.comed.com/my-account/customer-support/payment-assistance/low-income-discount-program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Ameren Illinois",
+          "program": {
+            "en": "Electric Service Discount and Natural Gas Service Discount",
+            "es": "Electric Service Discount y Natural Gas Service Discount (descuentos de luz y gas)"
+          },
+          "url": "https://www.ameren.com/bill/assistance/electric-discount",
+          "sources": [
+            {
+              "url": "https://www.ameren.com/bill/assistance/electric-discount",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.ameren.com/bill/assistance/gas-discount",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Nicor Gas",
+          "program": {
+            "en": "Low-Income Discount Program",
+            "es": "Low-Income Discount Program (descuento por bajos ingresos)"
+          },
+          "url": "https://www.nicorgas.com/residential/billingandpaymentoptions/bill-payment-assistance.html",
+          "sources": [
+            {
+              "url": "https://www.nicorgas.com/residential/billingandpaymentoptions/bill-payment-assistance.html",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.nicorgas.com/residential/billingandpaymentoptions/bill-payment-assistance/waiver-of-deposits-and-late-payment-fees.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WI",
+      "name": {
+        "en": "Wisconsin",
+        "es": "Wisconsin"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Wisconsin Department of Administration, Division of Energy, Housing and Community Resources (Home Energy Plus), through local agencies",
+          "es": "Departamento de Administración de Wisconsin, División de Energía, Vivienda y Recursos Comunitarios (Home Energy Plus), a través de agencias locales"
+        },
+        "applyUrl": "https://energybenefit.wi.gov",
+        "phone": "1-866-432-8947",
+        "windows": [
+          {
+            "id": "wi-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-05-15",
+            "status": "confirmed",
+            "note": {
+              "en": "One payment per heating season. Apply online or through your local agency. Help is not guaranteed and stops when funds run out.",
+              "es": "Un pago por temporada de calefacción. Solicite en línea o con su agencia local. La ayuda no está garantizada y termina cuando se acaban los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://energyandhousing.wi.gov/Pages/AgencyResources/energy-assistance.aspx",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://energyandhousing.wi.gov/Documents/WHEAP/WheapManual_PY27.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://energyandhousing.wi.gov/Pages/CustomerResources/assistance.aspx",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.advocap.org/heating-season-in-wisconsin-wheap-applications-open-for-2026-27-heating-season/",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "wi-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-05-15",
+            "status": "confirmed",
+            "note": {
+              "en": "Emergency help if you have no heat, are almost out of fuel, or your power is shut off or will be soon (for example, you got a shutoff notice). Call your local agency. Help is not guaranteed. Some prevention help continues until Sept 30, 2027.",
+              "es": "Ayuda de emergencia si no tiene calefacción, casi no tiene combustible, o le cortaron o le van a cortar la luz (por ejemplo, recibió un aviso de corte). Llame a su agencia local. La ayuda no está garantizada. Alguna ayuda de prevención sigue hasta el 30 de septiembre de 2027."
+            },
+            "sources": [
+              {
+                "url": "https://energyandhousing.wi.gov/Documents/WHEAP/WheapManual_PY27.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://energyandhousing.wi.gov/Pages/CustomerResources/assistance.aspx",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "wi-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-04-15",
+            "status": "expected",
+            "note": {
+              "en": "Winter rule: utilities cannot shut off home heating service for nonpayment. Make a payment plan before April 15 to avoid a shutoff after the rule ends.",
+              "es": "Regla de invierno: las compañías no pueden cortar el servicio de calefacción del hogar por falta de pago. Haga un plan de pagos antes del 15 de abril para evitar un corte cuando termine la regla."
+            },
+            "sources": [
+              {
+                "url": "https://psc.wi.gov/Documents/PressReleases/2026.03.25PressRelease.PDF",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 3322
+            },
+            {
+              "householdSize": 2,
+              "amount": 4344
+            },
+            {
+              "householdSize": 3,
+              "amount": 5366
+            },
+            {
+              "householdSize": 4,
+              "amount": 6388
+            },
+            {
+              "householdSize": 5,
+              "amount": 7410
+            },
+            {
+              "householdSize": 6,
+              "amount": 8432
+            },
+            {
+              "householdSize": 7,
+              "amount": 8624
+            },
+            {
+              "householdSize": 8,
+              "amount": 8816
+            }
+          ],
+          "note": {
+            "en": "Wisconsin's own monthly income limits for Oct 1, 2026 to Sept 30, 2027 (60% of state median income), with cents dropped.",
+            "es": "Límites mensuales propios de Wisconsin para el 1 de octubre de 2026 al 30 de septiembre de 2027 (60% del ingreso medio del estado), sin centavos."
+          },
+          "sources": [
+            {
+              "url": "https://energyandhousing.wi.gov/Pages/AgencyResources/energy-assistance.aspx",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Social Security number and date of birth for everyone in your household",
+            "Proof of legal immigration status if you are not a U.S. citizen",
+            "Your utility account number, proof of heating costs for the last 12 months, and a copy of your electric bill",
+            "If you rent: your landlord's name, address, and phone, or your lease",
+            "Proof of gross income for everyone in your household for the month before you apply (pay stubs, tax papers, award letters)"
+          ],
+          "es": [
+            "Número de Seguro Social y fecha de nacimiento de todas las personas del hogar",
+            "Prueba de estatus migratorio legal si no es ciudadano de EE. UU.",
+            "Su número de cuenta de servicios, prueba de costos de calefacción de los últimos 12 meses y una copia de su factura de luz",
+            "Si alquila: nombre, dirección y teléfono del propietario, o su contrato de alquiler",
+            "Comprobante de ingresos brutos de todo el hogar del mes anterior a su solicitud (talones de pago, documentos de impuestos, cartas de beneficios)"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://energybenefit.wi.gov",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://energyandhousing.wi.gov/Pages/CustomerResources/assistance.aspx",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://energyandhousing.wi.gov/Documents/WHEAP/AppChecklist_Spanish.pdf",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://energyandhousing.wi.gov/Documents/WHEAP/HePlusAssistanceBrochure_Spanish.pdf",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Wisconsin Department of Administration, Division of Energy, Housing and Community Resources (Home Energy Plus Weatherization)",
+          "es": "Departamento de Administración de Wisconsin, División de Energía, Vivienda y Recursos Comunitarios (climatización de Home Energy Plus)"
+        },
+        "url": "https://energyandhousing.wi.gov/Pages/CustomerResources/assistance.aspx",
+        "phone": "1-866-432-8947",
+        "sources": [
+          {
+            "url": "https://energyandhousing.wi.gov/Pages/CustomerResources/assistance.aspx",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://energyandhousing.wi.gov/Pages/AgencyResources/weatherization.aspx",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Alliant Energy",
+          "program": {
+            "en": "Arrears Management program",
+            "es": "Arrears Management program (perdón de deuda atrasada)"
+          },
+          "url": "https://www.alliantenergy.com/account-and-billing/payment-assistance/wisconsin",
+          "sources": [
+            {
+              "url": "https://www.alliantenergy.com/account-and-billing/payment-assistance/wisconsin",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Madison Gas and Electric",
+          "program": {
+            "en": "Back on Track",
+            "es": "Back on Track (ayuda con saldos atrasados)"
+          },
+          "url": "https://www.mge.com/my-account/payment-billing/help-with-my-bill",
+          "sources": [
+            {
+              "url": "https://www.mge.com/my-account/payment-billing/help-with-my-bill",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.mge.com/es-mx/my-account/payment-and-billing/ayuda-con-mi-factura",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "name": {
+        "en": "Massachusetts",
+        "es": "Massachusetts"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Massachusetts Executive Office of Housing and Livable Communities (EOHLC), through local energy assistance agencies",
+          "es": "Oficina Ejecutiva de Vivienda y Comunidades Habitables de Massachusetts (EOHLC), a través de agencias locales de asistencia de energía"
+        },
+        "applyUrl": "https://www.mass.gov/how-to/apply-for-home-energy-assistance-heap",
+        "phone": "1-800-632-8175",
+        "windows": [
+          {
+            "id": "ma-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-04-30",
+            "status": "confirmed",
+            "note": {
+              "en": "Online applications open Oct 1. Helps pay heating used Nov 1 to Apr 30. Apply online, in person, or by mail by Apr 30. You must apply every year.",
+              "es": "La solicitud en línea abre el 1 de octubre. Ayuda a pagar la calefacción usada del 1 de noviembre al 30 de abril. Solicite en línea, en persona o por correo antes del 30 de abril. Debe solicitar cada año."
+            },
+            "sources": [
+              {
+                "url": "https://www.masscap.org/heatinghelpma/",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.mass.gov/info-details/learn-about-home-energy-assistance-heap",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.mass.gov/info-details/weatherization-assistance-program-wap",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ma-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-04-30",
+            "status": "expected",
+            "note": {
+              "en": "Faster help for heating emergencies: no heat, less than 3 days of fuel, a final shutoff notice, or a broken heating system. Tell your local agency it is an emergency when you apply.",
+              "es": "Ayuda más rápida para emergencias de calefacción: sin calefacción, menos de 3 días de combustible, un aviso final de corte o un sistema de calefacción roto. Dígale a su agencia local que es una emergencia cuando solicite."
+            },
+            "sources": [
+              {
+                "url": "https://www.mass.gov/doc/liheap-fy27-model-state-plan-draft/download",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ma-regular-middleincome-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-12-01",
+            "end": null,
+            "status": "expected",
+            "note": {
+              "en": "State program for homes heated with #2 heating oil and income above the HEAP limit but below 100% of state median income. One-time help up to $680. Opens in December 2026; exact date not announced.",
+              "es": "Programa estatal para hogares con calefacción de aceite #2 e ingresos por encima del límite de HEAP pero por debajo del 100% del ingreso medio del estado. Ayuda única de hasta $680. Abre en diciembre de 2026; la fecha exacta no se ha anunciado."
+            },
+            "sources": [
+              {
+                "url": "https://www.mass.gov/info-details/middle-income-heating-oil-relief",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.mass.gov/orgs/home-energy-assistance-programs",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ma-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-15",
+            "end": "2027-03-15",
+            "status": "expected",
+            "note": {
+              "en": "Winter rule: gas and electric companies cannot shut off heating service if you show financial hardship. You must tell your utility and fill out the hardship form. In recent winters the state made this period longer.",
+              "es": "Regla de invierno: las compañías de gas y luz no pueden cortar el servicio de calefacción si usted demuestra dificultad económica. Debe avisar a su compañía y llenar el formulario de dificultad económica. En inviernos recientes el estado alargó este periodo."
+            },
+            "sources": [
+              {
+                "url": "https://www.mass.gov/info-details/massachusetts-law-about-winter-heating",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.mass.gov/info-details/information-on-winter-bills",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.mass.gov/doc/2025-2026-winter-moratorium-letter/download",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 4465
+            },
+            {
+              "householdSize": 2,
+              "amount": 5839
+            },
+            {
+              "householdSize": 3,
+              "amount": 7213
+            },
+            {
+              "householdSize": 4,
+              "amount": 8587
+            },
+            {
+              "householdSize": 5,
+              "amount": 9961
+            },
+            {
+              "householdSize": 6,
+              "amount": 11335
+            },
+            {
+              "householdSize": 7,
+              "amount": 11593
+            },
+            {
+              "householdSize": 8,
+              "amount": 11850
+            },
+            {
+              "householdSize": 9,
+              "amount": 12108
+            },
+            {
+              "householdSize": 10,
+              "amount": 12365
+            }
+          ],
+          "note": {
+            "en": "Official yearly limits (60% of state median income) divided by 12 and rounded down. Not all income counts, so check with your local agency.",
+            "es": "Límites anuales oficiales (60% del ingreso medio del estado) divididos entre 12 y redondeados hacia abajo. No todos los ingresos cuentan; confirme con su agencia local."
+          },
+          "sources": [
+            {
+              "url": "https://www.mass.gov/info-details/learn-about-home-energy-assistance-heap",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://www.masscap.org/wp-content/uploads/2026/07/FY2027-LIHEAP-Income-Eligibility-and-Benefit-Chart_June-2026.pdf",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Photo ID for the head of household (for example, a driver's license)",
+            "A list of everyone in your household",
+            "Heating bill information (company name and account number)",
+            "Housing information (for example, your lease or mortgage statement)",
+            "Proof of income for the 30 days before you apply (for example, wages or pension)"
+          ],
+          "es": [
+            "Identificación con foto del jefe del hogar (por ejemplo, licencia de conducir)",
+            "Una lista de todas las personas del hogar",
+            "Información de su factura de calefacción (nombre de la compañía y número de cuenta)",
+            "Información de su vivienda (por ejemplo, contrato de alquiler o estado de cuenta de la hipoteca)",
+            "Comprobante de ingresos de los 30 días antes de solicitar (por ejemplo, salario o pensión)"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mass.gov/how-to/apply-for-home-energy-assistance-heap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.mass.gov/info-details/learn-about-home-energy-assistance-heap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.masscap.org/heatinghelpma/",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Massachusetts EOHLC Weatherization Assistance Program, through local agencies",
+          "es": "Programa de Climatización de EOHLC de Massachusetts, a través de agencias locales"
+        },
+        "url": "https://www.mass.gov/info-details/weatherization-assistance-program-wap",
+        "phone": "1-800-632-8175",
+        "sources": [
+          {
+            "url": "https://www.mass.gov/info-details/weatherization-assistance-program-wap",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Eversource",
+          "program": {
+            "en": "Massachusetts Discount Rate Program",
+            "es": "Massachusetts Discount Rate Program (tarifa de descuento)"
+          },
+          "url": "https://www.eversource.com/residential/account-billing/payment-assistance/discount-rate",
+          "sources": [
+            {
+              "url": "https://www.eversource.com/residential/account-billing/payment-assistance/discount-rate",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "National Grid",
+          "program": {
+            "en": "Discount Rate Program",
+            "es": "Discount Rate Program (descuento mensual según ingresos)"
+          },
+          "url": "https://www.nationalgrid.com/us/ma/electric/home/billing-payments/help-making-payments/payment-assistance-programs/discount-rates",
+          "sources": [
+            {
+              "url": "https://www.nationalgrid.com/us/ma/electric/home/billing-payments/help-making-payments/payment-assistance-programs/discount-rates",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "name": {
+        "en": "North Carolina",
+        "es": "Carolina del Norte"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "NC Department of Health and Human Services (NCDHHS), through county Departments of Social Services (DSS)",
+          "es": "Departamento de Salud y Servicios Humanos de Carolina del Norte (NCDHHS), a través de los Departamentos de Servicios Sociales (DSS) del condado"
+        },
+        "applyUrl": "https://epass.nc.gov/",
+        "phone": null,
+        "windows": [
+          {
+            "id": "nc-regular-senior-2026",
+            "kind": "regular",
+            "groups": [
+              "senior60",
+              "disability"
+            ],
+            "start": "2026-12-01",
+            "end": "2026-12-31",
+            "status": "expected",
+            "note": {
+              "en": "December is only for homes with someone 60 or older, or someone with a disability who gets services through the NC Division of Aging and Adult Services. Apply on ePASS or at your county DSS. Last year this opened late.",
+              "es": "Diciembre es solo para hogares con alguien de 60 años o más, o con alguien con discapacidad que recibe servicios de la División de Envejecimiento y Servicios para Adultos de NC. Solicite en ePASS o en el DSS de su condado. El año pasado abrió tarde."
+            },
+            "sources": [
+              {
+                "url": "https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://policies.ncdhhs.gov/wp-content/uploads/EP-CN-02-2026a1.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://ncdhhs.gov/draft-detailed-model-plan-liheap10-01-2026/download?attachment=",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://news.mecknc.gov/energy-assistance-applications-open-priority-households",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "nc-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2027-01-04",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "All other households. Starts the first working day of January (Jan 1 is a holiday). Open until March 31 or until funds run out.",
+              "es": "Todos los demás hogares. Empieza el primer día hábil de enero (el 1 de enero es feriado). Abierto hasta el 31 de marzo o hasta que se acaben los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://policies.ncdhhs.gov/wp-content/uploads/EP-CN-02-2026a1.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "nc-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-07-01",
+            "end": "2027-06-30",
+            "status": "expected",
+            "note": {
+              "en": "Crisis Intervention Program: help if you have no heat or cooling, or a disconnect notice, final notice, or past-due bill and your health is at risk. Contact your county DSS. Open until funds run out.",
+              "es": "Programa de Intervención en Crisis: ayuda si no tiene calefacción o aire, o tiene un aviso de corte, aviso final o factura vencida y su salud está en riesgo. Comuníquese con el DSS de su condado. Abierto hasta que se acaben los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance/crisis-intervention-program",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://ncdhhs.gov/draft-detailed-model-plan-liheap10-01-2026/download?attachment=",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "nc-shutoff-senior-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "senior60",
+              "disability"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "Winter rule: the utility needs state approval to shut off a home with someone 65 or older or with a disability, if the home cannot pay and is certified eligible for energy help by the county DSS. North Carolina uses age 65, not 60.",
+              "es": "Regla de invierno: la compañía necesita permiso del estado para cortar el servicio a un hogar con alguien de 65 años o más o con discapacidad, si el hogar no puede pagar y el DSS del condado certifica que califica para ayuda de energía. Carolina del Norte usa 65 años, no 60."
+            },
+            "sources": [
+              {
+                "url": "https://www.ncuc.gov/ncrules/chapter12.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2026,
+          "status": "expected",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 1695
+            },
+            {
+              "householdSize": 2,
+              "amount": 2291
+            },
+            {
+              "householdSize": 3,
+              "amount": 2887
+            },
+            {
+              "householdSize": 4,
+              "amount": 3483
+            },
+            {
+              "householdSize": 5,
+              "amount": 4079
+            },
+            {
+              "householdSize": 6,
+              "amount": 4675
+            },
+            {
+              "householdSize": 7,
+              "amount": 5270
+            },
+            {
+              "householdSize": 8,
+              "amount": 5866
+            },
+            {
+              "householdSize": 9,
+              "amount": 6462
+            },
+            {
+              "householdSize": 10,
+              "amount": 7058
+            }
+          ],
+          "note": {
+            "en": "North Carolina's own monthly limits from last year (130% of poverty). Homes with someone 60+ or disabled can earn more (150%: $1,956 for 1 person, $4,019 for 4). New limits not posted yet.",
+            "es": "Límites mensuales propios de Carolina del Norte del año pasado (130% de pobreza). Los hogares con alguien de 60+ o con discapacidad pueden ganar más (150%: $1,956 para 1 persona, $4,019 para 4). Los nuevos límites aún no se publican."
+          },
+          "sources": [
+            {
+              "url": "https://www.ncdhhs.gov/lieap-130-150-chart-fy2026/download?attachment",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Photo ID",
+            "Proof of address (lease or rental agreement)",
+            "Proof of citizenship or immigration status",
+            "Social Security card or number",
+            "Proof of income (pay stubs, tax forms, or benefit award letters)",
+            "Bank and asset records",
+            "A copy of your heating bill"
+          ],
+          "es": [
+            "Identificación con foto",
+            "Comprobante de domicilio (contrato de alquiler)",
+            "Prueba de ciudadanía o estatus migratorio",
+            "Tarjeta o número de Seguro Social",
+            "Comprobante de ingresos (talones de pago, documentos de impuestos o cartas de beneficios)",
+            "Documentos de bancos y bienes",
+            "Una copia de su factura de calefacción"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.ncdhhs.gov/divisions/social-services/energy-assistance/low-income-energy-assistance",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://epass.nc.gov/",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "NC Department of Environmental Quality (DEQ), State Energy Office, through local weatherization agencies",
+          "es": "Departamento de Calidad Ambiental de NC (DEQ), Oficina Estatal de Energía, a través de agencias locales de climatización"
+        },
+        "url": "https://www.deq.nc.gov/energy-climate/state-energy-office/weatherization-assistance-program/annual-weatherization-assistance-program",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://www.deq.nc.gov/energy-climate/state-energy-office/weatherization-assistance-program/annual-weatherization-assistance-program",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.deq.nc.gov/state-energy-office/weatherization-fact-sheet-spanish/open",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Duke Energy",
+          "program": {
+            "en": "Share the Light Fund",
+            "es": "Share the Light Fund (ayuda con la factura por agencias locales)"
+          },
+          "url": "https://www.duke-energy.com/home/billing/assistance/share-the-light",
+          "sources": [
+            {
+              "url": "https://www.duke-energy.com/home/billing/assistance/share-the-light",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://news.duke-energy.com/releases/duke-energy-approaches-4-million-in-energy-bill-assistance-in-north-carolina-over-past-year-with-562-500-in-new-funding-following-prolonged-cold",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Dominion Energy North Carolina",
+          "program": {
+            "en": "EnergyShare®",
+            "es": "EnergyShare® (ayuda de emergencia hasta $600)"
+          },
+          "url": "https://www.dominionenergy.com/north-carolina/paying-my-bill/billing-options/energyshare",
+          "sources": [
+            {
+              "url": "https://www.dominionenergy.com/north-carolina/paying-my-bill/billing-options/energyshare",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MN",
+      "name": {
+        "en": "Minnesota",
+        "es": "Minnesota"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Minnesota Department of Commerce, through local Energy Assistance service providers",
+          "es": "Departamento de Comercio de Minnesota, a través de proveedores locales de asistencia de energía"
+        },
+        "applyUrl": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/apply.jsp",
+        "phone": "1-800-657-3710",
+        "windows": [
+          {
+            "id": "mn-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-05-31",
+            "status": "confirmed",
+            "note": {
+              "en": "Apply online or by mail. Applications must arrive by May 31, 2027. They are reviewed in the order received, so apply early. Benefits up to $1,400.",
+              "es": "Solicite en línea o por correo. Las solicitudes deben llegar antes del 31 de mayo de 2027. Se revisan en el orden en que llegan, así que solicite temprano. Beneficios de hasta $1,400."
+            },
+            "sources": [
+              {
+                "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://mn.gov/commerce-stat/pdfs/eap-approved-ffy27_detailed-model-plan-liheap_10_01_2026.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/questions.jsp",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mn-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-07-01",
+            "status": "confirmed",
+            "note": {
+              "en": "Up to $600 extra if you have a shutoff or disconnect notice, are already shut off, or are low on propane, oil, or other fuel. You must be approved for Energy Assistance (apply by May 31). Call your local service provider.",
+              "es": "Hasta $600 adicionales si tiene un aviso de corte, ya le cortaron el servicio, o le queda poco propano, aceite u otro combustible. Debe estar aprobado para Asistencia de Energía (solicite antes del 31 de mayo). Llame a su proveedor local."
+            },
+            "sources": [
+              {
+                "url": "https://mn.gov/commerce-stat/pdfs/eap-approved-ffy27_detailed-model-plan-liheap_10_01_2026.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/emergencies.jsp",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mn-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-04-30",
+            "status": "expected",
+            "note": {
+              "en": "Cold Weather Rule: electric and gas companies cannot shut you off if you set up and keep a payment plan with them. Call your utility to ask for a Cold Weather Rule plan. Does not cover propane or oil.",
+              "es": "Regla de Clima Frío: las compañías de luz y gas no pueden cortarle el servicio si hace y cumple un plan de pagos con ellas. Llame a su compañía para pedir un plan de la Regla de Clima Frío. No cubre propano ni aceite."
+            },
+            "sources": [
+              {
+                "url": "https://mn.gov/puc/consumers/shut-off-protection/",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 3205
+            },
+            {
+              "householdSize": 2,
+              "amount": 4191
+            },
+            {
+              "householdSize": 3,
+              "amount": 5177
+            },
+            {
+              "householdSize": 4,
+              "amount": 6164
+            },
+            {
+              "householdSize": 5,
+              "amount": 7150
+            },
+            {
+              "householdSize": 6,
+              "amount": 8136
+            },
+            {
+              "householdSize": 7,
+              "amount": 8321
+            },
+            {
+              "householdSize": 8,
+              "amount": 8506
+            },
+            {
+              "householdSize": 9,
+              "amount": 8691
+            },
+            {
+              "householdSize": 10,
+              "amount": 8876
+            }
+          ],
+          "note": {
+            "en": "Minnesota's own one-month income limits for Oct 1, 2026 to Sept 30, 2027 (50% of state median income). Based on your most recent month of income.",
+            "es": "Límites propios de Minnesota de ingreso de un mes para el 1 de octubre de 2026 al 30 de septiembre de 2027 (50% del ingreso medio del estado). Se basa en su ingreso del mes más reciente."
+          },
+          "sources": [
+            {
+              "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/guidelines.jsp",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Your name, contact information, and address",
+            "Names of everyone in your household and their Social Security numbers or other ID numbers (such as Permanent Resident, I-94, or I-766)",
+            "Household income information and documents that prove income",
+            "Your housing information",
+            "Names of your heat and electric companies and your account numbers"
+          ],
+          "es": [
+            "Su nombre, información de contacto y dirección",
+            "Nombres de todas las personas del hogar y sus números de Seguro Social u otros números de identificación (como Residente Permanente, I-94 o I-766)",
+            "Información de ingresos del hogar y documentos que los comprueben",
+            "Información de su vivienda",
+            "Nombres de sus compañías de calefacción y luz y sus números de cuenta"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/apply.jsp",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/questions.jsp",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://mn.gov/commerce-stat/pdfs/eap-application-spanish.pdf",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Minnesota Department of Commerce Weatherization Assistance Program, through local service providers",
+          "es": "Programa de Climatización del Departamento de Comercio de Minnesota, a través de proveedores locales"
+        },
+        "url": "https://mn.gov/commerce/energy/consumer-assistance/wap/index.jsp",
+        "phone": "1-800-657-3710",
+        "sources": [
+          {
+            "url": "https://mn.gov/commerce/energy/consumer-assistance/wap/index.jsp",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/emergencies.jsp",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Xcel Energy",
+          "program": {
+            "en": "PowerOn and Gas Affordability Program",
+            "es": "PowerOn and Gas Affordability Program (descuento según ingresos)"
+          },
+          "url": "https://mn.my.xcelenergy.com/s/billing-payment/energy-assistance",
+          "sources": [
+            {
+              "url": "https://mn.my.xcelenergy.com/s/billing-payment/energy-assistance",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "CenterPoint Energy",
+          "program": {
+            "en": "Gas Affordability Program (GAP)",
+            "es": "Gas Affordability Program (GAP) (pago de gas de no más del 3% de sus ingresos)"
+          },
+          "url": "https://www.centerpointenergy.com/en-us/my-account/billing-payment/assistance-programs/gas-affordability-program",
+          "sources": [
+            {
+              "url": "https://www.centerpointenergy.com/en-us/my-account/billing-payment/assistance-programs/gas-affordability-program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "name": {
+        "en": "Missouri",
+        "es": "Misuri"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Missouri Department of Social Services, Family Support Division, through local contracted agencies",
+          "es": "Departamento de Servicios Sociales de Misuri, División de Apoyo Familiar, a través de agencias locales contratadas"
+        },
+        "applyUrl": "https://dss.mo.gov/utility-assistance/liheap",
+        "phone": "1-855-373-4636",
+        "windows": [
+          {
+            "id": "mo-regular-senior-2026",
+            "kind": "regular",
+            "groups": [
+              "senior60",
+              "disability"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-05-31",
+            "status": "confirmed",
+            "note": {
+              "en": "Homes with someone 60 or older or with a disability can apply from October 1. One payment for one heating or cooling fuel. Apply online or through your local agency.",
+              "es": "Los hogares con alguien de 60 años o más o con una discapacidad pueden solicitar desde el 1 de octubre. Un pago para un tipo de combustible de calefacción o aire. Solicite en línea o con su agencia local."
+            },
+            "sources": [
+              {
+                "url": "https://dssmanuals.mo.gov/wp-content/uploads/2022/02/liheap-application.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/sites/mydss/files/media/pdf/2026/09/LIHEAP-886-4576-%288-2026%29-Fillable%20Final-SPANISH.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/sites/mydss/files/media/pdf/2026/08/liheap-active-ffy2027.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mo-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-05-31",
+            "status": "confirmed",
+            "note": {
+              "en": "All other households can apply from November 1. Last day to apply is May 31. Help depends on available funds.",
+              "es": "Todos los demás hogares pueden solicitar desde el 1 de noviembre. El último día para solicitar es el 31 de mayo. La ayuda depende de los fondos disponibles."
+            },
+            "sources": [
+              {
+                "url": "https://dssmanuals.mo.gov/wp-content/uploads/2022/02/liheap-application.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/sites/mydss/files/media/pdf/2026/09/LIHEAP-886-4576-%288-2026%29-Fillable%20Final-SPANISH.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/sites/mydss/files/media/pdf/2026/08/liheap-active-ffy2027.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mo-crisis-senior-2026",
+            "kind": "crisis",
+            "groups": [
+              "senior60",
+              "disability"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-05-31",
+            "status": "confirmed",
+            "note": {
+              "en": "Winter crisis help (ECIP) for homes with someone 60 or older or with a disability starts November 1. You need a disconnect notice or be almost out of fuel. Up to $800.",
+              "es": "La ayuda de crisis de invierno (ECIP) para hogares con alguien de 60 años o más o con una discapacidad empieza el 1 de noviembre. Necesita un aviso de corte o estar casi sin combustible. Hasta $800."
+            },
+            "sources": [
+              {
+                "url": "https://dssmanuals.mo.gov/wp-content/uploads/2022/02/liheap-application.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/utility-assistance/liheap",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mo-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-12-01",
+            "end": "2027-05-31",
+            "status": "confirmed",
+            "note": {
+              "en": "Winter crisis help (ECIP) for all other homes starts December 1. You need a disconnect notice, a final bill, a tank under 20%, or prepaid power about to run out. Up to $800, based on funds.",
+              "es": "La ayuda de crisis de invierno (ECIP) para todos los demás hogares empieza el 1 de diciembre. Necesita un aviso de corte, una factura final, un tanque con menos de 20% o luz prepagada por acabarse. Hasta $800, según los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://dssmanuals.mo.gov/wp-content/uploads/2022/02/liheap-application.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/utility-assistance/liheap",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dss.mo.gov/sites/mydss/files/media/pdf/2026/08/liheap-active-ffy2027.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "mo-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-01",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "Cold Weather Rule: gas and electric companies regulated by the state cannot shut off heat on days when the forecast says it will drop below 32°F. Other days you can still be shut off. City-owned utilities and co-ops are not covered.",
+              "es": "Regla de Clima Frío: las compañías de gas y luz reguladas por el estado no pueden cortar la calefacción los días en que el pronóstico dice que bajará de 32°F. Otros días sí pueden cortar. Las compañías municipales y cooperativas no están incluidas."
+            },
+            "sources": [
+              {
+                "url": "https://www.sos.mo.gov/CMSImages/AdRules/csr/current/20csr/20c4240-13.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://psc.mo.gov/CMSInternetData/ConsumerInformation/The%20Cold%20Weather%20Rule.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "confirmed",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 2942
+            },
+            {
+              "householdSize": 2,
+              "amount": 3847
+            },
+            {
+              "householdSize": 3,
+              "amount": 4752
+            },
+            {
+              "householdSize": 4,
+              "amount": 5657
+            },
+            {
+              "householdSize": 5,
+              "amount": 6562
+            },
+            {
+              "householdSize": 6,
+              "amount": 7467
+            },
+            {
+              "householdSize": 7,
+              "amount": 7637
+            },
+            {
+              "householdSize": 8,
+              "amount": 7806
+            },
+            {
+              "householdSize": 9,
+              "amount": 7976
+            },
+            {
+              "householdSize": 10,
+              "amount": 8146
+            }
+          ],
+          "note": {
+            "en": "Missouri's own monthly limits (60% of state median income) from the 2026-27 application. Add $170 for each person over 10. You must also have $3,000 or less in bank and investment accounts.",
+            "es": "Límites mensuales propios de Misuri (60% del ingreso medio del estado) de la solicitud 2026-27. Sume $170 por cada persona después de 10. También debe tener $3,000 o menos en cuentas de banco e inversiones."
+          },
+          "sources": [
+            {
+              "url": "https://dssmanuals.mo.gov/wp-content/uploads/2022/02/liheap-application.pdf",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://dss.mo.gov/sites/mydss/files/media/pdf/2026/09/2026%20FPL%20Chart%20for%20all%20Programs_10-1-26_AOD.pdf",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Completed, signed, and dated application",
+            "Proof of Social Security number for everyone in the home (card, award letter, or W-2)",
+            "Copies of your utility or fuel bills, including any disconnect notices",
+            "Proof of last month's income for everyone in the home (not needed for people getting SNAP)",
+            "Latest federal tax return (Form 1040 with Schedule 1) if anyone is self-employed"
+          ],
+          "es": [
+            "Solicitud completa, firmada y con fecha",
+            "Prueba del número de Seguro Social de todos en el hogar (tarjeta, carta de beneficios o W-2)",
+            "Copias de sus facturas de luz, gas o combustible, incluidos los avisos de corte",
+            "Comprobante de ingresos del mes pasado de todos en el hogar (no se necesita para quienes reciben SNAP)",
+            "Última declaración de impuestos federal (Formulario 1040 con Anexo 1) si alguien trabaja por cuenta propia"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://dss.mo.gov/utility-assistance/liheap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://dssmanuals.mo.gov/wp-content/uploads/2022/02/liheap-application.pdf",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://formsportal.mo.gov/content/forms/af/moa/my-dss/family-support-division/liheap/es/liheap-es.html",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Missouri Department of Natural Resources, Division of Energy, through 18 local weatherization agencies",
+          "es": "Departamento de Recursos Naturales de Misuri, División de Energía, a través de 18 agencias locales de climatización"
+        },
+        "url": "https://dnr.mo.gov/energy/weatherization/low-income-assistance",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://dnr.mo.gov/energy/weatherization/low-income-assistance",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Ameren Missouri",
+          "program": {
+            "en": "Keeping Current",
+            "es": "Keeping Current (crédito mensual en la factura)"
+          },
+          "url": "https://www.ameren.com/bill/assistance/keeping-current",
+          "sources": [
+            {
+              "url": "https://www.ameren.com/bill/assistance/keeping-current",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Evergy",
+          "program": {
+            "en": "Economic Relief Pilot Program (ERPP)",
+            "es": "Economic Relief Pilot Program (ERPP) (crédito de hasta $65 al mes)"
+          },
+          "url": "https://www.evergy.com/manage-account/billing/financial-help/economic-relief-pilot-program",
+          "sources": [
+            {
+              "url": "https://www.evergy.com/manage-account/billing/financial-help/economic-relief-pilot-program",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "name": {
+        "en": "Georgia",
+        "es": "Georgia"
+      },
+      "tier": "alert",
+      "liheap": {
+        "agency": {
+          "en": "Georgia Department of Human Services, Division of Family and Children Services (DFCS), through local Community Action Agencies",
+          "es": "Departamento de Servicios Humanos de Georgia, División de Servicios para Familias y Niños (DFCS), a través de las Agencias de Acción Comunitaria locales"
+        },
+        "applyUrl": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+        "phone": null,
+        "windows": [
+          {
+            "id": "ga-regular-senior-2026",
+            "kind": "regular",
+            "groups": [
+              "senior60",
+              "disability"
+            ],
+            "start": "2026-12-01",
+            "end": "2027-07-31",
+            "status": "expected",
+            "note": {
+              "en": "Heating help opens first for people 65 or older or medically homebound. Georgia uses age 65, not 60. There is no online application: call your local Community Action Agency for an appointment. First come, first served.",
+              "es": "La ayuda de calefacción abre primero para personas de 65 años o más o que no pueden salir de casa por razones médicas. Georgia usa 65 años, no 60. No hay solicitud en línea: llame a su Agencia de Acción Comunitaria local para una cita. Por orden de llegada."
+            },
+            "sources": [
+              {
+                "url": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dfcs.georgia.gov/document/document/draft-ffy27-liheap-state-planpdf/download",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dhs.georgia.gov/press-releases/2025-12-01/low-income-home-energy-assistance-program-heating-opens-today",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ga-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2027-01-04",
+            "end": "2027-07-31",
+            "status": "expected",
+            "note": {
+              "en": "All other households can apply for heating help starting the first working day of January (Jan 1 is a holiday). Call your local Community Action Agency. Help ends when funds run out.",
+              "es": "Todos los demás hogares pueden solicitar ayuda de calefacción desde el primer día hábil de enero (el 1 de enero es feriado). Llame a su Agencia de Acción Comunitaria local. La ayuda termina cuando se acaban los fondos."
+            },
+            "sources": [
+              {
+                "url": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://dfcs.georgia.gov/document/document/draft-ffy27-liheap-state-planpdf/download",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ga-crisis-all-2026",
+            "kind": "crisis",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-12-01",
+            "end": "2027-07-31",
+            "status": "expected",
+            "note": {
+              "en": "Winter crisis help if your service will be cut off within 7 days or is already off. Contact your local Community Action Agency. Crisis funds may run out early.",
+              "es": "Ayuda de crisis de invierno si le van a cortar el servicio en 7 días o ya está cortado. Comuníquese con su Agencia de Acción Comunitaria local. Los fondos de crisis pueden agotarse antes."
+            },
+            "sources": [
+              {
+                "url": "https://dfcs.georgia.gov/document/document/draft-ffy27-liheap-state-planpdf/download",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://pamms.dhs.ga.gov/dfcs/_exports/liheap.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "ga-shutoff-all-2026",
+            "kind": "shutoff_protection",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-11-15",
+            "end": "2027-03-15",
+            "status": "expected",
+            "note": {
+              "en": "Winter rule: utilities regulated by the Georgia Public Service Commission cannot shut off service on days when the forecast is below 32°F, if you agree in writing to a payment plan and pay new bills on time. Electric co-ops (EMCs) and city utilities may have their own rules.",
+              "es": "Regla de invierno: las compañías reguladas por la Comisión de Servicio Público de Georgia no pueden cortar el servicio los días con pronóstico de menos de 32°F, si usted acepta por escrito un plan de pagos y paga las facturas nuevas a tiempo. Las cooperativas eléctricas (EMC) y las compañías municipales pueden tener sus propias reglas."
+            },
+            "sources": [
+              {
+                "url": "https://psc.ga.gov/about-the-psc/consumer-corner/electric/consumer-rights/electric-disconnection/",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://psc.ga.gov/about-the-psc/consumer-corner/natural-gas/consumer-rights/natural-gas-disconnection/",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2027,
+          "status": "expected",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 2993
+            },
+            {
+              "householdSize": 2,
+              "amount": 3913
+            },
+            {
+              "householdSize": 3,
+              "amount": 4834
+            },
+            {
+              "householdSize": 4,
+              "amount": 5755
+            },
+            {
+              "householdSize": 5,
+              "amount": 6676
+            },
+            {
+              "householdSize": 6,
+              "amount": 7597
+            },
+            {
+              "householdSize": 7,
+              "amount": 7770
+            },
+            {
+              "householdSize": 8,
+              "amount": 7943
+            },
+            {
+              "householdSize": 9,
+              "amount": 8115
+            },
+            {
+              "householdSize": 10,
+              "amount": 8288
+            }
+          ],
+          "note": {
+            "en": "Georgia uses 60% of state median income. These are the federal 2026-27 yearly limits divided by 12 and rounded down. Georgia has not posted its own chart yet.",
+            "es": "Georgia usa el 60% del ingreso medio del estado. Estos son los límites anuales federales de 2026-27 divididos entre 12 y redondeados hacia abajo. Georgia aún no publica su propia tabla."
+          },
+          "sources": [
+            {
+              "url": "https://acf.gov/sites/default/files/documents/ocs/COMM_LIHEAP_Att4SMITable_States_FY2027.pdf",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://dfcs.georgia.gov/document/document/draft-ffy27-liheap-state-planpdf/download",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Photo ID (also used to prove age for the 65+ early period)",
+            "Your most recent heating or cooling bill",
+            "Social Security numbers for everyone in the home",
+            "Proof of citizenship for everyone in the home",
+            "Proof of income for the last 30 days for each adult (pay stubs or benefit letters)",
+            "Proof of Social Security or unemployment benefits, if any",
+            "Proof of medically homebound status, if applying early for that reason"
+          ],
+          "es": [
+            "Identificación con foto (también sirve para probar la edad en el periodo temprano de 65+)",
+            "Su factura más reciente de calefacción o aire acondicionado",
+            "Números de Seguro Social de todos en el hogar",
+            "Prueba de ciudadanía de todos en el hogar",
+            "Comprobante de ingresos de los últimos 30 días de cada adulto (talones de pago o cartas de beneficios)",
+            "Comprobante de beneficios del Seguro Social o de desempleo, si los tiene",
+            "Comprobante de que no puede salir de casa por razones médicas, si solicita temprano por ese motivo"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://dfcs.georgia.gov/document/document/liheap-heating-faq/download",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://dhs.georgia.gov/press-releases/2025-12-01/low-income-home-energy-assistance-program-heating-opens-today",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://dfcs.georgia.gov/document/document/draft-ffy27-liheap-state-planpdf/download",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Georgia Environmental Finance Authority (GEFA), through local Community Action Agencies",
+          "es": "Autoridad de Financiamiento Ambiental de Georgia (GEFA), a través de las Agencias de Acción Comunitaria locales"
+        },
+        "url": "https://gefa.georgia.gov/weatherization-assistance-program",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://gefa.georgia.gov/weatherization-assistance-program",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "Georgia Power",
+          "program": {
+            "en": "Income-Qualified Discount",
+            "es": "Income-Qualified Discount (descuento de $33.50 al mes)"
+          },
+          "url": "https://www.georgiapower.com/residential/assistance/income-qualified-discount.html",
+          "sources": [
+            {
+              "url": "https://www.georgiapower.com/residential/assistance/income-qualified-discount.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": {
+        "en": "California",
+        "es": "California"
+      },
+      "tier": "info",
+      "liheap": {
+        "agency": {
+          "en": "California Department of Community Services and Development (CSD), through local service providers",
+          "es": "Departamento de Servicios y Desarrollo Comunitario de California (CSD), a través de proveedores de servicios locales"
+        },
+        "applyUrl": "https://www.csd.ca.gov/energybills",
+        "phone": null,
+        "windows": [
+          {
+            "id": "ca-yearround-all-2026",
+            "kind": "year_round",
+            "groups": [
+              "all"
+            ],
+            "start": null,
+            "end": null,
+            "status": "expected",
+            "note": {
+              "en": "Help with energy bills (HEAP) and crisis help (ECIP) run all year through local agencies. Funds are limited and the most vulnerable homes go first. Large regulated utilities cannot shut off power when the forecast is below 32°F or during extreme heat.",
+              "es": "La ayuda con las facturas de energía (HEAP) y la ayuda de crisis (ECIP) funcionan todo el año por agencias locales. Los fondos son limitados y los hogares más vulnerables van primero. Las grandes compañías reguladas no pueden cortar la luz cuando el pronóstico es de menos de 32°F o durante calor extremo."
+            },
+            "sources": [
+              {
+                "url": "https://csd.ca.gov/pages/liheapprogram.aspx",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.csd.ca.gov/Shared%20Documents/2027-Draft-LIHEAP-State-Plan.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_RULES_11.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2026,
+          "status": "expected",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 3331
+            },
+            {
+              "householdSize": 2,
+              "amount": 4356
+            },
+            {
+              "householdSize": 3,
+              "amount": 5382
+            },
+            {
+              "householdSize": 4,
+              "amount": 6407
+            },
+            {
+              "householdSize": 5,
+              "amount": 7432
+            },
+            {
+              "householdSize": 6,
+              "amount": 8457
+            },
+            {
+              "householdSize": 7,
+              "amount": 8649
+            },
+            {
+              "householdSize": 8,
+              "amount": 8841
+            },
+            {
+              "householdSize": 9,
+              "amount": 9034
+            },
+            {
+              "householdSize": 10,
+              "amount": 9226
+            }
+          ],
+          "note": {
+            "en": "California's own 2026 monthly limits, with cents dropped. Add $192 for each person over 10. New limits not posted yet.",
+            "es": "Límites mensuales propios de California para 2026, sin centavos. Sume $192 por cada persona después de 10. Los nuevos límites aún no se publican."
+          },
+          "sources": [
+            {
+              "url": "https://www.csd.ca.gov/energybills",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Government photo ID (driver's license, state ID, or passport)",
+            "Social Security card or number, if you have one",
+            "Proof of citizenship (birth certificate, naturalization papers, passport, or Real ID)",
+            "Proof of income for all adults (pay stubs, award letters, bank or tax statements). Not needed if you get CalFresh or CalWORKs",
+            "A recent energy bill"
+          ],
+          "es": [
+            "Identificación oficial con foto (licencia de manejo, identificación estatal o pasaporte)",
+            "Tarjeta o número de Seguro Social, si lo tiene",
+            "Prueba de ciudadanía (acta de nacimiento, papeles de naturalización, pasaporte o Real ID)",
+            "Comprobante de ingresos de todos los adultos (talones de pago, cartas de beneficios, estados de cuenta o documentos de impuestos). No se necesita si recibe CalFresh o CalWORKs",
+            "Una factura de energía reciente"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.csd.ca.gov/energybills",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.csd.ca.gov/Shared%20Documents/2027-Draft-LIHEAP-State-Plan.pdf",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.csd.ca.gov/Pages/Language-Resources-ESP.aspx",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "California Department of Community Services and Development (CSD), through local service providers",
+          "es": "Departamento de Servicios y Desarrollo Comunitario de California (CSD), a través de proveedores de servicios locales"
+        },
+        "url": "https://www.csd.ca.gov/Pages/Residential-Energy-Efficiency.aspx",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://www.csd.ca.gov/Pages/Residential-Energy-Efficiency.aspx",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "PG&E",
+          "program": {
+            "en": "California Alternate Rates for Energy (CARE)",
+            "es": "California Alternate Rates for Energy (CARE) (descuento mensual en luz y gas)"
+          },
+          "url": "https://www.pge.com/en/account/billing-and-assistance/financial-assistance/california-alternate-rates-for-energy-program.html",
+          "sources": [
+            {
+              "url": "https://www.pge.com/en/account/billing-and-assistance/financial-assistance/california-alternate-rates-for-energy-program.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Southern California Edison",
+          "program": {
+            "en": "CARE & FERA",
+            "es": "CARE y FERA (descuento en la factura de luz)"
+          },
+          "url": "https://www.sce.com/save-money/income-qualified-programs/care-fera",
+          "sources": [
+            {
+              "url": "https://www.sce.com/save-money/income-qualified-programs/care-fera",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "SoCalGas",
+          "program": {
+            "en": "California Alternate Rates for Energy (CARE)",
+            "es": "California Alternate Rates for Energy (CARE) (20% de descuento en el gas)"
+          },
+          "url": "https://www.socalgas.com/billing-payment/assistance-programs/california-alternate-rates-for-energy",
+          "sources": [
+            {
+              "url": "https://www.socalgas.com/billing-payment/assistance-programs/california-alternate-rates-for-energy",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TX",
+      "name": {
+        "en": "Texas",
+        "es": "Texas"
+      },
+      "tier": "info",
+      "liheap": {
+        "agency": {
+          "en": "Texas Department of Housing and Community Affairs (TDHCA), Comprehensive Energy Assistance Program (CEAP), through local agencies",
+          "es": "Departamento de Vivienda y Asuntos Comunitarios de Texas (TDHCA), Programa Integral de Asistencia Energética (CEAP), a través de agencias locales"
+        },
+        "applyUrl": "https://www.tdhca.texas.gov/help-for-texans",
+        "phone": "2-1-1",
+        "windows": [
+          {
+            "id": "tx-yearround-all-2026",
+            "kind": "year_round",
+            "groups": [
+              "all"
+            ],
+            "start": null,
+            "end": null,
+            "status": "expected",
+            "note": {
+              "en": "Bill help (CEAP) runs all year through your local agency, not the state. Local funds can run out early. Crisis help is for extreme weather, disasters, or life-threatening needs. Texas has no winter shutoff season; competitive-market electric companies cannot cut power during extreme cold or heat alerts.",
+              "es": "La ayuda con facturas (CEAP) funciona todo el año por su agencia local, no por el estado. Los fondos locales pueden acabarse pronto. La ayuda de crisis es para clima extremo, desastres o necesidades que ponen en riesgo la vida. Texas no tiene temporada de invierno sin cortes; las compañías de luz del mercado competitivo no pueden cortar durante alertas de frío o calor extremo."
+            },
+            "sources": [
+              {
+                "url": "https://www.tdhca.texas.gov/comprehensive-energy-assistance-program-ceap",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.tdhca.texas.gov/help-for-texans",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.tdhca.texas.gov/sites/default/files/community-affairs/docs/2026-LIHEAP-STATE-PLAN-apprvd-09-18-2025.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.tdhca.texas.gov/sites/default/files/community-affairs/docs/27-LIHEAP-%20StatePlan-DRAFT.pdf",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.483/25.483.pdf",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2026,
+          "status": "expected",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 1995
+            },
+            {
+              "householdSize": 2,
+              "amount": 2705
+            },
+            {
+              "householdSize": 3,
+              "amount": 3415
+            },
+            {
+              "householdSize": 4,
+              "amount": 4125
+            },
+            {
+              "householdSize": 5,
+              "amount": 4835
+            },
+            {
+              "householdSize": 6,
+              "amount": 5545
+            },
+            {
+              "householdSize": 7,
+              "amount": 6255
+            },
+            {
+              "householdSize": 8,
+              "amount": 6965
+            },
+            {
+              "householdSize": 9,
+              "amount": 7675
+            },
+            {
+              "householdSize": 10,
+              "amount": 8385
+            }
+          ],
+          "note": {
+            "en": "150% of the 2026 federal poverty level, the limit Texas uses now. Yearly amounts divided by 12 and rounded down. New limits usually start in early 2027.",
+            "es": "150% del nivel federal de pobreza de 2026, el límite que Texas usa ahora. Montos anuales divididos entre 12 y redondeados hacia abajo. Los nuevos límites suelen empezar a inicios de 2027."
+          },
+          "sources": [
+            {
+              "url": "https://www.tdhca.texas.gov/community-affairs-income-guidelines",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Photo ID",
+            "Proof of income for everyone in the home",
+            "A recent utility bill"
+          ],
+          "es": [
+            "Identificación con foto",
+            "Comprobante de ingresos de todos en el hogar",
+            "Una factura de servicios reciente"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.tdhca.texas.gov/help-for-texans",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.tdhca.texas.gov/comprehensive-energy-assistance-program-ceap",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://www.tdhca.texas.gov/language-assistance",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "Texas Department of Housing and Community Affairs (TDHCA), through local agencies",
+          "es": "Departamento de Vivienda y Asuntos Comunitarios de Texas (TDHCA), a través de agencias locales"
+        },
+        "url": "https://www.tdhca.texas.gov/weatherization-assistance-program",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://www.tdhca.texas.gov/weatherization-assistance-program",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "CPS Energy",
+          "program": {
+            "en": "Affordability Discount Program (ADP)",
+            "es": "Affordability Discount Program (ADP) (descuento mensual en luz y gas)"
+          },
+          "url": "https://www.cpsenergy.com/en/my-home/customer-assist-programs/affordability-discounts.html",
+          "sources": [
+            {
+              "url": "https://www.cpsenergy.com/en/my-home/customer-assist-programs/affordability-discounts.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "City of Austin Utilities (Austin Energy)",
+          "program": {
+            "en": "Customer Assistance Program (CAP)",
+            "es": "Customer Assistance Program (CAP) (descuentos en la factura)"
+          },
+          "url": "https://coautilities.com/wps/wcm/connect/occ/coa/util/support/customer-assistance",
+          "sources": [
+            {
+              "url": "https://coautilities.com/wps/wcm/connect/occ/coa/util/support/customer-assistance",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "El Paso Electric",
+          "program": {
+            "en": "Low-Income Rider (LIR)",
+            "es": "Low-Income Rider (LIR) (sin cargo fijo mensual)"
+          },
+          "url": "https://www.epelectric.com/customer-service/assistance-programs/texas-agencies-and-low-income-rider",
+          "sources": [
+            {
+              "url": "https://www.epelectric.com/customer-service/assistance-programs/texas-agencies-and-low-income-rider",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "FL",
+      "name": {
+        "en": "Florida",
+        "es": "Florida"
+      },
+      "tier": "info",
+      "liheap": {
+        "agency": {
+          "en": "FloridaCommerce, through local LIHEAP agencies",
+          "es": "FloridaCommerce, a través de agencias locales de LIHEAP"
+        },
+        "applyUrl": "https://www.floridajobs.org/community-development/Low-Income-Home-Energy-Assistance-Program",
+        "phone": "2-1-1",
+        "windows": [
+          {
+            "id": "fl-regular-all-2026",
+            "kind": "regular",
+            "groups": [
+              "all"
+            ],
+            "start": "2026-10-01",
+            "end": "2027-03-31",
+            "status": "expected",
+            "note": {
+              "en": "Heating season help. LIHEAP pays gas or propane bills only in winter, and only if that is your main heat. Call your local LIHEAP agency. Help depends on funds in your county.",
+              "es": "Ayuda de la temporada de calefacción. LIHEAP paga facturas de gas o propano solo en invierno, y solo si es su calefacción principal. Llame a su agencia local de LIHEAP. La ayuda depende de los fondos de su condado."
+            },
+            "sources": [
+              {
+                "url": "https://www.floridajobs.org/docs/lwdb-resources/lwdb-grants-management/economic-self-sufficiency-organizations/esso-grant-agreements/liheap/2026-liheap/draft-ffy2027_comm_liheap_model-plan-template_watermark.pdf?sfvrsn=b7729d30_1",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.floridajobs.org/community-development/Low-Income-Home-Energy-Assistance-Program",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "id": "fl-yearround-all-2026",
+            "kind": "year_round",
+            "groups": [
+              "all"
+            ],
+            "start": null,
+            "end": null,
+            "status": "expected",
+            "note": {
+              "en": "Crisis help runs all year if your power is off or about to be shut off. Bring your final shutoff notice. Florida has no state rule that stops shutoffs in hot or cold weather. In a life-threatening emergency, call 9-1-1.",
+              "es": "La ayuda de crisis funciona todo el año si le cortaron la luz o se la van a cortar. Lleve su aviso final de corte. Florida no tiene una regla estatal que impida cortes en clima caliente o frío. En una emergencia que pone en riesgo la vida, llame al 9-1-1."
+            },
+            "sources": [
+              {
+                "url": "https://www.floridajobs.org/docs/lwdb-resources/lwdb-grants-management/economic-self-sufficiency-organizations/esso-grant-agreements/liheap/2026-liheap/draft-ffy2027_comm_liheap_model-plan-template_watermark.pdf?sfvrsn=b7729d30_1",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://www.floridajobs.org/community-development/Low-Income-Home-Energy-Assistance-Program",
+                "checkedAt": "2026-10-21"
+              },
+              {
+                "url": "https://liheapch.acf.gov/Disconnect/SeasonalDisconnect.htm",
+                "checkedAt": "2026-10-21"
+              }
+            ]
+          }
+        ],
+        "incomeLimits": {
+          "fiscalYear": 2026,
+          "status": "expected",
+          "unit": "monthly",
+          "rows": [
+            {
+              "householdSize": 1,
+              "amount": 2679
+            },
+            {
+              "householdSize": 2,
+              "amount": 3504
+            },
+            {
+              "householdSize": 3,
+              "amount": 4328
+            },
+            {
+              "householdSize": 4,
+              "amount": 5153
+            },
+            {
+              "householdSize": 5,
+              "amount": 5977
+            },
+            {
+              "householdSize": 6,
+              "amount": 6802
+            },
+            {
+              "householdSize": 7,
+              "amount": 6956
+            },
+            {
+              "householdSize": 8,
+              "amount": 7111
+            }
+          ],
+          "note": {
+            "en": "Florida's posted yearly limits (60% of state median income, last year's federal figures), divided by 12 and rounded down. New limits not posted yet.",
+            "es": "Límites anuales publicados por Florida (60% del ingreso medio del estado, cifras federales del año pasado), divididos entre 12 y redondeados hacia abajo. Los nuevos límites aún no se publican."
+          },
+          "sources": [
+            {
+              "url": "https://www.floridajobs.org/community-development/Low-Income-Home-Energy-Assistance-Program",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://acf.gov/sites/default/files/documents/ocs/COMM_LIHEAP_IM2025-02_SMIStateTable_Att4.pdf",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        "documents": {
+          "en": [
+            "Your most recent home energy bill",
+            "Final shutoff notice, if you have one",
+            "Proof of current gross income for everyone in the home (pay stubs or other proof)",
+            "Photo ID of the applicant",
+            "Social Security cards or numbers for everyone in the home",
+            "Proof of U.S. citizenship or permanent residence"
+          ],
+          "es": [
+            "Su factura de energía más reciente",
+            "Aviso final de corte, si lo tiene",
+            "Comprobante de ingresos brutos actuales de todos en el hogar (talones de pago u otra prueba)",
+            "Identificación con foto del solicitante",
+            "Tarjetas o números de Seguro Social de todos en el hogar",
+            "Prueba de ciudadanía de EE. UU. o residencia permanente"
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.floridajobs.org/community-development/Low-Income-Home-Energy-Assistance-Program",
+            "checkedAt": "2026-10-21"
+          },
+          {
+            "url": "https://floridajobs.org/community-development/Low-Income-Home-Energy-Assistance-Program/find-your-local-low-income-home-energy-assistance-program-provider-for-help",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "weatherization": {
+        "agency": {
+          "en": "FloridaCommerce, through local weatherization agencies",
+          "es": "FloridaCommerce, a través de agencias locales de climatización"
+        },
+        "url": "https://floridajobs.org/community-development/Weatherization-Assistance-Program",
+        "phone": null,
+        "sources": [
+          {
+            "url": "https://floridajobs.org/community-development/Weatherization-Assistance-Program",
+            "checkedAt": "2026-10-21"
+          }
+        ]
+      },
+      "utilityDiscounts": [
+        {
+          "utility": "FPL",
+          "program": {
+            "en": "FPL Care To Share",
+            "es": "FPL Care To Share (ayuda de emergencia por agencias locales)"
+          },
+          "url": "https://www.fpl.com/assistance/care-to-share.html",
+          "sources": [
+            {
+              "url": "https://www.fpl.com/assistance/care-to-share.html",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Duke Energy Florida",
+          "program": {
+            "en": "Share the Light Fund®",
+            "es": "Share the Light Fund® (ayuda con la factura por agencias locales)"
+          },
+          "url": "https://www.duke-energy.com/home/billing/assistance/share-the-light",
+          "sources": [
+            {
+              "url": "https://www.duke-energy.com/home/billing/assistance/share-the-light",
+              "checkedAt": "2026-10-21"
+            },
+            {
+              "url": "https://news.duke-energy.com/releases/duke-energy-florida-and-community-partners-help-families-in-need-in-2025",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "utility": "Tampa Electric",
+          "program": {
+            "en": "Share",
+            "es": "Share (ayuda con la factura por agencias locales)"
+          },
+          "url": "https://www.tampaelectric.com/communityresponsibility/customers/share/",
+          "sources": [
+            {
+              "url": "https://www.tampaelectric.com/communityresponsibility/customers/share/",
+              "checkedAt": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
