@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-10-21",
   "states": [
     {
@@ -459,7 +459,7 @@
           "utility": "PECO",
           "program": {
             "en": "Customer Assistance Program - Percentage of Income Payment Plan (CAP-PIPP)",
-            "es": "Customer Assistance Program (CAP-PIPP) (pago mensual según sus ingresos)"
+            "es": "Customer Assistance Program - Percentage of Income Payment Plan (CAP-PIPP) (pago mensual según sus ingresos)"
           },
           "url": "https://www.peco.com/my-account/customer-support/assistance-programs/cap-rate",
           "sources": [
