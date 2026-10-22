@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": "2026-10-22",
+  "aca": {
+    "federal": {
+      "name": "HealthCare.gov",
+      "url": "https://www.healthcare.gov",
+      "esUrl": "https://www.cuidadodesalud.gov/es/",
+      "phone": "1-800-318-2596",
+      "helpUrl": "https://localhelp.healthcare.gov",
+      "calculatorUrl": "https://www.healthcare.gov/see-plans/",
+      "start": "2026-11-01",
+      "jan1Deadline": "2026-12-15",
+      "finalDeadline": "2027-01-15",
+      "status": "confirmed",
+      "sources": [
+        {
+          "url": "https://www.cms.gov/files/document/ftr-requirement-py26-27-statement.pdf",
+          "checkedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.healthcare.gov/quick-guide/dates-and-deadlines/",
+          "checkedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.cuidadodesalud.gov/es/quick-guide/dates-and-deadlines/",
+          "checkedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.healthcare.gov/see-plans/",
+          "checkedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.healthcare.gov/find-local-help/",
+          "checkedAt": "2026-10-22"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "code": "NY",
+      "name": {
+        "en": "New York",
+        "es": "Nueva York"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "NY State of Health",
+        "url": "https://nystateofhealth.ny.gov/",
+        "esUrl": "https://nystateofhealth.ny.gov/?lang=es",
+        "helpUrl": "https://info.nystateofhealth.ny.gov/findassistor",
+        "calculatorUrl": "https://nystateofhealth.ny.gov/individual",
+        "phone": "1-855-355-5777",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-15",
+        "finalDeadline": "2027-01-31",
+        "status": "expected",
+        "note": {
+          "en": "Last year, you had to enroll by Dec 15 for coverage that starts Jan 1. NY State of Health has not posted this date for 2027 yet.",
+          "es": "El año pasado, tenía que inscribirse a más tardar el 15 de diciembre para tener cobertura desde el 1 de enero. NY State of Health aún no ha publicado esta fecha para 2027."
+        },
+        "sources": [
+          {
+            "url": "https://info.nystateofhealth.ny.gov/OutreachToolKit",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://info.nystateofhealth.ny.gov/enrollment",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://info.nystateofhealth.ny.gov/news/press-release-new-york-state-department-health-announces-open-enrollment-2026-coverage",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Medicaid",
+        "agency": {
+          "en": "New York State Department of Health (NY State of Health)",
+          "es": "Departamento de Salud del Estado de Nueva York (NY State of Health)"
+        },
+        "url": "https://www.health.ny.gov/health_care/medicaid/",
+        "renewalUrl": "https://info.nystateofhealth.ny.gov/how-renew-your-health-insurance",
+        "applyUrl": "https://nystateofhealth.ny.gov/",
+        "esUrl": "https://info.nystateofhealth.ny.gov/sites/default/files/Changes_to_Medicaid_Coverage_Fact_Sheet_July_2026_Spanish.pdf",
+        "phone": "1-855-355-5777",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-03-01",
+            "status": "confirmed",
+            "note": {
+              "en": "New York starts checking at renewals on or after March 1, 2027. If you renew in January or February 2027, you are checked at your next renewal. Find your renewal date in your NY State of Health account.",
+              "es": "Nueva York empieza a revisar en las renovaciones a partir del 1 de marzo de 2027. Si renueva en enero o febrero de 2027, lo revisan en su próxima renovación. Busque su fecha de renovación en su cuenta de NY State of Health."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://info.nystateofhealth.ny.gov/HR1-Tool-Kit",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://info.nystateofhealth.ny.gov/stay-covered",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-03-01",
+          "beforeStartMonths": 12,
+          "status": "confirmed",
+          "sources": [
+            {
+              "url": "https://info.nystateofhealth.ny.gov/stay-covered",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://info.nystateofhealth.ny.gov/HR1-Tool-Kit",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.health.ny.gov/health_care/medicaid/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://info.nystateofhealth.ny.gov/how-renew-your-health-insurance",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NJ",
+      "name": {
+        "en": "New Jersey",
+        "es": "Nueva Jersey"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Get Covered New Jersey",
+        "url": "https://www.nj.gov/getcoverednj/",
+        "esUrl": "https://www.nj.gov/getcoverednj/espanol/",
+        "helpUrl": "https://www.nj.gov/getcoverednj/help/local/",
+        "calculatorUrl": "https://www.nj.gov/getcoverednj/financialhelp/savings/",
+        "phone": "1-833-677-1010",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-31",
+        "status": "expected",
+        "note": {
+          "en": "Enroll by Dec 31 for coverage that starts Jan 1. If you enroll in January, coverage starts Feb 1.",
+          "es": "Inscríbase a más tardar el 31 de diciembre para tener cobertura desde el 1 de enero. Si se inscribe en enero, la cobertura empieza el 1 de febrero."
+        },
+        "sources": [
+          {
+            "url": "https://www.nj.gov/dobi/bulletins/blt26_07.pdf",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.nj.gov/dobi/pressreleases/pr261015.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.nj.gov/getcoverednj/findanswers/faqs/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.nj.gov/dobi/pressreleases/pr251229.html",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "NJ FamilyCare",
+        "agency": {
+          "en": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services (DMAHS)",
+          "es": "Departamento de Servicios Humanos de Nueva Jersey, División de Asistencia Médica y Servicios de Salud (DMAHS)"
+        },
+        "url": "https://njfamilycare.dhs.state.nj.us/",
+        "renewalUrl": "https://www.nj.gov/humanservices/dmahs/obbba/work-requirements/",
+        "applyUrl": "https://njfamilycare.dhs.state.nj.us/apply.aspx",
+        "esUrl": "https://www.nj.gov/humanservices/dmahs/obbba/medicaid-federal-changes-sp.shtml",
+        "phone": "1-800-701-0710",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-03-01",
+            "status": "confirmed",
+            "note": {
+              "en": "New Jersey starts checking at renewals due in March 2027 or later. Your renewal packet comes about two months before your renewal month.",
+              "es": "Nueva Jersey empieza a revisar en las renovaciones que vencen en marzo de 2027 o después. Su paquete de renovación llega unos dos meses antes de su mes de renovación."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.nj.gov/humanservices/dmahs/obbba/work-requirements/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.nj.gov/humanservices/dmahs/documents/providers-stakeholders/obbba/Expansion_Adult_Stakeholder_Guidance.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-03-01",
+          "beforeStartMonths": 12,
+          "status": "confirmed",
+          "sources": [
+            {
+              "url": "https://www.nj.gov/humanservices/dmahs/documents/providers-stakeholders/obbba/Expansion_Adult_Stakeholder_Guidance.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.nj.gov/humanservices/dmahs/obbba/work-requirements/",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://njfamilycare.dhs.state.nj.us/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.nj.gov/humanservices/dmahs/obbba/work-requirements/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CA",
+      "name": {
+        "en": "California",
+        "es": "California"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Covered California",
+        "url": "https://www.coveredca.com",
+        "esUrl": "https://www.coveredca.com/es",
+        "helpUrl": "https://www.coveredca.com/get-help/find-an-enroller",
+        "calculatorUrl": "https://apply.coveredca.com/lw-shopandcompare/",
+        "phone": "1-800-300-1506",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-31",
+        "status": "confirmed",
+        "note": null,
+        "sources": [
+          {
+            "url": "https://www.coveredca.com/press-releases/2026/08/25/covered-california-announces-premium-change-for-2027-dental-plans-while-continuing-to-deliver-affordable-coverage-options",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.coveredca.com/enrollment/open-enrollment",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Medi-Cal",
+        "agency": {
+          "en": "California Department of Health Care Services (DHCS) and your county Medi-Cal office",
+          "es": "Departamento de Servicios de Atención Médica de California (DHCS) y la oficina de Medi-Cal de su condado"
+        },
+        "url": "https://www.dhcs.ca.gov/medi-cal/updates/medi-cal-changes/",
+        "renewalUrl": "https://www.dhcs.ca.gov/medi-cal/keep/",
+        "applyUrl": "https://www.dhcs.ca.gov/medi-cal/apply/",
+        "esUrl": "https://www.dhcs.ca.gov/es/medi-cal/updates/medi-cal-changes/",
+        "phone": "1-800-541-5555",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-03-01",
+            "status": "confirmed",
+            "note": {
+              "en": "California checks the work rule at renewals due in March 2027 or later. If your renewal is due in January or February 2027, your first check is at your 2028 renewal.",
+              "es": "California revisa la regla de trabajo en las renovaciones que vencen en marzo de 2027 o después. Si su renovación vence en enero o febrero de 2027, su primera revisión será en su renovación de 2028."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.dhcs.ca.gov/wp-content/uploads/2026/09/ACWDL-26-14.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.dhcs.ca.gov/medi-cal/updates/medi-cal-changes/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.dhcs.ca.gov/tracking-federal-impact-medi-cal-eligibility/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.dhcs.ca.gov/wp-content/uploads/2026/05/DHCS-HR1-Implementation-Plan.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-03-01",
+          "beforeStartMonths": 12,
+          "status": "confirmed",
+          "sources": [
+            {
+              "url": "https://www.dhcs.ca.gov/wp-content/uploads/2026/09/ACWDL-26-14.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.dhcs.ca.gov/tracking-federal-impact-medi-cal-eligibility/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.dhcs.ca.gov/medi-cal/updates/medi-cal-changes/",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.dhcs.ca.gov/medi-cal/updates/medi-cal-changes/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.dhcs.ca.gov/medi-cal/contact/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.dhcs.ca.gov/medi-cal/keep/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.dhcs.ca.gov/medi-cal/apply/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "AZ",
+      "name": {
+        "en": "Arizona",
+        "es": "Arizona"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "federal",
+        "name": null,
+        "url": null,
+        "esUrl": null,
+        "helpUrl": null,
+        "calculatorUrl": null,
+        "phone": null,
+        "start": null,
+        "jan1Deadline": null,
+        "finalDeadline": null,
+        "status": null,
+        "note": null,
+        "sources": []
+      },
+      "medicaid": {
+        "programName": "AHCCCS (Arizona Medicaid)",
+        "agency": {
+          "en": "Arizona Health Care Cost Containment System (AHCCCS)",
+          "es": "Sistema de Contención de Costos de Atención Médica de Arizona (AHCCCS)"
+        },
+        "url": "https://www.azahcccs.gov/AHCCCS/Initiatives/HR1/",
+        "renewalUrl": "https://www.healthearizonaplus.gov",
+        "applyUrl": "https://www.azahcccs.gov/Members/GetCovered/apply.html",
+        "esUrl": "https://keepmyahcccs.com/es/members/",
+        "phone": "1-855-432-7587",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "expected",
+            "note": {
+              "en": "Arizona checks the work rule at your first renewal in 2027. If you renewed in 2026, your next renewal in 2027 is your first check.",
+              "es": "Arizona revisa la regla de trabajo en su primera renovación de 2027. Si renovó en 2026, su próxima renovación en 2027 es la primera revisión."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://keepmyahcccs.com/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.azahcccs.gov/AHCCCS/Initiatives/HR1/",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "confirmed",
+          "sources": [
+            {
+              "url": "https://keepmyahcccs.com/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.azahcccs.gov/AHCCCS/Initiatives/HR1/",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.azahcccs.gov/shared/AHCCCScontacts.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.azahcccs.gov/Members/GetCovered/apply.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.azahcccs.gov/Members/AlreadyCovered/EligibilityInformation.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.azahcccs.gov/AHCCCS/Initiatives/HR1/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://keepmyahcccs.com/es/members/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "IL",
+      "name": {
+        "en": "Illinois",
+        "es": "Illinois"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Get Covered Illinois",
+        "url": "https://getcovered.illinois.gov/",
+        "esUrl": "https://getcovered.illinois.gov/es.html",
+        "helpUrl": "https://getcovered.illinois.gov/get-help/free-local-help.html",
+        "calculatorUrl": "https://enroll.getcovered.illinois.gov/prescreener/",
+        "phone": "1-866-311-1119",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-15",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": {
+          "en": "Enroll by Dec 15 and pay your first bill to be covered on Jan 1. Open Enrollment ends Jan 15.",
+          "es": "Inscríbase a más tardar el 15 de diciembre y pague su primera factura para tener cobertura el 1 de enero. La inscripción abierta termina el 15 de enero."
+        },
+        "sources": [
+          {
+            "url": "https://getcovered.illinois.gov/get-started/open-enrollment.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://getcovered.illinois.gov/get-started/specialenrollment/ec-sep2026.html",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Illinois Medicaid",
+        "agency": {
+          "en": "Illinois Department of Healthcare and Family Services (HFS)",
+          "es": "Departamento de Atención Médica y Servicios Familiares de Illinois (HFS)"
+        },
+        "url": "https://hfs.illinois.gov/medicalclients/medicaidguide/changes.html",
+        "renewalUrl": "https://abe.illinois.gov/access/",
+        "applyUrl": "https://abe.illinois.gov/access/",
+        "esUrl": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalclients/medicaidguide/acaadultcustnoticespanish.pdf",
+        "phone": "1-800-843-6154",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-03-01",
+            "status": "expected",
+            "note": {
+              "en": "Illinois says: \"The first group of people subject to work requirements will be those whose redetermination dates are in March 2027.\" Your renewal form is due on the 1st of that month. Check your letter or Manage My Case.",
+              "es": "Illinois dice que el primer grupo que debe cumplir el requisito de trabajo tiene su fecha de redeterminación en marzo de 2027. Su formulario de renovación vence el día 1 de ese mes. Revise su carta o Manage My Case."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://hfs.illinois.gov/info/fedresctr/faqshowwillfedchimpactmedicaid.html",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://hfs.illinois.gov/medicalclients/medicaidguide/changes.html",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalclients/medicaidguide/ACAAdultCustomerNotice083126ToPrint.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://hfs.illinois.gov/info/fedresctr/faqshowwillfedchimpactmedicaid.html",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://hfs.illinois.gov/medicalclients/medicaidguide/changes.html",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://hfs.illinois.gov/medicalclients/medicaidguide/changes.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/medicalclients/medicaidguide/ACAAdultCustomerNotice083126ToPrint.pdf",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CO",
+      "name": {
+        "en": "Colorado",
+        "es": "Colorado"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Connect for Health Colorado",
+        "url": "https://connectforhealthco.com/",
+        "esUrl": "https://connectforhealthco.com/es/",
+        "helpUrl": "https://connectforhealthco.com/we-can-help/",
+        "calculatorUrl": "https://connectforhealthco.com/new-customers/before-you-buy/explore-plans/",
+        "phone": "1-855-752-6749",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-15",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": {
+          "en": "Enroll by Dec 15 to be covered on Jan 1. Open Enrollment ends Jan 15.",
+          "es": "Inscríbase a más tardar el 15 de diciembre para tener cobertura el 1 de enero. La inscripción abierta termina el 15 de enero."
+        },
+        "sources": [
+          {
+            "url": "https://connectforhealthco.com/colorado-health-insurance-shoppers-get-an-early-look-at-2027-plans-and-prices/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://connectforhealthco.com/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Health First Colorado",
+        "agency": {
+          "en": "Colorado Department of Health Care Policy & Financing (HCPF)",
+          "es": "Departamento de Políticas y Financiamiento de Atención Médica de Colorado (HCPF)"
+        },
+        "url": "https://www.healthfirstcolorado.gov/",
+        "renewalUrl": "https://www.healthfirstcolorado.gov/renewals/",
+        "applyUrl": "https://www.healthfirstcolorado.gov/apply-now/",
+        "esUrl": "https://www.healthfirstcolorado.gov/es/changes-are-coming-to-health-first-colorado-colorados-medicaid-program/requisitos-laborales/",
+        "phone": "1-800-221-3943",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-03-01",
+            "status": "expected",
+            "note": {
+              "en": "Colorado will mail the first work-rule letters in January 2027 to members with a March 2027 renewal date.",
+              "es": "Colorado enviará las primeras cartas sobre el requisito de trabajo en enero de 2027 a los miembros con fecha de renovación en marzo de 2027."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.healthfirstcolorado.gov/frequently-asked-questions/work-requirements/work-requirements-frequently-asked-questions/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://hcpf.colorado.gov/hr1-key-changes",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.healthfirstcolorado.gov/changes-are-coming-to-health-first-colorado-colorados-medicaid-program/work-requirements/",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://www.healthfirstcolorado.gov/frequently-asked-questions/work-requirements/6-month-renewals-frequently-asked-questions/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.healthfirstcolorado.gov/changes-are-coming-to-health-first-colorado-colorados-medicaid-program/6-month-renewals/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://hcpf.colorado.gov/hr1-key-changes",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.healthfirstcolorado.gov/renewals/renewals-faqs/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://hcpf.colorado.gov/hr1-key-changes",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "WA",
+      "name": {
+        "en": "Washington",
+        "es": "Washington"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Washington Healthplanfinder",
+        "url": "https://www.wahealthplanfinder.org",
+        "esUrl": "https://www.wahealthplanfinder.org/us/es/home-page.html",
+        "helpUrl": "https://www.wahealthplanfinder.org/us/en/enrollment_support.html",
+        "calculatorUrl": "https://www.wahealthplanfinder.org/HBEWeb/Annon_ViewIndividualPlans?request_locale=en",
+        "phone": "1-855-923-4633",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": null,
+        "sources": [
+          {
+            "url": "https://www.wahealthplanfinder.org/us/en/health-coverage/new/federal-changes-and-updates.html",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.wahealthplanfinder.org/us/en/tools-and-resources/connect-with-us/contact-us.html",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Apple Health",
+        "agency": {
+          "en": "Washington State Health Care Authority (HCA)",
+          "es": "Autoridad de Atención Médica del Estado de Washington (HCA)"
+        },
+        "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/apple-health-medicaid-work-requirements",
+        "renewalUrl": "https://www.wahealthplanfinder.org",
+        "applyUrl": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+        "esUrl": "https://www.hca.wa.gov/assets/hr1-work-requirements-and-renewals-fact-sheet-SP.pdf",
+        "phone": "1-855-923-4633",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "confirmed",
+            "note": {
+              "en": "Washington checks the work rule at your first Apple Health renewal in 2027 or later.",
+              "es": "Washington revisa la regla de trabajo en su primera renovación de Apple Health en 2027 o después."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/apple-health-medicaid-work-requirements",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.wa.gov/assets/free-or-low-cost/work-requirements-renewals-notice.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.wa.gov/assets/free-or-low-cost/hr1-work-requirements-and-renewals-fact-sheet.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.wahbexchange.org/content/dam/materials/communications/committees-and-workgroups/advisory/2026/HR1_Medicaid_Impacts_042326.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "confirmed",
+          "sources": [
+            {
+              "url": "https://www.hca.wa.gov/assets/free-or-low-cost/hr1-work-requirements-and-renewals-fact-sheet.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.wa.gov/assets/program/hr1-frequently-asked-questions.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/apple-health-medicaid-work-requirements",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NV",
+      "name": {
+        "en": "Nevada",
+        "es": "Nevada"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Nevada Health Link",
+        "url": "https://nevadahealthlink.com",
+        "esUrl": "https://nevadahealthlink.com/en-espanol/",
+        "helpUrl": "https://nevadahealthlink.com/find-assistance/",
+        "calculatorUrl": "https://enroll.nevadahealthlink.com/hix/preeligibility",
+        "phone": "1-800-547-2927",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": null,
+        "sources": [
+          {
+            "url": "https://nevadahealthlink.com/wp-content/uploads/2026/09/FINAL_NVHL_Policy_Manual_V8.pdf",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://nevadahealthlink.com/wp-content/uploads/2026/10/NVHL-PR-PlanPreview-PY27.pdf",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://doi.nv.gov/News_Notices/Press_Releases/October_1,_2026_-_Discover_Your_Best_Health_Plan__2027_Rates_and_Options_for_Open_Enrollment/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://nevadahealthlink.com/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Nevada Medicaid",
+        "agency": {
+          "en": "Nevada Division of Social Services (DSS)",
+          "es": "División de Servicios Sociales de Nevada (DSS)"
+        },
+        "url": "https://www.nevadamedicaid.nv.gov/WorkRequirements/",
+        "renewalUrl": "https://accessnevada.nv.gov/public/landing-page",
+        "applyUrl": "https://accessnevada.nv.gov/public/landing-page",
+        "esUrl": "https://www.nevadamedicaid.nv.gov/siteassets/content/partner-resources-toolkit/mm---span_example.pdf",
+        "phone": "1-800-992-0900",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "confirmed",
+            "note": {
+              "en": "Nevada checks the work rule at your first Medicaid renewal date in 2027 or later.",
+              "es": "Nevada revisa la regla de trabajo en su primera fecha de renovación de Medicaid en 2027 o después."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.nevadamedicaid.nv.gov/WorkRequirements/new-requirements/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.dss.nv.gov/programs/Medicaid/medicaid-eligibility-rules-are-changing/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.nevadamedicaid.nv.gov/contentassets/0d240b544690472992eaf21404abb6db/hr1-public-workshop-10.8.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.nevadamedicaid.nv.gov/contentassets/0d240b544690472992eaf21404abb6db/draft-mam-c-900-work-requirements.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.nevadamedicaid.nv.gov/siteassets/content/partner-resources-toolkit/mm---eng_example.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "confirmed",
+          "sources": [
+            {
+              "url": "https://www.nevadamedicaid.nv.gov/WorkRequirements/new-requirements/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.nevadamedicaid.nv.gov/contentassets/0d240b544690472992eaf21404abb6db/hr1-public-workshop-10.8.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.dss.nv.gov/programs/Medicaid/medicaid-eligibility-rules-are-changing/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.nevadamedicaid.nv.gov/WorkRequirements/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NM",
+      "name": {
+        "en": "New Mexico",
+        "es": "Nuevo México"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "BeWell",
+        "url": "https://bewellnm.com",
+        "esUrl": null,
+        "helpUrl": "https://bewellnm.com/appointment/",
+        "calculatorUrl": "https://bewellnm.com/help/browse-plans/",
+        "phone": "1-833-862-3935",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-15",
+        "status": "expected",
+        "note": {
+          "en": "Last year, you had to enroll by Dec 31 for coverage that starts Jan 1. BeWell has not posted this date for 2027 yet.",
+          "es": "El año pasado, tenía que inscribirse a más tardar el 31 de diciembre para tener cobertura desde el 1 de enero. BeWell aún no ha publicado esta fecha para 2027."
+        },
+        "sources": [
+          {
+            "url": "https://bewellnm.com/open-enrollment/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://bewellnm.com/blogs/open-enrollment-special-enrollment/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://osi.state.nm.us/en/news/pr-2026-09-01/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://bewellnm.com/contact/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "New Mexico Medicaid (Turquoise Care)",
+        "agency": {
+          "en": "New Mexico Health Care Authority (HCA)",
+          "es": "Autoridad de Atención Médica de Nuevo México (HCA)"
+        },
+        "url": "https://www.hca.nm.gov/medicaidchanges/",
+        "renewalUrl": "https://yes.nm.gov",
+        "applyUrl": "https://www.hca.nm.gov/lookingforassistance/apply-for-benefits/",
+        "esUrl": "https://www.hca.nm.gov/cambios-en-medicaid/",
+        "phone": "1-800-283-4465",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-03-01",
+            "status": "expected",
+            "note": {
+              "en": "New Mexico starts checking at renewals due in March 2027 or later. Letters for these renewals go out in January 2027.",
+              "es": "Nuevo México empieza a revisar en las renovaciones de marzo de 2027 o después. Las cartas para estas renovaciones se envían en enero de 2027."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.hca.nm.gov/medicaidchanges/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.nm.gov/cambios-en-medicaid/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.nm.gov/wp-content/uploads/Medicaid-HR1-Impacted-Populations-Summary_v3.4.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-pushes-for-more-time-to-protect-medicaid-coverage",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-03-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://www.hca.nm.gov/medicaidchanges/",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.hca.nm.gov/wp-content/uploads/HCA_HR1_Medicaid_HowKeepBenefits_Guide_080526.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.hca.nm.gov/medicaidchanges/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hca.nm.gov/lookingforassistance/apply-for-benefits/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hca.nm.gov/cambios-en-medicaid/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hca.nm.gov/wp-content/uploads/HCA_HR1_MED_MemberJourney_13.pdf",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "OR",
+      "name": {
+        "en": "Oregon",
+        "es": "Oregón"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Explore Health",
+        "url": "https://healthcare.oregon.gov/explorehealth",
+        "esUrl": "https://cuidadodesalud.oregon.gov",
+        "helpUrl": "https://healthcare.oregon.gov/explorehealth/Pages/help.aspx",
+        "calculatorUrl": "https://healthcare.oregon.gov/explorehealth/exploring/Pages/financial-help.aspx",
+        "phone": "1-855-268-3767",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": null,
+        "sources": [
+          {
+            "url": "https://healthcare.oregon.gov/explorehealth/exploring/Pages/dates.aspx",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://healthcare.oregon.gov/marketplace/sbmtransition/pages/home.aspx",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://healthcare.oregon.gov/explorehealth/business/Pages/contact.aspx",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Oregon Health Plan (OHP)",
+        "agency": {
+          "en": "Oregon Health Authority (OHA) and Oregon Department of Human Services (ODHS)",
+          "es": "Autoridad de Salud de Oregón (OHA) y Departamento de Servicios Humanos de Oregón (ODHS)"
+        },
+        "url": "https://www.oregon.gov/oha/hsd/ohp/pages/federal-changes.aspx",
+        "renewalUrl": "https://www.oregon.gov/odhs/benefits/pages/default.aspx",
+        "applyUrl": "https://www.oregon.gov/oha/HSD/OHP/Pages/Apply.aspx",
+        "esUrl": "https://www.oregon.gov/oha/HSD/OHP/pages/federal-changes-es.aspx",
+        "phone": "1-800-699-9075",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "expected",
+            "note": {
+              "en": "Oregon starts checking the work rule at renewals in 2027. Most members renew every two years, so many people will not be checked until 2028. Your renewal letter shows your date.",
+              "es": "Oregón empieza a revisar la regla de trabajo en las renovaciones de 2027. La mayoría renueva cada dos años, así que muchas personas no tendrán la revisión hasta 2028. Su carta de renovación muestra su fecha."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.oregon.gov/oha/hsd/ohp/pages/federal-changes.aspx",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.oregon.gov/oha/HSD/OHP/OHPLetters/ONE-Outreach-Notice-EN.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeMeetingDocument/317583",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-pushes-for-more-time-to-protect-medicaid-coverage",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-10-01",
+          "beforeStartMonths": 24,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://www.oregon.gov/oha/hsd/ohp/pages/federal-changes.aspx",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.oregon.gov/oha/HSD/OHP/Tools/More-Frequent-Renewals-EN.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeMeetingDocument/317583",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/or-health-plan_overlay-09252026.pdf",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.oregon.gov/odhs/about/legislativeinformation/2025-leg-days-senate-health-care-odhs-oha-hr1-snap.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.oregon.gov/oha/hsd/ohp/pages/federal-changes.aspx",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.oregon.gov/oha/HSD/OHP/Tools/More-Frequent-Renewals-EN.pdf",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "MA",
+      "name": {
+        "en": "Massachusetts",
+        "es": "Massachusetts"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Massachusetts Health Connector",
+        "url": "https://www.mahealthconnector.org/",
+        "esUrl": "https://www.mahealthconnector.org/es/",
+        "helpUrl": "https://www.mahealthconnector.org/help-center/in-person-help",
+        "calculatorUrl": "https://betterhealthconnector.com/get-an-estimate",
+        "phone": "1-877-623-6765",
+        "start": "2026-10-23",
+        "jan1Deadline": "2026-12-23",
+        "finalDeadline": "2027-01-23",
+        "status": "confirmed",
+        "note": {
+          "en": "Open Enrollment starts Oct 23, earlier than in most states. Enroll and pay by Dec 23 to be covered on Jan 1.",
+          "es": "La inscripción abierta empieza el 23 de octubre, antes que en la mayoría de los estados. Inscríbase y pague a más tardar el 23 de diciembre para tener cobertura el 1 de enero."
+        },
+        "sources": [
+          {
+            "url": "https://www.mahealthconnector.org/updates",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.mahealthconnector.org/about/pressroom/social-media-toolkit/pre-open-enrollment-2027-toolkit",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "MassHealth",
+        "agency": {
+          "en": "MassHealth (Executive Office of Health and Human Services)",
+          "es": "MassHealth (Oficina Ejecutiva de Salud y Servicios Humanos)"
+        },
+        "url": "https://www.mass.gov/orgs/masshealth",
+        "renewalUrl": "https://www.mass.gov/how-to/renew-your-masshealth-coverage",
+        "applyUrl": "https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan",
+        "esUrl": null,
+        "phone": "1-800-841-2900",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "expected",
+            "note": {
+              "en": "MassHealth says the work rule starts at your first renewal of 2027. It has not said which month comes first.",
+              "es": "MassHealth dice que el requisito de trabajo empieza en su primera renovación de 2027. Todavía no dice qué mes es el primero."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.mass.gov/info-details/new-work-and-education-requirements-for-masshealth-members",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.mass.gov/federal-changes-affecting-masshealth-medicaid-members",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://www.mass.gov/info-details/more-frequent-renewals-for-masshealth-members",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mass.gov/how-to/renew-your-masshealth-coverage",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.mass.gov/orgs/masshealth",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CT",
+      "name": {
+        "en": "Connecticut",
+        "es": "Connecticut"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Access Health CT",
+        "url": "https://www.accesshealthct.com/",
+        "esUrl": "https://www.accesshealthct.com/casa/",
+        "helpUrl": "https://www.accesshealthct.com/get-help/",
+        "calculatorUrl": "https://www.accesshealthct.com/find-a-plan/",
+        "phone": "1-855-805-4325",
+        "start": "2026-10-23",
+        "jan1Deadline": "2026-12-15",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": {
+          "en": "Open Enrollment starts Oct 23, earlier than in most states. Enroll by Dec 15 to be covered on Jan 1.",
+          "es": "La inscripción abierta empieza el 23 de octubre, antes que en la mayoría de los estados. Inscríbase a más tardar el 15 de diciembre para tener cobertura el 1 de enero."
+        },
+        "sources": [
+          {
+            "url": "https://agency.accesshealthct.com/access-health-ct-announces-2027-open-enrollment-dates",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://portal.ct.gov/cid/consumer-information-center/consumer-alerts/2026-consumer-alerts/consumer-notice-2026-07-15",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.accesshealthct.com/annual-open-enrollment/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "HUSKY Health",
+        "agency": {
+          "en": "Connecticut Department of Social Services (DSS)",
+          "es": "Departamento de Servicios Sociales de Connecticut (DSS)"
+        },
+        "url": "https://portal.ct.gov/husky",
+        "renewalUrl": "https://www.accesshealthct.com/manage-your-account/",
+        "applyUrl": "https://portal.ct.gov/dss/how-to-apply",
+        "esUrl": "https://www.accesshealthct.com/casa/",
+        "phone": "1-855-805-4325",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-02-01",
+            "status": "confirmed",
+            "note": {
+              "en": "Connecticut starts checking at HUSKY D renewals due in February 2027 or later. Renewals due in January 2027 are not checked.",
+              "es": "Connecticut empieza a revisar en las renovaciones de HUSKY D con fecha límite en febrero de 2027 o después. Las renovaciones con fecha límite en enero de 2027 no se revisan."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://portal.ct.gov/dss/all-programs/dss-benefits-and-hr1/hr1-for-providers/hr1-for-partners-faq",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://portal.ct.gov/dss/all-programs/dss-benefits-and-hr1/hr1-for-members/hr1-work-rule-changes",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://portal.ct.gov/dss/all-programs/dss-benefits-and-hr1/hr1-for-members/hr-for-members-faq",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://portal.ct.gov/dss/all-programs/dss-benefits-and-hr1/hr1-for-members/hr-for-members-faq",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://portal.ct.gov/dss/all-programs/dss-benefits-and-hr1/hr1-for-providers/hr1-for-partners-faq",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://portal.ct.gov/husky/how-to-contact-us",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://portal.ct.gov/husky",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://portal.ct.gov/dss/how-to-apply",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PA",
+      "name": {
+        "en": "Pennsylvania",
+        "es": "Pensilvania"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "Pennie",
+        "url": "https://pennie.com/",
+        "esUrl": "https://pennie.com/es/",
+        "helpUrl": "https://pennie.com/find-local-help/",
+        "calculatorUrl": "https://enroll.pennie.com/prescreener/",
+        "phone": "1-844-844-8040",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-15",
+        "finalDeadline": "2027-01-15",
+        "status": "confirmed",
+        "note": {
+          "en": "Enroll by Dec 15 for coverage that starts Jan 1. If you enroll Dec 16 to Jan 15, coverage starts Feb 1.",
+          "es": "Inscríbase a más tardar el 15 de diciembre para tener cobertura desde el 1 de enero. Si se inscribe entre el 16 de diciembre y el 15 de enero, la cobertura empieza el 1 de febrero."
+        },
+        "sources": [
+          {
+            "url": "https://agency.pennie.com/pennie-helps-lehigh-valley-navigate-health-insurance/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://agency.pennie.com/toolkit/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://pennie.com/learn/faq/",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Medical Assistance (Medicaid)",
+        "agency": {
+          "en": "Pennsylvania Department of Human Services (DHS)",
+          "es": "Departamento de Servicios Humanos de Pensilvania (DHS)"
+        },
+        "url": "https://www.pa.gov/agencies/dhs/resources/medicaid",
+        "renewalUrl": "https://www.pa.gov/agencies/dhs/resources/medicaid/medicaid-chip-renewals",
+        "applyUrl": "https://www.compass.dhs.pa.gov/home/",
+        "esUrl": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/medicaid/hr1-related/2026-hr1-medicaid-changes-are-coming-spanish.pdf",
+        "phone": "1-877-395-8930",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "confirmed",
+            "note": {
+              "en": "Pennsylvania checks at your first renewal in 2027. Look for the due date on your renewal packet.",
+              "es": "Pensilvania revisa en su primera renovación de 2027. Busque la fecha límite en su paquete de renovación."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/medicaid-changes",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/medicaid/hr1-related/faq-medicaid-changes-hr1.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/medicaid-changes",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/medicaid/hr1-related/faq-medicaid-changes-hr1.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/medicaid-chip-renewals",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.pa.gov/agencies/dhs/resources/medicaid/medicaid-changes",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "RI",
+      "name": {
+        "en": "Rhode Island",
+        "es": "Rhode Island"
+      },
+      "tier": "medicaid_aca",
+      "aca": {
+        "exchange": "state",
+        "name": "HealthSource RI",
+        "url": "https://healthsourceri.com/",
+        "esUrl": "https://healthsourceri.com/es/",
+        "helpUrl": "https://healthsourceri.com/enrollment-support/",
+        "calculatorUrl": null,
+        "phone": "1-855-840-4774",
+        "start": "2026-11-01",
+        "jan1Deadline": "2026-12-31",
+        "finalDeadline": "2027-01-31",
+        "status": "expected",
+        "note": {
+          "en": "Enroll and pay by Dec 23 to get your card before Jan 1.",
+          "es": "Inscríbase y pague a más tardar el 23 de diciembre para recibir su tarjeta antes del 1 de enero."
+        },
+        "sources": [
+          {
+            "url": "https://healthsourceri.com/stayconnected/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://healthsourceri.com/oe/",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://healthsourceri.com/wp-content/uploads/OE2026-IF_English_Web_Final.pdf",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      },
+      "medicaid": {
+        "programName": "Rhode Island Medicaid",
+        "agency": {
+          "en": "Rhode Island Executive Office of Health and Human Services (EOHHS) and Department of Human Services (DHS)",
+          "es": "Oficina Ejecutiva de Salud y Servicios Humanos de Rhode Island (EOHHS) y Departamento de Servicios Humanos (DHS)"
+        },
+        "url": "https://staycovered.ri.gov/",
+        "renewalUrl": "https://staycovered.ri.gov/renew-your-medicaid",
+        "applyUrl": "https://staycovered.ri.gov/apply-medicaid",
+        "esUrl": "https://staycovered.ri.gov/sites/g/files/xkgbur951/files/2026-08/RI_Medicaid_Work_Requirements_FAQs_Spanish.pdf",
+        "phone": "1-855-697-4347",
+        "workRule": {
+          "status": "scheduled",
+          "effectiveDate": "2027-01-01",
+          "delayedUntil": null,
+          "firstCheck": {
+            "rule": "renewals_on_or_after",
+            "date": "2027-01-01",
+            "status": "expected",
+            "note": {
+              "en": "Rhode Island says checks begin at your first renewal in 2027. The state says its plans may still change.",
+              "es": "Rhode Island dice que la revisión empieza en su primera renovación de 2027. El estado dice que sus planes aún pueden cambiar."
+            }
+          },
+          "hardshipNotAdopted": [],
+          "sources": [
+            {
+              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/work-requirements",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/provider-community-partner-faqs",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://staycovered.ri.gov/sites/g/files/xkgbur951/files/2026-03/HR%201%20Overview%20flyer_March%202026%20%282%29.pdf",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "renewalCycle": {
+          "sixMonthStart": "2027-01-01",
+          "beforeStartMonths": 12,
+          "status": "expected",
+          "sources": [
+            {
+              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/6-month-renewals",
+              "checkedAt": "2026-10-22"
+            },
+            {
+              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/provider-community-partner-faqs",
+              "checkedAt": "2026-10-22"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://staycovered.ri.gov/renew-your-medicaid",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://staycovered.ri.gov/apply-medicaid",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://staycovered.ri.gov/sites/g/files/xkgbur951/files/2023-04/Best%20Ways%20to%20Contact%20Us%204.19.23.pdf",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "TX",
+      "name": {
+        "en": "Texas",
+        "es": "Texas"
+      },
+      "tier": "aca_only",
+      "aca": {
+        "exchange": "federal",
+        "name": null,
+        "url": null,
+        "esUrl": null,
+        "helpUrl": null,
+        "calculatorUrl": null,
+        "phone": null,
+        "start": null,
+        "jan1Deadline": null,
+        "finalDeadline": null,
+        "status": null,
+        "note": null,
+        "sources": []
+      },
+      "medicaid": {
+        "programName": "Texas Medicaid",
+        "agency": {
+          "en": "Texas Health and Human Services Commission (HHSC)",
+          "es": "Comisión de Salud y Servicios Humanos de Texas (HHSC)"
+        },
+        "url": "https://www.hhs.texas.gov/services/health/medicaid-chip",
+        "renewalUrl": "https://www.yourtexasbenefits.com",
+        "applyUrl": "https://www.yourtexasbenefits.com",
+        "esUrl": "https://www.hhs.texas.gov/es/servicios/salud/medicaid-chip",
+        "phone": "1-877-541-7905",
+        "workRule": {
+          "status": "not_applicable",
+          "effectiveDate": null,
+          "delayedUntil": null,
+          "firstCheck": null,
+          "hardshipNotAdopted": [],
+          "sources": []
+        },
+        "renewalCycle": null,
+        "sources": [
+          {
+            "url": "https://www.hhs.texas.gov/services/health/medicaid-chip",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hhs.texas.gov/services/questions-about-your-benefits",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hhs.texas.gov/contact",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.yourtexasbenefits.com/Learn/Home",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "code": "FL",
+      "name": {
+        "en": "Florida",
+        "es": "Florida"
+      },
+      "tier": "aca_only",
+      "aca": {
+        "exchange": "federal",
+        "name": null,
+        "url": null,
+        "esUrl": null,
+        "helpUrl": null,
+        "calculatorUrl": null,
+        "phone": null,
+        "start": null,
+        "jan1Deadline": null,
+        "finalDeadline": null,
+        "status": null,
+        "note": null,
+        "sources": []
+      },
+      "medicaid": {
+        "programName": "Florida Medicaid",
+        "agency": {
+          "en": "Florida Department of Children and Families (DCF)",
+          "es": "Departamento de Niños y Familias de Florida (DCF)"
+        },
+        "url": "https://www.myflfamilies.com/medicaid",
+        "renewalUrl": "https://myaccess.myflfamilies.com/",
+        "applyUrl": "https://myaccess.myflfamilies.com/",
+        "esUrl": "https://www.myflfamilies.com/medicaid-atencion-medica-para-usted",
+        "phone": "1-850-300-4323",
+        "workRule": {
+          "status": "not_applicable",
+          "effectiveDate": null,
+          "delayedUntil": null,
+          "firstCheck": null,
+          "hardshipNotAdopted": [],
+          "sources": []
+        },
+        "renewalCycle": null,
+        "sources": [
+          {
+            "url": "https://www.myflfamilies.com/medicaid",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.myflfamilies.com/contact-us",
+            "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.myflfamilies.com/medicaid-atencion-medica-para-usted",
+            "checkedAt": "2026-10-22"
+          }
+        ]
+      }
+    }
+  ]
+}
