@@ -1,0 +1,1271 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "operators": [
+    {
+      "id": "tokyo_toei",
+      "name": "都営住宅",
+      "region": "東京都",
+      "agency": "JKK東京（東京都住宅供給公社）",
+      "officialUrl": "https://www.to-kousya.or.jp/kouei/toeibosyu/index.html",
+      "phone": "03-3498-8894",
+      "rolling": [
+        {
+          "id": "tokyo_toei-rolling-family",
+          "title": "家族向 随時募集（先着順）",
+          "targets": [
+            "family"
+          ],
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_zuiji.html",
+          "note": "2人以上の世帯が対象。抽せんではなく先着順で、いつでも申し込めます。対象は定期・毎月募集で申込みがなかった住宅の一部で、募集住戸は不定期に追加されます。申込みはオンラインか専用ダイヤル。申し込むと他の都営住宅の応募は辞退扱いになり、辞退後180日間は随時募集に再申込みできません。",
+          "sources": [
+            {
+              "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_zuiji.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "id": "tokyo_toei-rolling-young-family",
+          "title": "若年夫婦・子育て世帯向 随時募集（先着順）",
+          "targets": [
+            "young_family"
+          ],
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_zuiji.html",
+          "note": "2026年4月に毎月募集から外れ、8月上旬から随時募集（先着順）になりました。募集サイトで住宅名に【若年・子育て】と付いた住戸が対象で、不定期に追加されます。全員40歳未満の夫婦等、または18歳未満の子がいる世帯などの資格が必要です。",
+          "sources": [
+            {
+              "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_zuiji.html",
+              "checkedAt": "2026-10-24"
+            },
+            {
+              "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "id": "tokyo_toei-rolling-single",
+          "title": "単身者向 随時募集（先着順・再募集）",
+          "targets": [
+            "single"
+          ],
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_zuiji_tannsinn.html",
+          "note": "2026年10月24日時点で募集中の住宅はありません。過去に募集した住宅でキャンセルが出たときに再募集があり、毎月下旬ごろに公式ページで告知されます。申込みは電話の専用ダイヤルのみ。",
+          "sources": [
+            {
+              "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_zuiji_tannsinn.html",
+              "checkedAt": "2026-10-24"
+            },
+            {
+              "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "id": "tokyo_toei-rolling-roomshare",
+          "title": "高齢者等ふれあい同居募集（先着順）",
+          "targets": [
+            "senior",
+            "other"
+          ],
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_roomshare.html",
+          "note": "親族ではない高齢者どうし・障害者どうしなどが、家族向けの広い住戸で一緒に暮らすための募集です。常時受け付けで先着順。対象は多摩地域などの指定団地です。",
+          "sources": [
+            {
+              "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_roomshare.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_teiki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/site_p.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_fu",
+      "name": "大阪府営住宅",
+      "region": "大阪府",
+      "agency": "大阪府（受付は地区ごとの指定管理者）",
+      "officialUrl": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+      "phone": null,
+      "rolling": [
+        {
+          "id": "osaka_fu-rolling-zuiji",
+          "title": "通年随時募集（先着順）",
+          "targets": [
+            "family",
+            "single"
+          ],
+          "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+          "note": "総合募集や応募割れ住宅募集で申込みがなかった住戸を一年中、先着順で受け付けています。申込みは各地区の管理センター窓口へ本人確認書類を持って行きます。60歳未満の単身者も申し込めます。",
+          "sources": [
+            {
+              "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+              "checkedAt": "2026-10-24"
+            },
+            {
+              "url": "https://www.osakafueijutaku.jp/for-searchers/any-times-index.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/faq/faq_000121.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shi",
+      "name": "大阪市営住宅",
+      "region": "大阪市",
+      "agency": "大阪市（指定管理者: 大阪市住宅供給公社 市営住宅募集センター）",
+      "officialUrl": "https://www.city.osaka.lg.jp/toshiseibi/page/0000370824.html",
+      "phone": "06-6882-7024",
+      "rolling": [
+        {
+          "id": "osaka_shi-rolling-koei",
+          "title": "公営住宅・改良住宅 随時募集",
+          "targets": [
+            "family",
+            "single"
+          ],
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000445609.html",
+          "note": "定期募集などで埋まらなかった空き住戸を随時受け付けています。先着順で受付中の住戸があり、募集センター窓口のほかネットでも確認できます（ネット受付は一時停止中）。一部の住戸は単身でも申し込めます。",
+          "sources": [
+            {
+              "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000445609.html",
+              "checkedAt": "2026-10-24"
+            },
+            {
+              "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "id": "osaka_shi-rolling-smile",
+          "title": "市営すまいりんぐ・特定賃貸・再開発住宅 随時募集",
+          "targets": [
+            "family",
+            "young_family"
+          ],
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+          "note": "すまいりんぐ（子育て応援型を含む）などの空き住戸を随時受け付けています。住戸の追加は年3回（7月・11月・2月）。一部の住宅は単身では申し込めません。",
+          "sources": [
+            {
+              "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000370824.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000688906.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "kanagawa_ken",
+      "name": "神奈川県営住宅",
+      "region": "神奈川県",
+      "agency": "神奈川県（募集窓口：かながわ土地建物保全協会）",
+      "officialUrl": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/",
+      "phone": "045-201-3673",
+      "rolling": [
+        {
+          "id": "kanagawa_ken-rolling-joji",
+          "title": "令和8年度 常時募集（原則先着順）",
+          "targets": [
+            "family",
+            "young_family",
+            "single",
+            "other"
+          ],
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28456.html",
+          "note": "2027年3月31日の消印まで郵送で受け付け。原則先着順で、同じ日付の消印が戸数を超えたときは抽せん。10月に追加した住宅のうち10月15日消印分までは抽せんの対象で、残りは先着順で継続。一般世帯向、子育て世帯向（入居期限付き）、一般単身向（特定の資格なし・エレベーターなし5階限定）、身体障害者向などがあります。持参やメール便では申し込めません。県外在住でも申込み可。",
+          "sources": [
+            {
+              "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28456.html",
+              "checkedAt": "2026-10-24"
+            },
+            {
+              "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28450.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/master/sitepolicy.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi",
+      "name": "名古屋市営住宅",
+      "region": "名古屋市",
+      "agency": "名古屋市・名古屋市住宅供給公社",
+      "officialUrl": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/index.html",
+      "phone": "052-523-3875",
+      "rolling": [
+        {
+          "id": "nagoya_shi-rolling-senchaku",
+          "title": "先着順募集（随時）",
+          "targets": [
+            "family",
+            "single",
+            "other"
+          ],
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014593.html",
+          "note": "一般募集で申込みがなかった住宅などを先着順で受け付けます。住宅の追加は年4回（5月・8月・11月・2月）で、追加の初日だけは抽選で順番を決めます。2日目以降は公社と住まいの窓口で申し込めます。",
+          "sources": [
+            {
+              "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014593.html",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "id": "nagoya_shi-rolling-teiki",
+          "title": "定期入居募集（随時）",
+          "targets": [
+            "family",
+            "single"
+          ],
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014594.html",
+          "note": "申込者本人が45歳未満の世帯（単身可）向け。入居期間に期限がある住宅を先着順で受け付けます。募集住戸は毎年5月に入れ替わります。",
+          "sources": [
+            {
+              "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014594.html",
+              "checkedAt": "2026-10-24"
+            },
+            {
+              "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/014/587/r8_sogo.pdf",
+              "checkedAt": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "id": "tokyo_toei-2026-10-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和8年10月 毎月募集",
+      "shortTitle": "10月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage",
+        "single"
+      ],
+      "units": 175,
+      "dates": {
+        "applyStart": "2026-10-16",
+        "applyEnd": "2026-10-30",
+        "deadlineType": "online_2359",
+        "lottery": "2026-11-27"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_10.html",
+      "note": "結婚予定者向（定期使用住宅）と単身者向の抽せん方式。受付はオンラインが10月30日23時59分まで、郵送は同日必着。結婚後半年以内の人も結婚予定者向に申込み可。結婚予定者向で落せん・補欠になった人向けに先着順の二次募集が行われることがあります。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_10.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2026-fukushi-2",
+      "operatorId": "nagoya_shi",
+      "title": "令和8年度 第2回 福祉向募集",
+      "shortTitle": "第2回福祉向募集",
+      "kind": "regular",
+      "targets": [
+        "senior",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-11-02",
+        "applyEnd": "2026-11-16",
+        "deadlineType": "counter"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "counter",
+        "mail"
+      ],
+      "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014595/1034007.html",
+      "note": "抽せん制（抽せんは12月）。対象はひとり親世帯・高齢者世帯・障害者世帯。申込先は区役所・支所で、公社や住まいの窓口では受け付けません。一部の世帯は郵送可。締切の扱い（窓口・郵送）は募集案内で確認が必要なため見込みとして表示。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014595/1034007.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014595/1046653.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shi-2026-oyako-11",
+      "operatorId": "osaka_shi",
+      "title": "令和8年度 11月募集（親子近居・若者夫婦子育て・単身・一般世帯）",
+      "shortTitle": "11月募集（親子近居等）",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "senior"
+      ],
+      "units": 800,
+      "dates": {
+        "announce": "2026-10-21",
+        "applyStart": "2026-11-02",
+        "applyEnd": "2026-11-16",
+        "deadlineType": "online_2359",
+        "lottery": "2026-12-16"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000688906.html",
+      "note": "抽選制（公開抽選）。電子申請は最終日の23時59分まで、郵送は最終日の消印まで有効で、窓口受付はありません。区分は親子近居（親子セット・子世帯・親世帯）、若者夫婦・子育て世帯、単身者、一般世帯。親子セットはネット申込みの対象外。10月23日時点でネット受付システムが点検のため停止中なので、再開状況を公式ページで確認してください。",
+      "sources": [
+        {
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000688906.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000370824.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2026-11-teiki",
+      "operatorId": "tokyo_toei",
+      "title": "令和8年11月 定期募集",
+      "shortTitle": "11月定期募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family"
+      ],
+      "units": 3802,
+      "dates": {
+        "announce": "2026-10-22",
+        "applyStart": "2026-11-02",
+        "applyEnd": "2026-11-17",
+        "deadlineType": "online_2359",
+        "lottery": "2026-12-23"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/teiki_2026_11.html",
+      "note": "家族向・単身者向等の抽せん方式。内訳は世帯向（一般募集住宅）3,050戸、若年夫婦・子育て世帯向（定期使用住宅）450戸、居室内で病死等があった住宅302戸。オンラインは11月17日23時59分まで、郵送は同日必着。申込書の配布は11月2日〜11日（土日祝を除く）。倍率表は12月21日に掲載予定。",
+      "sources": [
+        {
+          "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102213",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/teiki_2026_11.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_teiki.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "kanagawa_ken-2026-11-teiki",
+      "operatorId": "kanagawa_ken",
+      "title": "令和8年11月 定期募集",
+      "shortTitle": "11月定期募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "young_family",
+        "single",
+        "senior",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-11-13",
+        "applyEnd": "2026-12-01",
+        "deadlineType": "postmark"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "mail"
+      ],
+      "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28450.html",
+      "note": "未発表（2026年10月24日時点）。県の案内冊子では、配布期間などは「県のたより」11月号で知らせる予定とされています。受付開始日と締切日は前年同時期の募集の例からの見込み。申込みは郵送のみ。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28450.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/documents/24850/34_46_siori0810.pdf",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2026-11-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和8年11月 毎月募集",
+      "shortTitle": "11月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-11-16",
+        "applyEnd": "2026-11-30",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は、毎月募集が各月中旬〜下旬に行われる例（前年11月は13日〜28日）からの見込み。単身者向は1・4・7・10月のみのため、この月は結婚予定者向だけの見込み。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r7_11.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2026-3",
+      "operatorId": "nagoya_shi",
+      "title": "令和8年度 第3回 一般募集",
+      "shortTitle": "第3回一般募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-11-21",
+        "applyEnd": "2026-11-30",
+        "deadlineType": "postmark",
+        "lottery": "2026-12-18"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+      "note": "抽せん制。募集案内付きの申込書で郵送するか電子申請で、窓口受付はありません。郵送は期間内の消印があり翌月5日までに届いたものが有効（第2回の例）。案内の配布開始は受付初日の直前の開庁日。区分は一般世帯、子育て・若年世帯、多家族・多子世帯、単身者世帯。入居可能日は令和9年3月上旬。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1014591.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_fu-2026-5",
+      "operatorId": "osaka_fu",
+      "title": "令和8年度 第5回 総合募集（12月）",
+      "shortTitle": "第5回総合募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "senior",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-12-01",
+        "applyEnd": "2026-12-15",
+        "deadlineType": "postmark"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+      "note": "抽選制。申込書の配布と受付は同じ期間で、郵送は期間内の消印が有効。ネット申込みは住宅のある地区の指定管理者サイトから。応募区分は一般世帯・福祉世帯（高齢・ひとり親・障がい・単身など）・新婚子育て・親子近居・シルバーハウジング・車いす常用者。抽選日と募集戸数はまだ発表されていません。",
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.osakafueijutaku.jp/for-searchers/general-recruitment-index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/fukushi.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shi-2026-zuiji-add-12",
+      "operatorId": "osaka_shi",
+      "title": "公営住宅・改良住宅 随時募集 追加住戸（12月）",
+      "shortTitle": "随時募集 追加（12月）",
+      "kind": "vacancy_add",
+      "targets": [
+        "family",
+        "single"
+      ],
+      "units": null,
+      "dates": {
+        "announce": "2026-11-25",
+        "applyStart": "2026-12-02",
+        "applyEnd": "2026-12-02",
+        "deadlineType": "counter"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "counter"
+      ],
+      "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000445609.html",
+      "note": "11月25日に募集住宅一覧を公開し、12月2日の1日だけ会場窓口で追加住戸の申込みを受け付ける予定。当日の受付順ではなく、後日の抽選で住戸を選ぶ順番が決まります（8月の例）。追加住戸はネット受付の対象外。",
+      "sources": [
+        {
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000445609.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2026-senchaku-3-zan",
+      "operatorId": "nagoya_shi",
+      "title": "令和8年度 第3回 先着順募集 残り住宅の受付開始",
+      "shortTitle": "先着順 第3回 残り住宅",
+      "kind": "vacancy_add",
+      "targets": [
+        "family",
+        "single",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "announce": "2026-11-30",
+        "applyStart": "2026-12-03"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "counter"
+      ],
+      "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014593.html",
+      "note": "11月4日の初日受付で申込みがなかった住宅を、12月3日から公社管理課で先着順に受け付けます（住まいの窓口は12月4日から）。案内は11月30日から配布。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014593.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2026-silver-2",
+      "operatorId": "nagoya_shi",
+      "title": "令和8年度 第2回 シルバーハウジング募集",
+      "shortTitle": "第2回シルバーハウジング",
+      "kind": "regular",
+      "targets": [
+        "senior"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-12-07",
+        "applyEnd": "2026-12-18",
+        "deadlineType": "arrival"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.city.nagoya.jp/kenkofukushi/koureisha/1016444/1016446.html",
+      "note": "抽せん制（抽せんは令和9年1月）。65歳以上の単身、または65歳以上と60歳以上の配偶者などの世帯向け。郵送か電子申請で、締切が消印か必着かは募集案内で確認（安全側で必着として見込み表示）。空き住戸がない場合は募集自体が行われません。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kenkofukushi/koureisha/1016444/1016446.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/_res/projects/default_project/_page_/001/014/587/r8_sogo.pdf",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2026-12-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和8年12月 毎月募集",
+      "shortTitle": "12月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2026-12-15",
+        "applyEnd": "2026-12-25",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は前年12月（15日〜26日、年末前に締切）の例からの見込み。結婚予定者向のみの見込み。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r7_12.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-01-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年1月 毎月募集",
+      "shortTitle": "1月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage",
+        "single"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-01-18",
+        "applyEnd": "2027-01-29",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は前年1月（19日〜30日）の例からの見込み。1月は単身者向も募集される月です。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_1.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_fu-2026-6",
+      "operatorId": "osaka_fu",
+      "title": "令和8年度 第6回 総合募集（2月）",
+      "shortTitle": "第6回総合募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "senior",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-02-01",
+        "applyEnd": "2027-02-15",
+        "deadlineType": "postmark"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+      "note": "抽選制。郵送は期間内の消印が有効、ネット申込みは地区ごとの指定管理者サイトから。抽選日と募集戸数はまだ発表されていません。",
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.osakafueijutaku.jp/for-searchers/general-recruitment-index.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shi-2026-teiki-02",
+      "operatorId": "osaka_shi",
+      "title": "令和8年度 2月 定期募集",
+      "shortTitle": "2月定期募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-02-01",
+        "applyEnd": "2027-02-15",
+        "deadlineType": "postmark"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "mail",
+        "online",
+        "counter"
+      ],
+      "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000370824.html",
+      "note": "抽選制。郵送は最終日の消印まで有効。ネット受付も同じ期間だが終了時刻は募集時の案内で確認。窓口受付は2月10日・12日・15日の3日間だけ。区分は若者夫婦・子育て世帯、単身者、単身車いす常用者、一般世帯、親子ペア、公営住宅収入超過者など。抽選日と戸数は未発表。",
+      "sources": [
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.osaka.lg.jp/toshiseibi/page/0000370824.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-02-teiki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年2月 定期募集",
+      "shortTitle": "2月定期募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "senior"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-02-01",
+        "applyEnd": "2027-02-16",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_teiki.html",
+      "note": "未発表。2月上旬に家族向（ポイント方式）と単身者向・シルバーピア（抽せん方式）を募集する決まり。受付開始日と締切日は、前年・前々年が2月第1月曜から翌々週火曜までだった例からの見込み。前年はポイント方式の郵送分が締切日18時必着でした。抽せん日は未定（前年は3月19日）。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_teiki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/teiki_2026_2.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/teiki_2025_2.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2026-senchaku-4",
+      "operatorId": "nagoya_shi",
+      "title": "令和8年度 第4回 先着順募集（追加募集の初日受付）",
+      "shortTitle": "先着順 第4回 追加",
+      "kind": "vacancy_add",
+      "targets": [
+        "family",
+        "single",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "announce": "2027-01-22",
+        "applyStart": "2027-02-03",
+        "applyEnd": "2027-02-03",
+        "deadlineType": "counter"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "counter"
+      ],
+      "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014593.html",
+      "note": "見込み。市の予定表では案内配布が令和9年1月、初日受付が2月とだけ示されています。日付は前年度（1月23日配布・2月3日初日）にならった推定です。初日は会場で受け付け、後日の抽せんで順番を決めます。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014593.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/houdou/pressr7/3002888/3003667.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shi-2026-smile-add-02",
+      "operatorId": "osaka_shi",
+      "title": "市営すまいりんぐ等 随時募集 追加住戸（2月）",
+      "shortTitle": "すまいりんぐ等 追加（2月）",
+      "kind": "vacancy_add",
+      "targets": [
+        "family",
+        "young_family"
+      ],
+      "units": null,
+      "dates": {
+        "announce": "2027-02-01",
+        "applyStart": "2027-02-08",
+        "applyEnd": "2027-02-08",
+        "deadlineType": "counter"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "counter"
+      ],
+      "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+      "note": "2月1日に案内のリーフレットを配布し、2月8日に追加住戸の申込みを会場窓口で受け付ける予定。対象は市営すまいりんぐ（子育て応援型を含む）・特定賃貸・再開発住宅。追加住戸はネット受付の対象外。",
+      "sources": [
+        {
+          "url": "https://www.city.osaka.lg.jp/hodoshiryo/toshiseibi/0000675035.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-02-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年2月 毎月募集",
+      "shortTitle": "2月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-02-15",
+        "applyEnd": "2027-02-26",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は前年2月（13日〜27日）の例からの見込み。結婚予定者向のみの見込み。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_2.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2026-4",
+      "operatorId": "nagoya_shi",
+      "title": "令和8年度 第4回 一般募集",
+      "shortTitle": "第4回一般募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-02-19",
+        "applyEnd": "2027-02-28",
+        "deadlineType": "postmark",
+        "lottery": "2027-03-19"
+      },
+      "status": "confirmed",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+      "note": "抽せん制。郵送または電子申請で、郵送は期間内の消印があり翌月5日までに届いたものが有効（第2回の例）。案内の配布開始は受付初日の直前の開庁日。入居可能日は令和9年6月上旬。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1014591.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-03-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年3月 毎月募集",
+      "shortTitle": "3月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-03-15",
+        "applyEnd": "2027-03-31",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は前年3月（16日〜31日）の例からの見込み。結婚予定者向のみの見込み。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_3.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "osaka_fu-2027-1",
+      "operatorId": "osaka_fu",
+      "title": "令和9年度 第1回 総合募集（4月）",
+      "shortTitle": "第1回総合募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "senior",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-04-01",
+        "applyEnd": "2027-04-15",
+        "deadlineType": "postmark"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+      "note": "見込み。総合募集は毎年4月に第1回があり、令和8年度は4月1日から15日でした。受付開始日と締切日はこれにならった推定で、令和9年度の日程が発表されたら確定させます。",
+      "sources": [
+        {
+          "url": "https://www.pref.osaka.lg.jp/o130210/jutaku_kikaku/boshujigyo/index.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.osaka.lg.jp/faq/faq_000121.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-04-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年4月 毎月募集",
+      "shortTitle": "4月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage",
+        "single"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-04-15",
+        "applyEnd": "2027-04-30",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は前年4月（15日〜30日）の例からの見込み。4月は単身者向も募集される月です。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_4.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-05-teiki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年5月 定期募集",
+      "shortTitle": "5月定期募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-05-07",
+        "applyEnd": "2027-05-21",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_teiki.html",
+      "note": "未発表。5月上旬に家族向・単身者向等を抽せん方式で募集する決まり。受付開始日と締切日は、前年・前々年とも5月7日〜21日だった例からの見込み。前年は若年夫婦・子育て世帯向（定期使用住宅）も含まれていました。抽せん日は未定（前年は6月26日）。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_teiki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/teiki_2026_5.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/teiki_2025_5.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "kanagawa_ken-2027-05-teiki",
+      "operatorId": "kanagawa_ken",
+      "title": "令和9年5月 定期募集",
+      "shortTitle": "5月定期募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "young_family",
+        "single",
+        "senior",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-05-14",
+        "applyEnd": "2027-06-01",
+        "deadlineType": "postmark"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "mail"
+      ],
+      "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28450.html",
+      "note": "未発表。県の案内冊子では、配布期間などは「県のたより」2027年5月号で知らせる予定とされています。受付開始日と締切日は、前年5月の募集（5月15日〜6月1日消印有効）の例からの見込み。2027年は5月15日が土曜のため開始日は前後する可能性があります。申込みは郵送のみ。前年は800戸、抽せんは6月26日でした。",
+      "sources": [
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28450.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p28446.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/docs/h5z/cnt/f6022/p371322.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.pref.kanagawa.jp/documents/24850/34_46_siori0810.pdf",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_toei-2027-05-maituki",
+      "operatorId": "tokyo_toei",
+      "title": "令和9年5月 毎月募集",
+      "shortTitle": "5月毎月募集",
+      "kind": "monthly",
+      "targets": [
+        "marriage"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-05-14",
+        "applyEnd": "2027-05-28",
+        "deadlineType": "online_2359"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "online",
+        "mail"
+      ],
+      "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+      "note": "未発表。受付開始日と締切日は前年5月（15日〜29日、いずれも金曜）の例からの見込み。結婚予定者向のみの見込み。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/index_maituki.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.to-kousya.or.jp/kouei/toeibosyu/maituki_r8_5.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "nagoya_shi-2027-1",
+      "operatorId": "nagoya_shi",
+      "title": "令和9年度 第1回 一般募集",
+      "shortTitle": "第1回一般募集",
+      "kind": "regular",
+      "targets": [
+        "family",
+        "single",
+        "young_family",
+        "other"
+      ],
+      "units": null,
+      "dates": {
+        "applyStart": "2027-05-22",
+        "applyEnd": "2027-05-31",
+        "deadlineType": "postmark"
+      },
+      "status": "expected",
+      "applyMethods": [
+        "mail",
+        "online"
+      ],
+      "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+      "note": "見込み。一般募集は毎年5月に第1回があり、令和8年度は5月22日から31日でした。受付開始日と締切日はこれにならった推定です。抽せん日は未定。",
+      "sources": [
+        {
+          "url": "https://www.city.nagoya.jp/kurashi/juutaku/1014583/1014585/1014586/1014587/1014589/1034006.html",
+          "checkedAt": "2026-10-24"
+        }
+      ]
+    }
+  ]
+}
