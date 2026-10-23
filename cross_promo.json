@@ -760,14 +760,14 @@
     "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
-    "weather_money_guide": ["energy_voucher", "kr_briefing", "unclaimedrefund"],
+    "weather_money_guide": ["energy_voucher", "unclaimedrefund"],
     "mortgage_calculator": ["kr_briefing", "salary_ticker"],
-    "energy_voucher": ["kr_briefing", "weather_money_guide", "unclaimedrefund"],
+    "energy_voucher": ["weather_money_guide", "unclaimedrefund"],
     "unclaimedrefund": ["energy_voucher", "weather_money_guide"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
-    "kr_briefing": ["envelope_screener", "financial_radar", "salary_ticker"],
-    "us_briefing": ["kr_briefing", "fire_calculator", "us_briefing"],
+    "kr_briefing": ["envelope_screener", "salary_ticker"],
+    "us_briefing": ["kr_briefing", "fire_calculator"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["financial_radar", "salary_ticker"],
     "fire_calculator": ["financial_radar", "salary_ticker"],
