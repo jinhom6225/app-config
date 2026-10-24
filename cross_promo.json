@@ -725,6 +725,23 @@
         "android": "https://play.google.com/store/apps/details?id=com.insightmyung.unclaimedrefund"
       },
       "enabled": true
+    },
+    "jphousingalert": {
+      "title": {
+        "ja": "公営住宅アラート",
+        "en": "Public Housing Alert JP",
+        "ko": "일본 공영주택 알리미"
+      },
+      "description": {
+        "ja": "公営住宅の募集日と抽選日を通知",
+        "en": "Japan public housing dates",
+        "ko": "일본 공영주택 모집일 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/jphousingalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.jphousingalert"
+      },
+      "enabled": false
     }
   },
   "rules": {
@@ -783,6 +800,8 @@
 
     "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
 
-    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"]
+    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
+
+    "jphousingalert": ["salary_ticker", "rush_hour", "stretch_cat", "mlb_light", "j1_light"]
   }
 }
