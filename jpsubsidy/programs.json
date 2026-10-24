@@ -1,0 +1,1029 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": "2026-10-24",
+  "programs": [
+    {
+      "topic": "sales",
+      "tier": "alert",
+      "name": "小規模事業者持続化補助金",
+      "shortName": "持続化補助金",
+      "summary": "従業員の少ない小規模事業者が、チラシ・ホームページ・店舗改装などで新しい客を増やす取り組みに使える補助金です。通常枠は補助上限50万円（インボイス・賃上げの特例で上乗せあり）、補助率は原則2/3で、創業型は上限200万円です。申請の前に、地域の商工会・商工会議所で様式4を発行してもらう必要があります。",
+      "officialUrl": "https://r6.jizokukahojokin.info/",
+      "contacts": [
+        {
+          "label": "商工会議所地区 事務局（審査・申請）",
+          "phone": "03-6634-9307",
+          "hours": "平日9:00〜12:00、13:00〜17:00"
+        },
+        {
+          "label": "商工会議所地区 申請システムの窓口",
+          "phone": "03-6636-5410",
+          "hours": "平日9:00〜12:00、13:00〜17:00"
+        },
+        {
+          "label": "商工会地区 申請システムの窓口",
+          "phone": "03-6636-5569",
+          "hours": "平日9:00〜12:00、13:00〜17:00"
+        },
+        {
+          "label": "創業型 事務局",
+          "phone": "03-6739-3890",
+          "hours": "平日9:00〜12:00、13:00〜17:00"
+        },
+        {
+          "label": "災害支援枠（熊本地震）商工会議所地区 事務局",
+          "phone": "03-6633-2478",
+          "hours": "平日9:00〜12:00、13:00〜17:00"
+        }
+      ],
+      "checklist": [
+        {
+          "id": "gbizid",
+          "text": "GビズIDプライムを取得する（オンライン申請は最短即日、書類の郵送だと最大1か月かかります）"
+        },
+        {
+          "id": "region",
+          "text": "お店や事務所の場所が商工会議所の地区か商工会の地区かを確かめる"
+        },
+        {
+          "id": "plan",
+          "text": "経営計画と補助事業計画を電子申請システムに入力する"
+        },
+        {
+          "id": "form4",
+          "text": "地域の商工会・商工会議所に様式4（事業支援計画書）の発行を早めに頼む"
+        },
+        {
+          "id": "quote",
+          "text": "使う予定の経費の見積書をそろえる"
+        },
+        {
+          "id": "guidelines",
+          "text": "公募要領で対象になる経費と特例（インボイス・賃上げ）の条件を確認する"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://r6.jizokukahojokin.info/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/toiawase.php",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/doc/r6_koubover8_ip20.pdf",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://official.jizokukanb.com/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/sogyo/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/sogyo/toiawase.php",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/sogyo/doc/r6_koubover8_sogyo4.pdf",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/kumamoto/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://r6.jizokukahojokin.info/kumamoto/doc/r6_koubover3_kumamoto2.pdf",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gbiz-id.go.jp/top/faq/faq.html",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "rounds": [
+        {
+          "id": "sales-r20-general",
+          "label": "第20回（通常枠）",
+          "milestones": [
+            {
+              "id": "sales-r20-general-open",
+              "kind": "open",
+              "region": null,
+              "precision": "day",
+              "date": "2026-11-05",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://r6.jizokukahojokin.info/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-r20-general-form4-chamber",
+              "kind": "form4_deadline",
+              "region": "chamber",
+              "precision": "day",
+              "date": "2026-12-04",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://r6.jizokukahojokin.info/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-r20-general-form4-society",
+              "kind": "form4_deadline",
+              "region": "society",
+              "precision": "day",
+              "date": "2026-12-04",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://official.jizokukanb.com/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-r20-general-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "day",
+              "date": "2026-12-15",
+              "time": "17:00",
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://r6.jizokukahojokin.info/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-r20-general-result",
+              "kind": "result",
+              "region": null,
+              "precision": "month",
+              "date": "2027-03",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://r6.jizokukahojokin.info/doc/r6_koubover8_ip20.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sales-sogyo-r4",
+          "label": "第4回（創業型）",
+          "note": "開業日と、市区町村などの特定創業支援等事業で支援を受けた日が、どちらも2025/12/15〜2026/12/15の間にある事業者が対象です",
+          "milestones": [
+            {
+              "id": "sales-sogyo-r4-open",
+              "kind": "open",
+              "region": null,
+              "precision": "day",
+              "date": "2026-11-05",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://r6.jizokukahojokin.info/sogyo/doc/r6_koubover8_sogyo4.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-sogyo-r4-form4-chamber",
+              "kind": "form4_deadline",
+              "region": "chamber",
+              "precision": "day",
+              "date": "2026-12-04",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://r6.jizokukahojokin.info/sogyo/doc/r6_koubover8_sogyo4.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-sogyo-r4-form4-society",
+              "kind": "form4_deadline",
+              "region": "society",
+              "precision": "day",
+              "date": "2026-12-04",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://r6.jizokukahojokin.info/sogyo/doc/r6_koubover8_sogyo4.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-sogyo-r4-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "day",
+              "date": "2026-12-15",
+              "time": "17:00",
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://r6.jizokukahojokin.info/sogyo/doc/r6_koubover8_sogyo4.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-sogyo-r4-result",
+              "kind": "result",
+              "region": null,
+              "precision": "month",
+              "date": "2027-03",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://r6.jizokukahojokin.info/sogyo/doc/r6_koubover8_sogyo4.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sales-saigai-kumamoto-2",
+          "label": "第2次（災害支援枠・令和8年熊本地震）",
+          "note": "熊本県内で令和8年熊本地震の被害を受けた小規模事業者だけが対象です。様式4ではなく支援機関確認書（様式3）が必要で、発行の受付締切は12/8です",
+          "milestones": [
+            {
+              "id": "sales-saigai-kumamoto-2-open",
+              "kind": "open",
+              "region": null,
+              "precision": "day",
+              "date": "2026-11-02",
+              "time": null,
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://r6.jizokukahojokin.info/kumamoto/doc/r6_koubover3_kumamoto2.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-saigai-kumamoto-2-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "day",
+              "date": "2026-12-15",
+              "time": "17:00",
+              "status": "confirmed",
+              "note": "17:00は電子申請の締切です。郵送は当日の消印まで有効です",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://r6.jizokukahojokin.info/kumamoto/doc/r6_koubover3_kumamoto2.pdf",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-saigai-kumamoto-2-result",
+              "kind": "result",
+              "region": null,
+              "precision": "month",
+              "date": "2027-02",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://r6.jizokukahojokin.info/kumamoto/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sales-r21-general",
+          "label": "第21回（通常枠）",
+          "milestones": [
+            {
+              "id": "sales-r21-general-guidelines",
+              "kind": "guidelines",
+              "region": null,
+              "precision": "month",
+              "date": "2027-01",
+              "time": null,
+              "status": "estimated",
+              "note": "第19回の日程（公募1/28→受付3/6→締切4/30）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-r21-general-open",
+              "kind": "open",
+              "region": null,
+              "precision": "month",
+              "date": "2027-03",
+              "time": null,
+              "status": "estimated",
+              "note": "第19回の日程（公募1/28→受付3/6→締切4/30）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "sales-r21-general-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "month",
+              "date": "2027-04",
+              "time": null,
+              "status": "estimated",
+              "note": "第19回の日程（公募1/28→受付3/6→締切4/30）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "it",
+      "tier": "alert",
+      "name": "デジタル化・AI導入補助金",
+      "shortName": "デジタル化・AI導入補助金",
+      "summary": "中小企業や小規模事業者が、事務局に登録されたITツールを入れる費用の一部を補助します。通常枠の補助額は5万〜450万円、補助率は原則1/2です。申請は登録済みのIT導入支援事業者と一緒に進めるので、早めに相談先とツールを決めておきましょう。",
+      "officialUrl": "https://it-shien.smrj.go.jp/schedule/",
+      "contacts": [
+        {
+          "label": "コールセンター（ナビダイヤル）",
+          "phone": "0570-666-376",
+          "hours": "平日9:30〜17:30"
+        },
+        {
+          "label": "コールセンター（IP電話などから）",
+          "phone": "050-3133-3272",
+          "hours": "平日9:30〜17:30"
+        }
+      ],
+      "checklist": [
+        {
+          "id": "gbizid",
+          "text": "GビズIDプライムを取得する（オンライン申請は最短即日、書類の郵送だと最大1か月かかります）"
+        },
+        {
+          "id": "security-action",
+          "text": "SECURITY ACTIONの自己宣言をして、IDを控えておく"
+        },
+        {
+          "id": "vendor",
+          "text": "IT導入支援事業者と入れるITツールを決める"
+        },
+        {
+          "id": "guidelines",
+          "text": "公募要領で申請する枠と補助額を確認する"
+        },
+        {
+          "id": "early-submit",
+          "text": "締切の日は17:00で受付が止まるので、前日までに申請を終える"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://it-shien.smrj.go.jp/schedule/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://it-shien.smrj.go.jp/applicant/subsidy/normal/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gbiz-id.go.jp/top/faq/faq.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://it-shien.smrj.go.jp/applicant/flow/",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "rounds": [
+        {
+          "id": "it-2026-6",
+          "label": "6次（通常枠・インボイス枠・セキュリティ対策推進枠）",
+          "note": "申請の締切は10/30 17:00です",
+          "milestones": [
+            {
+              "id": "it-2026-6-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "day",
+              "date": "2026-10-30",
+              "time": "17:00",
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://it-shien.smrj.go.jp/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "it-2026-6-grant-decision",
+              "kind": "grant_decision",
+              "region": null,
+              "precision": "day",
+              "date": "2026-12-10",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://it-shien.smrj.go.jp/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-2026-7",
+          "label": "7次（通常枠・インボイス枠・セキュリティ対策推進枠）",
+          "milestones": [
+            {
+              "id": "it-2026-7-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "day",
+              "date": "2026-12-01",
+              "time": "17:00",
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://it-shien.smrj.go.jp/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "it-2026-7-grant-decision",
+              "kind": "grant_decision",
+              "region": null,
+              "precision": "day",
+              "date": "2027-01-19",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://it-shien.smrj.go.jp/schedule/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-2027-1",
+          "label": "2027年 1次",
+          "milestones": [
+            {
+              "id": "it-2027-1-guidelines",
+              "kind": "guidelines",
+              "region": null,
+              "precision": "month",
+              "date": "2027-02",
+              "time": null,
+              "status": "estimated",
+              "note": "2026年の日程（公募2/27→受付3/30→1次締切5/12）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "it-2027-1-open",
+              "kind": "open",
+              "region": null,
+              "precision": "month",
+              "date": "2027-03",
+              "time": null,
+              "status": "estimated",
+              "note": "2026年の日程（公募2/27→受付3/30→1次締切5/12）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "it-2027-1-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "month",
+              "date": "2027-05",
+              "time": null,
+              "status": "estimated",
+              "note": "2026年の日程（公募2/27→受付3/30→1次締切5/12）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "it-2027-2",
+          "label": "2027年 2次",
+          "milestones": [
+            {
+              "id": "it-2027-2-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "month",
+              "date": "2027-06",
+              "time": null,
+              "status": "estimated",
+              "note": "2026年の2次締切（6/15）から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "newbiz",
+      "tier": "alert",
+      "name": "新事業進出・ものづくり商業サービス補助金",
+      "shortName": "新事業進出・ものづくり補助金",
+      "summary": "新しい市場への進出や、革新的な新製品・サービスの開発に取り組む中小企業向けの補助金です。補助上限は枠と従業員数で変わり、賃上げ特例を使うと最大9,000万円、補助率は枠や規模により1/2〜2/3です。3〜5年の事業計画と賃上げの目標が求められ、届かないと返還になる場合があります。",
+      "officialUrl": "https://shinjigyou-monodukuri.smrj.go.jp/schedule",
+      "contacts": [],
+      "checklist": [
+        {
+          "id": "gbizid",
+          "text": "GビズIDプライムを取得する（オンライン申請は最短即日、書類の郵送だと最大1か月かかります）"
+        },
+        {
+          "id": "plan",
+          "text": "3〜5年の事業計画（付加価値額と給与の伸びの目標）を作る"
+        },
+        {
+          "id": "action-plan",
+          "text": "一般事業主行動計画を作り、「両立支援のひろば」で公表する"
+        },
+        {
+          "id": "wage-check",
+          "text": "賃上げと事業場内最低賃金の条件を確かめる（届かないと返還の対象）"
+        },
+        {
+          "id": "guidelines",
+          "text": "公募要領で申請する枠と対象になる経費を確認する"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://shinjigyou-monodukuri.smrj.go.jp/schedule",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://shinjigyou-monodukuri.smrj.go.jp/overview",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gbiz-id.go.jp/top/faq/faq.html",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "rounds": [
+        {
+          "id": "newbiz-r1",
+          "label": "第1回",
+          "note": "申請の締切は10/30 18:00です（9/30から延長）",
+          "milestones": [
+            {
+              "id": "newbiz-r1-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "day",
+              "date": "2026-10-30",
+              "time": "18:00",
+              "status": "confirmed",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://shinjigyou-monodukuri.smrj.go.jp/schedule",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "newbiz-r1-result",
+              "kind": "result",
+              "region": null,
+              "precision": "month",
+              "date": "2027-01",
+              "time": null,
+              "status": "scheduled",
+              "note": "当初の12月予定から1月予定に変わりました",
+              "sources": [
+                {
+                  "url": "https://shinjigyou-monodukuri.smrj.go.jp/schedule",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "newbiz-r2",
+          "label": "第2回",
+          "milestones": [
+            {
+              "id": "newbiz-r2-guidelines",
+              "kind": "guidelines",
+              "region": null,
+              "precision": "month",
+              "date": "2027-01",
+              "time": null,
+              "status": "estimated",
+              "note": "公式発表はまだありません。第1回（公募6/29→締切10/30）の間隔と民間サイトの予測（公募1〜2月・締切3〜4月）から推定",
+              "sources": [
+                {
+                  "url": "https://shinjigyou-monodukuri.smrj.go.jp/schedule",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "newbiz-r2-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "month",
+              "date": "2027-04",
+              "time": null,
+              "status": "estimated",
+              "note": "公式発表はまだありません。第1回（公募6/29→締切10/30）の間隔と民間サイトの予測（公募1〜2月・締切3〜4月）から推定",
+              "sources": [
+                {
+                  "url": "https://shinjigyou-monodukuri.smrj.go.jp/schedule",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "labor",
+      "tier": "alert",
+      "name": "中小企業省力化投資補助金（一般型）",
+      "shortName": "省力化投資補助金",
+      "summary": "人手不足に悩む中小企業が、現場に合わせたロボットや自動化の設備、システムを入れる費用を補助します。補助上限は従業員数により750万〜8,000万円（大幅な賃上げの特例で最大1億円）、補助率は中小企業1/2、小規模事業者2/3です。公募回ごとに締切があり、労働生産性と給与を伸ばす計画が必要です。",
+      "officialUrl": "https://shoryokuka.smrj.go.jp/ippan/",
+      "contacts": [
+        {
+          "label": "コールセンター（ナビダイヤル）",
+          "phone": "0570-099-660",
+          "hours": "平日9:30〜17:30"
+        },
+        {
+          "label": "コールセンター（IP電話などから）",
+          "phone": "03-4335-7595",
+          "hours": "平日9:30〜17:30"
+        }
+      ],
+      "checklist": [
+        {
+          "id": "gbizid",
+          "text": "GビズIDプライムを取得する（オンライン申請は最短即日、書類の郵送だと最大1か月かかります）"
+        },
+        {
+          "id": "previous-round",
+          "text": "前の回に申請中か、補助金の支払いが終わっていない場合は申請できないので確かめる"
+        },
+        {
+          "id": "plan",
+          "text": "労働生産性と1人あたり給与を年平均で一定以上伸ばす事業計画を作る"
+        },
+        {
+          "id": "quote",
+          "text": "入れる設備やシステムの見積もりを集める"
+        },
+        {
+          "id": "guidelines",
+          "text": "公募要領が出たら締切日と対象になる経費を確認する"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://shoryokuka.smrj.go.jp/ippan/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://shoryokuka.smrj.go.jp/ippan/about/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://shoryokuka.smrj.go.jp/contact/",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gbiz-id.go.jp/top/faq/faq.html",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "rounds": [
+        {
+          "id": "labor-r7",
+          "label": "第7回",
+          "note": "申請の締切は7/31に終わっています",
+          "milestones": [
+            {
+              "id": "labor-r7-result",
+              "kind": "result",
+              "region": null,
+              "precision": "mid",
+              "date": "2026-11",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "labor-r8",
+          "label": "第8回",
+          "note": "申請の締切は10/16に終わっています",
+          "milestones": [
+            {
+              "id": "labor-r8-result",
+              "kind": "result",
+              "region": null,
+              "precision": "early",
+              "date": "2027-02",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://seisansei.smrj.go.jp/subsidy_info/schedule.html",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "labor-r9",
+          "label": "第9回",
+          "note": "締切日はまだ発表されていません。発表されたらお知らせします",
+          "milestones": [
+            {
+              "id": "labor-r9-guidelines",
+              "kind": "guidelines",
+              "region": null,
+              "precision": "early",
+              "date": "2026-11",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "labor-r9-open",
+              "kind": "open",
+              "region": null,
+              "precision": "early",
+              "date": "2026-12",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "labor-r9-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "late",
+              "date": "2026-12",
+              "time": null,
+              "status": "scheduled",
+              "note": null,
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                },
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "labor-r10",
+          "label": "第10回",
+          "milestones": [
+            {
+              "id": "labor-r10-guidelines",
+              "kind": "guidelines",
+              "region": null,
+              "precision": "month",
+              "date": "2027-03",
+              "time": null,
+              "status": "estimated",
+              "note": "第6回の日程（公募3/13→受付4/15→締切5/15）と年3〜4回の公募予定から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            },
+            {
+              "id": "labor-r10-deadline",
+              "kind": "deadline",
+              "region": null,
+              "precision": "month",
+              "date": "2027-05",
+              "time": null,
+              "status": "estimated",
+              "note": "第6回の日程（公募3/13→受付4/15→締切5/15）と年3〜4回の公募予定から推定。公式発表はまだありません",
+              "sources": [
+                {
+                  "url": "https://shoryokuka.smrj.go.jp/ippan/schedule/",
+                  "checkedAt": "2026-10-24"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "wage",
+      "tier": "info",
+      "name": "業務改善助成金",
+      "shortName": "業務改善助成金",
+      "summary": "従業員の時給の最低額（事業場内最低賃金）を引き上げ、あわせて仕事の効率を上げる設備などを入れる中小企業・小規模事業者向けの助成金です。助成されるのは設備などの費用の一部で、上限があります。従業員がいない事業者は対象になりません。",
+      "officialUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
+      "contacts": [
+        {
+          "label": "業務改善助成金コールセンター",
+          "phone": "0120-366-440",
+          "hours": "平日9:00〜17:00"
+        }
+      ],
+      "checklist": [],
+      "info": {
+        "text": "令和8年度の申請期限は都道府県ごとに違い、地域別最低賃金が変わる日の前日か11/30の早いほうです。11/20より後も申請できるのは岩手・熊本・沖縄（11/30まで）だけです。",
+        "note": "受付開始の時期は年度によって違います（令和7年度は4/14、令和8年度は9/1）。令和9年度はまだ発表されていません"
+      },
+      "sources": [
+        {
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
+          "checkedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/minimumichiran/index.html",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "rounds": []
+    }
+  ]
+}
