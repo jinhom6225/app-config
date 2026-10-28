@@ -1,0 +1,1664 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "guideline": {
+    "title": "2026년 국가예방접종 지침(의료기관용)",
+    "revisedOn": "2026-10-02"
+  },
+  "rulesAppliedOn": "2026-10-28",
+  "grace": {
+    "days": 4,
+    "source": {
+      "pages": [
+        111
+      ]
+    }
+  },
+  "liveSpacing": {
+    "minInterval": "4w",
+    "noGrace": true,
+    "antigens": [
+      "mmr",
+      "var",
+      "je_live"
+    ],
+    "source": {
+      "pages": [
+        111,
+        114,
+        116,
+        253
+      ],
+      "note": "BCG는 p.116 '생백신 간 간섭 증거 없음, 간격 고려 없이 접종 가능'으로 제외. 로타는 경구용 생백신이라 제외(p.253)"
+    }
+  },
+  "consultFromAge": "7y",
+  "maxRegisterAge": "13y",
+  "products": [
+    {
+      "id": "hepb",
+      "label": "B형간염 (HepB)",
+      "antigens": [
+        "hepb"
+      ],
+      "live": false
+    },
+    {
+      "id": "bcg",
+      "label": "결핵 (BCG 피내용)",
+      "antigens": [
+        "bcg"
+      ],
+      "live": true
+    },
+    {
+      "id": "dtap",
+      "label": "DTaP (디프테리아·파상풍·백일해)",
+      "antigens": [
+        "dtap"
+      ],
+      "live": false
+    },
+    {
+      "id": "dtap_ipv",
+      "label": "4가 혼합백신 (DTaP-IPV)",
+      "antigens": [
+        "dtap",
+        "ipv"
+      ],
+      "live": false
+    },
+    {
+      "id": "penta",
+      "label": "5가 혼합백신 (DTaP-IPV/Hib)",
+      "antigens": [
+        "dtap",
+        "ipv",
+        "hib"
+      ],
+      "live": false
+    },
+    {
+      "id": "hexa",
+      "label": "6가 혼합백신 (DTaP-IPV-Hib-HepB)",
+      "antigens": [
+        "dtap",
+        "ipv",
+        "hib",
+        "hepb"
+      ],
+      "live": false
+    },
+    {
+      "id": "tdap",
+      "label": "Tdap (파상풍·디프테리아·백일해)",
+      "antigens": [
+        "dtap"
+      ],
+      "live": false
+    },
+    {
+      "id": "td",
+      "label": "Td (파상풍·디프테리아)",
+      "antigens": [
+        "dtap"
+      ],
+      "live": false
+    },
+    {
+      "id": "ipv",
+      "label": "폴리오 (IPV)",
+      "antigens": [
+        "ipv"
+      ],
+      "live": false
+    },
+    {
+      "id": "hib",
+      "label": "b형 헤모필루스 인플루엔자 (Hib)",
+      "antigens": [
+        "hib"
+      ],
+      "live": false
+    },
+    {
+      "id": "pcv",
+      "label": "폐렴구균 단백결합 (PCV)",
+      "antigens": [
+        "pcv"
+      ],
+      "live": false
+    },
+    {
+      "id": "rota_rv1",
+      "label": "로타바이러스 RV1 (2회 백신)",
+      "antigens": [
+        "rota"
+      ],
+      "live": true
+    },
+    {
+      "id": "rota_rv5",
+      "label": "로타바이러스 RV5 (3회 백신)",
+      "antigens": [
+        "rota"
+      ],
+      "live": true
+    },
+    {
+      "id": "rota_unknown",
+      "label": "로타바이러스 (백신 종류 모름)",
+      "antigens": [
+        "rota"
+      ],
+      "live": true
+    },
+    {
+      "id": "mmr",
+      "label": "MMR (홍역·유행성이하선염·풍진)",
+      "antigens": [
+        "mmr"
+      ],
+      "live": true
+    },
+    {
+      "id": "var",
+      "label": "수두 (VAR)",
+      "antigens": [
+        "var"
+      ],
+      "live": true
+    },
+    {
+      "id": "hepa",
+      "label": "A형간염 (HepA)",
+      "antigens": [
+        "hepa"
+      ],
+      "live": false
+    },
+    {
+      "id": "je_inact",
+      "label": "일본뇌염 불활성화 백신",
+      "antigens": [
+        "je_inact"
+      ],
+      "live": false
+    },
+    {
+      "id": "je_live",
+      "label": "일본뇌염 약독화 생백신",
+      "antigens": [
+        "je_live"
+      ],
+      "live": true
+    },
+    {
+      "id": "hpv",
+      "label": "사람유두종바이러스 (HPV)",
+      "antigens": [
+        "hpv"
+      ],
+      "live": false
+    },
+    {
+      "id": "flu",
+      "label": "인플루엔자 (3가)",
+      "antigens": [
+        "flu"
+      ],
+      "live": false
+    },
+    {
+      "id": "men_acwy",
+      "label": "수막구균 ACWY (선택)",
+      "antigens": [
+        "men_acwy"
+      ],
+      "live": false
+    },
+    {
+      "id": "men_b",
+      "label": "수막구균 B (선택)",
+      "antigens": [
+        "men_b"
+      ],
+      "live": false
+    },
+    {
+      "id": "rsv_mab",
+      "label": "RSV 예방 항체 (선택)",
+      "antigens": [
+        "rsv_mab"
+      ],
+      "live": false
+    }
+  ],
+  "series": [
+    {
+      "id": "hepb",
+      "label": "B형간염",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "paths": {
+        "hexa": {
+          "doses": [
+            {
+              "n": 1,
+              "kind": "primary",
+              "standard": {
+                "start": "0d"
+              },
+              "minAge": "0d",
+              "products": [
+                "hepb",
+                "hexa"
+              ],
+              "source": {
+                "pages": [
+                  115,
+                  170,
+                  144
+                ]
+              }
+            },
+            {
+              "n": 2,
+              "kind": "primary",
+              "standard": {
+                "start": "2m"
+              },
+              "minAge": "4w",
+              "minIntervalFromPrev": "4w",
+              "products": [
+                "hexa",
+                "hepb"
+              ],
+              "source": {
+                "pages": [
+                  115,
+                  117,
+                  97,
+                  45
+                ]
+              }
+            },
+            {
+              "n": 3,
+              "kind": "primary",
+              "standard": {
+                "start": "6m"
+              },
+              "minAge": "24w",
+              "minIntervalFromPrev": "8w",
+              "minIntervalFrom": [
+                {
+                  "dose": 1,
+                  "interval": "16w"
+                }
+              ],
+              "products": [
+                "hexa",
+                "hepb"
+              ],
+              "source": {
+                "pages": [
+                  115,
+                  117,
+                  97,
+                  98,
+                  45,
+                  144
+                ]
+              }
+            }
+          ],
+          "note": "출생 HepB 1차 + 6가의 HepB 몫이 날짜순으로 2·3차를 채움. 3차 요건(24주·2차 후 8주·1차 후 16주)을 못 채우는 6가 몫은 comboSurplus(schema 2.2.2)"
+        },
+        "penta_hepb": {
+          "doses": [
+            {
+              "n": 1,
+              "kind": "primary",
+              "standard": {
+                "start": "0d"
+              },
+              "minAge": "0d",
+              "products": [
+                "hepb",
+                "hexa"
+              ],
+              "source": {
+                "pages": [
+                  115,
+                  170,
+                  144
+                ]
+              }
+            },
+            {
+              "n": 2,
+              "kind": "primary",
+              "standard": {
+                "start": "1m"
+              },
+              "minAge": "4w",
+              "minIntervalFromPrev": "4w",
+              "products": [
+                "hepb"
+              ],
+              "source": {
+                "pages": [
+                  115,
+                  170,
+                  144
+                ]
+              }
+            },
+            {
+              "n": 3,
+              "kind": "primary",
+              "standard": {
+                "start": "6m"
+              },
+              "minAge": "24w",
+              "minIntervalFromPrev": "8w",
+              "minIntervalFrom": [
+                {
+                  "dose": 1,
+                  "interval": "16w"
+                }
+              ],
+              "products": [
+                "hepb"
+              ],
+              "source": {
+                "pages": [
+                  115,
+                  170,
+                  144
+                ]
+              }
+            }
+          ]
+        },
+        "unknown": {
+          "same_as": "penta_hepb",
+          "note": "1개월 알림에 '6가 혼합백신을 맞을 예정이면 필요 없어요 - 병원에 확인' 문구 (Q25)"
+        }
+      },
+      "rules": [],
+      "source": {
+        "pages": [
+          115,
+          170,
+          97,
+          98,
+          45
+        ],
+        "note": "표준접종·표준 외 접종 표, 6가 연동"
+      }
+    },
+    {
+      "id": "bcg",
+      "label": "결핵 (BCG)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "0d",
+            "end": "4w"
+          },
+          "minAge": "0d",
+          "products": [
+            "bcg"
+          ],
+          "source": {
+            "pages": [
+              116,
+              170
+            ]
+          }
+        }
+      ],
+      "rules": [],
+      "seriesMaxAge": "5y",
+      "source": {
+        "pages": [
+          116,
+          170
+        ],
+        "note": "5세(생후 60개월) 미만까지 접종 가능, 3개월 이상은 TST 후 접종 - consult"
+      }
+    },
+    {
+      "id": "dtap",
+      "label": "디프테리아·파상풍·백일해 (DTaP/Tdap)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "2m"
+          },
+          "minAge": "6w",
+          "products": [
+            "dtap",
+            "dtap_ipv",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              117,
+              170
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "4m"
+          },
+          "minAge": "10w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "dtap",
+            "dtap_ipv",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              117,
+              170
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "kind": "primary",
+          "standard": {
+            "start": "6m"
+          },
+          "minAge": "14w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "dtap",
+            "dtap_ipv",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              117,
+              170
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "kind": "booster",
+          "standard": {
+            "start": "15m",
+            "end": "18m"
+          },
+          "minAge": "12m",
+          "minIntervalFromPrev": "6m",
+          "products": [
+            "dtap",
+            "dtap_ipv"
+          ],
+          "source": {
+            "pages": [
+              117,
+              170,
+              45,
+              286,
+              248
+            ]
+          },
+          "note": "dtap_ipv: p.286 Q&A 'DTaP 4차 권장시기의 DTaP-IPV 접종 시 DTaP 접종력은 유효'(IPV 몫은 최소 연령 4세 미달로 무효 - 4~6세 재접종). penta·hexa는 p.248 Q&A '기초접종용 허가 - 4차(Hib 추가) 접종에 권장하지 않음'으로 제외"
+        },
+        {
+          "n": 5,
+          "kind": "booster",
+          "standard": {
+            "start": "4y",
+            "end": "6y"
+          },
+          "minAge": "4y",
+          "minIntervalFromPrev": "6m",
+          "products": [
+            "dtap",
+            "dtap_ipv"
+          ],
+          "source": {
+            "pages": [
+              117,
+              170,
+              45
+            ]
+          }
+        },
+        {
+          "n": 6,
+          "kind": "booster",
+          "standard": {
+            "start": "11y",
+            "end": "12y"
+          },
+          "minAge": "11y",
+          "normalAfterConsultAge": true,
+          "products": [
+            "tdap"
+          ],
+          "source": {
+            "pages": [
+              117,
+              170,
+              45
+            ]
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "valid_with_alt_interval",
+          "dose": 4,
+          "minAge": "12m",
+          "minIntervalFromPrev": "4m"
+        },
+        {
+          "kind": "skip_dose_if_prev_at_age",
+          "dose": 5,
+          "ifDose": 4,
+          "givenAtOrAfter": "4y"
+        },
+        {
+          "kind": "tdap_slot",
+          "dose": 6,
+          "products": [
+            "tdap"
+          ],
+          "standard": {
+            "start": "11y",
+            "end": "12y"
+          }
+        }
+      ],
+      "source": {
+        "pages": [
+          117,
+          118,
+          119,
+          120,
+          170,
+          45
+        ],
+        "note": "7세 이상 따라잡기(p.118-120)는 consult. 6차(Tdap)만 차수 수준 normalAfterConsultAge"
+      }
+    },
+    {
+      "id": "ipv",
+      "label": "폴리오 (IPV)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "2m"
+          },
+          "minAge": "6w",
+          "products": [
+            "ipv",
+            "dtap_ipv",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              121,
+              170,
+              144
+            ]
+          },
+          "note": "p.121 표는 \"출생 시\", p.144 표준 외 최소 연령은 \"6주\" — 더 엄격한 6주 채택 (명박사 2026-10-28, 너무 이른 접종을 유효로 세지 않기 위함)"
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "4m"
+          },
+          "minAge": "10w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "ipv",
+            "dtap_ipv",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              121,
+              170,
+              144
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "kind": "primary",
+          "standard": {
+            "start": "6m",
+            "end": "18m"
+          },
+          "minAge": "14w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "ipv",
+            "dtap_ipv",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              121,
+              170,
+              144
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "kind": "booster",
+          "standard": {
+            "start": "4y",
+            "end": "6y"
+          },
+          "minAge": "4y",
+          "minIntervalFromPrev": "6m",
+          "products": [
+            "ipv",
+            "dtap_ipv"
+          ],
+          "source": {
+            "pages": [
+              121,
+              170,
+              45
+            ]
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "skip_dose_if_prev_at_age",
+          "dose": 4,
+          "ifDose": 3,
+          "givenAtOrAfter": "4y",
+          "ifDoseMinIntervalFromPrev": "6m"
+        }
+      ],
+      "source": {
+        "pages": [
+          121,
+          170,
+          144,
+          45
+        ],
+        "note": "1차 최소 연령: p.121 표준 외 접종 표 '출생 시' vs p.144 참고표 '생후 6주' - 6주 채택(p.145 각주1: 혼합백신은 성분 중 가장 높은 최소 연령; 명박사 2026-10-28). 3차 표준 6~18개월(p.121 표준 표, p.170 별표1, p.144). 4세 이후 3차가 2차와 6개월 이상이면 4차 생략(p.121 L5721-5722) - skip_dose_if_prev_at_age.ifDoseMinIntervalFromPrev"
+      }
+    },
+    {
+      "id": "hib",
+      "label": "b형 헤모필루스 인플루엔자 (Hib)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "2m"
+          },
+          "minAge": "6w",
+          "products": [
+            "hib",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              122,
+              171
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "4m"
+          },
+          "minAge": "10w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "hib",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              122,
+              171
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "kind": "primary",
+          "standard": {
+            "start": "6m"
+          },
+          "minAge": "14w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "hib",
+            "penta",
+            "hexa"
+          ],
+          "source": {
+            "pages": [
+              122,
+              171
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "kind": "booster",
+          "standard": {
+            "start": "12m",
+            "end": "15m"
+          },
+          "minAge": "12m",
+          "minIntervalFromPrev": "8w",
+          "products": [
+            "hib"
+          ],
+          "source": {
+            "pages": [
+              122,
+              171,
+              45
+            ]
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "age_band_total",
+          "notNeededFrom": "60m",
+          "bands": [
+            {
+              "firstDoseFrom": "0d",
+              "firstDoseTo": "6m",
+              "totalDoses": 4,
+              "primaryDoses": 3,
+              "primaryMinInterval": "4w",
+              "booster": {
+                "minAge": "12m",
+                "standard": {
+                  "start": "12m",
+                  "end": "15m"
+                },
+                "minIntervalFromPrev": "8w"
+              }
+            },
+            {
+              "firstDoseFrom": "7m",
+              "firstDoseTo": "11m",
+              "totalDoses": 3,
+              "primaryDoses": 2,
+              "primaryMinInterval": "4w",
+              "booster": {
+                "minAge": "12m",
+                "standard": {
+                  "start": "12m",
+                  "end": "15m"
+                },
+                "minIntervalFromPrev": "8w"
+              }
+            },
+            {
+              "firstDoseFrom": "12m",
+              "firstDoseTo": "14m",
+              "totalDoses": 2,
+              "primaryDoses": 1,
+              "booster": {
+                "minAge": "12m",
+                "minIntervalFromPrev": "8w"
+              }
+            },
+            {
+              "firstDoseFrom": "15m",
+              "firstDoseTo": "59m",
+              "totalDoses": 1,
+              "primaryDoses": 1
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pages": [
+          122,
+          123,
+          171
+        ],
+        "note": "첫 띠는 지침 '2~6개월'을 기록 없는 0~6주 아기까지 포함하도록 0d부터. 고위험군은 consult"
+      }
+    },
+    {
+      "id": "pcv",
+      "label": "폐렴구균 (PCV)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "2m"
+          },
+          "minAge": "6w",
+          "products": [
+            "pcv"
+          ],
+          "source": {
+            "pages": [
+              124,
+              171
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "4m"
+          },
+          "minAge": "10w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "pcv"
+          ],
+          "source": {
+            "pages": [
+              124,
+              171
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "kind": "primary",
+          "standard": {
+            "start": "6m"
+          },
+          "minAge": "14w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "pcv"
+          ],
+          "source": {
+            "pages": [
+              124,
+              171
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "kind": "booster",
+          "standard": {
+            "start": "12m",
+            "end": "15m"
+          },
+          "minAge": "12m",
+          "minIntervalFromPrev": "8w",
+          "products": [
+            "pcv"
+          ],
+          "source": {
+            "pages": [
+              124,
+              171
+            ]
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "age_band_total",
+          "notNeededFrom": "60m",
+          "bands": [
+            {
+              "firstDoseFrom": "0d",
+              "firstDoseTo": "6m",
+              "totalDoses": 4,
+              "primaryDoses": 3,
+              "primaryMinInterval": "4w",
+              "booster": {
+                "minAge": "12m",
+                "standard": {
+                  "start": "12m",
+                  "end": "15m"
+                },
+                "minIntervalFromPrev": "8w"
+              }
+            },
+            {
+              "firstDoseFrom": "7m",
+              "firstDoseTo": "11m",
+              "totalDoses": 3,
+              "primaryDoses": 2,
+              "primaryMinInterval": "4w",
+              "booster": {
+                "minAge": "12m",
+                "standard": {
+                  "start": "12m",
+                  "end": "15m"
+                },
+                "minIntervalFromPrev": "8w"
+              }
+            },
+            {
+              "firstDoseFrom": "12m",
+              "firstDoseTo": "23m",
+              "totalDoses": 2,
+              "primaryDoses": 2,
+              "primaryMinInterval": "8w"
+            },
+            {
+              "firstDoseFrom": "24m",
+              "firstDoseTo": "59m",
+              "totalDoses": 1,
+              "primaryDoses": 1
+            }
+          ]
+        }
+      ],
+      "source": {
+        "pages": [
+          124,
+          125,
+          171
+        ],
+        "note": "0~6개월 띠는 지연 표에 없어 표준접종에서 유도. 고위험군·보강접종은 consult"
+      }
+    },
+    {
+      "id": "rota",
+      "label": "로타바이러스",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "2m"
+          },
+          "minAge": "6w",
+          "maxAge": "14w6d",
+          "products": [
+            "rota_rv1",
+            "rota_rv5",
+            "rota_unknown"
+          ],
+          "source": {
+            "pages": [
+              127,
+              171
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "4m"
+          },
+          "minAge": "10w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "rota_rv1",
+            "rota_rv5",
+            "rota_unknown"
+          ],
+          "source": {
+            "pages": [
+              127,
+              171
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "kind": "primary",
+          "standard": {
+            "start": "6m"
+          },
+          "minAge": "14w",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "rota_rv5",
+            "rota_unknown"
+          ],
+          "source": {
+            "pages": [
+              127,
+              171
+            ]
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "product_dose_count",
+          "counts": {
+            "rota_rv1": 2,
+            "rota_rv5": 3,
+            "rota_unknown": 3
+          },
+          "anyOf": [
+            "rota_rv5",
+            "rota_unknown"
+          ],
+          "anyOfCount": 3
+        }
+      ],
+      "seriesMaxAge": "8m0d",
+      "source": {
+        "pages": [
+          127,
+          171,
+          97
+        ],
+        "note": "1차 최대 14주 6일, 8개월 0일 이후 접종하지 않음(두 값 모두 그날 포함)"
+      }
+    },
+    {
+      "id": "mmr",
+      "label": "홍역·유행성이하선염·풍진 (MMR)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "12m",
+            "end": "15m"
+          },
+          "minAge": "12m",
+          "noGrace": true,
+          "products": [
+            "mmr"
+          ],
+          "source": {
+            "pages": [
+              126,
+              111,
+              171
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "4y",
+            "end": "6y"
+          },
+          "minAge": "13m",
+          "minIntervalFromPrev": "4w",
+          "products": [
+            "mmr"
+          ],
+          "source": {
+            "pages": [
+              126,
+              171
+            ]
+          }
+        }
+      ],
+      "rules": [],
+      "source": {
+        "pages": [
+          126,
+          111,
+          114,
+          171,
+          144
+        ],
+        "note": "p.126 표 2번째 줄 '3차'는 2차의 오기(p.144 참고표는 2차 최소 13개월). 6~11개월 가속 접종은 횟수 불인정"
+      }
+    },
+    {
+      "id": "var",
+      "label": "수두",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "12m",
+            "end": "15m"
+          },
+          "minAge": "12m",
+          "noGrace": true,
+          "products": [
+            "var"
+          ],
+          "source": {
+            "pages": [
+              128,
+              111,
+              171
+            ]
+          }
+        }
+      ],
+      "rules": [],
+      "source": {
+        "pages": [
+          128,
+          111,
+          114,
+          171
+        ]
+      }
+    },
+    {
+      "id": "hepa",
+      "label": "A형간염",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "12m",
+            "end": "23m"
+          },
+          "minAge": "12m",
+          "products": [
+            "hepa"
+          ],
+          "source": {
+            "pages": [
+              129,
+              172
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "18m",
+            "end": "35m"
+          },
+          "minAge": "18m",
+          "minIntervalFromPrev": "6m",
+          "recommendedIntervalFromPrev": "6m",
+          "products": [
+            "hepa"
+          ],
+          "source": {
+            "pages": [
+              129,
+              172,
+              145
+            ]
+          },
+          "note": "표준 창 시작 18m: p.145 \"권장 18개월\" + 1차 12개월 + 6개월 권장 간격과 맞춤 (명박사 2026-10-28; p.129 칸은 24m)"
+        }
+      ],
+      "rules": [],
+      "source": {
+        "pages": [
+          129,
+          145,
+          172
+        ],
+        "note": "2차 시기는 1차 후 6~12개월(하브릭스·보령) 또는 6~18개월(박타) → recommendedIntervalFromPrev 6m. 2차 표준 창 18~35개월: 시작 p.145 권장 18개월, 끝 p.129 표준접종 표 칸(24~35개월)의 끝(근사)"
+      }
+    },
+    {
+      "id": "je_inact",
+      "label": "일본뇌염 (불활성화 백신)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "12m",
+            "end": "23m"
+          },
+          "minAge": "12m",
+          "products": [
+            "je_inact"
+          ],
+          "source": {
+            "pages": [
+              130,
+              172
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "13m",
+            "end": "23m"
+          },
+          "minAge": "12m",
+          "minIntervalFromPrev": "4w",
+          "recommendedIntervalFromPrev": "1m",
+          "products": [
+            "je_inact"
+          ],
+          "source": {
+            "pages": [
+              130,
+              172,
+              144,
+              131
+            ]
+          }
+        },
+        {
+          "n": 3,
+          "kind": "booster",
+          "standard": {
+            "start": "24m",
+            "end": "35m"
+          },
+          "minAge": "18m",
+          "minIntervalFromPrev": "6m",
+          "recommendedIntervalFromPrev": "11m",
+          "products": [
+            "je_inact"
+          ],
+          "source": {
+            "pages": [
+              130,
+              172,
+              131
+            ]
+          }
+        },
+        {
+          "n": 4,
+          "kind": "booster",
+          "standard": {
+            "start": "6y"
+          },
+          "minAge": "5y",
+          "minIntervalFromPrev": "2y",
+          "products": [
+            "je_inact"
+          ],
+          "source": {
+            "pages": [
+              130,
+              172,
+              144
+            ]
+          }
+        },
+        {
+          "n": 5,
+          "kind": "booster",
+          "standard": {
+            "start": "12y"
+          },
+          "minAge": "11y",
+          "minIntervalFromPrev": "5y",
+          "normalAfterConsultAge": true,
+          "products": [
+            "je_inact"
+          ],
+          "source": {
+            "pages": [
+              130,
+              172,
+              144
+            ]
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "skip_dose_if_prev_at_age",
+          "dose": 4,
+          "ifDose": 3,
+          "givenAtOrAfter": "48m"
+        },
+        {
+          "kind": "skip_dose_if_prev_at_age",
+          "dose": 5,
+          "ifDose": 4,
+          "givenAtOrAfter": "10y"
+        },
+        {
+          "kind": "skip_dose_if_prev_at_age",
+          "dose": 5,
+          "ifDose": 3,
+          "givenAtOrAfter": "10y"
+        }
+      ],
+      "source": {
+        "pages": [
+          130,
+          131,
+          172,
+          45
+        ],
+        "note": "2차는 1차 후 1개월, 3차는 2차 후 11개월(1차 후 1년) → recommendedIntervalFromPrev. 5차(12세)만 normalAfterConsultAge (D7 기본값)"
+      }
+    },
+    {
+      "id": "je_live",
+      "label": "일본뇌염 (약독화 생백신)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2013-01-01",
+        "sex": "any"
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "12m",
+            "end": "23m"
+          },
+          "minAge": "12m",
+          "products": [
+            "je_live"
+          ],
+          "source": {
+            "pages": [
+              130,
+              172
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "24m",
+            "end": "35m"
+          },
+          "minAge": "13m",
+          "minIntervalFromPrev": "4w",
+          "recommendedIntervalFromPrev": "12m",
+          "products": [
+            "je_live"
+          ],
+          "source": {
+            "pages": [
+              130,
+              131,
+              172
+            ]
+          }
+        }
+      ],
+      "rules": [],
+      "source": {
+        "pages": [
+          130,
+          131,
+          172
+        ],
+        "note": "2차는 1차 후 12개월 → recommendedIntervalFromPrev 12m"
+      }
+    },
+    {
+      "id": "hpv",
+      "label": "사람유두종바이러스 (HPV)",
+      "category": "nip",
+      "eligibility": {
+        "bornOnOrAfter": "2008-01-01",
+        "sex": "any",
+        "bornOnOrAfterBySex": {
+          "female": "2008-01-01",
+          "male": "2014-01-01"
+        },
+        "bornOnOrBeforeBySex": {
+          "male": "2014-12-31",
+          "female": "2014-12-31"
+        }
+      },
+      "doses": [
+        {
+          "n": 1,
+          "kind": "primary",
+          "standard": {
+            "start": "12y"
+          },
+          "minAge": "9y",
+          "normalAfterConsultAge": true,
+          "products": [
+            "hpv"
+          ],
+          "source": {
+            "pages": [
+              132,
+              172,
+              106,
+              145
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "kind": "primary",
+          "standard": {
+            "start": "12y"
+          },
+          "minAge": "9y",
+          "minIntervalFromPrev": "4w",
+          "recommendedIntervalFromPrev": "6m",
+          "normalAfterConsultAge": true,
+          "products": [
+            "hpv"
+          ],
+          "source": {
+            "pages": [
+              132,
+              172,
+              97,
+              145
+            ]
+          },
+          "note": "5개월 미만이면 유효하되 3차 필요 (extra_dose_if_short_interval)"
+        },
+        {
+          "n": 3,
+          "kind": "primary",
+          "standard": {
+            "start": "12y"
+          },
+          "minAge": "9y",
+          "minIntervalFromPrev": "12w",
+          "minIntervalFrom": [
+            {
+              "dose": 1,
+              "interval": "5m"
+            }
+          ],
+          "normalAfterConsultAge": true,
+          "products": [
+            "hpv"
+          ],
+          "source": {
+            "pages": [
+              132
+            ]
+          },
+          "note": "extra_dose_if_short_interval로만 필요해짐. 권장일 = 최소 조건을 채우는 날(standard 12y는 earliest보다 늦지 않게 두는 자리)"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "extra_dose_if_short_interval",
+          "dose": 2,
+          "ifIntervalFromPrevBelow": "5m",
+          "extraDose": 3
+        }
+      ],
+      "source": {
+        "pages": [
+          132,
+          106,
+          172,
+          97
+        ],
+        "note": "14세 이하 시작 2회 일정(0, 6~12개월). 2차가 1차 후 5개월 미만이면 extra_dose_if_short_interval로 3차 필요. 대상 출생: 여성 2008-01-01~2014-12-31, 남성 2014-01-01~2014-12-31 (p.106, 2026년 기준)"
+      }
+    }
+  ],
+  "flu": {
+    "eligibleAge": {
+      "from": "6m",
+      "to": "14y"
+    },
+    "season": {
+      "id": "2026-2027",
+      "start": "2026-09-21",
+      "end": "2027-04-30",
+      "recordFrom": "2026-07-01"
+    },
+    "firstTimeTwoDoses": {
+      "underAge": "9y",
+      "minInterval": "4w",
+      "ifPriorDosesBelow": 2
+    },
+    "source": {
+      "pages": [
+        106,
+        133,
+        134,
+        172
+      ],
+      "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=134",
+      "checkedAt": "2026-10-28",
+      "note": "대상 출생일은 eligibleBirth(2012-01-01~2026-08-31, p.106). 절기 시작·끝(2회·1회 대상 어린이 모두 2026-09-21~2027-04-30)은 지침에 없어 url 페이지로 확인. season.recordFrom(2026-07-01)은 예방접종도우미 2회 대상 판정 기준일(\"2026년 6월 30일까지 총 1회\")에 맞춤"
+    },
+    "eligibleBirth": {
+      "from": "2012-01-01",
+      "to": "2026-08-31"
+    }
+  },
+  "optional": [
+    {
+      "id": "men_acwy",
+      "label": "수막구균 ACWY",
+      "category": "optional",
+      "earliestAge": "6w",
+      "productsVary": true,
+      "season": null,
+      "verified": true,
+      "sourceUrl": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=202400487",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "id": "men_b",
+      "label": "수막구균 B",
+      "category": "optional",
+      "earliestAge": "2m",
+      "productsVary": true,
+      "season": null,
+      "verified": true,
+      "sourceUrl": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=202202108",
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "id": "rsv_mab",
+      "label": "RSV 예방 항체",
+      "category": "optional",
+      "earliestAge": "0d",
+      "productsVary": true,
+      "season": {
+        "start": "2026-10-01",
+        "end": "2027-03-31",
+        "firstSeasonOnly": true
+      },
+      "seasonSource": {
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=45",
+        "note": "RSV 유행 계절(10월~3월)",
+        "checkedAt": "2026-10-28"
+      },
+      "verified": true,
+      "sourceUrl": "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=202401068",
+      "checkedAt": "2026-10-28"
+    }
+  ]
+}
