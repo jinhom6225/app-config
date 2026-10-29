@@ -742,6 +742,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.insightmyung.jphousingalert"
       },
       "enabled": false
+    },
+    "classactionalert": {
+      "title": {
+        "en": "Class Action Alerts",
+        "ko": "미국 집단소송 알리미"
+      },
+      "description": {
+        "en": "Settlement claim deadline reminders",
+        "ko": "미국 집단소송 청구 마감 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/classactionalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.classactionalert"
+      },
+      "enabled": false
     }
   },
   "rules": {
@@ -778,13 +793,13 @@
     "liamlillian_wbc": ["liamlillian_mlb"],
 
     "weather_money_guide": ["energy_voucher", "unclaimedrefund"],
-    "mortgage_calculator": ["kr_briefing", "salary_ticker"],
+    "mortgage_calculator": ["kr_briefing", "salary_ticker", "classactionalert"],
     "energy_voucher": ["weather_money_guide", "unclaimedrefund"],
     "unclaimedrefund": ["energy_voucher", "weather_money_guide"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
     "kr_briefing": ["envelope_screener", "salary_ticker"],
-    "us_briefing": ["kr_briefing", "fire_calculator"],
+    "us_briefing": ["kr_briefing", "fire_calculator", "classactionalert"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["financial_radar", "salary_ticker"],
     "fire_calculator": ["financial_radar", "salary_ticker"],
@@ -802,6 +817,7 @@
 
     "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
 
-    "jphousingalert": ["salary_ticker", "rush_hour", "stretch_cat", "mlb_light", "j1_light"]
+    "jphousingalert": ["salary_ticker", "rush_hour", "stretch_cat", "mlb_light", "j1_light"],
+    "classactionalert": ["unclaimedrefund", "mortgage_calculator"]
   }
 }
