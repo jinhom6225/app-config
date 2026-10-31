@@ -57,6 +57,13 @@ class PagingTest(unittest.TestCase):
         self.assertEqual([r.param("implYy") for r in transport.requests], ["2026", "2027"])
         self.assertTrue(all(r.param("qualgbCd") == "T" and r.param("dataFormat") == "json" for r in transport.requests))
 
+    def test_qual_page_size_stays_within_the_api_limit(self):
+        # qualExamSchd answers resultCode 930 when numOfRows is over 50
+        # (first real run, 2026-10-31).
+        transport = PagedTransport([page([], 0)])
+        fetch_qual_rows(client(transport), (2026,))
+        self.assertTrue(all(int(r.param("numOfRows")) <= 50 for r in transport.requests))
+
     def test_always_list_skipped_when_endpoint_missing(self):
         logs = []
         transport = PagedTransport([], configured=False)
