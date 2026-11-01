@@ -772,6 +772,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.joe.certexamalert"
       },
       "enabled": false
+    },
+    "publicauctionalert": {
+      "title": {
+        "en": "Korea Public Auction Alerts",
+        "ko": "공매 알리미"
+      },
+      "description": {
+        "en": "New listings and price cuts in Onbid auctions",
+        "ko": "부동산 공매 새 물건·유찰 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/publicauctionalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.publicauctionalert"
+      },
+      "enabled": false
     }
   },
   "rules": {
@@ -813,12 +828,12 @@
     "unclaimedrefund": ["energy_voucher", "weather_money_guide", "certexamalert"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
-    "kr_briefing": ["envelope_screener", "salary_ticker"],
+    "kr_briefing": ["envelope_screener", "salary_ticker", "publicauctionalert"],
     "us_briefing": ["kr_briefing", "fire_calculator", "classactionalert"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["financial_radar", "salary_ticker"],
     "fire_calculator": ["financial_radar", "salary_ticker"],
-    "salary_ticker": ["kr_briefing", "financial_radar", "certexamalert"],
+    "salary_ticker": ["kr_briefing", "financial_radar", "certexamalert", "publicauctionalert"],
 
     "remtime": ["focusleep"],
 
@@ -834,6 +849,7 @@
 
     "jphousingalert": ["salary_ticker", "rush_hour", "stretch_cat", "mlb_light", "j1_light"],
     "classactionalert": ["unclaimedrefund", "mortgage_calculator"],
-    "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing"]
+    "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing", "publicauctionalert"],
+    "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"]
   }
 }
