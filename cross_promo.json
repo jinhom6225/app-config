@@ -757,6 +757,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.joe.classactionalert"
       },
       "enabled": false
+    },
+    "certexamalert": {
+      "title": {
+        "en": "Korea Cert Exam Alerts",
+        "ko": "자격증 시험일정 알림"
+      },
+      "description": {
+        "en": "Korean national exam schedule reminders",
+        "ko": "기사·기능사 접수·시험·발표 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/certexamalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.certexamalert"
+      },
+      "enabled": false
     }
   },
   "rules": {
@@ -795,7 +810,7 @@
     "weather_money_guide": ["energy_voucher", "unclaimedrefund"],
     "mortgage_calculator": ["kr_briefing", "salary_ticker", "classactionalert"],
     "energy_voucher": ["weather_money_guide", "unclaimedrefund"],
-    "unclaimedrefund": ["energy_voucher", "weather_money_guide"],
+    "unclaimedrefund": ["energy_voucher", "weather_money_guide", "certexamalert"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
     "kr_briefing": ["envelope_screener", "salary_ticker"],
@@ -803,7 +818,7 @@
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["financial_radar", "salary_ticker"],
     "fire_calculator": ["financial_radar", "salary_ticker"],
-    "salary_ticker": ["kr_briefing", "financial_radar"],
+    "salary_ticker": ["kr_briefing", "financial_radar", "certexamalert"],
 
     "remtime": ["focusleep"],
 
@@ -818,6 +833,7 @@
     "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
 
     "jphousingalert": ["salary_ticker", "rush_hour", "stretch_cat", "mlb_light", "j1_light"],
-    "classactionalert": ["unclaimedrefund", "mortgage_calculator"]
+    "classactionalert": ["unclaimedrefund", "mortgage_calculator"],
+    "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing"]
   }
 }
