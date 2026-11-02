@@ -800,7 +800,7 @@
     "bundesliga_light": ["laliga_light"],
     "french_ligue": ["epl_light", "laliga_light"],
     "mls_light": ["epl_light", "f1_light"],
-    "j1_light": ["epl_light", "jphousingalert"],
+    "j1_light": ["epl_light"],
 
     "cl_football_highlights": ["mlb_light"],
     "uefa_europa_league": ["mlb_light"],
@@ -847,7 +847,7 @@
 
     "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
 
-    "jphousingalert": ["salary_ticker", "rush_hour", "stretch_cat", "mlb_light", "j1_light"],
+    "jphousingalert": [],
     "classactionalert": ["unclaimedrefund", "mortgage_calculator"],
     "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing", "publicauctionalert"],
     "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"]
