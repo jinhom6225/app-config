@@ -741,7 +741,7 @@
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.insightmyung.jphousingalert"
       },
-      "enabled": false
+      "enabled": true
     },
     "classactionalert": {
       "title": {
@@ -800,7 +800,7 @@
     "bundesliga_light": ["laliga_light"],
     "french_ligue": ["epl_light", "laliga_light"],
     "mls_light": ["epl_light", "f1_light"],
-    "j1_light": ["epl_light"],
+    "j1_light": ["epl_light", "jphousingalert"],
 
     "cl_football_highlights": ["mlb_light"],
     "uefa_europa_league": ["mlb_light"],
