@@ -743,6 +743,21 @@
       },
       "enabled": true
     },
+    "downpaymentalert": {
+      "title": {
+        "en": "Down Payment Help: DPA Alerts",
+        "es": "Primera Casa: Ayuda y Alertas"
+      },
+      "description": {
+        "en": "Down payment help alerts by state",
+        "es": "Alertas de ayuda para el pago inicial"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/downpaymentalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.downpaymentalert"
+      },
+      "enabled": true
+    },
     "classactionalert": {
       "title": {
         "en": "Class Action Alerts",
@@ -850,6 +865,7 @@
     "jphousingalert": [],
     "classactionalert": ["unclaimedrefund", "mortgage_calculator"],
     "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing", "publicauctionalert"],
-    "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"]
+    "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"],
+    "downpaymentalert": []
   }
 }
