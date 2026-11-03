@@ -743,6 +743,21 @@
       },
       "enabled": true
     },
+    "liheapalert": {
+      "title": {
+        "en": "Energy Bill Help: LIHEAP Guide",
+        "es": "Ayuda Luz y Gas: Guía LIHEAP"
+      },
+      "description": {
+        "en": "Heating bill help dates by state",
+        "es": "Fechas de ayuda para la calefacción"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liheapalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.liheapalert"
+      },
+      "enabled": true
+    },
     "downpaymentalert": {
       "title": {
         "en": "Down Payment Help: DPA Alerts",
@@ -866,6 +881,7 @@
     "classactionalert": ["unclaimedrefund", "mortgage_calculator"],
     "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing", "publicauctionalert"],
     "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"],
-    "downpaymentalert": []
+    "downpaymentalert": [],
+    "liheapalert": []
   }
 }
