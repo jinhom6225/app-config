@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 2,
-  "updatedAt": "2026-11-05",
+  "version": 3,
+  "updatedAt": "2026-11-06",
   "aca": {
     "federal": {
       "name": "HealthCare.gov",
@@ -35,107 +35,6 @@
     }
   },
   "states": [
-    {
-      "code": "NY",
-      "name": {
-        "en": "New York",
-        "es": "Nueva York"
-      },
-      "tier": "medicaid_aca",
-      "aca": {
-        "exchange": "state",
-        "name": "NY State of Health",
-        "url": "https://nystateofhealth.ny.gov/",
-        "esUrl": "https://nystateofhealth.ny.gov/?lang=es",
-        "helpUrl": "https://info.nystateofhealth.ny.gov/findassistor",
-        "calculatorUrl": "https://nystateofhealth.ny.gov/individual",
-        "phone": "1-855-355-5777",
-        "start": "2026-11-01",
-        "jan1Deadline": "2026-12-15",
-        "finalDeadline": "2027-01-31",
-        "status": "expected",
-        "note": {
-          "en": "Last year, you had to enroll by Dec 15 for coverage that starts Jan 1. NY State of Health has not posted this date for 2027 yet.",
-          "es": "El año pasado, tenía que inscribirse a más tardar el 15 de diciembre para tener cobertura desde el 1 de enero. NY State of Health aún no ha publicado esta fecha para 2027."
-        },
-        "sources": [
-          {
-            "url": "https://info.nystateofhealth.ny.gov/OutreachToolKit",
-            "checkedAt": "2026-10-22"
-          },
-          {
-            "url": "https://info.nystateofhealth.ny.gov/enrollment",
-            "checkedAt": "2026-10-22"
-          },
-          {
-            "url": "https://info.nystateofhealth.ny.gov/news/press-release-new-york-state-department-health-announces-open-enrollment-2026-coverage",
-            "checkedAt": "2026-10-22"
-          }
-        ]
-      },
-      "medicaid": {
-        "programName": "Medicaid",
-        "agency": {
-          "en": "New York State Department of Health (NY State of Health)",
-          "es": "Departamento de Salud del Estado de Nueva York (NY State of Health)"
-        },
-        "url": "https://www.health.ny.gov/health_care/medicaid/",
-        "renewalUrl": "https://info.nystateofhealth.ny.gov/how-renew-your-health-insurance",
-        "applyUrl": "https://nystateofhealth.ny.gov/",
-        "esUrl": "https://info.nystateofhealth.ny.gov/sites/default/files/Changes_to_Medicaid_Coverage_Fact_Sheet_July_2026_Spanish.pdf",
-        "phone": "1-855-355-5777",
-        "workRule": {
-          "status": "scheduled",
-          "effectiveDate": "2027-01-01",
-          "delayedUntil": null,
-          "firstCheck": {
-            "rule": "renewals_on_or_after",
-            "date": "2027-03-01",
-            "status": "confirmed",
-            "note": {
-              "en": "New York starts checking at renewals on or after March 1, 2027. If you renew in January or February 2027, you are checked at your next renewal. Find your renewal date in your NY State of Health account.",
-              "es": "Nueva York empieza a revisar en las renovaciones a partir del 1 de marzo de 2027. Si renueva en enero o febrero de 2027, lo revisan en su próxima renovación. Busque su fecha de renovación en su cuenta de NY State of Health."
-            }
-          },
-          "hardshipNotAdopted": [],
-          "sources": [
-            {
-              "url": "https://info.nystateofhealth.ny.gov/HR1-Tool-Kit",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://info.nystateofhealth.ny.gov/stay-covered",
-              "checkedAt": "2026-10-22"
-            }
-          ]
-        },
-        "renewalCycle": {
-          "sixMonthStart": "2027-03-01",
-          "beforeStartMonths": 12,
-          "status": "confirmed",
-          "sources": [
-            {
-              "url": "https://info.nystateofhealth.ny.gov/stay-covered",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://info.nystateofhealth.ny.gov/HR1-Tool-Kit",
-              "checkedAt": "2026-10-22"
-            }
-          ]
-        },
-        "sources": [
-          {
-            "url": "https://www.health.ny.gov/health_care/medicaid/",
-            "checkedAt": "2026-10-22"
-          },
-          {
-            "url": "https://info.nystateofhealth.ny.gov/how-renew-your-health-insurance",
-            "checkedAt": "2026-10-22"
-          }
-        ]
-      }
-    },
     {
       "code": "NJ",
       "name": {
