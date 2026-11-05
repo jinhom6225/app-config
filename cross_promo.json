@@ -817,11 +817,26 @@
         "android": "https://play.google.com/store/apps/details?id=com.joe.publicauctionalert"
       },
       "enabled": false
+    },
+    "kids_video_cards": {
+      "title": {
+        "ko": "우리아이 영상카드",
+        "en": "Kids Video Cards"
+      },
+      "description": {
+        "ko": "부모가 고른 영상만 보는 카드",
+        "en": "Parent-picked videos for kids"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kids_video_cards.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.kids_video_cards"
+      },
+      "enabled": true
     }
   },
   "rules": {
     "mlb_light": ["nfl_light", "epl_light"],
-    "kbo_light": ["mlb_light", "epl_light"],
+    "kbo_light": ["mlb_light", "epl_light", "kids_video_cards"],
     "wbc_light": ["mlb_light"],
 
     "epl_light": ["laliga_light", "f1_light"],
@@ -843,12 +858,12 @@
     "nba2_light": ["nfl_light", "nhl_light"],
     "nhl_light": ["nba_light", "nfl_light"],
 
-    "kovo_light": ["kr_briefing", "envelope_screener"],
+    "kovo_light": ["kr_briefing", "envelope_screener", "kids_video_cards"],
     "svleague_light": ["kovo_light"],
 
     "rush_hour": ["pinch_orbit", "stretch_cat"],
 
-    "liamlillian_kbo": ["mlb_light", "epl_light"],
+    "liamlillian_kbo": ["mlb_light", "epl_light", "kids_video_cards"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
@@ -858,7 +873,7 @@
     "unclaimedrefund": ["energy_voucher", "weather_money_guide", "certexamalert"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
-    "kr_briefing": ["envelope_screener", "salary_ticker", "publicauctionalert"],
+    "kr_briefing": ["envelope_screener", "salary_ticker", "publicauctionalert", "kids_video_cards"],
     "us_briefing": ["kr_briefing", "fire_calculator", "classactionalert"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["financial_radar", "salary_ticker"],
@@ -882,6 +897,7 @@
     "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing", "publicauctionalert"],
     "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"],
     "downpaymentalert": [],
-    "liheapalert": []
+    "liheapalert": [],
+    "kids_video_cards": []
   }
 }
