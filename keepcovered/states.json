@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 1,
-  "updatedAt": "2026-10-22",
+  "version": 2,
+  "updatedAt": "2026-11-05",
   "aca": {
     "federal": {
       "name": "HealthCare.gov",
@@ -16,16 +16,12 @@
       "status": "confirmed",
       "sources": [
         {
-          "url": "https://www.cms.gov/files/document/ftr-requirement-py26-27-statement.pdf",
-          "checkedAt": "2026-10-22"
-        },
-        {
           "url": "https://www.healthcare.gov/quick-guide/dates-and-deadlines/",
-          "checkedAt": "2026-10-22"
+          "checkedAt": "2026-11-05"
         },
         {
           "url": "https://www.cuidadodesalud.gov/es/quick-guide/dates-and-deadlines/",
-          "checkedAt": "2026-10-22"
+          "checkedAt": "2026-11-05"
         },
         {
           "url": "https://www.healthcare.gov/see-plans/",
@@ -188,9 +184,9 @@
           "en": "New Jersey Department of Human Services, Division of Medical Assistance and Health Services (DMAHS)",
           "es": "Departamento de Servicios Humanos de Nueva Jersey, División de Asistencia Médica y Servicios de Salud (DMAHS)"
         },
-        "url": "https://njfamilycare.dhs.state.nj.us/",
+        "url": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare",
         "renewalUrl": "https://www.nj.gov/humanservices/dmahs/obbba/work-requirements/",
-        "applyUrl": "https://njfamilycare.dhs.state.nj.us/apply.aspx",
+        "applyUrl": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare",
         "esUrl": "https://www.nj.gov/humanservices/dmahs/obbba/medicaid-federal-changes-sp.shtml",
         "phone": "1-800-701-0710",
         "workRule": {
@@ -235,8 +231,8 @@
         },
         "sources": [
           {
-            "url": "https://njfamilycare.dhs.state.nj.us/",
-            "checkedAt": "2026-10-22"
+            "url": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare",
+            "checkedAt": "2026-11-05"
           },
           {
             "url": "https://www.nj.gov/humanservices/dmahs/obbba/work-requirements/",
@@ -622,10 +618,6 @@
               "checkedAt": "2026-10-22"
             },
             {
-              "url": "https://hcpf.colorado.gov/hr1-key-changes",
-              "checkedAt": "2026-10-22"
-            },
-            {
               "url": "https://www.healthfirstcolorado.gov/changes-are-coming-to-health-first-colorado-colorados-medicaid-program/work-requirements/",
               "checkedAt": "2026-10-22"
             }
@@ -643,10 +635,6 @@
             {
               "url": "https://www.healthfirstcolorado.gov/changes-are-coming-to-health-first-colorado-colorados-medicaid-program/6-month-renewals/",
               "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://hcpf.colorado.gov/hr1-key-changes",
-              "checkedAt": "2026-10-22"
             }
           ]
         },
@@ -656,8 +644,8 @@
             "checkedAt": "2026-10-22"
           },
           {
-            "url": "https://hcpf.colorado.gov/hr1-key-changes",
-            "checkedAt": "2026-10-22"
+            "url": "https://www.healthfirstcolorado.gov/about-us/",
+            "checkedAt": "2026-11-05"
           }
         ]
       }
@@ -730,10 +718,6 @@
             {
               "url": "https://www.hca.wa.gov/assets/free-or-low-cost/hr1-work-requirements-and-renewals-fact-sheet.pdf",
               "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://www.wahbexchange.org/content/dam/materials/communications/committees-and-workgroups/advisory/2026/HR1_Medicaid_Impacts_042326.pdf",
-              "checkedAt": "2026-10-22"
             }
           ]
         },
@@ -795,10 +779,6 @@
           },
           {
             "url": "https://nevadahealthlink.com/wp-content/uploads/2026/10/NVHL-PR-PlanPreview-PY27.pdf",
-            "checkedAt": "2026-10-22"
-          },
-          {
-            "url": "https://doi.nv.gov/News_Notices/Press_Releases/October_1,_2026_-_Discover_Your_Best_Health_Plan__2027_Rates_and_Options_for_Open_Enrollment/",
             "checkedAt": "2026-10-22"
           },
           {
@@ -915,10 +895,6 @@
             "checkedAt": "2026-10-22"
           },
           {
-            "url": "https://osi.state.nm.us/en/news/pr-2026-09-01/",
-            "checkedAt": "2026-10-22"
-          },
-          {
             "url": "https://bewellnm.com/contact/",
             "checkedAt": "2026-10-22"
           }
@@ -960,10 +936,6 @@
             },
             {
               "url": "https://www.hca.nm.gov/wp-content/uploads/Medicaid-HR1-Impacted-Populations-Summary_v3.4.pdf",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-pushes-for-more-time-to-protect-medicaid-coverage",
               "checkedAt": "2026-10-22"
             }
           ]
@@ -1071,14 +1043,6 @@
             {
               "url": "https://www.oregon.gov/oha/HSD/OHP/OHPLetters/ONE-Outreach-Notice-EN.pdf",
               "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeMeetingDocument/317583",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-pushes-for-more-time-to-protect-medicaid-coverage",
-              "checkedAt": "2026-10-22"
             }
           ]
         },
@@ -1093,14 +1057,6 @@
             },
             {
               "url": "https://www.oregon.gov/oha/HSD/OHP/Tools/More-Frequent-Renewals-EN.pdf",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeMeetingDocument/317583",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://www.medicaid.gov/medicaid/section-1115-demonstrations/downloads/or-health-plan_overlay-09252026.pdf",
               "checkedAt": "2026-10-22"
             },
             {
@@ -1131,9 +1087,9 @@
       "aca": {
         "exchange": "state",
         "name": "Massachusetts Health Connector",
-        "url": "https://www.mahealthconnector.org/",
-        "esUrl": "https://www.mahealthconnector.org/es/",
-        "helpUrl": "https://www.mahealthconnector.org/help-center/in-person-help",
+        "url": "https://betterhealthconnector.com/",
+        "esUrl": "https://betterhealthconnector.com/es/",
+        "helpUrl": "https://betterhealthconnector.com/help-center/in-person-help",
         "calculatorUrl": "https://betterhealthconnector.com/get-an-estimate",
         "phone": "1-877-623-6765",
         "start": "2026-10-23",
@@ -1141,29 +1097,29 @@
         "finalDeadline": "2027-01-23",
         "status": "confirmed",
         "note": {
-          "en": "Open Enrollment starts Oct 23, earlier than in most states. Enroll and pay by Dec 23 to be covered on Jan 1.",
-          "es": "La inscripción abierta empieza el 23 de octubre, antes que en la mayoría de los estados. Inscríbase y pague a más tardar el 23 de diciembre para tener cobertura el 1 de enero."
+          "en": "Open Enrollment starts Oct 23, earlier than usual. Enroll and pay by Dec 23 to be covered on Jan 1.",
+          "es": "La inscripción abierta empieza el 23 de octubre, antes de lo habitual. Inscríbase y pague a más tardar el 23 de diciembre para tener cobertura el 1 de enero."
         },
         "sources": [
           {
-            "url": "https://www.mahealthconnector.org/updates",
-            "checkedAt": "2026-10-22"
+            "url": "https://betterhealthconnector.com/updates",
+            "checkedAt": "2026-11-05"
           },
           {
-            "url": "https://www.mahealthconnector.org/about/pressroom/social-media-toolkit/pre-open-enrollment-2027-toolkit",
-            "checkedAt": "2026-10-22"
+            "url": "https://betterhealthconnector.com/about/pressroom/social-media-toolkit/pre-open-enrollment-2027-toolkit",
+            "checkedAt": "2026-11-05"
           }
         ]
       },
       "medicaid": {
         "programName": "MassHealth",
         "agency": {
-          "en": "MassHealth (Executive Office of Health and Human Services)",
-          "es": "MassHealth (Oficina Ejecutiva de Salud y Servicios Humanos)"
+          "en": "MassHealth",
+          "es": "MassHealth"
         },
-        "url": "https://www.mass.gov/orgs/masshealth",
-        "renewalUrl": "https://www.mass.gov/how-to/renew-your-masshealth-coverage",
-        "applyUrl": "https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan",
+        "url": "https://www.masshealthchoices.com/",
+        "renewalUrl": "https://www.masshealthchoices.com/",
+        "applyUrl": "https://betterhealthconnector.com/start",
         "esUrl": null,
         "phone": "1-800-841-2900",
         "workRule": {
@@ -1175,19 +1131,23 @@
             "date": "2027-01-01",
             "status": "expected",
             "note": {
-              "en": "MassHealth says the work rule starts at your first renewal of 2027. It has not said which month comes first.",
-              "es": "MassHealth dice que el requisito de trabajo empieza en su primera renovación de 2027. Todavía no dice qué mes es el primero."
+              "en": "Federal rules say the work rule starts Jan 1, 2027 and is checked when your Medicaid is renewed.",
+              "es": "Las reglas federales dicen que el requisito de trabajo empieza el 1 de enero de 2027 y se revisa cuando se renueva su Medicaid."
             }
           },
           "hardshipNotAdopted": [],
           "sources": [
             {
-              "url": "https://www.mass.gov/info-details/new-work-and-education-requirements-for-masshealth-members",
-              "checkedAt": "2026-10-22"
+              "url": "https://www.cms.gov/newsroom/fact-sheets/medicaid-community-engagement-requirement-certain-individuals-interim-final-rule-comment-period-cms",
+              "checkedAt": "2026-11-05"
             },
             {
-              "url": "https://www.mass.gov/federal-changes-affecting-masshealth-medicaid-members",
-              "checkedAt": "2026-10-22"
+              "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+              "checkedAt": "2026-11-05"
+            },
+            {
+              "url": "https://brockton.gov/news/changes-coming-to-masshealth/",
+              "checkedAt": "2026-11-05"
             }
           ]
         },
@@ -1197,19 +1157,23 @@
           "status": "expected",
           "sources": [
             {
-              "url": "https://www.mass.gov/info-details/more-frequent-renewals-for-masshealth-members",
-              "checkedAt": "2026-10-22"
+              "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/pdf/PLAW-119publ21.pdf",
+              "checkedAt": "2026-11-05"
+            },
+            {
+              "url": "https://brockton.gov/news/changes-coming-to-masshealth/",
+              "checkedAt": "2026-11-05"
             }
           ]
         },
         "sources": [
           {
-            "url": "https://www.mass.gov/how-to/renew-your-masshealth-coverage",
-            "checkedAt": "2026-10-22"
+            "url": "https://betterhealthconnector.com/about/contact",
+            "checkedAt": "2026-11-05"
           },
           {
-            "url": "https://www.mass.gov/orgs/masshealth",
-            "checkedAt": "2026-10-22"
+            "url": "https://www.cms.gov/cciio/resources/consumer-assistance-grants/ma",
+            "checkedAt": "2026-11-05"
           }
         ]
       }
@@ -1468,10 +1432,10 @@
           "en": "Rhode Island Executive Office of Health and Human Services (EOHHS) and Department of Human Services (DHS)",
           "es": "Oficina Ejecutiva de Salud y Servicios Humanos de Rhode Island (EOHHS) y Departamento de Servicios Humanos (DHS)"
         },
-        "url": "https://staycovered.ri.gov/",
-        "renewalUrl": "https://staycovered.ri.gov/renew-your-medicaid",
-        "applyUrl": "https://staycovered.ri.gov/apply-medicaid",
-        "esUrl": "https://staycovered.ri.gov/sites/g/files/xkgbur951/files/2026-08/RI_Medicaid_Work_Requirements_FAQs_Spanish.pdf",
+        "url": "https://healthsourceri.com/medicaid/",
+        "renewalUrl": "https://healthyrhode.ri.gov/",
+        "applyUrl": "https://healthsourceri.com/medicaid/",
+        "esUrl": "https://healthsourceri.com/es/medicaid/",
         "phone": "1-855-697-4347",
         "workRule": {
           "status": "scheduled",
@@ -1482,23 +1446,19 @@
             "date": "2027-01-01",
             "status": "expected",
             "note": {
-              "en": "Rhode Island says checks begin at your first renewal in 2027. The state says its plans may still change.",
-              "es": "Rhode Island dice que la revisión empieza en su primera renovación de 2027. El estado dice que sus planes aún pueden cambiar."
+              "en": "Rhode Island says work requirements and 6-month renewals for some adults start in January 2027.",
+              "es": "Rhode Island dice que el requisito de trabajo y las renovaciones cada 6 meses para algunos adultos empiezan en enero de 2027."
             }
           },
           "hardshipNotAdopted": [],
           "sources": [
             {
-              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/work-requirements",
-              "checkedAt": "2026-10-22"
+              "url": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2026-09/_PU%20405%20October%202026.pdf",
+              "checkedAt": "2026-11-05"
             },
             {
-              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/provider-community-partner-faqs",
-              "checkedAt": "2026-10-22"
-            },
-            {
-              "url": "https://staycovered.ri.gov/sites/g/files/xkgbur951/files/2026-03/HR%201%20Overview%20flyer_March%202026%20%282%29.pdf",
-              "checkedAt": "2026-10-22"
+              "url": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2026-04/MAC%204.15.26%20Meeting%20Minutes_Final.pdf",
+              "checkedAt": "2026-11-05"
             }
           ]
         },
@@ -1508,27 +1468,27 @@
           "status": "expected",
           "sources": [
             {
-              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/6-month-renewals",
-              "checkedAt": "2026-10-22"
+              "url": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2026-09/_PU%20405%20October%202026.pdf",
+              "checkedAt": "2026-11-05"
             },
             {
-              "url": "https://staycovered.ri.gov/updates-news/medicaid-updates/provider-community-partner-faqs",
-              "checkedAt": "2026-10-22"
+              "url": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2026-04/MAC%204.15.26%20Meeting%20Minutes_Final.pdf",
+              "checkedAt": "2026-11-05"
             }
           ]
         },
         "sources": [
           {
-            "url": "https://staycovered.ri.gov/renew-your-medicaid",
-            "checkedAt": "2026-10-22"
+            "url": "https://www.ri.gov/EOHHS/medicaid_renewal",
+            "checkedAt": "2026-11-05"
           },
           {
-            "url": "https://staycovered.ri.gov/apply-medicaid",
-            "checkedAt": "2026-10-22"
+            "url": "https://healthsourceri.com/medicaid/",
+            "checkedAt": "2026-11-05"
           },
           {
-            "url": "https://staycovered.ri.gov/sites/g/files/xkgbur951/files/2023-04/Best%20Ways%20to%20Contact%20Us%204.19.23.pdf",
-            "checkedAt": "2026-10-22"
+            "url": "https://healthyrhode.ri.gov/HIXWebI3/DisplayCheckAccount.action",
+            "checkedAt": "2026-11-05"
           }
         ]
       }
@@ -1561,10 +1521,10 @@
           "en": "Texas Health and Human Services Commission (HHSC)",
           "es": "Comisión de Salud y Servicios Humanos de Texas (HHSC)"
         },
-        "url": "https://www.hhs.texas.gov/services/health/medicaid-chip",
+        "url": "https://www.yourtexasbenefits.com/Learn/Home",
         "renewalUrl": "https://www.yourtexasbenefits.com",
         "applyUrl": "https://www.yourtexasbenefits.com",
-        "esUrl": "https://www.hhs.texas.gov/es/servicios/salud/medicaid-chip",
+        "esUrl": "https://www.yourtexasbenefits.com/Learn/Home?lang=es_ES",
         "phone": "1-877-541-7905",
         "workRule": {
           "status": "not_applicable",
@@ -1577,20 +1537,12 @@
         "renewalCycle": null,
         "sources": [
           {
-            "url": "https://www.hhs.texas.gov/services/health/medicaid-chip",
-            "checkedAt": "2026-10-22"
-          },
-          {
-            "url": "https://www.hhs.texas.gov/services/questions-about-your-benefits",
-            "checkedAt": "2026-10-22"
-          },
-          {
-            "url": "https://www.hhs.texas.gov/contact",
-            "checkedAt": "2026-10-22"
-          },
-          {
             "url": "https://www.yourtexasbenefits.com/Learn/Home",
-            "checkedAt": "2026-10-22"
+            "checkedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.cms.gov/cciio/resources/consumer-assistance-grants/tx",
+            "checkedAt": "2026-11-05"
           }
         ]
       }
@@ -1624,8 +1576,8 @@
           "es": "Departamento de Niños y Familias de Florida (DCF)"
         },
         "url": "https://www.myflfamilies.com/medicaid",
-        "renewalUrl": "https://myaccess.myflfamilies.com/",
-        "applyUrl": "https://myaccess.myflfamilies.com/",
+        "renewalUrl": "https://www.myflfamilies.com/services/public-assistance",
+        "applyUrl": "https://www.myflfamilies.com/services/public-assistance",
         "esUrl": "https://www.myflfamilies.com/medicaid-atencion-medica-para-usted",
         "phone": "1-850-300-4323",
         "workRule": {
@@ -1649,6 +1601,10 @@
           {
             "url": "https://www.myflfamilies.com/medicaid-atencion-medica-para-usted",
             "checkedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.myflfamilies.com/services/public-assistance",
+            "checkedAt": "2026-11-05"
           }
         ]
       }
