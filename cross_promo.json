@@ -170,6 +170,23 @@
       },
       "enabled": true
     },
+    "omok": {
+      "title": {
+        "ko": "오목 혼자하기",
+        "en": "Omok Solo",
+        "ja": "五目並べ ひとりで"
+      },
+      "description": {
+        "ko": "인터넷 없이 컴퓨터와 두는 오목",
+        "en": "Offline gomoku vs computer",
+        "ja": "オフラインでCPUと五目並べ"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/omok.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.omok"
+      },
+      "enabled": false
+    },
     "serie_light": {
       "title": {
         "ko": "세리에A 하이라이트",
@@ -861,7 +878,7 @@
     "kovo_light": ["svleague_light"],
     "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["pinch_orbit", "stretch_cat"],
+    "rush_hour": ["pinch_orbit", "stretch_cat", "omok"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
@@ -870,7 +887,7 @@
     "mortgage_calculator": ["salary_ticker", "classactionalert"],
     "energy_voucher": ["unclaimedrefund"],
     "unclaimedrefund": ["energy_voucher", "certexamalert"],
-    "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
+    "klotski": ["rush_hour", "pinch_orbit", "stretch_cat", "omok"],
 
     "kr_briefing": ["envelope_screener", "salary_ticker"],
     "us_briefing": ["kr_briefing", "classactionalert"],
@@ -887,9 +904,11 @@
     "f1_light": ["epl_light", "nba_light"],
     "cricket_light": ["epl_light", "f1_light"],
 
-    "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
+    "pinch_orbit": ["rush_hour", "klotski", "stretch_cat", "omok"],
 
-    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
+    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit", "omok"],
+
+    "omok": ["rush_hour", "klotski", "pinch_orbit", "stretch_cat"],
 
     "jphousingalert": [],
     "classactionalert": ["unclaimedrefund", "salary_ticker"],
