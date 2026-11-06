@@ -836,15 +836,15 @@
   },
   "rules": {
     "mlb_light": ["nfl_light", "epl_light"],
-    "kbo_light": ["mlb_light", "epl_light", "kids_video_cards"],
+    "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
-    "epl_light": ["laliga_light", "f1_light"],
+    "epl_light": ["laliga_light"],
     "serie_light": ["epl_light", "laliga_light"],
     "laliga_light": ["epl_light", "serie_light"],
     "bundesliga_light": ["laliga_light"],
     "french_ligue": ["epl_light", "laliga_light"],
-    "mls_light": ["epl_light", "f1_light"],
+    "mls_light": ["epl_light"],
     "j1_light": ["epl_light"],
 
     "cl_football_highlights": ["mlb_light"],
@@ -854,31 +854,30 @@
 
     "nfl_light": ["nba_light", "nhl_light"],
     "nfl2_light": ["nba_light"],
-    "nba_light": ["nhl_light", "nfl_light", "f1_light"],
+    "nba_light": ["nhl_light", "nfl_light"],
     "nba2_light": ["nfl_light", "nhl_light"],
     "nhl_light": ["nba_light", "nfl_light"],
 
-    "kovo_light": ["kr_briefing", "envelope_screener", "kids_video_cards"],
+    "kovo_light": ["svleague_light"],
     "svleague_light": ["kovo_light"],
 
     "rush_hour": ["pinch_orbit", "stretch_cat"],
 
-    "liamlillian_kbo": ["mlb_light", "epl_light", "kids_video_cards"],
+    "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
-    "weather_money_guide": ["energy_voucher", "unclaimedrefund"],
-    "mortgage_calculator": ["kr_briefing", "salary_ticker", "classactionalert"],
-    "energy_voucher": ["weather_money_guide", "unclaimedrefund"],
-    "unclaimedrefund": ["energy_voucher", "weather_money_guide", "certexamalert"],
+    "mortgage_calculator": ["salary_ticker", "classactionalert"],
+    "energy_voucher": ["unclaimedrefund"],
+    "unclaimedrefund": ["energy_voucher", "certexamalert"],
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
-    "kr_briefing": ["envelope_screener", "salary_ticker", "publicauctionalert", "kids_video_cards"],
-    "us_briefing": ["kr_briefing", "fire_calculator", "classactionalert"],
+    "kr_briefing": ["envelope_screener", "salary_ticker"],
+    "us_briefing": ["kr_briefing", "classactionalert"],
     "financial_radar": ["fire_calculator", "kr_briefing"],
     "envelope_screener": ["financial_radar", "salary_ticker"],
     "fire_calculator": ["financial_radar", "salary_ticker"],
-    "salary_ticker": ["kr_briefing", "financial_radar", "certexamalert", "publicauctionalert"],
+    "salary_ticker": ["kr_briefing", "financial_radar"],
 
     "remtime": ["focusleep"],
 
@@ -893,9 +892,9 @@
     "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
 
     "jphousingalert": [],
-    "classactionalert": ["unclaimedrefund", "mortgage_calculator"],
-    "certexamalert": ["salary_ticker", "unclaimedrefund", "kr_briefing", "publicauctionalert"],
-    "publicauctionalert": ["salary_ticker", "kr_briefing", "unclaimedrefund", "certexamalert"],
+    "classactionalert": ["unclaimedrefund", "salary_ticker"],
+    "certexamalert": ["salary_ticker", "unclaimedrefund"],
+    "publicauctionalert": ["salary_ticker", "certexamalert"],
     "downpaymentalert": [],
     "liheapalert": [],
     "kids_video_cards": []
