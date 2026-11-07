@@ -887,7 +887,7 @@
     "mortgage_calculator": ["salary_ticker", "classactionalert"],
     "energy_voucher": ["unclaimedrefund"],
     "unclaimedrefund": ["energy_voucher", "certexamalert"],
-    "klotski": ["rush_hour", "pinch_orbit", "stretch_cat", "omok"],
+    "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
 
     "kr_briefing": ["envelope_screener", "salary_ticker"],
     "us_briefing": ["kr_briefing", "classactionalert"],
@@ -904,11 +904,11 @@
     "f1_light": ["epl_light", "nba_light"],
     "cricket_light": ["epl_light", "f1_light"],
 
-    "pinch_orbit": ["rush_hour", "klotski", "stretch_cat", "omok"],
+    "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
 
-    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit", "omok"],
+    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
 
-    "omok": ["rush_hour", "klotski", "pinch_orbit", "stretch_cat"],
+    "omok": ["rush_hour"],
 
     "jphousingalert": [],
     "classactionalert": ["unclaimedrefund", "salary_ticker"],
