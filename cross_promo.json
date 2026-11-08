@@ -893,7 +893,7 @@
     "kovo_light": ["svleague_light"],
     "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["pinch_orbit", "stretch_cat", "omok", "chess_puzzle"],
+    "rush_hour": ["pinch_orbit", "stretch_cat"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
@@ -902,11 +902,8 @@
     "mortgage_calculator": ["salary_ticker", "classactionalert"],
     "energy_voucher": ["unclaimedrefund"],
     "unclaimedrefund": ["energy_voucher", "certexamalert"],
-<<<<<<< HEAD
-    "klotski": ["rush_hour", "pinch_orbit", "stretch_cat", "omok", "chess_puzzle"],
-=======
     "klotski": ["rush_hour", "pinch_orbit", "stretch_cat"],
->>>>>>> cf003c383b5c2389c8e4706886a004182ab3635b
+
 
     "kr_briefing": ["envelope_screener", "salary_ticker"],
     "us_briefing": ["kr_briefing", "classactionalert"],
@@ -923,21 +920,14 @@
     "f1_light": ["epl_light", "nba_light"],
     "cricket_light": ["epl_light", "f1_light"],
 
-<<<<<<< HEAD
-    "pinch_orbit": ["rush_hour", "klotski", "stretch_cat", "omok", "chess_puzzle"],
-
-    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit", "omok", "chess_puzzle"],
-
-    "omok": ["rush_hour", "klotski", "pinch_orbit", "stretch_cat", "chess_puzzle"],
-
-    "chess_puzzle": ["omok", "rush_hour", "klotski", "pinch_orbit", "stretch_cat"],
-=======
     "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
 
-    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
+    "stretch_cat": ["rush_hour", "klotski"],
 
-    "omok": ["rush_hour"],
->>>>>>> cf003c383b5c2389c8e4706886a004182ab3635b
+    "omok": ["rush_hour", "klotski", "stretch_cat"],
+
+    "chess_puzzle": ["rush_hour", "klotski", "stretch_cat"],
+
 
     "jphousingalert": [],
     "classactionalert": ["unclaimedrefund", "salary_ticker"],
