@@ -893,7 +893,7 @@
     "kovo_light": ["svleague_light"],
     "svleague_light": ["kovo_light"],
 
-    "rush_hour": ["pinch_orbit", "stretch_cat", "omok", "chess_puzzle"],
+    "rush_hour": ["pinch_orbit", "stretch_cat"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
     "liamlillian_mlb": ["nfl_light", "epl_light"],
@@ -921,11 +921,12 @@
 
     "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
 
-    "stretch_cat": ["rush_hour", "klotski", "pinch_orbit"],
+    "stretch_cat": ["rush_hour", "klotski"],
 
-    "omok": ["rush_hour", "chess_puzzle"],
+    "omok": ["rush_hour", "klotski", "stretch_cat"],
 
-    "chess_puzzle": ["omok", "rush_hour"],
+    "chess_puzzle": ["rush_hour", "klotski", "stretch_cat"],
+
 
     "jphousingalert": [],
     "classactionalert": ["unclaimedrefund", "salary_ticker"],
