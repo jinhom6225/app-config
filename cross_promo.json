@@ -923,7 +923,7 @@
 
     "stretch_cat": ["rush_hour", "klotski"],
 
-    "omok": ["rush_hour", "klotski", "stretch_cat"],
+    "omok": [],
 
     "chess_puzzle": [],
 
