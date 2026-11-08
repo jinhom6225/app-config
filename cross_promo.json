@@ -864,6 +864,19 @@
         "android": "https://play.google.com/store/apps/details?id=com.insightmyung.kids_video_cards"
       },
       "enabled": true
+    },
+    "vaccineschedule": {
+      "title": {
+        "ko": "제때접종"
+      },
+      "description": {
+        "ko": "아기 예방접종 알림·접종 병원 찾기"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/vaccineschedule.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.vaccineschedule"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -934,6 +947,7 @@
     "publicauctionalert": ["salary_ticker", "certexamalert"],
     "downpaymentalert": [],
     "liheapalert": [],
-    "kids_video_cards": []
+    "kids_video_cards": [],
+    "vaccineschedule": []
   }
 }
