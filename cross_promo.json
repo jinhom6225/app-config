@@ -925,7 +925,7 @@
 
     "omok": ["rush_hour", "klotski", "stretch_cat"],
 
-    "chess_puzzle": ["rush_hour", "klotski", "stretch_cat"],
+    "chess_puzzle": [],
 
 
     "jphousingalert": [],
