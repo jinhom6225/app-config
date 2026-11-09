@@ -818,7 +818,7 @@
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.joe.classactionalert"
       },
-      "enabled": false
+      "enabled": true
     },
     "certexamalert": {
       "title": {
@@ -959,7 +959,7 @@
 
 
     "jphousingalert": [],
-    "classactionalert": ["unclaimedrefund", "salary_ticker"],
+    "classactionalert": [],
     "certexamalert": ["salary_ticker", "unclaimedrefund"],
     "publicauctionalert": ["salary_ticker", "certexamalert"],
     "downpaymentalert": [],
