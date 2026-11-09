@@ -877,6 +877,23 @@
         "android": "https://play.google.com/store/apps/details?id=com.joe.vaccineschedule"
       },
       "enabled": true
+    },
+    "jobtrainingalert": {
+      "title": {
+        "ja": "職業訓練アラート",
+        "en": "Job Training Alert JP",
+        "ko": "일본 직업훈련 알리미"
+      },
+      "description": {
+        "ja": "職業訓練の募集・締切を地域別に通知",
+        "en": "Japan job training deadlines",
+        "ko": "일본 직업훈련 모집·마감 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/jobtrainingalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.jobtrainingalert"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -948,6 +965,7 @@
     "downpaymentalert": [],
     "liheapalert": [],
     "kids_video_cards": [],
-    "vaccineschedule": []
+    "vaccineschedule": [],
+    "jobtrainingalert": []
   }
 }
