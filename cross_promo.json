@@ -894,6 +894,21 @@
         "android": "https://play.google.com/store/apps/details?id=com.joe.jobtrainingalert"
       },
       "enabled": true
+    },
+    "janggi_puzzle": {
+      "title": {
+        "ko": "장기 묘수풀이",
+        "en": "Janggi Puzzles"
+      },
+      "description": {
+        "ko": "인터넷 없이 푸는 장기 박보·외통 퍼즐",
+        "en": "Offline Korean chess mate puzzles"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/janggi_puzzle.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.janggipuzzle"
+      },
+      "enabled": false
     }
   },
   "rules": {
@@ -964,6 +979,7 @@
     "liheapalert": [],
     "kids_video_cards": [],
     "vaccineschedule": [],
-    "jobtrainingalert": []
+    "jobtrainingalert": [],
+    "janggi_puzzle": []
   }
 }
