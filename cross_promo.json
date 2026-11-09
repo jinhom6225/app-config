@@ -833,7 +833,7 @@
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.joe.certexamalert"
       },
-      "enabled": false
+      "enabled": true
     },
     "publicauctionalert": {
       "title": {
