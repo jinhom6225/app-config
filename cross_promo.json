@@ -909,6 +909,19 @@
         "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.janggipuzzle"
       },
       "enabled": false
+    },
+    "wholesalepricealert": {
+      "title": {
+        "ko": "새벽시세"
+      },
+      "description": {
+        "ko": "농산물 도매시장 경락가·급등락 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/wholesalepricealert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.wholesalepricealert"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -980,6 +993,7 @@
     "kids_video_cards": [],
     "vaccineschedule": [],
     "jobtrainingalert": [],
-    "janggi_puzzle": []
+    "janggi_puzzle": [],
+    "wholesalepricealert": []
   }
 }
