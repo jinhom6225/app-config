@@ -200,7 +200,7 @@
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.chesspuzzle"
       },
-      "enabled": false
+      "enabled": true
     },
     "serie_light": {
       "title": {
