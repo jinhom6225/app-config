@@ -922,6 +922,19 @@
         "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.wholesalepricealert"
       },
       "enabled": true
+    },
+    "airqualityalert": {
+      "title": {
+        "ko": "미세먼지 신호등"
+      },
+      "description": {
+        "ko": "내 동네 미세먼지 위젯·나빠질 때만 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/airqualityalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.wisewife.airqualityalert"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -994,6 +1007,7 @@
     "vaccineschedule": [],
     "jobtrainingalert": [],
     "janggi_puzzle": [],
-    "wholesalepricealert": []
+    "wholesalepricealert": [],
+    "airqualityalert": []
   }
 }
