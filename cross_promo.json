@@ -935,6 +935,19 @@
         "android": "https://play.google.com/store/apps/details?id=com.wisewife.airqualityalert"
       },
       "enabled": true
+    },
+    "peakstamp": {
+      "title": {
+        "en": "PeakStamp"
+      },
+      "description": {
+        "en": "Stamp Colorado 14ers & state high points"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/peakstamp.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.peakstamp"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -1008,6 +1021,7 @@
     "jobtrainingalert": [],
     "janggi_puzzle": [],
     "wholesalepricealert": [],
-    "airqualityalert": []
+    "airqualityalert": [],
+    "peakstamp": []
   }
 }
