@@ -948,6 +948,19 @@
         "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.peakstamp"
       },
       "enabled": true
+    },
+    "trailwalkguide": {
+      "title": {
+        "ko": "둘레길 지도"
+      },
+      "description": {
+        "ko": "내 주변 둘레길 찾고 코스 선 따라 걷기"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/trailwalkguide.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.trailwalkguide"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -1022,6 +1035,7 @@
     "janggi_puzzle": [],
     "wholesalepricealert": [],
     "airqualityalert": [],
-    "peakstamp": []
+    "peakstamp": [],
+    "trailwalkguide": []
   }
 }
