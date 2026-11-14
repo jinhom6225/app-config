@@ -961,6 +961,25 @@
         "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.trailwalkguide"
       },
       "enabled": true
+    },
+    "cardbonusalert": {
+      "title": {
+        "en": "Credit Card Bonus Alerts",
+        "ko": "신용카드 보너스 알림",
+        "ja": "クレジットカード ボーナス通知",
+        "es": "Bonos de tarjetas de crédito"
+      },
+      "description": {
+        "en": "Alerts when US card sign-up bonuses rise",
+        "ko": "미국 카드 가입 보너스가 오르면 알림",
+        "ja": "米国カードの入会ボーナス上昇をお知らせ",
+        "es": "Alertas cuando suben los bonos de tarjetas"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/cardbonusalert.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.wisewife.cardbonusalert"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -1036,6 +1055,7 @@
     "wholesalepricealert": [],
     "airqualityalert": [],
     "peakstamp": [],
-    "trailwalkguide": []
+    "trailwalkguide": [],
+    "cardbonusalert": []
   }
 }
