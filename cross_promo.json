@@ -980,6 +980,19 @@
         "android": "https://play.google.com/store/apps/details?id=com.wisewife.cardbonusalert"
       },
       "enabled": true
+    },
+    "seafishingtide": {
+      "title": {
+        "ko": "지금바다"
+      },
+      "description": {
+        "ko": "물때표·바다날씨·파고 실측 한눈에"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/seafishingtide.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.seafishingtide"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -1056,6 +1069,7 @@
     "airqualityalert": [],
     "peakstamp": [],
     "trailwalkguide": [],
-    "cardbonusalert": []
+    "cardbonusalert": [],
+    "seafishingtide": []
   }
 }
