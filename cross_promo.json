@@ -993,6 +993,34 @@
         "android": "https://play.google.com/store/apps/details?id=com.joe.seafishingtide"
       },
       "enabled": true
+    },
+    "talk_to_god": {
+      "title": {
+        "ko": "기도에집중"
+      },
+      "description": {
+        "ko": "매일 기도로 시작하는 하루"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/talk_to_god.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.talktogod",
+        "ios": "https://apps.apple.com/app/id6763153366"
+      },
+      "enabled": true
+    },
+    "word_of_life": {
+      "title": {
+        "ko": "말씀에집중"
+      },
+      "description": {
+        "ko": "매일성경 잠금 묵상"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/word_of_life.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.wordoflife.word_of_life",
+        "ios": "https://apps.apple.com/app/id6762653421"
+      },
+      "enabled": true
     }
   },
   "rules": {
@@ -1070,6 +1098,8 @@
     "peakstamp": [],
     "trailwalkguide": [],
     "cardbonusalert": [],
-    "seafishingtide": []
+    "seafishingtide": [],
+    "talk_to_god": ["word_of_life"],
+    "word_of_life": ["talk_to_god"]
   }
 }
