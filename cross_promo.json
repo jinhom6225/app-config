@@ -3,16 +3,16 @@
   "apps": {
     "mlb_light": {
       "title": {
-        "ko": "MLB 하이라이트",
-        "en": "MLB Highlights",
-        "ja": "MLBハイライト"
+        "ko": "미국 야구 결과·하이라이트",
+        "en": "Baseball Results & Highlights",
+        "ja": "アメリカ野球 試合結果&ハイライト"
       },
       "description": {
-        "ko": "메이저리그 경기 하이라이트",
-        "en": "MLB game highlights",
-        "ja": "MLBゲームハイライト"
+        "ko": "미국 프로야구 경기 하이라이트",
+        "en": "US pro baseball highlights",
+        "ja": "米国プロ野球ハイライト"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mlb_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/mlb_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.mlblight",
         "ios": "https://apps.apple.com/us/app/major-baseball-highlights/id6747424358"
@@ -21,16 +21,16 @@
     },
     "kbo_light": {
       "title": {
-        "ko": "KBO 하이라이트",
-        "en": "KBO Highlights",
-        "ja": "KBOハイライト"
+        "ko": "한국 프로야구 리캡",
+        "en": "Korean Baseball Recap",
+        "ja": "韓国プロ野球 試合まとめ"
       },
       "description": {
-        "ko": "KBO 프로야구 하이라이트",
-        "en": "KBO baseball highlights",
-        "ja": "KBO野球ハイライト"
+        "ko": "한국 프로야구 경기 하이라이트",
+        "en": "Korean pro baseball highlights",
+        "ja": "韓国プロ野球ハイライト"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kbo_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/kbo_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.kbolight",
         "ios": "https://apps.apple.com/us/app/%ED%95%9C%EA%B5%AD%EC%95%BC%EA%B5%AC%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8/id6744124231"
@@ -39,16 +39,16 @@
     },
     "wbc_light": {
       "title": {
-        "ko": "WBC 하이라이트",
-        "en": "WBC Highlights",
-        "ja": "WBCハイライト"
+        "ko": "국제 야구 하이라이트",
+        "en": "Int'l Baseball Highlights",
+        "ja": "国際野球 ハイライト"
       },
       "description": {
-        "ko": "월드베이스볼클래식 경기",
-        "en": "World Baseball Classic",
-        "ja": "WBCハイライト"
+        "ko": "국가대항 야구 경기",
+        "en": "National-team baseball",
+        "ja": "野球代表戦ハイライト"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/wbc_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/wbc_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.wbc.wbc_highlights",
         "ios": "https://apps.apple.com/us/app/world-baseball-highlights/id6759080828"
@@ -88,14 +88,14 @@
     },
     "nhl_light": {
       "title": {
-        "ko": "NHL 하이라이트",
-        "en": "NHL Highlights"
+        "ko": "아이스하키 하이라이트",
+        "en": "Ice Hockey Highlights"
       },
       "description": {
-        "ko": "NHL 아이스하키 하이라이트",
-        "en": "NHL ice hockey highlights"
+        "ko": "프로 아이스하키 하이라이트",
+        "en": "Pro ice hockey highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nhl_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/nhl_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.nhl_light",
         "ios": "https://apps.apple.com/us/app/national-hockey-highlights/id6762078796"
@@ -204,14 +204,14 @@
     },
     "serie_light": {
       "title": {
-        "ko": "세리에A 하이라이트",
-        "en": "Serie A Highlights"
+        "ko": "이탈리아 축구 하이라이트",
+        "en": "Italian Football Highlights"
       },
       "description": {
-        "ko": "세리에A 하이라이트",
-        "en": "Italian Serie A highlights"
+        "ko": "이탈리아 1·2부 리그 하이라이트",
+        "en": "Italian football highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/serie_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/serie_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.seriea_light"
       },
@@ -219,14 +219,14 @@
     },
     "nfl_light": {
       "title": {
-        "ko": "NFL 하이라이트",
-        "en": "NFL Highlights"
+        "ko": "미식축구 하이라이트",
+        "en": "American & Canadian Football"
       },
       "description": {
-        "ko": "NFL 미식축구 하이라이트",
-        "en": "NFL football highlights"
+        "ko": "미국·캐나다 미식축구 하이라이트",
+        "en": "Pro football highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nfl_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/nfl_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.nfl_light",
         "ios": "https://apps.apple.com/us/app/national-football-highlights/id6761979257"
@@ -235,14 +235,14 @@
     },
     "nfl2_light": {
       "title": {
-        "ko": "NFL2 하이라이트",
-        "en": "NFL2 Highlights"
+        "ko": "미식축구 하이라이트",
+        "en": "American Football Highlights"
       },
       "description": {
-        "ko": "NFL 미식축구 하이라이트",
-        "en": "NFL football highlights"
+        "ko": "미국 프로 미식축구 하이라이트",
+        "en": "Pro football highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nfl2_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/nfl2_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.nfl2_light"
       },
@@ -262,18 +262,18 @@
         "android": "https://play.google.com/store/apps/details?id=com.nba_light",
         "ios": "https://apps.apple.com/us/app/national-basketball-highlights/id6761977628"
       },
-      "enabled": true
+      "enabled": false
     },
     "nba2_light": {
       "title": {
-        "ko": "NBA2 하이라이트",
-        "en": "NBA2 Highlights"
+        "ko": "미국 프로 농구 하이라이트",
+        "en": "Pro Basketball Highlights"
       },
       "description": {
-        "ko": "NBA 농구 하이라이트",
-        "en": "NBA basketball highlights"
+        "ko": "미국 프로 농구 하이라이트",
+        "en": "Pro basketball highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/nba2_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/nba2_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.nba2_light"
       },
@@ -327,14 +327,14 @@
     },
     "french_ligue": {
       "title": {
-        "ko": "리그앙 하이라이트",
-        "en": "Ligue 1 Highlights"
+        "ko": "프랑스 축구 허브",
+        "en": "French Football Hub"
       },
       "description": {
-        "ko": "프랑스 리그앙 하이라이트",
-        "en": "French Ligue 1 highlights"
+        "ko": "프랑스 1·2부 리그 하이라이트",
+        "en": "French football highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/french_ligue.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/french_ligue.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.frenchliguehub"
       },
@@ -342,14 +342,14 @@
     },
     "kovo_light": {
       "title": {
-        "ko": "KOVO 하이라이트",
-        "en": "KOVO Highlights"
+        "ko": "프로배구 하이라이트",
+        "en": "Korean Volleyball Highlights"
       },
       "description": {
-        "ko": "KOVO 프로배구 하이라이트",
-        "en": "KOVO volleyball highlights"
+        "ko": "한국 프로배구 하이라이트",
+        "en": "Korean pro volleyball highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/kovo_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/kovo_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.kovolight"
       },
@@ -389,14 +389,14 @@
     },
     "fa_cup": {
       "title": {
-        "ko": "FA컵 하이라이트",
-        "en": "FA Cup Highlights"
+        "ko": "잉글랜드 축구 컵 하이라이트",
+        "en": "English Cup Soccer Highlights"
       },
       "description": {
-        "ko": "잉글랜드 FA컵 하이라이트",
-        "en": "English FA Cup highlights"
+        "ko": "잉글랜드 축구 컵 대회 하이라이트",
+        "en": "English cup soccer highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/fa_cup.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/fa_cup.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.emirates_fa_cup"
       },
@@ -404,14 +404,14 @@
     },
     "fifa_world_cup": {
       "title": {
-        "ko": "월드컵 하이라이트",
-        "en": "World Cup Highlights"
+        "ko": "국가대표 축구 하이라이트",
+        "en": "Global Soccer Highlights"
       },
       "description": {
-        "ko": "FIFA 월드컵 하이라이트",
-        "en": "FIFA World Cup highlights"
+        "ko": "국가대표 축구 경기 하이라이트",
+        "en": "International soccer highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/fifa_world_cup.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/fifa_world_cup.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.world",
         "ios": "https://apps.apple.com/us/app/wc-highlights/id6761675439"
@@ -420,16 +420,16 @@
     },
     "j1_light": {
       "title": {
-        "ko": "J1리그 하이라이트",
-        "en": "J1 League Highlights",
-        "ja": "J1リーグハイライト"
+        "ko": "일본 축구 하이라이트",
+        "en": "Japanese Football Highlights",
+        "ja": "日本サッカー ハイライト"
       },
       "description": {
-        "ko": "일본 J1리그 하이라이트",
-        "en": "J1 League highlights",
-        "ja": "J1リーグハイライト"
+        "ko": "일본 프로축구 하이라이트",
+        "en": "Japanese pro football highlights",
+        "ja": "日本プロサッカーハイライト"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/j1_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/j1_light.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.j1_light"
       },
@@ -437,29 +437,29 @@
     },
     "svleague_light": {
       "title": {
-        "ko": "SV리그 하이라이트",
-        "en": "SV League Highlights"
+        "ko": "일본 프로배구 하이라이트",
+        "en": "Japanese Volleyball Highlights"
       },
       "description": {
-        "ko": "SV리그 배구 하이라이트",
-        "en": "SV League volleyball"
+        "ko": "일본 프로배구 하이라이트",
+        "en": "Japanese pro volleyball"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/svleague_light.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/svleague_light.png",
       "stores": {
-        "android": "https://play.google.com/store/apps/details?id=com.svleague_light"
+        "android": "https://play.google.com/store/apps/details?id=com.svleague.sv_league_highlights"
       },
       "enabled": true
     },
     "liamlillian_kbo": {
       "title": {
-        "ko": "KBO 하이라이트",
-        "en": "KBO Highlights"
+        "ko": "한국 프로야구 하이라이트",
+        "en": "Korean Pro Baseball Highlights"
       },
       "description": {
-        "ko": "KBO 프로야구 하이라이트",
-        "en": "KBO baseball highlights"
+        "ko": "한국 프로야구 하이라이트",
+        "en": "Korean pro baseball highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_kbo.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/liamlillian_kbo.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.kbolight"
       },
@@ -467,14 +467,14 @@
     },
     "liamlillian_wbc": {
       "title": {
-        "ko": "WBC 하이라이트",
-        "en": "WBC Highlights"
+        "ko": "야구 국가대항전 결과·일정",
+        "en": "National Team Baseball"
       },
       "description": {
-        "ko": "월드베이스볼클래식 경기",
-        "en": "World Baseball Classic"
+        "ko": "국가대항 야구 경기",
+        "en": "National-team baseball"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_wbc.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/liamlillian_wbc.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.wbc"
       },
@@ -497,14 +497,14 @@
     },
     "liamlillian_mlb": {
       "title": {
-        "ko": "MLB 하이라이트",
-        "en": "MLB Highlights"
+        "ko": "미국 프로야구 하이라이트",
+        "en": "US Pro Baseball Highlights"
       },
       "description": {
-        "ko": "메이저리그 경기 하이라이트",
-        "en": "MLB game highlights"
+        "ko": "미국 프로야구 경기 하이라이트",
+        "en": "US pro baseball highlights"
       },
-      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/liamlillian_mlb.png",
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/v2/liamlillian_mlb.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.liamlillian.mlblight"
       },
@@ -707,7 +707,7 @@
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.f1_light"
       },
-      "enabled": true
+      "enabled": false
     },
     "cricket_light": {
       "title": {
@@ -1041,11 +1041,11 @@
     "fa_cup": ["mlb_light"],
     "fifa_world_cup": ["mlb_light"],
 
-    "nfl_light": ["nba_light", "nhl_light"],
-    "nfl2_light": ["nba_light"],
+    "nfl_light": ["nhl_light"],
+    "nfl2_light": [],
     "nba_light": ["nhl_light", "nfl_light"],
     "nba2_light": ["nfl_light", "nhl_light"],
-    "nhl_light": ["nba_light", "nfl_light"],
+    "nhl_light": ["nfl_light"],
 
     "kovo_light": ["svleague_light"],
     "svleague_light": ["kovo_light"],
@@ -1072,9 +1072,9 @@
 
     "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
     "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
-    "rugby_light": ["epl_light", "f1_light"],
-    "f1_light": ["epl_light", "nba_light"],
-    "cricket_light": ["epl_light", "f1_light"],
+    "rugby_light": ["epl_light"],
+    "f1_light": ["epl_light"],
+    "cricket_light": ["epl_light"],
 
     "pinch_orbit": ["rush_hour", "klotski", "stretch_cat"],
 
