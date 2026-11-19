@@ -1043,9 +1043,9 @@
 
     "nfl_light": ["nhl_light"],
     "nfl2_light": [],
-    "nba_light": ["nhl_light", "nfl_light"],
-    "nba2_light": ["nfl_light", "nhl_light"],
-    "nhl_light": ["nfl_light"],
+    "nba_light": ["nhl_light", "nfl2_light"],
+    "nba2_light": ["nfl2_light", "nhl_light"],
+    "nhl_light": ["nfl2_light"],
 
     "kovo_light": ["svleague_light"],
     "svleague_light": ["kovo_light"],
@@ -1053,7 +1053,7 @@
     "rush_hour": ["pinch_orbit", "stretch_cat"],
 
     "liamlillian_kbo": ["mlb_light", "epl_light"],
-    "liamlillian_mlb": ["nfl_light", "epl_light"],
+    "liamlillian_mlb": ["nfl2_light", "epl_light"],
     "liamlillian_wbc": ["liamlillian_mlb"],
 
     "mortgage_calculator": ["salary_ticker"],
@@ -1070,8 +1070,8 @@
 
     "remtime": ["focusleep"],
 
-    "mlb_stadiums_app": ["national_parks_app", "nfl_light"],
-    "national_parks_app": ["mlb_stadiums_app", "nfl_light"],
+    "mlb_stadiums_app": ["national_parks_app", "nfl2_light"],
+    "national_parks_app": ["nfl2_light"],
     "rugby_light": ["epl_light"],
     "f1_light": ["epl_light"],
     "cricket_light": ["epl_light"],
