@@ -1024,7 +1024,7 @@
     }
   },
   "rules": {
-    "mlb_light": ["nfl_light", "epl_light"],
+    "mlb_light": ["nba2_light", "epl_light"],
     "kbo_light": ["mlb_light", "epl_light"],
     "wbc_light": ["mlb_light"],
 
@@ -1041,9 +1041,7 @@
     "fa_cup": ["mlb_light"],
     "fifa_world_cup": ["mlb_light"],
 
-    "nfl_light": ["nhl_light"],
-    "nfl2_light": [],
-    "nba_light": ["nhl_light", "nfl2_light"],
+    "nfl2_light": [nhl_light, nba2_light],
     "nba2_light": ["nfl2_light", "nhl_light"],
     "nhl_light": ["nfl2_light"],
 
