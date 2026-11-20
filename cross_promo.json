@@ -1041,6 +1041,8 @@
     "fa_cup": ["mlb_light"],
     "fifa_world_cup": ["mlb_light"],
 
+    "nfl_light": ["nhl_light", "nba2_light"],
+    "nba_light": ["nfl2_light", "nhl_light"],
     "nfl2_light": ["nhl_light", "nba2_light"],
     "nba2_light": ["nfl2_light", "nhl_light"],
     "nhl_light": ["nfl2_light"],
