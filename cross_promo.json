@@ -149,6 +149,7 @@
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/pinch_orbit.png",
       "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.insightmyung.pinchorbit",
         "ios": "https://apps.apple.com/us/app/pinch-orbit/id6816571817"
       },
       "enabled": true
