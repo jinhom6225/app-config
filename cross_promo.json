@@ -962,6 +962,19 @@
       },
       "enabled": true
     },
+    "mountainstampbook": {
+      "title": {
+        "ko": "정상찍기"
+      },
+      "description": {
+        "ko": "100대 명산 오르고 위치·사진으로 도장 찍기"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/mountainstampbook.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.mountainstampbook"
+      },
+      "enabled": true
+    },
     "cardbonusalert": {
       "title": {
         "en": "Credit Card Bonus Alerts",
@@ -1097,6 +1110,7 @@
     "airqualityalert": [],
     "peakstamp": [],
     "trailwalkguide": [],
+    "mountainstampbook": [],
     "cardbonusalert": [],
     "seafishingtide": [],
     "talk_to_god": ["word_of_life"],
