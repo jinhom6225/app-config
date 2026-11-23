@@ -1008,6 +1008,19 @@
       },
       "enabled": true
     },
+    "benefitcalendar": {
+      "title": {
+        "ko": "놓치지마 신청달력"
+      },
+      "description": {
+        "ko": "지원금 신청 기간 달력·마감 알림"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/benefitcalendar.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.joe.benefitcalendar"
+      },
+      "enabled": true
+    },
     "talk_to_god": {
       "title": {
         "ko": "기도에집중"
@@ -1114,6 +1127,7 @@
     "mountainstampbook": [],
     "cardbonusalert": [],
     "seafishingtide": [],
+    "benefitcalendar": [],
     "talk_to_god": ["word_of_life"],
     "word_of_life": ["talk_to_god"]
   }
