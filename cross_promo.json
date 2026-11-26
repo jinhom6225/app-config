@@ -203,6 +203,21 @@
       },
       "enabled": true
     },
+    "dots_and_boxes": {
+      "title": {
+        "ko": "땅따먹기: 점 잇기 대결·퍼즐",
+        "en": "Dots and Boxes: Puzzle & Duel"
+      },
+      "description": {
+        "ko": "컴퓨터 10단계·둘이서·끝내기 퍼즐",
+        "en": "Dots and boxes vs AI, a friend or puzzles"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/dots_and_boxes.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabs.dotsandboxes"
+      },
+      "enabled": true
+    },
     "serie_light": {
       "title": {
         "ko": "이탈리아 축구 하이라이트",
@@ -1109,6 +1124,7 @@
     
     "omok": [],
     "chess_puzzle": [],
+    "dots_and_boxes": [],
 
     "jphousingalert": [],
     "classactionalert": [],
