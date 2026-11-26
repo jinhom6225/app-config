@@ -1122,9 +1122,10 @@
 
     "stretch_cat": ["rush_hour", "klotski"],
     
-    "omok": [],
-    "chess_puzzle": [],
-    "dots_and_boxes": [],
+    "omok": ["janggi_puzzle", "chess_puzzle"],
+    "chess_puzzle": ["janggi_puzzle", "dots_and_boxes"],
+    "dots_and_boxes": ["chess_puzzle", "janggi_puzzle"],
+    "janggi_puzzle": ["omok", "dots_and_boxes"],
 
     "jphousingalert": [],
     "classactionalert": [],
@@ -1135,7 +1136,6 @@
     "kids_video_cards": [],
     "vaccineschedule": [],
     "jobtrainingalert": [],
-    "janggi_puzzle": [],
     "wholesalepricealert": [],
     "airqualityalert": [],
     "peakstamp": [],
