@@ -664,16 +664,36 @@
     "focusleep": {
       "title": {
         "ko": "수면에집중",
-        "en": "Focusleep"
+        "en": "Focusleep",
+        "ja": "睡眠に集中"
       },
       "description": {
         "ko": "수면 폰 잠금·디지털 디톡스",
-        "en": "Phone lock for sleep"
+        "en": "Phone lock for sleep",
+        "ja": "睡眠のためのスマホロック"
       },
       "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/focusleep.png",
       "stores": {
         "android": "https://play.google.com/store/apps/details?id=com.insightmyung.focusleep",
-        "ios": "https://apps.apple.com/us/app/%EC%88%98%EB%A9%B4%EC%97%90%EC%A7%91%EC%A4%91/id6797113744"
+        "ios": "https://apps.apple.com/app/id6797113744"
+      },
+      "enabled": true
+    },
+    "walk_unlock": {
+      "title": {
+        "ko": "걷기에집중",
+        "en": "Focus On Walk",
+        "ja": "歩いて解除"
+      },
+      "description": {
+        "ko": "걸어야 풀리는 폰 잠금",
+        "en": "Walk to unlock your phone",
+        "ja": "歩いて解除するスマホロック"
+      },
+      "icon_url": "https://raw.githubusercontent.com/jinhom6225/app-config/main/icons/walk_unlock.png",
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.mjhlabsllc.walkunlock",
+        "ios": "https://apps.apple.com/app/id6815963005"
       },
       "enabled": true
     },
@@ -1145,6 +1165,8 @@
     "seafishingtide": [],
     "benefitcalendar": [],
     "talk_to_god": ["word_of_life"],
-    "word_of_life": ["talk_to_god"]
+    "word_of_life": ["talk_to_god"],
+    "walk_unlock": ["focusleep"],
+    "focusleep": ["walk_unlock"]
   }
 }
